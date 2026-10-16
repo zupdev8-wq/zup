@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: premium price is fixed at R$ 9.99
+ok 1 - premium price is fixed at R$ 9.99
+  ---
+  duration_ms: 2.491434
+  type: 'test'
+  ...
+# Subtest: recovery codes have a readable strong format
+ok 2 - recovery codes have a readable strong format
+  ---
+  duration_ms: 0.483248
+  type: 'test'
+  ...
+# Subtest: external reference binds purchase and player UUIDs
+ok 3 - external reference binds purchase and player UUIDs
+  ---
+  duration_ms: 2.095787
+  type: 'test'
+  ...
+# Subtest: webhook signature verification follows HMAC manifest
+ok 4 - webhook signature verification follows HMAC manifest
+  ---
+  duration_ms: 0.828745
+  type: 'test'
+  ...
+# Subtest: expired premium is blocked by backend payload
+ok 5 - expired premium is blocked by backend payload
+  ---
+  duration_ms: 1.140792
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 115.724222

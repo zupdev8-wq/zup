@@ -1,0 +1,80 @@
+import type {CategoryId,TrackId} from './types';
+import {C} from './theme';
+
+export type Category={id:CategoryId;label:string;subtitle:string;color:string;light:string};
+const palette=[
+  [C.yellow,C.lemon],[C.blue,C.blueLight],[C.pink,C.pinkLight],[C.green,C.greenLight],
+] as const;
+const make=(id:CategoryId,label:string,subtitle:string,i:number):Category=>({id,label,subtitle,color:palette[i%palette.length]![0],light:palette[i%palette.length]![1]});
+
+export const categories:Category[]=[
+  make('brasil','Brasil','Território, sociedade, cultura e cotidiano',0),
+  make('geopolitica','Geopolítica','Poder, fronteiras e relações internacionais',1),
+  make('historia','História','Brasil e mundo através do tempo',2),
+  make('cidadania','Brasil vivido','Favela, fronteira, cidade e cidadania',3),
+  make('constituicao','Constituição','Direitos, Estado e cidadania',0),
+  make('portugues','Português','Interpretação, gramática e linguagem',1),
+  make('economia','Economia','Inflação, juros, trabalho e desenvolvimento',2),
+  make('raciocinio','Raciocínio','Lógica, proporção e matemática prática',3),
+  make('matematica','Matemática','Fundamentos, funções e estatística',0),
+  make('fisica','Física','Movimento, energia e fenômenos',1),
+  make('quimica','Química','Matéria, reações e soluções',2),
+  make('biologia','Biologia','Vida, evolução, genética e ecologia',3),
+  make('natureza','Natureza','Biomas, ecologia e vida',0),
+  make('espaco','Espaço','Astronomia sem complicação',1),
+  make('ciencia','Ciência','Ciências da natureza no cotidiano',2),
+  make('geografia','Geografia','Espaço, população e território',3),
+  make('literatura','Literatura','Livros, autores e repertório',0),
+  make('filosofia','Filosofia','Ideias para pensar melhor',1),
+  make('sociologia','Sociologia','Sociedade, desigualdade e vida urbana',2),
+  make('psicologia','Psicologia','Mente, comportamento e evidência',3),
+  make('midia','Mídia & pensamento','Fontes, vieses e leitura crítica',0),
+  make('religioes','Religiões','Tradições, práticas e convivência',1),
+  make('teologia','Teologia','Textos, doutrinas e interpretação',2),
+  make('cinema','Cinema','Linguagem, história e cultura',3),
+  make('series','Séries','Narrativa, produção e cultura pop',0),
+  make('musica','Música','Gêneros, história e sociedade',1),
+  make('games','Games','Jogos, design e cultura digital',2),
+  make('cultura','Cultura','Identidade, sociedade e repertório',3),
+  make('artes','Artes','Imagem, música, arquitetura e criação',0),
+  make('esportes','Esportes','História, regras e grandes momentos',1),
+  make('gastronomia','Sabores','Comida, cultura e Brasil',2),
+  make('tecnologia','Tecnologia','Computação, internet e inovação',3),
+  make('informatica','Informática','Segurança, sistemas e concursos',0),
+  make('computacao','Computação','Algoritmos, software e dados',1),
+  make('engenharia','Engenharia','Projeto, sistemas e materiais',2),
+  make('direito','Direito','Instituições, garantias e interpretação',3),
+  make('administracao','Administração','Gestão, estratégia e organizações',0),
+  make('contabilidade','Contabilidade','Patrimônio, resultado e demonstrações',1),
+  make('medicina','Medicina','Fundamentos clínicos e raciocínio',2),
+  make('enfermagem','Enfermagem','Cuidado, segurança e processo',3),
+  make('farmacia','Farmácia','Medicamentos e farmacologia',0),
+  make('biomedicina','Biomedicina','Laboratório, análises e biologia',1),
+  make('mundo','Mundo','Povos, lugares e ideias',2),
+];
+export const getCategory=(id:CategoryId)=>categories.find(c=>c.id===id) ?? categories[0]!;
+
+export type Track={id:TrackId;label:string;shortLabel:string;description:string;color:string;light:string};
+export const tracks:Track[]=[
+  {id:'geral',label:'Pra você',shortLabel:'Pra você',description:'Um mix inteligente de assuntos para descobrir algo novo a cada deslize.',color:C.yellow,light:C.lemon},
+  {id:'brasil',label:'Brasil',shortLabel:'Brasil',description:'História, geografia, cultura, instituições e sociedade brasileira.',color:C.green,light:C.greenLight},
+  {id:'brasil-vivido',label:'Brasil vivido',shortLabel:'Brasil vivido',description:'Estados, fronteiras, periferias, costumes e experiências regionais.',color:C.pink,light:C.pinkLight},
+  {id:'geopolitica',label:'Geopolítica',shortLabel:'Geopolítica',description:'Relações internacionais, comércio, território e poder global.',color:C.blue,light:C.blueLight},
+  {id:'enem',label:'ENEM',shortLabel:'ENEM',description:'Humanas, natureza, matemática, linguagens e repertório.',color:C.pink,light:C.pinkLight},
+  {id:'concursos',label:'Concursos',shortLabel:'Concursos',description:'Português, lógica, direito, administração, informática, atualidades e mais.',color:C.yellow,light:C.lemon},
+  {id:'faculdade',label:'Faculdade',shortLabel:'Faculdade',description:'Direito, saúde, tecnologia, administração, exatas e outras graduações.',color:C.green,light:C.greenLight},
+  {id:'humanas',label:'Humanas',shortLabel:'Humanas',description:'História, filosofia, sociologia, psicologia, cultura e política.',color:C.pink,light:C.pinkLight},
+  {id:'exatas',label:'Exatas',shortLabel:'Exatas',description:'Matemática, física, computação, engenharia e raciocínio.',color:C.blue,light:C.blueLight},
+  {id:'biologicas',label:'Biológicas',shortLabel:'Biológicas',description:'Biologia, medicina, farmácia, enfermagem e biomedicina.',color:C.green,light:C.greenLight},
+  {id:'entretenimento',label:'Entretenimento',shortLabel:'Entretenimento',description:'Cinema, séries, música, games, cultura pop e repertório.',color:C.yellow,light:C.lemon},
+  {id:'cinema',label:'Cinema',shortLabel:'Cinema',description:'Linguagem cinematográfica, movimentos e curiosidades.',color:C.pink,light:C.pinkLight},
+  {id:'series',label:'Séries',shortLabel:'Séries',description:'Narrativa, produção e cultura das séries.',color:C.blue,light:C.blueLight},
+  {id:'livros',label:'Livros',shortLabel:'Livros',description:'Literatura brasileira e mundial para ampliar repertório.',color:C.green,light:C.greenLight},
+  {id:'religioes',label:'Religiões',shortLabel:'Religiões',description:'Conhecimento religioso e teológico com respeito à diversidade.',color:C.yellow,light:C.lemon},
+  {id:'pensamento',label:'Pensamento',shortLabel:'Pensamento',description:'Filosofia, mídia, vieses, lógica e leitura crítica do mundo.',color:C.pink,light:C.pinkLight},
+  {id:'historia',label:'História',shortLabel:'História',description:'Processos históricos do Brasil e do mundo.',color:C.blue,light:C.blueLight},
+  {id:'ciencia',label:'Ciência',shortLabel:'Ciência',description:'Ciências da natureza, método e tecnologia.',color:C.green,light:C.greenLight},
+  {id:'artes',label:'Artes',shortLabel:'Artes',description:'Artes visuais, arquitetura, movimentos e criação.',color:C.pink,light:C.pinkLight},
+  {id:'tecnologia',label:'Tecnologia',shortLabel:'Tecnologia',description:'Internet, software, segurança, inovação e cultura digital.',color:C.blue,light:C.blueLight},
+];
+export const getTrack=(id:TrackId)=>tracks.find(t=>t.id===id) ?? tracks[0]!;

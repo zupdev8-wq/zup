@@ -1,0 +1,53 @@
+{
+  "name": "zup-mobile",
+  "version": "1.6.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --go --clear",
+    "start:lan": "expo start --go --lan --clear",
+    "start:tunnel": "expo start --go --tunnel --clear",
+    "start:dev-client": "expo start --dev-client --clear",
+    "android": "expo start --go --android --clear",
+    "ios": "expo start --go --ios --clear",
+    "web": "expo start --web --clear",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.test.json && node ../scripts/run-tests.cjs",
+    "doctor": "npx expo-doctor@latest",
+    "check:versions": "expo install --check",
+    "validate": "npm run check:versions && npm run typecheck && npm test",
+    "export:check": "expo export --platform ios --platform android --output-dir dist-check",
+    "build:android": "npx eas-cli@latest build --profile production --platform android",
+    "build:ios": "npx eas-cli@latest build --profile production --platform ios",
+    "setup": "node ../scripts/setup.cjs",
+    "release:check": "node ../scripts/release-check.cjs"
+  },
+  "dependencies": {
+    "expo": "~57.0.26",
+    "expo-status-bar": "~57.0.1",
+    "expo-haptics": "~57.0.3",
+    "expo-font": "~57.0.4",
+    "expo-dev-client": "~57.0.20",
+    "expo-splash-screen": "~57.0.10",
+    "expo-system-ui": "~57.0.4",
+    "expo-build-properties": "~57.0.22",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "react-dom": "19.2.3",
+    "react-native-web": "~0.21.0",
+    "@expo/metro-runtime": "~57.0.17",
+    "react-native-svg": "15.15.4",
+    "expo-secure-store": "~57.0.4",
+    "expo-clipboard": "~57.0.2"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "@types/react": "~19.2.2",
+    "@types/node": "^22.10.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

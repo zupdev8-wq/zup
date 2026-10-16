@@ -1,0 +1,25 @@
+ZUP! 1.6.0
+
+1) Abra a pasta do projeto no VS Code.
+2) Entre em app:
+   cd app
+3) Rode:
+   npm run setup
+4) Quando concluir, rode:
+   npm start
+
+PREMIUM:
+- R$ 9,99 libera 30 dias.
+- Sem cadastro/login no ZUP.
+- O backend identifica a instalação por playerId + token.
+- A compra abre o Mercado Pago para escolher Pix ou cartão.
+- Após ativação, o ZUP mostra um código de recuperação para copiar e guardar.
+- Em outro aparelho, use "Troquei de aparelho e já era Premium".
+- O backend decide se o Premium está ativo e bloqueia quando vencer.
+
+IMAGENS:
+- o feed usa fotos reais de um banco visual ampliado;
+- a seleção varia por card para reduzir repetição;
+- antes da publicação final, valide licenças/atribuição e disponibilidade das fontes remotas.
+
+Nunca coloque MERCADO_PAGO_ACCESS_TOKEN no app.

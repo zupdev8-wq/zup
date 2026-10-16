@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "ZUP!",
+    "slug": "zup",
+    "scheme": "zup",
+    "version": "1.6.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FBFAF7",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.zupjogo.app",
+      "infoPlist": {
+        "UIRequiresFullScreen": false
+      }
+    },
+    "android": {
+      "package": "br.com.zupjogo.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4C318",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "web": {
+      "name": "ZUP!",
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "apiUrl": ""
+    },
+    "icon": "./assets/icon.png",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "imageWidth": 200,
+          "backgroundColor": "#FFF2A8"
+        }
+      ],
+      [
+        "expo-status-bar",
+        {
+          "style": "dark",
+          "hidden": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "enableSceneSupport": true
+          }
+        }
+      ]
+    ],
+    "androidStatusBar": {
+      "barStyle": "dark-content"
+    }
+  }
+}

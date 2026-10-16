@@ -1,0 +1,19 @@
+{
+  "name": "zup-project",
+  "version": "1.6.0",
+  "private": true,
+  "description": "ZUP! - app de curiosidades e quizzes Expo SDK 57",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.cjs",
+    "start": "npm --prefix app start",
+    "test": "npm --prefix app test && npm --prefix api test",
+    "typecheck": "npm --prefix app run typecheck",
+    "validate": "npm --prefix app run validate && npm --prefix api test",
+    "doctor": "npm --prefix app run doctor",
+    "export:check": "npm --prefix app run export:check",
+    "release:check": "node scripts/release-check.cjs"
+  }
+}

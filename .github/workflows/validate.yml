@@ -1,0 +1,26 @@
+name: Validate ZUP
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  mobile:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install the declared dependencies
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - name: SDK versions and full TypeScript plus tests
+        run: npm run validate
+      - name: Expo Doctor
+        run: npx --yes expo-doctor@latest
+      - name: Export both mobile JavaScript bundles
+        run: npm run export:check

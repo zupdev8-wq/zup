@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "types": [],
+    "rootDir": "src",
+    "outDir": ".test-build",
+    "noEmitOnError": true
+  },
+  "include": [
+    "src/types.ts",
+    "src/questions.ts",
+    "src/theme.ts",
+    "src/catalog.ts",
+    "src/game.ts",
+    "src/progress.ts",
+    "src/companions.ts",
+    "src/storage.ts",
+    "src/learning.ts",
+    "src/exams.ts"
+  ]
+}
