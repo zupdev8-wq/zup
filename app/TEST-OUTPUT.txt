@@ -1,0 +1,22 @@
+ZUP! 1.7.1 — validação da release gratuita das lojas
+Data: 16/10/2026
+
+App/domain:
+- 85 testes executados
+- 85 aprovados
+- 0 falhas
+
+API:
+- 5 testes executados
+- 5 aprovados
+- 0 falhas
+
+Release check:
+- app.json vinculado ao projeto EAS @zupdev8-wq/zup
+- URLs públicas configuradas
+- identidade nativa preservada
+- fluxo Premium não importado pelo App.tsx
+- Simulado Inteligente e Maratona liberados gratuitamente
+- feed com gradiente contínuo sem a antiga emenda 34%/65%
+
+Observação: o typecheck completo do Expo não foi reexecutado neste ambiente após uma instalação npm incompleta; o conjunto de testes transpila todos os TS/TSX e validou sintaxe/imports da árvore mobile.

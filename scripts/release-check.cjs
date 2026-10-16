@@ -13,7 +13,12 @@ if(fs.existsSync(file)){
 }
 Object.assign(env,process.env);
 const errors=[];
-for(const key of ['EXPO_PUBLIC_PRIVACY_URL','EXPO_PUBLIC_SUPPORT_URL']){
+
+const ui=fs.readFileSync(path.join(app,'App.tsx'),'utf8');
+const explore=fs.readFileSync(path.join(app,'src/screens/ExploreScreen.tsx'),'utf8');
+if(ui.includes('usePremiumAccess')||ui.includes('PremiumScreen')||ui.includes("setScreen('premium')"))errors.push('Release de loja deve permanecer sem fluxo Premium ativo.');
+if(explore.includes('PREMIUM')||explore.includes('Mercado Pago'))errors.push('Explore ainda expõe monetização na release gratuita.');
+for(const key of ['EXPO_PUBLIC_PRIVACY_URL','EXPO_PUBLIC_SUPPORT_URL','EXPO_PUBLIC_TERMS_URL']){
   try{
     const u=new URL(env[key]);
     if(u.protocol!=='https:'||u.username||u.password||u.hostname==='localhost'||u.hostname.endsWith('.example')

@@ -44,10 +44,10 @@ test('each screen evaluates its initial tree at 320, 390 and 768 px widths',()=>
   const cases=[
     ['WelcomeScreen',{onContinue:noop,bottom:34}],
     ['HomeScreen',{p:fresh(),now:new Date(),topInset:47,bottomInset:92,start:noop,resume:noop,profile:noop,companions:noop,explore:noop,read:noop,save:noop,open:noop,microQuiz:noop}],
-    ['ExploreScreen',{p:fresh(),premiumActive:false,start:noop,premium:noop}],
+    ['ExploreScreen',{p:fresh(),start:noop,smartExam:noop}],
     ['LibraryScreen',{p:fresh(),read:noop}],
     ['AwardsScreen',{p:fresh(),now:new Date()}],
-    ['ProfileScreen',{p:fresh(),premiumActive:false,premiumUntil:null,update:noop,companions:noop,premium:noop,about:noop,reset:noop,buyFreeze:noop,now:new Date()}],
+    ['ProfileScreen',{p:fresh(),update:noop,companions:noop,about:noop,reset:noop,buyFreeze:noop,now:new Date()}],
     ['CompanionsScreen',{p:fresh(),onChoose:noop,onboarding:true}],
     ['IntroScreen',{category:'brasil',mode:'category',count:5,start:noop}],
     ['LessonScreen',{lesson:microLessons[0],p:fresh(),complete:noop,save:noop,quiz:noop}],

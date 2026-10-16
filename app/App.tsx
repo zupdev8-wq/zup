@@ -8,7 +8,6 @@ import {SafeAreaProvider,SafeAreaView,initialWindowMetrics,useSafeAreaInsets} fr
 import Svg,{Circle,Path} from 'react-native-svg';
 import type {CategoryId,GameMode,CompanionId,MicroLesson,TrackId} from './src/types';
 import {useProgress} from './src/hooks/useProgress';
-import {usePremiumAccess} from './src/hooks/usePremiumAccess';
 import {createSession,createMicroSession,chooseAnswer,revealAnswer,nextQuestion,finishSession,dueReviewIds} from './src/game';
 import {createExamSession} from './src/exams';
 import type {ExamPlan} from './src/exams';
@@ -32,10 +31,9 @@ import type {RoundResult} from './src/screens/ResultScreen';
 import {AboutScreen} from './src/screens/AboutScreen';
 import {LessonScreen} from './src/screens/LessonScreen';
 import {ExamBuilderScreen} from './src/screens/ExamBuilderScreen';
-import {PremiumScreen} from './src/screens/PremiumScreen';
 import {C} from './src/theme';
 
-type Screen='onboarding'|'tabs'|'companions'|'intro'|'quiz'|'result'|'about'|'lesson'|'awards'|'premium'|'examBuilder';
+type Screen='onboarding'|'tabs'|'companions'|'intro'|'quiz'|'result'|'about'|'lesson'|'awards'|'examBuilder';
 type Tab='home'|'quizhub'|'library'|'profile';
 const tabs:{id:Tab;label:string;icon:IconName}[]=[
   {id:'home',label:'Início',icon:'home'},{id:'quizhub',label:'Quiz',icon:'brain'},{id:'library',label:'Biblioteca',icon:'book'},{id:'profile',label:'Perfil',icon:'paw'},
@@ -49,7 +47,6 @@ function Shell(){
   const [result,setResult]=useState<RoundResult|null>(null),[activeLesson,setActiveLesson]=useState<MicroLesson|null>(null);
   const [now,setNow]=useState(new Date()),[resetting,setResetting]=useState(false);
   const hydrated=useRef(false),background=screen==='onboarding'?C.lemon:C.cream;
-  const premium=usePremiumAccess(p.nickname);
   const immersiveHome=screen==='tabs'&&tab==='home';
   const statusStyle=immersiveHome?'light':'dark';
 
@@ -62,16 +59,15 @@ function Shell(){
   function goTab(next:Tab,animated=true){setTab(next);const index=tabs.findIndex(t=>t.id===next);requestAnimationFrame(()=>pager.current?.scrollTo({x:index*pageWidth,animated}));tap();}
   function onPagerEnd(e:NativeSyntheticEvent<NativeScrollEvent>){const index=Math.max(0,Math.min(tabs.length-1,Math.round(e.nativeEvent.contentOffset.x/pageWidth)));const next=tabs[index]?.id;if(next&&next!==tab){setTab(next);tap();}}
   function pause(){Alert.alert('Pausar este quiz?','Suas respostas ficam salvas neste aparelho para você continuar depois.',[{text:'Continuar jogando',style:'cancel'},{text:'Pausar',onPress:()=>{setScreen('tabs');setTab('home');}}]);}
-  function back(){if(screen==='quiz'){pause();return;}if(screen==='examBuilder'){setScreen('premium');return;}if(screen==='awards'||screen==='premium'){setScreen('tabs');setTab('profile');return;}if(screen!=='tabs'&&screen!=='onboarding'){setScreen('tabs');setTab('home');return;}if(tab!=='home')goTab('home');}
+  function back(){if(screen==='quiz'){pause();return;}if(screen==='examBuilder'){setScreen('tabs');setTab('quizhub');return;}if(screen==='awards'){setScreen('tabs');setTab('profile');return;}if(screen!=='tabs'&&screen!=='onboarding'){setScreen('tabs');setTab('home');return;}if(tab!=='home')goTab('home');}
   useEffect(()=>{const sub=BackHandler.addEventListener('hardwareBackPress',()=>{if(resetting)return true;if((screen==='tabs'&&tab==='home')||screen==='onboarding')return false;back();return true;});return()=>sub.remove();},[screen,tab,resetting,pageWidth]);
 
   function requestStart(category:CategoryId,mode:GameMode='category',topics?:CategoryId[]){
-    if(mode==='marathon'&&!premium.status.active){setScreen('premium');return;}
     const open=()=>{setPending({category,mode,topics});setScreen('intro');tap();};
     if(mode==='review'&&!dueReviewIds(current.current).length){Alert.alert('Revisão em dia','Ainda não há itens vencidos. Continue aprendendo e o ZUP traz cada tema de volta na hora certa.');return;}
     if(current.current.activeSession){Alert.alert('Você tem um quiz em andamento','Pode retomá-lo ou começar outro.',[{text:'Cancelar',style:'cancel'},{text:'Retomar',onPress:()=>setScreen('quiz')},{text:'Novo quiz',onPress:open}]);}else open();
   }
-  function begin(){const s=createSession(current.current,pending.category,pending.mode,Math.random,Date.now(),pending.topics??[],premium.status.active);if(!s){Alert.alert('Tudo revisado','Explore outro tema para descobrir mais.');setScreen('tabs');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();}
+  function begin(){const s=createSession(current.current,pending.category,pending.mode,Math.random,Date.now(),pending.topics??[],true);if(!s){Alert.alert('Tudo revisado','Explore outro tema para descobrir mais.');setScreen('tabs');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();}
   function microQuiz(questionId:string){
     const open=()=>{const s=createMicroSession(current.current,questionId,Math.random,Date.now());if(!s){Alert.alert('Tema concluído','Você já respondeu as perguntas disponíveis deste tema. Ele continua na sua Biblioteca e pode voltar no modo Revisão.');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();};
     if(current.current.activeSession){Alert.alert('Quiz em andamento','Retome o quiz atual ou troque por esta pergunta rápida.',[{text:'Cancelar',style:'cancel'},{text:'Retomar',onPress:()=>setScreen('quiz')},{text:'Trocar',onPress:open}]);}else open();
@@ -79,7 +75,6 @@ function Shell(){
   function select(choice:number){update(prev=>{if(!prev.activeSession)return prev;const s=chooseAnswer(prev.activeSession,choice);return s===prev.activeSession?prev:{...prev,activeSession:s};});tap();}
   function submit(){const before=current.current,s=before.activeSession;if(!s||s.selected===null)return;if(!s.revealed){const next=revealAnswer(s);if(next===s)return;update(prev=>prev.activeSession?.id===s.id?{...prev,activeSession:next}:prev);tap(next.answers[next.index]?.correct?'success':'error');return;}if(s.index<s.items.length-1){update(prev=>prev.activeSession?.id===s.id?{...prev,activeSession:nextQuestion(prev.activeSession)}:prev);return;}const after=update(prev=>finishSession(prev,s));if(after===before)return;setResult({session:s,beforeXP:before.xp,afterXP:after.xp});setScreen('result');setNow(new Date());tap('success');}
   function startSmartExam(plan:ExamPlan){
-    if(!premium.status.active){setScreen('premium');return;}
     const s=createExamSession(current.current,plan,Math.random,Date.now());
     if(!s){Alert.alert('Sem questões novas suficientes','Você já respondeu tudo que encontramos para esse plano. Use Revisão ou tente outras matérias.');return;}
     update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();
@@ -92,8 +87,8 @@ function Shell(){
   if(loading)return <View style={[styles.center,{backgroundColor:C.lemon}]}><CreatureArt id="oniri" size={130}/><ActivityIndicator color={C.ink}/><Txt bold>Preparando seu feed...</Txt></View>;
   if(loadError)return <SafeAreaView style={styles.center}><Icon name="shield" size={46}/><Txt size={25} bold>Vamos proteger seu progresso</Txt><Txt color={C.muted} style={{textAlign:'center'}}>Não foi possível ler os dados locais. Tente novamente antes de reiniciar sua jornada.</Txt><Button title="Tentar novamente" disabled={resetting} onPress={()=>void reload()}/><Button title={resetting?'Apagando dados...':'Apagar dados e recomeçar'} disabled={resetting} variant="outline" icon="trash" onPress={confirmReset}/></SafeAreaView>;
 
-  const secondary=screen==='companions'||screen==='intro'||screen==='about'||screen==='lesson'||screen==='awards'||screen==='premium'||screen==='examBuilder';
-  const headerTitle=screen==='companions'?'Companheiros':screen==='intro'?'Novo quiz':screen==='about'?'Sobre o ZUP!':screen==='awards'?'Conquistas':screen==='premium'?'ZUP! Premium':screen==='examBuilder'?'Simulado Inteligente':'Aprendizado';
+  const secondary=screen==='companions'||screen==='intro'||screen==='about'||screen==='lesson'||screen==='awards'||screen==='examBuilder';
+  const headerTitle=screen==='companions'?'Companheiros':screen==='intro'?'Novo quiz':screen==='about'?'Sobre o ZUP!':screen==='awards'?'Conquistas':screen==='examBuilder'?'Simulado Inteligente':'Aprendizado';
   const session=p.activeSession;
 
   return <View style={[styles.root,{backgroundColor:background}]}>
@@ -106,9 +101,9 @@ function Shell(){
         {screen==='tabs'&&<View style={styles.root}>
           <ScrollView ref={pager} horizontal pagingEnabled bounces={false} directionalLockEnabled nestedScrollEnabled showsHorizontalScrollIndicator={false} onMomentumScrollEnd={onPagerEnd} scrollEventThrottle={16} style={styles.root} contentContainerStyle={{flexGrow:1}}>
             <View style={{width:pageWidth,flex:1}}><HomeScreen p={p} now={now} topInset={insets.top} bottomInset={insets.bottom+58} start={requestStart} resume={()=>setScreen('quiz')} profile={()=>goTab('profile')} companions={()=>setScreen('companions')} explore={()=>goTab('quizhub')} read={readLesson} save={id=>update(prev=>toggleSavedLesson(prev,id))} open={id=>update(prev=>openLesson(prev,id))} microQuiz={microQuiz}/></View>
-            <View style={{width:pageWidth,flex:1}}><ExploreScreen p={p} premiumActive={premium.status.active} start={requestStart} premium={()=>setScreen('premium')}/></View>
+            <View style={{width:pageWidth,flex:1}}><ExploreScreen p={p} start={requestStart} smartExam={()=>setScreen('examBuilder')}/></View>
             <View style={{width:pageWidth,flex:1}}><LibraryScreen p={p} read={readLesson}/></View>
-            <View style={{width:pageWidth,flex:1}}><ProfileScreen p={p} premiumActive={premium.status.active} premiumUntil={premium.status.premiumUntil} now={now} update={update} companions={()=>setScreen('companions')} awards={()=>setScreen('awards')} premium={()=>setScreen('premium')} about={()=>setScreen('about')} reset={confirmReset} buyFreeze={()=>update(prev=>buyStreakFreeze(prev))}/></View>
+            <View style={{width:pageWidth,flex:1}}><ProfileScreen p={p} now={now} update={update} companions={()=>setScreen('companions')} awards={()=>setScreen('awards')} about={()=>setScreen('about')} reset={confirmReset} buyFreeze={()=>update(prev=>buyStreakFreeze(prev))}/></View>
           </ScrollView>
           <View style={[immersiveHome?styles.tabbarHome:styles.tabbar,{paddingBottom:Math.max(8,insets.bottom),bottom:0}]}>{tabs.map((t,index)=>{const active=tab===t.id;const fg=immersiveHome?(active?C.yellow:C.white):(active?C.ink:C.muted);return <Pressable key={t.id} onPress={()=>goTab(t.id)} accessibilityRole="tab" accessibilityLabel={t.label} accessibilityState={{selected:active}} style={styles.tab}><View style={[styles.tabIcon,{backgroundColor:immersiveHome?'transparent':active?C.yellow:'transparent'}]}><Icon name={t.icon} size={22} color={fg} filled={active&&index===0}/></View><Txt size={10} bold={active} color={fg} style={{textAlign:'center'}}>{t.label}</Txt></Pressable>;})}</View>
         </View>}
@@ -123,7 +118,6 @@ function Shell(){
               {screen==='companions'&&<CompanionsScreen p={p} onChoose={choosePet}/>}
               {screen==='intro'&&<IntroScreen category={pending.category} mode={pending.mode} count={pending.mode==='review'?Math.min(5,dueReviewIds(p,now).length):pending.mode==='marathon'?10:5} start={begin}/>}
               {screen==='about'&&<AboutScreen/>}
-              {screen==='premium'&&<PremiumScreen p={p} status={premium.status} loading={premium.loading} error={premium.error} refresh={premium.refresh} exam={()=>setScreen('examBuilder')} marathon={()=>requestStart('brasil','marathon',['brasil','historia','geopolitica','portugues','raciocinio'])}/>}
               {screen==='examBuilder'&&<ExamBuilderScreen p={p} start={startSmartExam}/>}
               {screen==='lesson'&&activeLesson&&<LessonScreen lesson={activeLesson} p={p} save={()=>update(prev=>toggleSavedLesson(prev,activeLesson.id))} complete={()=>{const before=current.current.learnedLessonIds.length;const after=update(prev=>completeLesson(prev,activeLesson.id,new Date()));if(after.learnedLessonIds.length>before)tap('success');}} quiz={()=>microQuiz(activeLesson.quizQuestionId)}/>}
               {screen==='awards'&&<AwardsScreen p={p} now={now}/>}

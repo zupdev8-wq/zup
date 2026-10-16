@@ -1,5 +1,8 @@
 # Premium + Mercado Pago — ZUP! 1.7.0
 
+> **Status na versão 1.7.1:** integração dormente. A primeira release das lojas é gratuita e não expõe Premium, preço, Mercado Pago ou checkout no aplicativo. Este documento fica apenas como referência para uma atualização futura.
+
+
 ## Regra do produto
 
 - sem cadastro;

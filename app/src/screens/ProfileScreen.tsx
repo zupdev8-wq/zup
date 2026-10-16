@@ -9,8 +9,8 @@ import {Txt,Page,Card,Button,FloatingCompanion,ProgressBar,Chip} from '../compon
 import {Icon} from '../components/Icon';
 import {C} from '../theme';
 
-type Props={p:Progress;premiumActive:boolean;premiumUntil:string|null;update:(change:(p:Progress)=>Progress)=>Progress;companions:()=>void;premium:()=>void;about:()=>void;reset:()=>void;now:Date;awards?:()=>void;buyFreeze:()=>void};
-export function ProfileScreen({p,premiumActive,premiumUntil,update,companions,premium,about,reset,now,awards,buyFreeze}:Props) {
+type Props={p:Progress;update:(change:(p:Progress)=>Progress)=>Progress;companions:()=>void;about:()=>void;reset:()=>void;now:Date;awards?:()=>void;buyFreeze:()=>void};
+export function ProfileScreen({p,update,companions,about,reset,now,awards,buyFreeze}:Props) {
   const [name,setName]=useState(p.nickname),[saved,setSaved]=useState(false);
   const pet=companionById(p.companionId),evo=evolution(p.xp),accuracy=p.answered?Math.round(p.correct/p.answered*100):0,due=dueReviewIds(p,now).length;
   const keyTracks=tracks.filter(t=>['brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','revalida','entretenimento','religioes','pensamento'].includes(t.id));
@@ -22,12 +22,6 @@ export function ProfileScreen({p,premiumActive,premiumUntil,update,companions,pr
       <ProgressBar value={levelXP(p.xp)/200} label="Progresso do nível" color={pet.color}/><Button title="Ver evolução do companheiro" variant="outline" icon="paw" onPress={companions}/>
     </Card>
 
-    <Pressable onPress={premium} accessibilityRole="button">
-      <Card color={premiumActive?C.greenLight:C.lemon} outlined style={{flexDirection:'row',alignItems:'center',gap:12}}>
-        <View style={{width:50,height:50,borderRadius:17,backgroundColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name="star" size={24} color={C.yellow} filled/></View>
-        <View style={{flex:1}}><Chip color={C.white}>{premiumActive?'PREMIUM ATIVO':'ZUP! PREMIUM'}</Chip><Txt size={17} bold>{premiumActive?'Simulados e extras liberados':'Conheça o modo Premium'}</Txt><Txt size={11} color={C.muted}>{premiumActive&&premiumUntil?`Acesso até ${new Date(premiumUntil).toLocaleDateString('pt-BR')}.`:'R$ 9,99 libera 30 dias.'}</Txt></View><Icon name="chevron" size={18}/>
-      </Card>
-    </Pressable>
 
     <View style={{flexDirection:'row',gap:8}}>{[[`${effectiveStreak(p,now)}`,'sequência'],[`${accuracy}%`,'acertos'],[`${due}`,'revisões']].map(([value,label])=><View key={label} style={{flex:1,paddingVertical:14,paddingHorizontal:6,borderWidth:1,borderColor:C.line,backgroundColor:C.white,borderRadius:20,alignItems:'center'}}><Txt size={22} bold>{value}</Txt><Txt size={9} color={C.muted}>{label}</Txt></View>)}</View>
 
@@ -48,6 +42,6 @@ export function ProfileScreen({p,premiumActive,premiumUntil,update,companions,pr
     <Card><View style={{flexDirection:'row',alignItems:'center',gap:14}}><Icon name="volume" size={24}/><View style={{flex:1,gap:3}}><Txt bold>Vibrações</Txt><Txt size={12} color={C.muted}>Retorno tátil durante o jogo.</Txt></View><Switch value={p.sound} onValueChange={sound=>{update(prev=>({...prev,sound}));}} accessibilityLabel="Vibrações" trackColor={{false:'#CCD0D6',true:C.green}} thumbColor={C.white}/></View><View style={{height:1,backgroundColor:C.line,marginVertical:3}}/><View style={{flexDirection:'row',alignItems:'center',gap:14}}><Icon name="sparkles" size={24}/><View style={{flex:1,gap:3}}><Txt bold>Animações</Txt><Txt size={12} color={C.muted}>Movimento suave dos companheiros.</Txt></View><Switch value={p.motion} onValueChange={motion=>{update(prev=>({...prev,motion}));}} accessibilityLabel="Animações" trackColor={{false:'#CCD0D6',true:C.green}} thumbColor={C.white}/></View></Card>
     <Pressable onPress={about} accessibilityRole="button" style={{minHeight:54,flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:12}}><Icon name="info" size={23}/><Txt bold style={{flex:1}}>Sobre, fontes, privacidade e suporte</Txt><Icon name="chevron" size={18}/></Pressable>
     <Pressable onPress={reset} accessibilityRole="button" style={{minHeight:54,flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:12}}><Icon name="trash" size={23} color={C.red}/><Txt bold color={C.red}>Apagar meus dados locais</Txt></Pressable>
-    <Txt color={C.muted} size={12} style={{textAlign:'center'}}>ZUP! 1.7.0 · feed de conhecimento, jogo e repertório.</Txt>
+    <Txt color={C.muted} size={12} style={{textAlign:'center'}}>ZUP! 1.7.1 · conhecimento, jogo e repertório. Gratuito nesta versão.</Txt>
   </Page>;
 }

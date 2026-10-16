@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.7.1 — primeira release gratuita para lojas
+
+- remove a entrada de Premium e qualquer checkout da navegação do app;
+- libera Simulado Inteligente e Maratona de 10 perguntas gratuitamente;
+- mantém a implementação de Premium/Mercado Pago apenas como código dormente para atualização futura;
+- atualiza páginas públicas de privacidade, termos, suporte e exclusão de dados para refletir a versão gratuita;
+- corrige novamente a emenda horizontal do feed usando um único degradê SVG contínuo;
+- preserva as 10.960 questões e o conteúdo ampliado de Medicina/Revalida e demais áreas;
+- vincula `app.json` ao projeto EAS `@zupdev8-wq/zup`.
+
 ## 1.7.0 — Banco de 10 mil novas questões + Revalida + anatomia visual
 
 - preserva as 960 questões anteriores e adiciona 10.000 novas (10.960 totais);

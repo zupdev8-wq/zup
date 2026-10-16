@@ -11,7 +11,7 @@ import {CategoryArt} from '../components/CategoryArt';
 import {Icon} from '../components/Icon';
 import {C} from '../theme';
 
-type Props={p:Progress;premiumActive:boolean;start:(cat:CategoryId,mode?:GameMode,topics?:CategoryId[])=>void;premium:()=>void};
+type Props={p:Progress;start:(cat:CategoryId,mode?:GameMode,topics?:CategoryId[])=>void;smartExam:()=>void};
 const groups:{title:string;ids:CategoryId[]}[]=[
   {title:'Brasil & mundo',ids:['brasil','cidadania','geopolitica','historia','geografia','constituicao','economia','mundo']},
   {title:'ENEM & humanas',ids:['portugues','literatura','filosofia','sociologia','artes','cultura','midia']},
@@ -21,7 +21,7 @@ const groups:{title:string;ids:CategoryId[]}[]=[
   {title:'Cultura, fé & entretenimento',ids:['cinema','series','musica','games','religioes','teologia','gastronomia','esportes','espaco']},
 ];
 
-export function ExploreScreen({p,premiumActive,start,premium}:Props) {
+export function ExploreScreen({p,start,smartExam}:Props) {
   const [filterOpen,setFilterOpen]=useState(false);
   const [selected,setSelected]=useState<CategoryId[]>(['brasil','historia','geopolitica','portugues','raciocinio']);
   const {width}=useWindowDimensions(),due=dueReviewIds(p).length;
@@ -51,10 +51,17 @@ export function ExploreScreen({p,premiumActive,start,premium}:Props) {
         <Pressable onPress={()=>setFilterOpen(true)} accessibilityRole="button" style={{flex:1}}><Card color={C.blueLight} outlined style={{minHeight:132,padding:14}}><Icon name="settings" size={25}/><Txt size={17} bold>Monte o seu</Txt><Txt size={11} color={C.muted}>{selected.length} matéria{selected.length===1?'':'s'} selecionada{selected.length===1?'':'s'}</Txt></Card></Pressable>
       </View>
 
-      <Pressable onPress={()=>premiumActive?start(primary,'marathon',selected):premium()} accessibilityRole="button">
-        <Card color={premiumActive?C.greenLight:C.cream} outlined style={{flexDirection:'row',alignItems:'center',gap:12}}>
-          <View style={{width:54,height:54,borderRadius:18,backgroundColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name={premiumActive?'bolt':'lock'} size={25} color={C.yellow}/></View>
-          <View style={{flex:1}}><Chip color={C.yellow}>PREMIUM</Chip><Txt size={18} bold>Maratona de 10 perguntas</Txt><Txt size={11} color={C.muted}>{premiumActive?'Mistura suas matérias sem repetir perguntas.':'Premium libera simulados inteligentes e modos avançados.'}</Txt></View><Icon name="chevron" size={18}/>
+      <Pressable onPress={smartExam} accessibilityRole="button">
+        <Card color={C.blueLight} outlined style={{flexDirection:'row',alignItems:'center',gap:12}}>
+          <View style={{width:54,height:54,borderRadius:18,backgroundColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name="brain" size={25} color={C.yellow}/></View>
+          <View style={{flex:1}}><Chip color={C.white}>SIMULADO</Chip><Txt size={18} bold>Simulado Inteligente</Txt><Txt size={11} color={C.muted}>Descreva prova, banca, cargo, curso ou matérias e monte sessões de 20, 45 ou 60 questões.</Txt></View><Icon name="chevron" size={18}/>
+        </Card>
+      </Pressable>
+
+      <Pressable onPress={()=>start(primary,'marathon',selected)} accessibilityRole="button">
+        <Card color={C.greenLight} outlined style={{flexDirection:'row',alignItems:'center',gap:12}}>
+          <View style={{width:54,height:54,borderRadius:18,backgroundColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name="bolt" size={25} color={C.yellow}/></View>
+          <View style={{flex:1}}><Chip color={C.white}>MARATONA</Chip><Txt size={18} bold>Maratona de 10 perguntas</Txt><Txt size={11} color={C.muted}>Misture as matérias escolhidas e avance sem repetir perguntas já concluídas.</Txt></View><Icon name="chevron" size={18}/>
         </Card>
       </Pressable>
 
