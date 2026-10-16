@@ -2,6 +2,7 @@ services:
   - type: web
     name: zup-api
     runtime: node
+    region: ohio
     plan: free
     rootDir: api
     buildCommand: npm install
