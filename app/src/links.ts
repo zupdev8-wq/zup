@@ -2,6 +2,7 @@ import {Alert,Linking,Share} from 'react-native';
 import type {Question} from './types';
 export const privacyURL=process.env.EXPO_PUBLIC_PRIVACY_URL?.trim()??'';
 export const supportURL=process.env.EXPO_PUBLIC_SUPPORT_URL?.trim()??'';
+export const termsURL=process.env.EXPO_PUBLIC_TERMS_URL?.trim()??'';
 export async function openHTTPS(url:string) {
   try {
     if(!/^https:\/\//i.test(url))throw new Error('invalid_url');

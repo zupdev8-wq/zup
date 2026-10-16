@@ -5,6 +5,7 @@ import {rateLimit} from 'express-rate-limit';
 import crypto from 'node:crypto';
 import pg from 'pg';
 import {PREMIUM_PRICE,PREMIUM_DAYS,premiumPayload,parseExternal,verifyMercadoPagoSignature,generateRecoveryCode,normalizeRecoveryCode} from './premium.js';
+import {legalRouter} from './legal.js';
 
 const app=express();
 const port=Number(process.env.PORT||3000);
@@ -19,6 +20,8 @@ app.use(express.json({limit:'32kb'}));
 app.use(rateLimit({windowMs:60_000,limit:120,standardHeaders:'draft-7',legacyHeaders:false}));
 const paymentLimit=rateLimit({windowMs:10*60_000,limit:12,standardHeaders:'draft-7',legacyHeaders:false});
 const recoveryLimit=rateLimit({windowMs:15*60_000,limit:8,standardHeaders:'draft-7',legacyHeaders:false});
+
+app.use(legalRouter());
 
 const pool=process.env.DATABASE_URL?new pg.Pool({connectionString:process.env.DATABASE_URL,ssl:process.env.DATABASE_SSL==='true'?{rejectUnauthorized:true}:undefined,max:10,connectionTimeoutMillis:5000}):null;
 const hash=(v)=>crypto.createHash('sha256').update(v).digest('hex');
