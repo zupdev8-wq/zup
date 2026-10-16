@@ -1,4 +1,4 @@
-# Checklist de release — ZUP! 1.6
+# Checklist de release — ZUP! 1.7
 
 ## Aplicativo
 
@@ -44,6 +44,14 @@
 - [ ] validar 20, 45 e 60 questões.
 - [ ] garantir ausência de questões já concluídas.
 - [ ] revisar explicações e matérias inferidas contra o edital real antes de promover um simulado como específico.
+
+## Conteúdo 1.7
+
+- [ ] validar 10.960 perguntas e 44 categorias no aparelho.
+- [ ] testar Revalida/Medicina/Farmacologia e também Humanas, Exatas, Concursos, ENEM e Entretenimento.
+- [ ] testar questões com imagem anatômica e links de atribuição.
+- [ ] validar que questões já concluídas não voltam na rotação normal.
+- [ ] revisar amostras editoriais de cada área antes de publicar como conteúdo de prova específico.
 
 ## Imagens
 

@@ -13,6 +13,6 @@ export async function openHTTPS(url:string) {
 }
 export async function reportQuestion(q:Question) {
   try {
-    await Share.share({title:'Revisão de conteúdo ZUP!',message:`Revisão de conteúdo ZUP! 1.6.0\nQuestão: ${q.id}\n${q.question}\nResposta do catálogo: ${q.choices[q.answer]}\nObservação: `});
+    await Share.share({title:'Revisão de conteúdo ZUP!',message:`Revisão de conteúdo ZUP! 1.7.0\nQuestão: ${q.id}\n${q.question}\nResposta do catálogo: ${q.choices[q.answer]}\nObservação: `});
   }catch{Alert.alert('Não foi possível compartilhar','Tente novamente.');}
 }

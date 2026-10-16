@@ -104,7 +104,7 @@ const banks:Record<PhotoGroup,string[]>={
 const categoryGroup:Record<CategoryId,PhotoGroup>={
   brasil:'brazil',cidadania:'brazil',geopolitica:'world',mundo:'world',geografia:'world',historia:'history',
   literatura:'books',filosofia:'books',portugues:'books',sociologia:'learning',psicologia:'learning',midia:'learning',
-  ciencia:'science',biologia:'science',espaco:'science',natureza:'nature',medicina:'health',enfermagem:'health',farmacia:'health',biomedicina:'health',
+  ciencia:'science',biologia:'science',espaco:'science',natureza:'nature',medicina:'health',revalida:'health',enfermagem:'health',farmacia:'health',biomedicina:'health',
   matematica:'exact',fisica:'exact',quimica:'science',raciocinio:'exact',tecnologia:'tech',informatica:'tech',computacao:'tech',engenharia:'tech',
   direito:'law',constituicao:'law',administracao:'business',contabilidade:'business',economia:'business',
   cinema:'entertainment',series:'entertainment',musica:'entertainment',games:'entertainment',cultura:'arts',artes:'arts',
@@ -128,6 +128,7 @@ export function lessonPhoto(lesson:MicroLesson,variant=0):string{
 }
 
 export function questionPhoto(q:Question,variant=0):string{
+  if(q.imageUrl)return q.imageUrl;
   const pseudo={id:`q-${q.id}`,category:q.category,title:q.concept??q.question,summary:q.fact} as Pick<MicroLesson,'id'|'category'|'title'|'summary'>;
   return lessonPhoto(pseudo as MicroLesson,variant);
 }

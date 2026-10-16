@@ -6,12 +6,12 @@ export type CategoryId =
   | 'sociologia' | 'psicologia' | 'religioes' | 'teologia' | 'midia' | 'cidadania'
   | 'matematica' | 'fisica' | 'quimica' | 'biologia' | 'direito' | 'administracao'
   | 'contabilidade' | 'informatica' | 'medicina' | 'enfermagem' | 'farmacia'
-  | 'biomedicina' | 'engenharia' | 'computacao';
+  | 'biomedicina' | 'engenharia' | 'computacao' | 'revalida';
 
 export type TrackId =
   | 'geral' | 'brasil' | 'brasil-vivido' | 'geopolitica' | 'enem' | 'concursos'
   | 'faculdade' | 'humanas' | 'exatas' | 'biologicas' | 'entretenimento'
-  | 'cinema' | 'series' | 'livros' | 'religioes' | 'pensamento' | 'historia' | 'ciencia' | 'artes' | 'tecnologia';
+  | 'cinema' | 'series' | 'livros' | 'religioes' | 'pensamento' | 'historia' | 'ciencia' | 'artes' | 'tecnologia' | 'revalida';
 
 export type CompanionId = 'capilu' | 'oniri' | 'arumi' | 'guarim';
 export type Difficulty = 'facil' | 'medio' | 'dificil';
@@ -30,6 +30,9 @@ export type Question = {
   source?: SourceRef;
   tracks?: TrackId[];
   difficulty?: Difficulty;
+  imageUrl?: string;
+  imageAlt?: string;
+  imageSource?: SourceRef;
 };
 
 export type MicroLesson = {

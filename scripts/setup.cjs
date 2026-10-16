@@ -30,7 +30,7 @@ function run(command, args) {
     process.exit(result.status || 1);
   }
 }
-console.log('ZUP! 1.6.0 | Expo SDK 57 | Node ' + process.versions.node);
+console.log('ZUP! 1.7.0 | Expo SDK 57 | Node ' + process.versions.node);
 // Reject node_modules/lock left by SDK 55 instead of silently mixing dependencies.
 const oldExpo = path.join(app, 'node_modules', 'expo', 'package.json');
 const lockPath = path.join(app, 'package-lock.json');

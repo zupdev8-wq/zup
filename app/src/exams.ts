@@ -20,6 +20,8 @@ export type ExamPlan={
 };
 
 export const examPresets:ExamPreset[]=[
+  {id:'revalida',title:'Revalida · geral',subtitle:'Clínica, pediatria, gineco-obstetrícia, cirurgia, urgência, ética e SUS.',keywords:['revalida','inep revalida','medico exterior','médico exterior','revalidacao medicina','revalidação medicina'],categories:['revalida','medicina','farmacia','biologia','cidadania']},
+  {id:'revalida-clinica',title:'Revalida · Clínica e urgência',subtitle:'Casos clínicos, emergências, raciocínio e prioridades de segurança.',keywords:['revalida clinica','revalida clínica','revalida urgencia','revalida urgência'],categories:['revalida','medicina','farmacia']},
   {id:'cebraspe-adm',title:'Cebraspe · área administrativa',subtitle:'Português, lógica, constitucional, administrativo, informática e atualidades.',keywords:['cebraspe','cespe','administrativo','assistente','tecnico administrativo'],categories:['portugues','raciocinio','constituicao','direito','administracao','informatica','geopolitica','brasil']},
   {id:'camara',title:'Câmara Municipal · nível médio',subtitle:'Base ampla para cargos administrativos e legislativos municipais.',keywords:['camara','câmara','legislativo municipal','vereador'],categories:['portugues','raciocinio','constituicao','direito','administracao','informatica','brasil','historia','geografia']},
   {id:'prefeitura',title:'Prefeitura · área administrativa',subtitle:'Base recorrente de concursos municipais.',keywords:['prefeitura','municipio','município','agente administrativo'],categories:['portugues','raciocinio','administracao','direito','constituicao','informatica','brasil','geografia']},
@@ -52,7 +54,8 @@ const keywordCategories:[string[],CategoryId[]][]=[
   [['atualidades','geopolitica','geopolítica'],['geopolitica','brasil']],
   [['direito','juridico','jurídico'],['direito','constituicao']],
   [['psicologia'],['psicologia']],
-  [['medicina','medico','médico'],['medicina','biologia']],
+  [['revalida','revalidacao','revalidação'],['revalida','medicina','cidadania']],
+  [['medicina','medico','médico'],['medicina','biologia','revalida']],
   [['enfermagem','enfermeiro'],['enfermagem','biologia']],
   [['farmacia','farmácia'],['farmacia','quimica']],
   [['biomedicina'],['biomedicina','biologia']],
@@ -78,6 +81,7 @@ export function buildExamPlan(query:string,presetId?:string,count=45):ExamPlan{
   for(const [terms,cats] of keywordCategories)if(terms.some(k=>q.includes(normalize(k))))categories.push(...cats);
   if(/camara|câmara|prefeitura|municipal|concurso/.test(q))categories.push('brasil','portugues','raciocinio','constituicao','administracao','informatica');
   if(/cebraspe|cespe/.test(q))categories.push('portugues','raciocinio','constituicao','direito','administracao','informatica','geopolitica');
+  if(/revalida|revalidacao|revalidação/.test(q))categories.push('revalida','medicina','farmacia','biologia','cidadania');
   const banca=/cebraspe|cespe/.test(q)?'Cebraspe':/fgv/.test(q)?'FGV':/vunesp/.test(q)?'Vunesp':/fcc/.test(q)?'FCC':undefined;
   const fallback:CategoryId[]=['portugues','raciocinio','brasil','geopolitica','historia','informatica','constituicao'];
   const final=unique<CategoryId>(categories.length?categories:fallback);
@@ -90,12 +94,13 @@ export function buildExamPlan(query:string,presetId?:string,count=45):ExamPlan{
 function roundRobin(pool:Question[],categories:CategoryId[],random:()=>number,count:number):Question[]{
   const buckets=new Map<CategoryId,Question[]>();
   for(const cat of categories)buckets.set(cat,shuffle(pool.filter(q=>q.category===cat),random));
-  const result:Question[]=[];const used=new Set<string>();let cursor=0;
+  const result:Question[]=[];const used=new Set<string>(),concepts=new Set<string>();let cursor=0;
   while(result.length<count&&cursor<count*categories.length*3){
     const cat=categories[cursor%categories.length]!;const bucket=buckets.get(cat)??[];const q=bucket.shift();
-    if(q&&!used.has(q.id)){used.add(q.id);result.push(q);}cursor++;
+    if(q&&!used.has(q.id)){const key=`${q.category}:${q.topic??''}:${q.concept??q.id}`;if(!concepts.has(key)){used.add(q.id);concepts.add(key);result.push(q);}else bucket.push(q);}cursor++;
     if([...buckets.values()].every(x=>x.length===0))break;
   }
+  if(result.length<count){for(const q of shuffle(pool,random)){if(used.has(q.id))continue;used.add(q.id);result.push(q);if(result.length===count)break;}}
   return result;
 }
 

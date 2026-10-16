@@ -28,17 +28,24 @@ export function dueReviewIds(p:Progress,now=new Date()):string[] {
   return [...new Set([...p.weakIds,...due])].sort((a,b)=>Number(weak.has(b))-Number(weak.has(a)));
 }
 const unseenOnly=(pool:Question[],p:Progress)=>{const done=new Set(p.completedIds);return pool.filter(q=>!done.has(q.id));};
+const conceptKey=(q:Question)=>`${q.category}:${q.topic??''}:${q.concept??q.id}`;
+function diverseTake(pool:Question[],random:()=>number,size:number):Question[]{
+  const shuffled=shuffle(pool,random),out:Question[]=[],used=new Set<string>(),usedIds=new Set<string>();
+  for(const q of shuffled){const key=conceptKey(q);if(used.has(key))continue;used.add(key);usedIds.add(q.id);out.push(q);if(out.length===size)return out;}
+  for(const q of shuffled){if(usedIds.has(q.id))continue;usedIds.add(q.id);out.push(q);if(out.length===size)break;}
+  return out;
+}
 
 /** Normal play never repeats a question already answered. Repetition lives only in explicit review mode. */
 export function lesson(cat:CategoryId,p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
-  return shuffle(unseenOnly(available(cat),p),random).slice(0,size);
+  return diverseTake(unseenOnly(available(cat),p),random,size);
 }
 export function dailyQuestions(p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
   const unseen=unseenOnly(questions,p);
   if(!unseen.length)return [];
-  const brazil=shuffle(unseen.filter(q=>q.brazil),random).slice(0,Math.min(2,size));
+  const brazil=diverseTake(unseen.filter(q=>q.brazil),random,Math.min(2,size));
   const ids=new Set(brazil.map(q=>q.id));
-  const rest=shuffle(unseen.filter(q=>!ids.has(q.id)),random).slice(0,Math.max(0,size-brazil.length));
+  const rest=diverseTake(unseen.filter(q=>!ids.has(q.id)),random,Math.max(0,size-brazil.length));
   return shuffle([...brazil,...rest],random).slice(0,size);
 }
 export function questionOfDay(d=new Date()):Question {
@@ -50,7 +57,7 @@ export function questionOfDay(d=new Date()):Question {
 export function mixedLesson(topicIds:readonly CategoryId[],p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
   const allowed=new Set(topicIds.length?topicIds:['brasil']);
   const pool=unseenOnly(questions.filter(q=>allowed.has(q.category)),p);
-  return shuffle(pool,random).slice(0,size);
+  return diverseTake(pool,random,size);
 }
 
 function sessionFrom(list:Question[],p:Progress,cat:CategoryId,mode:GameMode,random:()=>number,now:number,topics?:CategoryId[],sourceQuestionId?:string):Session|null {
@@ -86,8 +93,9 @@ export function createMicroSession(p:Progress,questionId:string,random=Math.rand
     ...shuffle(sameTopic.filter(q=>!done.has(q.id)),random),
     ...shuffle(sameCategory.filter(q=>!done.has(q.id)),random),
   ];
-  const unique:Question[]=[];const ids=new Set<string>();
-  for(const q of preferred){if(ids.has(q.id))continue;ids.add(q.id);unique.push(q);if(unique.length===LESSON_SIZE)break;}
+  const unique:Question[]=[];const ids=new Set<string>(),concepts=new Set<string>();
+  for(const q of preferred){const key=conceptKey(q);if(ids.has(q.id)||concepts.has(key))continue;ids.add(q.id);concepts.add(key);unique.push(q);if(unique.length===LESSON_SIZE)break;}
+  if(unique.length<LESSON_SIZE)for(const q of preferred){if(ids.has(q.id))continue;ids.add(q.id);unique.push(q);if(unique.length===LESSON_SIZE)break;}
   return sessionFrom(unique,p,primary.category,'micro',random,now,undefined,primary.id);
 }
 

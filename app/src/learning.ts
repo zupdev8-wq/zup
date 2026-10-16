@@ -25,7 +25,7 @@ export function questionTracks(q:Question):TrackId[] {
     religioes:['religioes','humanas','pensamento'], teologia:['religioes','faculdade','humanas'], midia:['pensamento','humanas','enem','concursos'], cidadania:['brasil-vivido','brasil','humanas'],
     matematica:['exatas','enem','concursos','faculdade'], fisica:['exatas','enem','faculdade','ciencia'], quimica:['exatas','enem','faculdade','ciencia'], biologia:['biologicas','enem','faculdade','ciencia'],
     direito:['concursos','faculdade','humanas','brasil'], administracao:['concursos','faculdade','humanas'], contabilidade:['concursos','faculdade','exatas'], informatica:['concursos','faculdade','exatas','tecnologia'],
-    medicina:['faculdade','biologicas','ciencia'], enfermagem:['faculdade','biologicas','ciencia'], farmacia:['faculdade','biologicas','ciencia'], biomedicina:['faculdade','biologicas','ciencia'],
+    medicina:['faculdade','biologicas','ciencia','revalida'], revalida:['revalida','faculdade','biologicas'], enfermagem:['faculdade','biologicas','ciencia'], farmacia:['faculdade','biologicas','ciencia'], biomedicina:['faculdade','biologicas','ciencia'],
     engenharia:['faculdade','exatas','ciencia'], computacao:['faculdade','exatas','tecnologia'],
   };
   return map[q.category]??['geral'];
@@ -102,7 +102,8 @@ const fallbackBody:Partial<Record<CategoryId,string>>={
   administracao:'Objetivos, pessoas, processos e indicadores precisam estar conectados para a gestão fazer sentido.',
   contabilidade:'Pense em eventos econômicos e em como eles alteram recursos, obrigações e resultado.',
   informatica:'Entenda o princípio por trás da ferramenta; provas mudam interfaces, mas conceitos permanecem.',
-  medicina:'Conteúdo educacional não substitui formação clínica. Foque mecanismo, evidência e raciocínio básico.',
+  medicina:'Conteúdo educacional não substitui formação clínica. Foque anatomia, fisiologia, mecanismos, evidência e raciocínio clínico básico.',
+  revalida:'Use os casos como treino educacional: reconheça padrões, priorize segurança, SUS e raciocínio clínico. O conteúdo não substitui orientação profissional nem protocolos oficiais atualizados.',
   enfermagem:'Segurança, processo de cuidado e comunicação são tão importantes quanto memorizar procedimentos.',
   farmacia:'Relacione forma farmacêutica, farmacocinética, efeito e segurança.',
   biomedicina:'Laboratório exige método, controle de qualidade e interpretação cuidadosa de resultados.',

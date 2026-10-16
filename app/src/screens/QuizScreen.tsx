@@ -23,7 +23,7 @@ export function QuizScreen({session,bottom,select,submit,pause}:{session:Session
 
     <ScrollView key={q.id} contentInsetAdjustmentBehavior="never" contentContainerStyle={styles.content}>
       <View style={styles.hero}>
-        <ImageBackground source={{uri:questionPhoto(q)}} resizeMode="cover" style={{flex:1,justifyContent:'flex-end'}}>
+        <ImageBackground source={{uri:questionPhoto(q)}} resizeMode="cover" accessibilityRole="image" accessibilityLabel={q.imageAlt??`Imagem relacionada a ${c.label}`} style={{flex:1,justifyContent:'flex-end'}}>
           <View style={{position:'absolute',left:0,right:0,bottom:0,height:'72%',backgroundColor:'#0000008B'}}/>
           <View style={{padding:14,flexDirection:'row',alignItems:'flex-end',gap:8}}><Chip color="#FFFFFFE8">{c.label.toUpperCase()}</Chip><View style={{flex:1}}/>{combo>=2&&<Chip color={C.yellow}>🔥 COMBO {combo}</Chip>}<Chip color="#FFFFFFE8">+20 XP</Chip></View>
         </ImageBackground>
@@ -52,6 +52,7 @@ export function QuizScreen({session,bottom,select,submit,pause}:{session:Session
         {!correct&&<Txt size={14} bold>Resposta: {q.choices[q.answer]}</Txt>}
         <Txt size={15} style={{lineHeight:22}}>{q.fact}</Txt>
         {q.source&&<Pressable accessibilityRole="link" onPress={()=>void openHTTPS(q.source!.url)} style={styles.link}><Txt color={C.muted} size={12} style={{flex:1}}>Fonte: {q.source.title}</Txt><Icon name="external" size={16} color={C.muted}/></Pressable>}
+        {q.imageSource&&<Pressable accessibilityRole="link" onPress={()=>void openHTTPS(q.imageSource!.url)} style={styles.link}><Txt color={C.muted} size={11} style={{flex:1}}>Imagem: {q.imageSource.title}</Txt><Icon name="external" size={15} color={C.muted}/></Pressable>}
         <Pressable onPress={()=>void reportQuestion(q)} accessibilityRole="button" style={styles.link}><Txt size={11} color={C.muted}>Sugerir revisão desta pergunta</Txt></Pressable>
       </View>}
     </ScrollView>

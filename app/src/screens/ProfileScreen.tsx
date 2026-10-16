@@ -13,7 +13,7 @@ type Props={p:Progress;premiumActive:boolean;premiumUntil:string|null;update:(ch
 export function ProfileScreen({p,premiumActive,premiumUntil,update,companions,premium,about,reset,now,awards,buyFreeze}:Props) {
   const [name,setName]=useState(p.nickname),[saved,setSaved]=useState(false);
   const pet=companionById(p.companionId),evo=evolution(p.xp),accuracy=p.answered?Math.round(p.correct/p.answered*100):0,due=dueReviewIds(p,now).length;
-  const keyTracks=tracks.filter(t=>['brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','entretenimento','religioes','pensamento'].includes(t.id));
+  const keyTracks=tracks.filter(t=>['brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','revalida','entretenimento','religioes','pensamento'].includes(t.id));
   const toggleTrack=(id:TrackId)=>update(prev=>{const has=prev.preferredTracks.includes(id);if(has&&prev.preferredTracks.length===1)return prev;return {...prev,preferredTracks:has?prev.preferredTracks.filter(x=>x!==id):[...prev.preferredTracks,id]};});
   return <Page keyboardDismissMode="on-drag" contentContainerStyle={{paddingBottom:44,gap:16}}>
     <View><Txt size={28} bold accessibilityRole="header">Perfil</Txt><Txt size={13} color={C.muted}>Seu conhecimento vira nível, coleção e memória de longo prazo.</Txt></View>
@@ -48,6 +48,6 @@ export function ProfileScreen({p,premiumActive,premiumUntil,update,companions,pr
     <Card><View style={{flexDirection:'row',alignItems:'center',gap:14}}><Icon name="volume" size={24}/><View style={{flex:1,gap:3}}><Txt bold>Vibrações</Txt><Txt size={12} color={C.muted}>Retorno tátil durante o jogo.</Txt></View><Switch value={p.sound} onValueChange={sound=>{update(prev=>({...prev,sound}));}} accessibilityLabel="Vibrações" trackColor={{false:'#CCD0D6',true:C.green}} thumbColor={C.white}/></View><View style={{height:1,backgroundColor:C.line,marginVertical:3}}/><View style={{flexDirection:'row',alignItems:'center',gap:14}}><Icon name="sparkles" size={24}/><View style={{flex:1,gap:3}}><Txt bold>Animações</Txt><Txt size={12} color={C.muted}>Movimento suave dos companheiros.</Txt></View><Switch value={p.motion} onValueChange={motion=>{update(prev=>({...prev,motion}));}} accessibilityLabel="Animações" trackColor={{false:'#CCD0D6',true:C.green}} thumbColor={C.white}/></View></Card>
     <Pressable onPress={about} accessibilityRole="button" style={{minHeight:54,flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:12}}><Icon name="info" size={23}/><Txt bold style={{flex:1}}>Sobre, fontes, privacidade e suporte</Txt><Icon name="chevron" size={18}/></Pressable>
     <Pressable onPress={reset} accessibilityRole="button" style={{minHeight:54,flexDirection:'row',alignItems:'center',gap:12,paddingHorizontal:12}}><Icon name="trash" size={23} color={C.red}/><Txt bold color={C.red}>Apagar meus dados locais</Txt></Pressable>
-    <Txt color={C.muted} size={12} style={{textAlign:'center'}}>ZUP! 1.6.0 · feed de conhecimento, jogo e repertório.</Txt>
+    <Txt color={C.muted} size={12} style={{textAlign:'center'}}>ZUP! 1.7.0 · feed de conhecimento, jogo e repertório.</Txt>
   </Page>;
 }

@@ -1,6 +1,18 @@
 # Changelog
 
-## 1.6.0 — Premium sem login + recuperação + banco de imagens ampliado
+## 1.7.0 — Banco de 10 mil novas questões + Revalida + anatomia visual
+
+- preserva as 960 questões anteriores e adiciona 10.000 novas (10.960 totais);
+- 44 categorias e 21 trilhas;
+- nova categoria/trilha Revalida com 600 questões e casos educacionais;
+- medicina, farmacologia, enfermagem e biomedicina ampliadas sem dominar o catálogo;
+- 286 questões com imagens didáticas específicas e fonte vinculada;
+- quiz prioriza diversidade de conceitos antes de repetir variações do mesmo tema;
+- presets de Simulado Inteligente para Revalida;
+- páginas públicas de privacidade, termos, suporte, contato e exclusão preservadas;
+- botão flutuante amarelo de retomada removido do feed.
+
+## 1.7.0 — Premium sem login + recuperação + banco de imagens ampliado
 
 - remove coleta de e-mail do fluxo Premium;
 - identifica o jogador por `playerId` anônimo + token no SecureStore;

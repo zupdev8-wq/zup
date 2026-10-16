@@ -14,6 +14,7 @@
   "include": [
     "src/types.ts",
     "src/questions.ts",
+    "src/massiveQuestions.ts",
     "src/theme.ts",
     "src/catalog.ts",
     "src/game.ts",

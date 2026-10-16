@@ -1,5 +1,6 @@
 import type {Question} from './types';
 import {expandedQuestions} from './expandedQuestions';
+import {buildMassiveQuestions} from './massiveQuestions';
 
 // IDs are permanent: saved progress and sessions reference them.
 const baseQuestions: Question[] = [
@@ -6645,4 +6646,6 @@ const baseQuestions: Question[] = [
   }
 ];
 
-export const questions: Question[] = [...baseQuestions,...expandedQuestions];
+const legacyQuestions: Question[] = [...baseQuestions,...expandedQuestions];
+export const generatedQuestions: Question[] = buildMassiveQuestions(legacyQuestions);
+export const questions: Question[] = [...legacyQuestions,...generatedQuestions];

@@ -1,4 +1,4 @@
-# Arte incluída — ZUP! 1.6.0
+# Arte incluída — ZUP! 1.7.0
 
 - `src/components/Icon.tsx`: pictogramas vetoriais de interface.
 - `src/components/CategoryArt.tsx`: ilustrações vetoriais usadas fora do feed fotográfico.

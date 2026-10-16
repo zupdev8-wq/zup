@@ -1,539 +1,552 @@
-ZUP! 1.6.0 - mobile/domain test output
+ZUP! 1.7.0 - validação automatizada
 
+MOBILE / DOMÍNIO
 TAP version 13
 # Subtest: four distinct original companions and four evolution stages
 ok 1 - four distinct original companions and four evolution stages
   ---
-  duration_ms: 8.154425
+  duration_ms: 9.244798
   type: 'test'
   ...
 # Subtest: evolution only changes at 0 / 800 / 2200 / 4800 XP
 ok 2 - evolution only changes at 0 / 800 / 2200 / 4800 XP
   ---
-  duration_ms: 2.195295
+  duration_ms: 4.963399
   type: 'test'
   ...
 # Subtest: evolution invalid input is safe and strength is bounded
 ok 3 - evolution invalid input is safe and strength is bounded
   ---
-  duration_ms: 0.24284
+  duration_ms: 0.372359
   type: 'test'
   ...
 # Subtest: same player XP gives same stage regardless of companion choice
 ok 4 - same player XP gives same stage regardless of companion choice
   ---
-  duration_ms: 4.652626
+  duration_ms: 1.060498
   type: 'test'
   ...
 # Subtest: all 16 original companion forms render vector trees
 ok 5 - all 16 original companion forms render vector trees
   ---
-  duration_ms: 378.956223
+  duration_ms: 449.864116
   type: 'test'
   ...
 # Subtest: all interface glyphs and category artworks render
 ok 6 - all interface glyphs and category artworks render
   ---
-  duration_ms: 172.322002
+  duration_ms: 318.338562
   type: 'test'
   ...
 # Subtest: each screen evaluates its initial tree at 320, 390 and 768 px widths
 ok 7 - each screen evaluates its initial tree at 320, 390 and 768 px widths
   ---
-  duration_ms: 4423.422746
+  duration_ms: 7344.168474
   type: 'test'
   ...
 # Subtest: quiz feedback, resumed home and an evolved result produce valid trees
 ok 8 - quiz feedback, resumed home and an evolved result produce valid trees
   ---
-  duration_ms: 202.118563
+  duration_ms: 854.489138
   type: 'test'
   ...
 # Subtest: Expo, React, React Native and Safe Area target SDK 57
 ok 9 - Expo, React, React Native and Safe Area target SDK 57
   ---
-  duration_ms: 1.531541
+  duration_ms: 2.894172
   type: 'test'
   ...
 # Subtest: all Expo native packages declare SDK 57 versions
 ok 10 - all Expo native packages declare SDK 57 versions
   ---
-  duration_ms: 0.790409
+  duration_ms: 1.056377
   type: 'test'
   ...
 # Subtest: start explicitly opens Expo Go and clears Metro cache
 ok 11 - start explicitly opens Expo Go and clears Metro cache
   ---
-  duration_ms: 3.212657
+  duration_ms: 2.098206
   type: 'test'
   ...
 # Subtest: storage identity and safe area integration are preserved
 ok 12 - storage identity and safe area integration are preserved
   ---
-  duration_ms: 0.825402
+  duration_ms: 1.680138
   type: 'test'
   ...
 # Subtest: configured native plugins exist in dependencies
 ok 13 - configured native plugins exist in dependencies
   ---
-  duration_ms: 0.283953
+  duration_ms: 0.219979
   type: 'test'
   ...
 # Subtest: configured PNG assets exist
 ok 14 - configured PNG assets exist
   ---
-  duration_ms: 4.079343
+  duration_ms: 1.490272
   type: 'test'
   ...
 # Subtest: strict TypeScript remains enabled
 ok 15 - strict TypeScript remains enabled
   ---
-  duration_ms: 0.902841
+  duration_ms: 0.628561
   type: 'test'
   ...
-# Subtest: same native identity is preserved and app is v1.6.0
-ok 16 - same native identity is preserved and app is v1.6.0
+# Subtest: same native identity is preserved and app is v1.7.0
+ok 16 - same native identity is preserved and app is v1.7.0
   ---
-  duration_ms: 0.135902
+  duration_ms: 0.397531
   type: 'test'
   ...
 # Subtest: full-screen home overlays navigation instead of reserving a large footer
 ok 17 - full-screen home overlays navigation instead of reserving a large footer
   ---
-  duration_ms: 0.301505
+  duration_ms: 0.693636
   type: 'test'
   ...
 # Subtest: mobile permissions remain minimal
 ok 18 - mobile permissions remain minimal
   ---
-  duration_ms: 0.462344
+  duration_ms: 0.752635
   type: 'test'
   ...
 # Subtest: premium is backend-authoritative, loginless and recoverable without collecting email
 ok 19 - premium is backend-authoritative, loginless and recoverable without collecting email
   ---
-  duration_ms: 3.215608
+  duration_ms: 0.430033
   type: 'test'
   ...
 # Subtest: smart exam builder is premium-gated and supports long sessions
 ok 20 - smart exam builder is premium-gated and supports long sessions
   ---
-  duration_ms: 0.496734
+  duration_ms: 0.730626
   type: 'test'
   ...
 # Subtest: main navigation has native horizontal paging and four learning tabs
 ok 21 - main navigation has native horizontal paging and four learning tabs
   ---
-  duration_ms: 0.120214
+  duration_ms: 0.855004
   type: 'test'
   ...
 # Subtest: home implements full-screen vertical feed with a diversified real-photo bank
 ok 22 - home implements full-screen vertical feed with a diversified real-photo bank
   ---
-  duration_ms: 0.667628
+  duration_ms: 1.214978
   type: 'test'
   ...
 # Subtest: feed stays stable while a card is merely viewed or saved
 ok 23 - feed stays stable while a card is merely viewed or saved
   ---
-  duration_ms: 2.012263
+  duration_ms: 7.12433
   type: 'test'
   ...
 # Subtest: App secondary screens do not inject raw spacer text nodes
 ok 24 - App secondary screens do not inject raw spacer text nodes
   ---
-  duration_ms: 0.588062
+  duration_ms: 0.488924
   type: 'test'
   ...
-# Subtest: large catalog covers broad learning areas
-ok 25 - large catalog covers broad learning areas
+# Subtest: home has no floating yellow resume play button
+ok 25 - home has no floating yellow resume play button
   ---
-  duration_ms: 4.269335
+  duration_ms: 0.47822
+  type: 'test'
+  ...
+# Subtest: massive catalog covers broad learning areas without becoming medicine-only
+ok 26 - massive catalog covers broad learning areas without becoming medicine-only
+  ---
+  duration_ms: 24.739877
   type: 'test'
   ...
 # Subtest: all original 122 stable IDs remain reachable
-ok 26 - all original 122 stable IDs remain reachable
+ok 27 - all original 122 stable IDs remain reachable
   ---
-  duration_ms: 0.602885
+  duration_ms: 3.105872
   type: 'test'
   ...
 # Subtest: stable unique IDs, unique prompts and existing categories
-ok 27 - stable unique IDs, unique prompts and existing categories
+ok 28 - stable unique IDs, unique prompts and existing categories
   ---
-  duration_ms: 3.367308
+  duration_ms: 68.477895
   type: 'test'
   ...
-# Subtest: four distinct answers and nonempty fact per question
-ok 28 - four distinct answers and nonempty fact per question
+# Subtest: four distinct answers and nonempty explanation per question
+ok 29 - four distinct answers and nonempty explanation per question
   ---
-  duration_ms: 5.595112
+  duration_ms: 99.853388
   type: 'test'
   ...
-# Subtest: Brazil, states, lived Brazil and religious literacy are strongly represented
-ok 29 - Brazil, states, lived Brazil and religious literacy are strongly represented
+# Subtest: medicine, pharmacology and Revalida include visual anatomy content and exam tracks
+ok 30 - medicine, pharmacology and Revalida include visual anatomy content and exam tracks
   ---
-  duration_ms: 15.951849
+  duration_ms: 66.624544
+  type: 'test'
+  ...
+# Subtest: Brazil, states, lived Brazil and religious literacy remain strongly represented
+ok 31 - Brazil, states, lived Brazil and religious literacy remain strongly represented
+  ---
+  duration_ms: 480.793611
   type: 'test'
   ...
 # Subtest: every question maps to a microlearning card while related concepts are intentionally grouped
-ok 30 - every question maps to a microlearning card while related concepts are intentionally grouped
+ok 32 - every question maps to a microlearning card while related concepts are intentionally grouped
   ---
-  duration_ms: 0.619022
+  duration_ms: 6.420797
   type: 'test'
   ...
 # Subtest: catalog JSON and mobile dataset stay synchronized
-ok 31 - catalog JSON and mobile dataset stay synchronized
+ok 33 - catalog JSON and mobile dataset stay synchronized
   ---
-  duration_ms: 42.808907
+  duration_ms: 437.503635
   type: 'test'
   ...
 # Subtest: editorial correction: 1500 belongs to the fifteenth century
-ok 32 - editorial correction: 1500 belongs to the fifteenth century
+ok 34 - editorial correction: 1500 belongs to the fifteenth century
   ---
-  duration_ms: 0.457217
+  duration_ms: 1.401527
   type: 'test'
   ...
 # Subtest: fresh lessons contain five unique unseen questions
-ok 33 - fresh lessons contain five unique unseen questions
+ok 35 - fresh lessons contain five unique unseen questions
   ---
-  duration_ms: 47.856721
+  duration_ms: 37.444102
   type: 'test'
   ...
 # Subtest: normal play never repeats answered questions even when fewer than five remain
-ok 34 - normal play never repeats answered questions even when fewer than five remain
+ok 36 - normal play never repeats answered questions even when fewer than five remain
   ---
-  duration_ms: 9.840527
+  duration_ms: 5.161645
   type: 'test'
   ...
 # Subtest: completed categories are empty in normal play instead of recycling questions
-ok 35 - completed categories are empty in normal play instead of recycling questions
+ok 37 - completed categories are empty in normal play instead of recycling questions
   ---
-  duration_ms: 2.654799
+  duration_ms: 1.1148
   type: 'test'
   ...
 # Subtest: every question in every category can be reached exactly once
-ok 36 - every question in every category can be reached exactly once
+ok 38 - every question in every category can be reached exactly once
   ---
-  duration_ms: 64.035434
+  duration_ms: 1456.008995
   type: 'test'
   ...
 # Subtest: perfect five-question lesson gives 120 XP
-ok 37 - perfect five-question lesson gives 120 XP
+ok 39 - perfect five-question lesson gives 120 XP
   ---
-  duration_ms: 0.783334
+  duration_ms: 0.814598
   type: 'test'
   ...
 # Subtest: all wrong gives only completion bonus
-ok 38 - all wrong gives only completion bonus
+ok 40 - all wrong gives only completion bonus
   ---
-  duration_ms: 0.419585
+  duration_ms: 0.464758
   type: 'test'
   ...
 # Subtest: mixed answers score 20 XP per correct plus completion bonus
-ok 39 - mixed answers score 20 XP per correct plus completion bonus
+ok 41 - mixed answers score 20 XP per correct plus completion bonus
   ---
-  duration_ms: 0.415795
+  duration_ms: 0.822044
   type: 'test'
   ...
 # Subtest: progress update is immutable and does not duplicate answered IDs
-ok 40 - progress update is immutable and does not duplicate answered IDs
+ok 42 - progress update is immutable and does not duplicate answered IDs
   ---
-  duration_ms: 0.987672
+  duration_ms: 2.337321
   type: 'test'
   ...
 # Subtest: streak and daily counter handle same day and transitions
-ok 41 - streak and daily counter handle same day and transitions
+ok 43 - streak and daily counter handle same day and transitions
   ---
-  duration_ms: 0.884833
+  duration_ms: 2.616274
   type: 'test'
   ...
 # Subtest: levels behave correctly at boundaries
-ok 42 - levels behave correctly at boundaries
+ok 44 - levels behave correctly at boundaries
   ---
-  duration_ms: 0.959037
+  duration_ms: 1.41591
   type: 'test'
   ...
 # Subtest: local date has stable yyyy-mm-dd format
-ok 43 - local date has stable yyyy-mm-dd format
+ok 45 - local date has stable yyyy-mm-dd format
   ---
-  duration_ms: 0.526293
+  duration_ms: 0.727855
   type: 'test'
   ...
 # Subtest: normalization preserves a valid v5 progress snapshot
-ok 44 - normalization preserves a valid v5 progress snapshot
+ok 46 - normalization preserves a valid v5 progress snapshot
   ---
-  duration_ms: 5.271095
+  duration_ms: 14.321607
   type: 'test'
   ...
 # Subtest: null arrays and primitives become safe defaults
-ok 45 - null arrays and primitives become safe defaults
+ok 47 - null arrays and primitives become safe defaults
   ---
-  duration_ms: 1.669249
+  duration_ms: 1.3094
   type: 'test'
   ...
 # Subtest: invalid numerical values do not enter UI
-ok 46 - invalid numerical values do not enter UI
+ok 48 - invalid numerical values do not enter UI
   ---
-  duration_ms: 0.241964
+  duration_ms: 1.879566
   type: 'test'
   ...
 # Subtest: correct cannot exceed answered and arrays are deduplicated
-ok 47 - correct cannot exceed answered and arrays are deduplicated
+ok 49 - correct cannot exceed answered and arrays are deduplicated
   ---
-  duration_ms: 1.160684
+  duration_ms: 1.260192
   type: 'test'
   ...
 # Subtest: nickname and dates are sanitized
-ok 48 - nickname and dates are sanitized
+ok 50 - nickname and dates are sanitized
   ---
-  duration_ms: 21.92213
+  duration_ms: 4.345366
   type: 'test'
   ...
 # Subtest: legacy snapshots migrate to schema 5 without losing quiz totals
-ok 49 - legacy snapshots migrate to schema 5 without losing quiz totals
+ok 51 - legacy snapshots migrate to schema 5 without losing quiz totals
   ---
-  duration_ms: 0.305298
+  duration_ms: 0.878936
   type: 'test'
   ...
 # Subtest: unknown questions and companion IDs are discarded safely
-ok 50 - unknown questions and companion IDs are discarded safely
+ok 52 - unknown questions and companion IDs are discarded safely
   ---
-  duration_ms: 0.375708
+  duration_ms: 0.547787
   type: 'test'
   ...
 # Subtest: activity and finished session history are bounded
-ok 51 - activity and finished session history are bounded
+ok 53 - activity and finished session history are bounded
   ---
-  duration_ms: 1.637946
+  duration_ms: 6.497284
   type: 'test'
   ...
 # Subtest: learning fields normalize safely and local premium flags cannot grant access
-ok 52 - learning fields normalize safely and local premium flags cannot grant access
+ok 54 - learning fields normalize safely and local premium flags cannot grant access
   ---
-  duration_ms: 0.679131
+  duration_ms: 1.466926
   type: 'test'
   ...
 # Subtest: review schedule validates question ids and dates
-ok 53 - review schedule validates question ids and dates
+ok 55 - review schedule validates question ids and dates
   ---
-  duration_ms: 1.65108
+  duration_ms: 1.418777
   type: 'test'
   ...
 # Subtest: choices are permuted and canonical answer mapping scores correctly
-ok 54 - choices are permuted and canonical answer mapping scores correctly
+ok 56 - choices are permuted and canonical answer mapping scores correctly
   ---
-  duration_ms: 4.593591
+  duration_ms: 7.544524
   type: 'test'
   ...
 # Subtest: invalid taps and premature confirmations are no-ops
-ok 55 - invalid taps and premature confirmations are no-ops
+ok 57 - invalid taps and premature confirmations are no-ops
   ---
-  duration_ms: 2.523292
+  duration_ms: 10.810168
   type: 'test'
   ...
 # Subtest: active session survives JSON hydration
-ok 56 - active session survives JSON hydration
+ok 58 - active session survives JSON hydration
   ---
-  duration_ms: 3.091375
+  duration_ms: 11.004999
   type: 'test'
   ...
 # Subtest: finishing is atomic and idempotent
-ok 57 - finishing is atomic and idempotent
+ok 59 - finishing is atomic and idempotent
   ---
-  duration_ms: 4.076031
+  duration_ms: 7.529694
   type: 'test'
   ...
 # Subtest: microlearning opens up to five related unseen questions and then moves card to learned
-ok 58 - microlearning opens up to five related unseen questions and then moves card to learned
+ok 60 - microlearning opens up to five related unseen questions and then moves card to learned
   ---
-  duration_ms: 2.923536
+  duration_ms: 8.817207
   type: 'test'
   ...
 # Subtest: answered questions do not return in a second micro quiz
-ok 59 - answered questions do not return in a second micro quiz
+ok 61 - answered questions do not return in a second micro quiz
   ---
-  duration_ms: 5.729264
+  duration_ms: 9.2647
   type: 'test'
   ...
 # Subtest: review is the only normal route that can repeat due questions
-ok 60 - review is the only normal route that can repeat due questions
+ok 62 - review is the only normal route that can repeat due questions
   ---
-  duration_ms: 1.236021
+  duration_ms: 4.484388
   type: 'test'
   ...
 # Subtest: premium marathon has ten unseen questions while free mode remains five
-ok 61 - premium marathon has ten unseen questions while free mode remains five
+ok 63 - premium marathon has ten unseen questions while free mode remains five
   ---
-  duration_ms: 0.647991
+  duration_ms: 4.606004
   type: 'test'
   ...
 # Subtest: smart exam builds up to 45 unique unseen questions from the requested areas
-ok 62 - smart exam builds up to 45 unique unseen questions from the requested areas
+ok 64 - smart exam builds up to 45 unique unseen questions from the requested areas
   ---
-  duration_ms: 4.758671
+  duration_ms: 9.841282
   type: 'test'
   ...
 # Subtest: smart exam never reuses questions already completed in normal play
-ok 63 - smart exam never reuses questions already completed in normal play
+ok 65 - smart exam never reuses questions already completed in normal play
   ---
-  duration_ms: 7.433934
+  duration_ms: 5.607496
   type: 'test'
   ...
 # Subtest: daily questions are unique, unseen and broadly mixed
-ok 64 - daily questions are unique, unseen and broadly mixed
+ok 66 - daily questions are unique, unseen and broadly mixed
   ---
-  duration_ms: 3.802544
+  duration_ms: 6.793971
   type: 'test'
   ...
 # Subtest: daily discovery is deterministic for the local date
-ok 65 - daily discovery is deterministic for the local date
+ok 67 - daily discovery is deterministic for the local date
   ---
-  duration_ms: 0.92015
+  duration_ms: 1.103945
   type: 'test'
   ...
 # Subtest: streak handles transitions and freezes
-ok 66 - streak handles transitions and freezes
+ok 68 - streak handles transitions and freezes
   ---
-  duration_ms: 0.836122
+  duration_ms: 0.777419
   type: 'test'
   ...
-# Subtest: all questions can be completed once without forced repetition
-ok 67 - all questions can be completed once without forced repetition
+# Subtest: all questions can be reached once without forced repetition
+ok 69 - all questions can be reached once without forced repetition
   ---
-  duration_ms: 2853.097401
+  duration_ms: 1092.301029
   type: 'test'
   ...
 # Subtest: corrupt session shapes are rejected and correctness is recomputed
-ok 68 - corrupt session shapes are rejected and correctness is recomputed
+ok 70 - corrupt session shapes are rejected and correctness is recomputed
   ---
-  duration_ms: 1.19389
+  duration_ms: 7.211939
   type: 'test'
   ...
 # Subtest: shuffle preserves source and permutation
-ok 69 - shuffle preserves source and permutation
+ok 71 - shuffle preserves source and permutation
   ---
-  duration_ms: 0.289073
+  duration_ms: 0.470304
   type: 'test'
   ...
 # Subtest: storage key is unchanged from the app that already worked
-ok 70 - storage key is unchanged from the app that already worked
+ok 72 - storage key is unchanged from the app that already worked
   ---
-  duration_ms: 2.545074
+  duration_ms: 2.14449
   type: 'test'
   ...
 # Subtest: empty storage creates defaults without writing or erasing anything
-ok 71 - empty storage creates defaults without writing or erasing anything
+ok 73 - empty storage creates defaults without writing or erasing anything
   ---
-  duration_ms: 4.975491
+  duration_ms: 2.485005
   type: 'test'
   ...
 # Subtest: concurrent saves are serialized and newest snapshot wins
-ok 72 - concurrent saves are serialized and newest snapshot wins
+ok 74 - concurrent saves are serialized and newest snapshot wins
   ---
-  duration_ms: 387.222961
+  duration_ms: 81.280507
   type: 'test'
   ...
 # Subtest: corrupt main data recovers from previous good snapshot
-ok 73 - corrupt main data recovers from previous good snapshot
+ok 75 - corrupt main data recovers from previous good snapshot
   ---
-  duration_ms: 1.876105
+  duration_ms: 2.832842
   type: 'test'
   ...
 # Subtest: a missing main snapshot can recover the backup
-ok 74 - a missing main snapshot can recover the backup
+ok 76 - a missing main snapshot can recover the backup
   ---
-  duration_ms: 3.433173
+  duration_ms: 1.330716
   type: 'test'
   ...
 # Subtest: unreadable data fails loudly and remains untouched
-ok 75 - unreadable data fails loudly and remains untouched
+ok 77 - unreadable data fails loudly and remains untouched
   ---
-  duration_ms: 1.765998
+  duration_ms: 0.988832
   type: 'test'
   ...
 # Subtest: failed writes report errors; next save can still succeed
-ok 76 - failed writes report errors; next save can still succeed
+ok 78 - failed writes report errors; next save can still succeed
   ---
-  duration_ms: 2.009006
+  duration_ms: 0.810644
   type: 'test'
   ...
 # Subtest: reset waits for queued writes then deletes main and backup only
-ok 77 - reset waits for queued writes then deletes main and backup only
+ok 79 - reset waits for queued writes then deletes main and backup only
   ---
-  duration_ms: 12.228043
+  duration_ms: 9.080211
   type: 'test'
   ...
 # Subtest: reset failures reject without silently resetting UI state
-ok 78 - reset failures reject without silently resetting UI state
+ok 80 - reset failures reject without silently resetting UI state
   ---
-  duration_ms: 8.607457
+  duration_ms: 0.86912
   type: 'test'
   ...
 # Subtest: loading a v1 snapshot preserves it as the next backup
-ok 79 - loading a v1 snapshot preserves it as the next backup
+ok 81 - loading a v1 snapshot preserves it as the next backup
   ---
-  duration_ms: 2.244712
+  duration_ms: 1.291619
   type: 'test'
   ...
 # Subtest: all nested TS/TSX source files parse and transpile with no syntax errors
-ok 80 - all nested TS/TSX source files parse and transpile with no syntax errors
+ok 82 - all nested TS/TSX source files parse and transpile with no syntax errors
   ---
-  duration_ms: 2660.417451
+  duration_ms: 3880.484346
   type: 'test'
   ...
 # Subtest: all relative mobile imports point to real files
-ok 81 - all relative mobile imports point to real files
+ok 83 - all relative mobile imports point to real files
   ---
-  duration_ms: 30.413489
+  duration_ms: 34.783142
   type: 'test'
   ...
 # Subtest: profile photo paths and deprecated local Premium toggles are removed
-ok 82 - profile photo paths and deprecated local Premium toggles are removed
+ok 84 - profile photo paths and deprecated local Premium toggles are removed
   ---
-  duration_ms: 3.665979
+  duration_ms: 6.293469
   type: 'test'
   ...
-1..82
-# tests 82
+1..84
+# tests 84
 # suites 0
-# pass 82
+# pass 84
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 6083.833572
+# duration_ms 10355.487754
 
-ZUP! 1.6.0 - API Premium/recovery test output
 
+API / PREMIUM / RECUPERAÇÃO
 TAP version 13
 # Subtest: premium price is fixed at R$ 9.99
 ok 1 - premium price is fixed at R$ 9.99
   ---
-  duration_ms: 2.491434
+  duration_ms: 7.12018
   type: 'test'
   ...
 # Subtest: recovery codes have a readable strong format
 ok 2 - recovery codes have a readable strong format
   ---
-  duration_ms: 0.483248
+  duration_ms: 3.969385
   type: 'test'
   ...
 # Subtest: external reference binds purchase and player UUIDs
 ok 3 - external reference binds purchase and player UUIDs
   ---
-  duration_ms: 2.095787
+  duration_ms: 6.394211
   type: 'test'
   ...
 # Subtest: webhook signature verification follows HMAC manifest
 ok 4 - webhook signature verification follows HMAC manifest
   ---
-  duration_ms: 0.828745
+  duration_ms: 8.560835
   type: 'test'
   ...
 # Subtest: expired premium is blocked by backend payload
 ok 5 - expired premium is blocked by backend payload
   ---
-  duration_ms: 1.140792
+  duration_ms: 4.987179
   type: 'test'
   ...
 1..5
@@ -544,4 +557,4 @@ ok 5 - expired premium is blocked by backend payload
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 115.724222
+# duration_ms 1396.022275

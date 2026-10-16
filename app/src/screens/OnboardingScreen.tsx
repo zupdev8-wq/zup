@@ -11,7 +11,7 @@ import {C} from '../theme';
 type Props={p:Progress;finish:(settings:{nickname:string;tracks:TrackId[];companionId:CompanionId;dailyGoal:number})=>void};
 export function OnboardingScreen({p,finish}:Props){
   const [step,setStep]=useState(0),[selected,setSelected]=useState<TrackId[]>(p.preferredTracks),[companionId,setCompanion]=useState<CompanionId>(p.companionId),[dailyGoal,setDailyGoal]=useState(p.dailyGoal),[nickname,setNickname]=useState(p.nickname==='Explorador'?'':p.nickname);
-  const focus=tracks.filter(t=>['brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','entretenimento','religioes','pensamento'].includes(t.id));
+  const focus=tracks.filter(t=>['brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','revalida','entretenimento','religioes','pensamento'].includes(t.id));
   const toggle=(id:TrackId)=>setSelected(prev=>prev.includes(id)?(prev.length===1?prev:prev.filter(x=>x!==id)):[...prev,id]);
   const pet=companionById(companionId);
   return <Page contentContainerStyle={{flexGrow:1,justifyContent:'space-between',paddingTop:18,paddingBottom:30,gap:18}}>

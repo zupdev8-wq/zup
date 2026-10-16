@@ -16,7 +16,7 @@ const groups:{title:string;ids:CategoryId[]}[]=[
   {title:'Brasil & mundo',ids:['brasil','cidadania','geopolitica','historia','geografia','constituicao','economia','mundo']},
   {title:'ENEM & humanas',ids:['portugues','literatura','filosofia','sociologia','artes','cultura','midia']},
   {title:'Exatas & tecnologia',ids:['matematica','raciocinio','fisica','quimica','computacao','engenharia','informatica','tecnologia']},
-  {title:'Biológicas & saúde',ids:['biologia','natureza','ciencia','medicina','enfermagem','farmacia','biomedicina','psicologia']},
+  {title:'Biológicas & saúde',ids:['biologia','natureza','ciencia','medicina','revalida','enfermagem','farmacia','biomedicina','psicologia']},
   {title:'Faculdade & concursos',ids:['direito','administracao','contabilidade','informatica','economia','portugues','constituicao']},
   {title:'Cultura, fé & entretenimento',ids:['cinema','series','musica','games','religioes','teologia','gastronomia','esportes','espaco']},
 ];

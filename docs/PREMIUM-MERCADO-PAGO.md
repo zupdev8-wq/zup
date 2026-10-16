@@ -1,4 +1,4 @@
-# Premium + Mercado Pago — ZUP! 1.6.0
+# Premium + Mercado Pago — ZUP! 1.7.0
 
 ## Regra do produto
 

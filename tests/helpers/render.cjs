@@ -51,7 +51,7 @@ function load(filename){
     throw new Error('Unexpected external module in structural render: '+id);
   }
   vm.runInNewContext(source,{require:localRequire,module,exports:module.exports,process:{env:{}},console,URL,setTimeout,clearTimeout},
-    {filename:file,timeout:3000});
+    {filename:file,timeout:12000});
   cache.set(file,module.exports);return module.exports;
 }
 function expand(node){

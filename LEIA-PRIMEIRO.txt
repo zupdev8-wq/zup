@@ -1,4 +1,4 @@
-ZUP! 1.6.0
+ZUP! 1.7.0
 
 1) Abra a pasta do projeto no VS Code.
 2) Entre em app:
