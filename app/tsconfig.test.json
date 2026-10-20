@@ -13,7 +13,11 @@
   },
   "include": [
     "src/types.ts",
+    "src/liveContent.ts",
     "src/questions.ts",
+    "src/externalQuestions.ts",
+    "src/importedQuestions.ts",
+    "src/lessonQuestions.ts",
     "src/massiveQuestions.ts",
     "src/theme.ts",
     "src/catalog.ts",

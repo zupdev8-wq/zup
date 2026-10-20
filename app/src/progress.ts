@@ -8,7 +8,7 @@ const strings=(v:unknown):string[]=>Array.isArray(v)?[...new Set(v.filter((s):s 
 const ids=(v:unknown)=>strings(v).filter(id=>questionMap.has(id));
 const lessonIds=(v:unknown)=>strings(v).filter(id=>id.startsWith('lesson-'));
 const record=(v:unknown):Record<string,unknown>=>v!==null&&typeof v==='object'&&!Array.isArray(v)?v as Record<string,unknown>:{ };
-const tracks:TrackId[]=['geral','brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','entretenimento','cinema','series','livros','religioes','pensamento','historia','ciencia','artes','tecnologia'];
+const tracks:TrackId[]=['geral','brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','entretenimento','cinema','series','livros','religioes','pensamento','historia','ciencia','artes','tecnologia','games','esportes','musica','animais'];
 function date(v:unknown):string {
   if(typeof v!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(v))return '';
   const d=new Date(`${v}T12:00:00Z`);
@@ -17,26 +17,30 @@ function date(v:unknown):string {
 export function normalizeSession(value:unknown):Session|null {
   const v=record(value);
   if(typeof v.id!=='string'||v.id.length>120||!v.id || !Array.isArray(v.items) || v.items.length<1 || v.items.length>60)return null;
-  if(!['category','daily','review','mixed','micro','marathon','exam'].includes(String(v.mode)))return null;
+  if(!['category','daily','review','mixed','micro','marathon','exam','discover'].includes(String(v.mode)))return null;
   if(![...questionMap.values()].some(q=>q.category===v.category))return null;
   const items:SessionItem[]=[];
   for(const raw of v.items) {
     const item=record(raw);
+    // Sessões antigas montadas por templates genéricos não podem reaparecer depois desta atualização.
     if(typeof item.questionId!=='string'||!questionMap.has(item.questionId)||!Array.isArray(item.order))return null;
-    if(item.order.length!==4||new Set(item.order).size!==4||!item.order.every(n=>Number.isInteger(n)&&n>=0&&n<4))return null;
+    if(item.questionId.startsWith('g-')||item.questionId.startsWith('x-'))return null;
+    const answerCount=questionMap.get(item.questionId)!.choices.length;
+    if(item.order.length!==answerCount||new Set(item.order).size!==answerCount||!item.order.every(n=>Number.isInteger(n)&&n>=0&&n<answerCount))return null;
     items.push({questionId:item.questionId,order:[...item.order] as number[]});
   }
   if(new Set(items.map(i=>i.questionId)).size!==items.length)return null;
+  if(v.mode==='discover'&&items.some(item=>{const q=questionMap.get(item.questionId)!;return !item.questionId.startsWith('t-')&&q.kind!=='discover';}))return null;
   if(!Number.isInteger(v.index)||Number(v.index)<0||Number(v.index)>=items.length)return null;
   const index=Number(v.index), revealed=v.revealed===true;
   const selected=v.selected===null?null:integer(v.selected,-1);
-  if(selected!==null&&(selected<0||selected>3))return null;
+  if(selected!==null&&(selected<0||selected>=items[index]!.order.length))return null;
   if(revealed&&selected===null)return null;
   if(!Array.isArray(v.answers)||v.answers.length!==index+(revealed?1:0))return null;
   const answers:SessionAnswer[]=[];
   for(let i=0;i<v.answers.length;i++) {
     const a=record(v.answers[i]), item=items[i]!;
-    if(a.questionId!==item.questionId||!Number.isInteger(a.choice)||Number(a.choice)<0||Number(a.choice)>3)return null;
+    if(a.questionId!==item.questionId||!Number.isInteger(a.choice)||Number(a.choice)<0||Number(a.choice)>=questionMap.get(item.questionId)!.choices.length)return null;
     const q=questionMap.get(item.questionId)!;
     answers.push({questionId:q.id,choice:Number(a.choice),correct:Number(a.choice)===q.answer});
   }

@@ -57,7 +57,7 @@ export const getCategory=(id:CategoryId)=>categories.find(c=>c.id===id) ?? categ
 
 export type Track={id:TrackId;label:string;shortLabel:string;description:string;color:string;light:string};
 export const tracks:Track[]=[
-  {id:'geral',label:'Pra você',shortLabel:'Pra você',description:'Um mix inteligente de assuntos para descobrir algo novo a cada deslize.',color:C.yellow,light:C.lemon},
+  {id:'geral',label:'Pra você',shortLabel:'Pra você',description:'Seus interesses em primeiro lugar, com espaço para descobertas inesperadas.',color:C.yellow,light:C.lemon},
   {id:'brasil',label:'Brasil',shortLabel:'Brasil',description:'História, geografia, cultura, instituições e sociedade brasileira.',color:C.green,light:C.greenLight},
   {id:'brasil-vivido',label:'Brasil vivido',shortLabel:'Brasil vivido',description:'Estados, fronteiras, periferias, costumes e experiências regionais.',color:C.pink,light:C.pinkLight},
   {id:'geopolitica',label:'Geopolítica',shortLabel:'Geopolítica',description:'Relações internacionais, comércio, território e poder global.',color:C.blue,light:C.blueLight},
@@ -71,7 +71,11 @@ export const tracks:Track[]=[
   {id:'entretenimento',label:'Entretenimento',shortLabel:'Entretenimento',description:'Cinema, séries, música, games, cultura pop e repertório.',color:C.yellow,light:C.lemon},
   {id:'cinema',label:'Cinema',shortLabel:'Cinema',description:'Linguagem cinematográfica, movimentos e curiosidades.',color:C.pink,light:C.pinkLight},
   {id:'series',label:'Séries',shortLabel:'Séries',description:'Narrativa, produção e cultura das séries.',color:C.blue,light:C.blueLight},
-  {id:'livros',label:'Livros',shortLabel:'Livros',description:'Literatura brasileira e mundial para ampliar repertório.',color:C.green,light:C.greenLight},
+  {id:'livros',label:'Livros',shortLabel:'Livros',description:'Clássicos, fantasia, romances, best-sellers e diferentes universos literários.',color:C.green,light:C.greenLight},
+  {id:'games',label:'Games',shortLabel:'Games',description:'Jogos, personagens, mundos e cultura gamer.',color:C.blue,light:C.blueLight},
+  {id:'esportes',label:'Esportes',shortLabel:'Esportes',description:'Modalidades, grandes atletas e fatos do esporte.',color:C.pink,light:C.pinkLight},
+  {id:'musica',label:'Música',shortLabel:'Música',description:'Artistas, álbuns, história e curiosidades musicais.',color:C.yellow,light:C.lemon},
+  {id:'animais',label:'Animais',shortLabel:'Animais',description:'Fauna, natureza e comportamentos surpreendentes.',color:C.green,light:C.greenLight},
   {id:'religioes',label:'Religiões',shortLabel:'Religiões',description:'Conhecimento religioso e teológico com respeito à diversidade.',color:C.yellow,light:C.lemon},
   {id:'pensamento',label:'Pensamento',shortLabel:'Pensamento',description:'Filosofia, mídia, vieses, lógica e leitura crítica do mundo.',color:C.pink,light:C.pinkLight},
   {id:'historia',label:'História',shortLabel:'História',description:'Processos históricos do Brasil e do mundo.',color:C.blue,light:C.blueLight},

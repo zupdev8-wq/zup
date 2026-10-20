@@ -7,12 +7,12 @@ import {Txt,Page,Chip,Card,Button} from '../components/UI';
 import {Icon} from '../components/Icon';
 import {C} from '../theme';
 export function IntroScreen({category,mode,count,start}:{category:CategoryId;mode:GameMode;count:number;start:()=>void}) {
-  const c=getCategory(category), mixed=mode==='mixed', marathon=mode==='marathon';
+  const c=getCategory(category), mixed=mode==='mixed', marathon=mode==='marathon', discover=mode==='discover';
   return <Page contentContainerStyle={{flexGrow:1,justifyContent:'center',gap:22}}>
-    <Card color={mode==='review'?C.greenLight:(mixed||marathon)?C.blueLight:c.light} outlined style={{alignItems:'center',paddingVertical:30}}>
-      {mode==='review'?<Icon name="refresh" size={80} color={C.success}/>:marathon?<Icon name="bolt" size={80} color={C.ink}/>:<CategoryArt id={category} size={140}/>}      
-      <Chip color={C.white}>{mode==='daily'?'DESAFIO DO DIA':mode==='review'?'REVISÃO':marathon?'MARATONA PREMIUM':mixed?'QUIZ PERSONALIZADO':c.label.toUpperCase()}</Chip>
-      <Txt size={29} bold style={{textAlign:'center'}}>{mode==='review'?'Uma nova chance de aprender':mode==='daily'?'Assuntos variados sem repetir':marathon?'10 perguntas para entrar no fluxo':mixed?'Misture seus temas favoritos':c.subtitle}</Txt>
+    <Card color={mode==='review'?C.greenLight:discover?C.lemon:(mixed||marathon)?C.blueLight:c.light} outlined style={{alignItems:'center',paddingVertical:30}}>
+      {mode==='review'?<Icon name="refresh" size={80} color={C.success}/>:discover?<Icon name="sparkles" size={80} color={C.ink}/>:marathon?<Icon name="bolt" size={80} color={C.ink}/>:<CategoryArt id={category} size={140}/>}      
+      <Chip color={C.white}>{mode==='daily'?'DESAFIO DO DIA':mode==='review'?'REVISÃO':discover?'CURIOSIDADES REAIS':marathon?'MARATONA PREMIUM':mixed?'QUIZ PERSONALIZADO':c.label.toUpperCase()}</Chip>
+      <Txt size={29} bold style={{textAlign:'center'}}>{mode==='review'?'Uma nova chance de aprender':mode==='daily'?'Assuntos variados sem repetir':discover?'Perguntas de fontes públicas, só para se divertir e aprender':marathon?'10 perguntas para entrar no fluxo':mixed?'Misture seus temas favoritos':c.subtitle}</Txt>
     </Card>
     <View style={{gap:14}}>
       <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Icon name="book" color={C.muted}/><Txt style={{flex:1}}>{count} perguntas, uma descoberta de cada vez.</Txt></View>

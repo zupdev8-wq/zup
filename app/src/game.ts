@@ -1,12 +1,14 @@
-import type {Question, Progress, CategoryId, Session, GameMode, ReviewState} from './types';
+import type {Question, Progress, CategoryId, Session, GameMode, ReviewState, TrackId} from './types';
 import {questions} from './questions';
+import {sourcedCuriosityQuestions} from './externalQuestions';
+import {publishedBundles} from './liveContent';
 
 export const LESSON_SIZE = 5;
 export const PREMIUM_MARATHON_SIZE = 10;
 export const questionMap = new Map(questions.map(q=>[q.id,q]));
 export const localDate = (d = new Date()) =>
   `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-export const available = (cat:CategoryId) => questions.filter(q=>q.category===cat);
+export const available = (cat:CategoryId) => studyQuestions.filter(q=>q.category===cat&&q.kind!=='discover');
 export const level = (xp:number) => 1+Math.floor(Math.max(0,xp)/200);
 export const levelXP = (xp:number) => Math.max(0,xp)%200;
 
@@ -27,37 +29,121 @@ export function dueReviewIds(p:Progress,now=new Date()):string[] {
   const due=Object.entries(p.reviewSchedule).filter(([id,state])=>questionMap.has(id)&&state.due<=today).map(([id])=>id);
   return [...new Set([...p.weakIds,...due])].sort((a,b)=>Number(weak.has(b))-Number(weak.has(a)));
 }
-const unseenOnly=(pool:Question[],p:Progress)=>{const done=new Set(p.completedIds);return pool.filter(q=>!done.has(q.id));};
-const conceptKey=(q:Question)=>`${q.category}:${q.topic??''}:${q.concept??q.id}`;
-function diverseTake(pool:Question[],random:()=>number,size:number):Question[]{
-  const shuffled=shuffle(pool,random),out:Question[]=[],used=new Set<string>(),usedIds=new Set<string>();
-  for(const q of shuffled){const key=conceptKey(q);if(used.has(key))continue;used.add(key);usedIds.add(q.id);out.push(q);if(out.length===size)return out;}
-  for(const q of shuffled){if(usedIds.has(q.id))continue;usedIds.add(q.id);out.push(q);if(out.length===size)break;}
+/**
+ * Somente questões editoriais com raciocínio, problemas ou aplicação. O catálogo
+ * antigo g-/x- contém dezenas de versões da mesma definição; mantém-se nos
+ * dados de migração, mas NUNCA aparece em quizzes ou revisões.
+ */
+const definitionPrompt=/^(?:o que e\b|qual (?:a )?definicao\b|defina\b|como (?:se )?define\b)/;
+const approved=(q:Question)=>!q.id.startsWith('g-')&&!q.id.startsWith('x-')&&!definitionPrompt.test(q.question.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim());
+export const studyQuestions:Question[]=questions.filter(approved);
+// Snapshot static packs once. Update the *same* exported arrays/maps when a
+// verified category seed is hydrated; all existing quiz code sees new content.
+const bundledQuestions=[...questions];
+const bundledCuriosities=[...sourcedCuriosityQuestions];
+export function refreshQuestionCatalog():void {
+  const overrides=new Map<string,Question>();
+  const removed=new Set<string>();
+  const owners=new Map(bundledQuestions.map(q=>[q.id,q.category]));
+  for(const bundle of publishedBundles.values()){
+    for(const id of bundle.retiredQuestionIds)if(!owners.has(id)||owners.get(id)===bundle.category)removed.add(id);
+    for(const q of bundle.questions){
+      if(owners.has(q.id)&&owners.get(q.id)!==bundle.category)continue;
+      owners.set(q.id,bundle.category);overrides.set(q.id,q);
+    }
+  }
+  const next=new Map<string,Question>();
+  for(const q of bundledQuestions)if(!removed.has(q.id))next.set(q.id,overrides.get(q.id)??q);
+  for(const q of overrides.values())if(!removed.has(q.id))next.set(q.id,q);
+  questions.splice(0,questions.length,...next.values());
+  questionMap.clear();
+  for(const q of questions)questionMap.set(q.id,q);
+  studyQuestions.splice(0,studyQuestions.length,...questions.filter(approved));
+  const curiosities=new Map<string,Question>();
+  for(const q of bundledCuriosities)if(!removed.has(q.id)){const updated=overrides.get(q.id)??q;if(updated.kind==='discover')curiosities.set(q.id,updated);}
+  for(const q of overrides.values())if(!removed.has(q.id)&&q.kind==='discover')curiosities.set(q.id,q);
+  sourcedCuriosityQuestions.splice(0,sourcedCuriosityQuestions.length,...curiosities.values());
+}
+
+/** Assuntos podem voltar para exercitar raciocínio; textos de definição e
+ * justificativas iguais não podem reaparecer com outro ID ou outra frase. */
+const normalizeConcept=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const fillerWords=new Set(['sobre','neste','nesta','nesse','nessa','assim','essa','esse','esta','este','isso','isto','aquela','aquele','caso','mesmo','mesma','pelos','pelas','para','pela','pelo','como','sendo','outra','outro','outras','outros','mais','muito','muita','pode','podem','tambem','quando','ainda','entre','cada','apenas','depois','antes','seus','suas','porque','onde','quais','qual','quem','desse','dessa','esses','essas']);
+const keyTerms=(s:string)=>new Set(normalizeConcept(s).split(' ').filter(word=>word.length>=5&&!fillerWords.has(word)));
+const repeatsExplanation=(a:string,b:string):boolean=>{
+  const left=normalizeConcept(a),right=normalizeConcept(b);
+  if(!left||!right)return false;
+  if(left===right)return true;
+  const aa=keyTerms(left),bb=keyTerms(right),shorter=Math.min(aa.size,bb.size);
+  if(shorter<5)return false;
+  const common=[...aa].filter(term=>bb.has(term)).length;
+  return common>=5&&common/shorter>=0.8;
+};
+const equivalentPractice:Record<string,string>={
+  'l-0031':'raciocinio:velocidade-media-em-trechos',
+  'l-0057':'raciocinio:velocidade-media-em-trechos',
+};
+export const conceptKey=(q:Question)=>equivalentPractice[q.id]??`${q.category}:${q.concept?normalizeConcept(q.concept):q.id}`;
+const tier=(q:Question)=>q.id.startsWith('t-')?4:q.id.startsWith('h-')||q.id.startsWith('p-')?3:2;
+const completedQuestions=(p:Progress)=>p.completedIds.map(id=>questionMap.get(id)).filter((q):q is Question=>Boolean(q));
+const seenConcepts=(p:Progress)=>new Set(completedQuestions(p).map(conceptKey));
+const newQuestions=(p:Progress,pool:Question[])=>{
+  const done=new Set(p.completedIds),prior=completedQuestions(p),seen=seenConcepts(p);
+  const openedFacts=[...p.openedLessonIds,...p.learnedLessonIds]
+    .map(id=>id.startsWith('lesson-')?questionMap.get(id.slice(7)):undefined)
+    .filter((q):q is Question=>Boolean(q));
+  return pool.filter(q=>!done.has(q.id)&&!seen.has(conceptKey(q))&&
+    !prior.some(old=>old.category===q.category&&repeatsExplanation(old.fact,q.fact))&&
+    !openedFacts.some(lessonSource=>lessonSource.category===q.category&&repeatsExplanation(lessonSource.fact,q.fact)));
+};
+/** Uso em simulados: a mesma regra de exclusão que protege o estudo diário. */
+export function unseenStudyQuestions(p:Progress,pool:Question[]):Question[]{return newQuestions(p,pool);}
+
+/** Never recycle paraphrases of previously answered concepts outside explicit review. */
+export function distinctConcepts(pool:Question[],random:()=>number,size:number,initialConcepts=new Set<string>()):Question[]{
+  if(size<=0)return [];
+  const ordered=shuffle(pool,random).sort((a,b)=>tier(b)-tier(a));
+  const out:Question[]=[],used=new Set(initialConcepts);
+  for(const q of ordered){
+    const key=conceptKey(q);
+    if(used.has(key)||out.some(prev=>prev.category===q.category&&repeatsExplanation(prev.fact,q.fact)))continue;
+    used.add(key);out.push(q);if(out.length===size)break;
+  }
   return out;
 }
 
-/** Normal play never repeats a question already answered. Repetition lives only in explicit review mode. */
+/** Only approved, unseen concepts appear in everyday study; deliberate revision is separate. */
 export function lesson(cat:CategoryId,p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
-  return diverseTake(unseenOnly(available(cat),p),random,size);
+  return distinctConcepts(newQuestions(p,studyQuestions.filter(q=>q.category===cat&&q.kind!=='discover')),random,size);
 }
 export function dailyQuestions(p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
-  const unseen=unseenOnly(questions,p);
+  const unseen=newQuestions(p,studyQuestions);
   if(!unseen.length)return [];
-  const brazil=diverseTake(unseen.filter(q=>q.brazil),random,Math.min(2,size));
-  const ids=new Set(brazil.map(q=>q.id));
-  const rest=diverseTake(unseen.filter(q=>!ids.has(q.id)),random,Math.max(0,size-brazil.length));
-  return shuffle([...brazil,...rest],random).slice(0,size);
+  const brazil=distinctConcepts(unseen.filter(q=>q.brazil),random,Math.min(2,size));
+  const used=new Set(brazil.map(q=>q.id));
+  const curiosities=distinctConcepts(unseen.filter(q=>q.id.startsWith('t-')&&!used.has(q.id)),random,Math.min(1,Math.max(0,size-brazil.length)),new Set(brazil.map(conceptKey)));
+  for(const q of curiosities)used.add(q.id);
+  const rest=distinctConcepts(unseen.filter(q=>!used.has(q.id)),random,Math.max(0,size-brazil.length-curiosities.length),new Set([...brazil,...curiosities].map(conceptKey)));
+  return shuffle(distinctConcepts([...brazil,...curiosities,...rest],random,size),random);
 }
 export function questionOfDay(d=new Date()):Question {
   let hash=0;
   for(const char of localDate(d)) hash=(Math.imul(hash,31)+char.charCodeAt(0))>>>0;
-  const pool=questions.filter(q=>q.brazil);
-  return (pool.length?pool:questions)[hash%(pool.length||questions.length)]!;
+  const pool=studyQuestions.filter(q=>q.brazil);
+  return (pool.length?pool:studyQuestions)[hash%(pool.length||studyQuestions.length)]!;
 }
+export function curiosityLesson(p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
+  const pool=newQuestions(p,sourcedCuriosityQuestions);
+  const pref=new Set<TrackId>(p.preferredTracks.filter(t=>t!=='geral'));
+  const isPreferred=(q:Question)=>(q.tracks??[]).some(t=>pref.has(t));
+  const selected=distinctConcepts(pool.filter(isPreferred),random,Math.ceil(size*0.8));
+  const more=distinctConcepts(pool.filter(q=>!selected.includes(q)),random,size-selected.length,new Set(selected.map(conceptKey)));
+  return [...selected,...more];
+}
+
 export function mixedLesson(topicIds:readonly CategoryId[],p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
   const allowed=new Set(topicIds.length?topicIds:['brasil']);
-  const pool=unseenOnly(questions.filter(q=>allowed.has(q.category)),p);
-  return diverseTake(pool,random,size);
+  return distinctConcepts(newQuestions(p,studyQuestions.filter(q=>allowed.has(q.category)&&q.kind!=='discover')),random,size);
 }
 
 function sessionFrom(list:Question[],p:Progress,cat:CategoryId,mode:GameMode,random:()=>number,now:number,topics?:CategoryId[],sourceQuestionId?:string):Session|null {
@@ -65,42 +151,88 @@ function sessionFrom(list:Question[],p:Progress,cat:CategoryId,mode:GameMode,ran
   return {
     id:`${now.toString(36)}-${Math.floor(random()*0x100000000).toString(36)}-${p.answered.toString(36)}`,
     mode,category:cat,...(topics?.length?{topicIds:topics}:{}),...(sourceQuestionId?{sourceQuestionId}:{}),
-    items:list.map(q=>({questionId:q.id,order:shuffle([0,1,2,3],random)})),
+    items:list.map(q=>({questionId:q.id,order:shuffle(q.choices.map((_,i)=>i),random)})),
     index:0,selected:null,revealed:false,answers:[],startedAt:now,
   };
 }
 
+/** Revisa dificuldades com casos novos, nunca reapresentando o enunciado,
+ * a explicação nem uma paráfrase da definição anterior. Sem caso novo, não
+ * se inventa uma rodada repetida. */
+export function reviewPracticeQuestions(p:Progress,random=Math.random,size=LESSON_SIZE,now=Date.now()):Question[] {
+  const due=dueReviewIds(p,new Date(now)).map(id=>questionMap.get(id)).filter((q):q is Question=>Boolean(q));
+  if(!due.length)return [];
+  const pool=newQuestions(p,studyQuestions);
+  const related=(q:Question)=>due.reduce((best,old)=>{
+    if(q.category!==old.category)return best;
+    const sameConcept=q.concept&&old.concept&&normalizeConcept(q.concept)===normalizeConcept(old.concept);
+    if(sameConcept)return Math.max(best,200);
+    if(q.topic&&old.topic&&q.topic===old.topic)return Math.max(best,120);
+    const oldTerms=keyTerms(`${old.concept??''} ${old.question} ${old.fact}`);
+    const newTerms=keyTerms(`${q.concept??''} ${q.question} ${q.fact}`);
+    const overlap=[...oldTerms].filter(term=>newTerms.has(term)).length;
+    if(overlap>=2)return Math.max(best,50+overlap*10);
+    // Nenhum quiz aleatório da disciplina é apresentado como revisão do erro.
+    return best;
+  },0);
+  const candidates=shuffle(pool,random).filter(q=>related(q)>0).sort((a,b)=>related(b)-related(a)||tier(b)-tier(a));
+  return distinctConcepts(candidates,random,size);
+}
+
 export function createSession(p:Progress,cat:CategoryId,mode:GameMode='category',random=Math.random,now=Date.now(),topicIds:readonly CategoryId[]=[],premiumEnabled=false):Session|null {
   const reviewSize=mode==='marathon'&&premiumEnabled?PREMIUM_MARATHON_SIZE:LESSON_SIZE;
-  const review=shuffle(dueReviewIds(p,new Date(now)).map(id=>questionMap.get(id)).filter((q):q is Question=>Boolean(q)),random).slice(0,reviewSize);
+  const review=reviewPracticeQuestions(p,random,reviewSize,now);
   const topics=[...new Set(topicIds)].filter(id=>questions.some(q=>q.category===id));
   const size=mode==='marathon'&&premiumEnabled?PREMIUM_MARATHON_SIZE:LESSON_SIZE;
   const list=mode==='review'?review
+    :mode==='discover'?curiosityLesson(p,random,size)
     :mode==='daily'?dailyQuestions(p,random,size)
     :mode==='mixed'||mode==='marathon'?mixedLesson(topics.length?topics:[cat],p,random,size)
     :lesson(cat,p,random,size);
   return sessionFrom(list,p,cat,mode,random,now,(mode==='mixed'||mode==='marathon')?(topics.length?topics:[cat]):undefined);
 }
 
-/** A feed lesson opens a short 5-question game around the same topic, then the lesson moves to the learned library. */
-export function createMicroSession(p:Progress,questionId:string,random=Math.random,now=Date.now()):Session|null {
+/** O quiz de uma aula usa SOMENTE perguntas de aplicação do seu tema.
+ * Não há preenchimento com questões aleatórias para chegar a cinco itens. */
+export function microPracticeQuestions(p:Progress,questionId:string,random=Math.random,size=LESSON_SIZE):Question[] {
+  const primary=questionMap.get(questionId);if(!primary)return [];
+  const subject=normalizeConcept(primary.concept??'');
+  const subjectSlug=subject.replace(/ /g,'-');
+  const primaryTerms=keyTerms(`${primary.concept??''} ${primary.question} ${primary.fact}`);
+  const primaryDefinition=normalizeConcept(primary.fact);
+  const pool=newQuestions(p,studyQuestions.filter(q=>q.category===primary.category&&q.id!==primary.id&&
+    normalizeConcept(q.fact)!==primaryDefinition&&!repeatsExplanation(q.fact,primary.fact)));
+  const scored=pool.map(q=>{
+    const topic=normalizeConcept(q.topic??'');
+    const words=keyTerms(`${q.concept??''} ${q.topic??''} ${q.question} ${q.fact}`);
+    const matching=[...words].filter(w=>primaryTerms.has(w));
+    const namedSubject=subject.length>=6&&(normalizeConcept(q.concept??'').includes(subject)||normalizeConcept(q.question).includes(subject));
+    const subjectTopic=(subjectSlug.length>=6&&q.topic===subjectSlug)||q.topic===`lesson:${primary.id}`;
+    const sameTopic=Boolean(primary.topic&&q.topic===primary.topic);
+    const score=(subjectTopic?240:0)+(namedSubject?180:0)+(sameTopic?115:0)+matching.length*12;
+    return {q,score};
+  }).filter(x=>x.score>=60).sort((a,b)=>b.score-a.score||tier(b.q)-tier(a.q));
+  return distinctConcepts(scored.map(x=>x.q),random,size);
+}
+
+
+/** Opens an existing and unanswered sourced curiosity exactly as shown in the For You card. */
+export function createCuriosityCardSession(p:Progress,questionId:string,random=Math.random,now=Date.now()):Session|null{
+  const q=sourcedCuriosityQuestions.find(candidate=>candidate.id===questionId);
+  if(!q)return null;
+  const unseen=newQuestions(p,[q]);
+  return sessionFrom(unseen,p,q.category,'discover',random,now);
+}
+
+export function createMicroSession(p:Progress,questionId:string,random=Math.random,now=Date.now(),skipIntro=true):Session|null {
   const primary=questionMap.get(questionId);if(!primary)return null;
-  const done=new Set(p.completedIds);
-  const sameTopic=primary.topic?questions.filter(q=>q.id!==primary.id&&q.topic===primary.topic):[];
-  const sameCategory=questions.filter(q=>q.id!==primary.id&&q.category===primary.category&&!sameTopic.some(x=>x.id===q.id));
-  const preferred=[
-    ...(!done.has(primary.id)?[primary]:[]),
-    ...shuffle(sameTopic.filter(q=>!done.has(q.id)),random),
-    ...shuffle(sameCategory.filter(q=>!done.has(q.id)),random),
-  ];
-  const unique:Question[]=[];const ids=new Set<string>(),concepts=new Set<string>();
-  for(const q of preferred){const key=conceptKey(q);if(ids.has(q.id)||concepts.has(key))continue;ids.add(q.id);concepts.add(key);unique.push(q);if(unique.length===LESSON_SIZE)break;}
-  if(unique.length<LESSON_SIZE)for(const q of preferred){if(ids.has(q.id))continue;ids.add(q.id);unique.push(q);if(unique.length===LESSON_SIZE)break;}
-  return sessionFrom(unique,p,primary.category,'micro',random,now,undefined,primary.id);
+  void skipIntro; // Nunca recolocar a pergunta de origem, inclusive no modo rápido.
+  const result=microPracticeQuestions(p,questionId,random,LESSON_SIZE);
+  return sessionFrom(result,p,primary.category,'micro',random,now,undefined,primary.id);
 }
 
 export function chooseAnswer(s:Session,choice:number):Session {
-  return !s.revealed && Number.isInteger(choice) && choice>=0 && choice<4 ? {...s,selected:choice} : s;
+  return !s.revealed && Number.isInteger(choice) && choice>=0 && choice<(s.items[s.index]?.order.length??0) ? {...s,selected:choice} : s;
 }
 export function revealAnswer(s:Session):Session {
   if(s.revealed||s.selected===null)return s;

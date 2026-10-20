@@ -3,13 +3,15 @@ import {Modal,Pressable,ScrollView,View,useWindowDimensions} from 'react-native'
 import {SafeAreaView} from 'react-native-safe-area-context';
 import type {Progress,CategoryId,GameMode,TrackId} from '../types';
 import {categories,tracks} from '../catalog';
-import {questions} from '../questions';
+import {studyQuestions} from '../game';
+import {sourcedCuriosityQuestions} from '../externalQuestions';
 import {dueReviewIds} from '../game';
 import {questionTracks} from '../learning';
 import {Txt,Page,Card,Button,ProgressBar,Chip} from '../components/UI';
 import {CategoryArt} from '../components/CategoryArt';
 import {Icon} from '../components/Icon';
 import {C} from '../theme';
+import {openHTTPS} from '../links';
 
 type Props={p:Progress;start:(cat:CategoryId,mode?:GameMode,topics?:CategoryId[])=>void;smartExam:()=>void};
 const groups:{title:string;ids:CategoryId[]}[]=[
@@ -28,18 +30,27 @@ export function ExploreScreen({p,start,smartExam}:Props) {
   const toggle=(id:CategoryId)=>setSelected(prev=>prev.includes(id)?(prev.length===1?prev:prev.filter(x=>x!==id)):[...prev,id]);
   const primary=selected[0]??'brasil';
   const packs=useMemo(()=>tracks.filter(t=>t.id!=='geral').map(t=>{
-    const cats=categories.filter(c=>questions.some(q=>q.category===c.id&&questionTracks(q).includes(t.id))).map(c=>c.id);
-    const count=questions.filter(q=>questionTracks(q).includes(t.id)).length;
+    const cats=categories.filter(c=>studyQuestions.some(q=>q.category===c.id&&questionTracks(q).includes(t.id))).map(c=>c.id);
+    const count=studyQuestions.filter(q=>questionTracks(q).includes(t.id)).length;
     return {...t,cats,count};
   }),[]);
   const startTrack=(track:TrackId,cats:CategoryId[])=>{const fallback=cats[0]??'brasil';start(fallback,'mixed',cats);};
   const tileWidth=(Math.min(width,720)-50)/2;
+  const remainingCuriosities=sourcedCuriosityQuestions.filter(q=>!p.completedIds.includes(q.id)).length;
   return <>
     <Page contentContainerStyle={{paddingBottom:110,gap:18}}>
       <View style={{flexDirection:'row',alignItems:'center',gap:10}}>
         <View style={{flex:1}}><Txt size={28} bold accessibilityRole="header">Jogar</Txt><Txt size={13} color={C.muted}>Quizzes novos, rápidos e variados. Pergunta respondida sai da rotação normal.</Txt></View>
         <Pressable accessibilityRole="button" accessibilityLabel="Filtrar matérias" onPress={()=>setFilterOpen(true)} style={{width:48,height:48,borderRadius:24,borderWidth:1,borderColor:C.line,backgroundColor:C.white,alignItems:'center',justifyContent:'center'}}><Icon name="filter" size={21}/></Pressable>
       </View>
+
+      <Pressable onPress={()=>start('natureza','discover')} disabled={!remainingCuriosities} accessibilityRole="button" accessibilityLabel="Jogar curiosidades e fatos divertidos" accessibilityState={{disabled:remainingCuriosities===0}}>
+        <Card color={C.lemon} outlined style={{flexDirection:'row',gap:13,alignItems:'center',minHeight:132}}>
+          <View style={{width:58,height:58,borderRadius:19,backgroundColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name="sparkles" size={27} color={C.yellow}/></View>
+          <View style={{flex:1,gap:5}}><Chip color={C.white}>DESCOBRIR & JOGAR</Chip><Txt size={22} bold>Curiosidades divertidas</Txt><Txt size={12} color={C.muted}>Animais, astronomia, séries, games, comida e fatos inesperados.</Txt><Txt size={11} bold>{remainingCuriosities?`${remainingCuriosities} perguntas com fonte disponíveis`:'Você já descobriu todas as curiosidades desta edição'}</Txt></View>
+          <Icon name="chevron" size={19}/>
+        </Card>
+      </Pressable>
 
       <Card color={C.yellow} outlined style={{padding:17,gap:12}}>
         <View style={{flexDirection:'row',alignItems:'center',gap:12}}><View style={{flex:1,gap:4}}><Chip color="#FFFFFFB8" icon="sparkles">DESAFIO DO DIA</Chip><Txt size={25} bold>5 perguntas inéditas.</Txt><Txt size={13} color="#4C452B">Brasil + assuntos variados + até 120 XP. Nada de repetir o que você já respondeu.</Txt></View><CategoryArt id="brasil" size={84}/></View>
@@ -57,6 +68,15 @@ export function ExploreScreen({p,start,smartExam}:Props) {
           <View style={{flex:1}}><Chip color={C.white}>SIMULADO</Chip><Txt size={18} bold>Simulado Inteligente</Txt><Txt size={11} color={C.muted}>Descreva prova, banca, cargo, curso ou matérias e monte sessões de 20, 45 ou 60 questões.</Txt></View><Icon name="chevron" size={18}/>
         </Card>
       </Pressable>
+
+      <Card outlined style={{gap:8}}>
+        <View style={{flexDirection:'row',alignItems:'center',gap:9}}><Icon name="book" size={21}/><Txt size={18} bold>Provas oficiais para estudar</Txt></View>
+        <Txt size={12} color={C.muted}>Cadernos originais e gabaritos publicados pelo Inep. Abrem o site oficial; ainda não são questões incorporadas ao simulador do ZUP!.</Txt>
+        <View style={{flexDirection:'row',gap:8,flexWrap:'wrap'}}>
+          <Button title="ENEM: provas e gabaritos" variant="outline" icon="external" onPress={()=>void openHTTPS('https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos/2025')}/>
+          <Button title="Encceja: provas e gabaritos" variant="outline" icon="external" onPress={()=>void openHTTPS('https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja/provas-e-gabaritos')}/>
+        </View>
+      </Card>
 
       <Pressable onPress={()=>start(primary,'marathon',selected)} accessibilityRole="button">
         <Card color={C.greenLight} outlined style={{flexDirection:'row',alignItems:'center',gap:12}}>
@@ -78,7 +98,7 @@ export function ExploreScreen({p,start,smartExam}:Props) {
       {groups.map(group=><View key={group.title} style={{gap:10}}>
         <Txt size={20} bold>{group.title}</Txt>
         <View style={{flexDirection:'row',flexWrap:'wrap',gap:10}}>
-          {group.ids.map(id=>{const c=categories.find(x=>x.id===id);if(!c)return null;const remaining=questions.filter(q=>q.category===id&&!p.completedIds.includes(q.id)).length;return <Pressable key={`${group.title}-${id}`} accessibilityRole="button" onPress={()=>start(id)} style={({pressed})=>({width:tileWidth,minHeight:102,borderWidth:1.3,borderColor:C.ink,borderRadius:21,backgroundColor:c.light,padding:11,flexDirection:'row',alignItems:'center',gap:7,opacity:pressed?0.8:1})}><CategoryArt id={id} size={50}/><View style={{flex:1}}><Txt size={14} bold>{c.label}</Txt><Txt size={9} color={C.muted}>{remaining?`${remaining} novas`:'revisão disponível'}</Txt></View></Pressable>;})}
+          {group.ids.map(id=>{const c=categories.find(x=>x.id===id);if(!c)return null;const remaining=studyQuestions.filter(q=>q.category===id&&!p.completedIds.includes(q.id)).length;return <Pressable key={`${group.title}-${id}`} accessibilityRole="button" onPress={()=>start(id)} style={({pressed})=>({width:tileWidth,minHeight:102,borderWidth:1.3,borderColor:C.ink,borderRadius:21,backgroundColor:c.light,padding:11,flexDirection:'row',alignItems:'center',gap:7,opacity:pressed?0.8:1})}><CategoryArt id={id} size={50}/><View style={{flex:1}}><Txt size={14} bold>{c.label}</Txt><Txt size={9} color={C.muted}>{remaining?`${remaining} disponíveis`:'Sem questões inéditas'}</Txt></View></Pressable>;})}
         </View>
       </View>)}
     </Page>
@@ -90,7 +110,7 @@ export function ExploreScreen({p,start,smartExam}:Props) {
           <View style={{flex:1,alignItems:'center'}}><Txt size={18} bold>Filtro de tópicos</Txt><Txt size={10} color={C.muted}>{selected.length} selecionado{selected.length===1?'':'s'}</Txt></View>
           <Pressable accessibilityRole="button" accessibilityLabel="Jogar matérias selecionadas" onPress={()=>{setFilterOpen(false);start(primary,'mixed',selected);}} style={{width:44,height:44,borderRadius:22,backgroundColor:C.yellow,alignItems:'center',justifyContent:'center'}}><Icon name="play" size={19} filled/></Pressable>
         </View>
-        <ScrollView contentContainerStyle={{padding:12,paddingBottom:40}}>{categories.map(c=>{const active=selected.includes(c.id);return <Pressable key={c.id} onPress={()=>toggle(c.id)} accessibilityRole="checkbox" accessibilityState={{checked:active}} style={{minHeight:58,borderBottomWidth:1,borderColor:C.line,flexDirection:'row',alignItems:'center',gap:10,paddingVertical:7}}><View style={{width:38,height:38,borderRadius:12,backgroundColor:c.light,alignItems:'center',justifyContent:'center'}}><CategoryArt id={c.id} size={34}/></View><View style={{flex:1}}><Txt size={14} bold>{c.label}</Txt><Txt size={9} color={C.muted}>{questions.filter(q=>q.category===c.id&&!p.completedIds.includes(q.id)).length} novas</Txt></View><View style={{width:24,height:24,borderRadius:12,borderWidth:1.5,borderColor:active?C.ink:C.line,backgroundColor:active?C.ink:C.white,alignItems:'center',justifyContent:'center'}}>{active&&<Icon name="check" size={14} color={C.white}/>}</View></Pressable>;})}</ScrollView>
+        <ScrollView contentContainerStyle={{padding:12,paddingBottom:40}}>{categories.map(c=>{const active=selected.includes(c.id);return <Pressable key={c.id} onPress={()=>toggle(c.id)} accessibilityRole="checkbox" accessibilityState={{checked:active}} style={{minHeight:58,borderBottomWidth:1,borderColor:C.line,flexDirection:'row',alignItems:'center',gap:10,paddingVertical:7}}><View style={{width:38,height:38,borderRadius:12,backgroundColor:c.light,alignItems:'center',justifyContent:'center'}}><CategoryArt id={c.id} size={34}/></View><View style={{flex:1}}><Txt size={14} bold>{c.label}</Txt><Txt size={9} color={C.muted}>{studyQuestions.filter(q=>q.category===c.id&&!p.completedIds.includes(q.id)).length} novas</Txt></View><View style={{width:24,height:24,borderRadius:12,borderWidth:1.5,borderColor:active?C.ink:C.line,backgroundColor:active?C.ink:C.white,alignItems:'center',justifyContent:'center'}}>{active&&<Icon name="check" size={14} color={C.white}/>}</View></Pressable>;})}</ScrollView>
       </SafeAreaView>
     </Modal>
   </>;

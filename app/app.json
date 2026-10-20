@@ -3,7 +3,7 @@
     "name": "ZUP!",
     "slug": "zup",
     "scheme": "zup",
-    "version": "1.7.1",
+    "version": "2.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "backgroundColor": "#FBFAF7",

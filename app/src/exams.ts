@@ -1,6 +1,5 @@
 import type {CategoryId,Progress,Question,Session} from './types';
-import {questions} from './questions';
-import {shuffle} from './game';
+import {shuffle,studyQuestions,conceptKey,distinctConcepts,unseenStudyQuestions} from './game';
 
 export type ExamPreset={
   id:string;
@@ -94,35 +93,35 @@ export function buildExamPlan(query:string,presetId?:string,count=45):ExamPlan{
 function roundRobin(pool:Question[],categories:CategoryId[],random:()=>number,count:number):Question[]{
   const buckets=new Map<CategoryId,Question[]>();
   for(const cat of categories)buckets.set(cat,shuffle(pool.filter(q=>q.category===cat),random));
-  const result:Question[]=[];const used=new Set<string>(),concepts=new Set<string>();let cursor=0;
-  while(result.length<count&&cursor<count*categories.length*3){
-    const cat=categories[cursor%categories.length]!;const bucket=buckets.get(cat)??[];const q=bucket.shift();
-    if(q&&!used.has(q.id)){const key=`${q.category}:${q.topic??''}:${q.concept??q.id}`;if(!concepts.has(key)){used.add(q.id);concepts.add(key);result.push(q);}else bucket.push(q);}cursor++;
-    if([...buckets.values()].every(x=>x.length===0))break;
+  const result:Question[]=[],seen=new Set<string>();
+  while(result.length<count&&[...buckets.values()].some(bucket=>bucket.length>0)){
+    for(const cat of categories){
+      const bucket=buckets.get(cat),q=bucket?.shift();
+      if(!q)continue;
+      const key=conceptKey(q);
+      if(seen.has(key))continue;
+      seen.add(key);result.push(q);
+      if(result.length===count)break;
+    }
   }
-  if(result.length<count){for(const q of shuffle(pool,random)){if(used.has(q.id))continue;used.add(q.id);result.push(q);if(result.length===count)break;}}
   return result;
 }
 
 export function createExamSession(p:Progress,plan:ExamPlan,random=Math.random,now=Date.now()):Session|null{
-  const done=new Set(p.completedIds);
   const allowed=new Set(plan.categories);
-  const relevant=questions.filter(q=>allowed.has(q.category)&&!done.has(q.id));
-  const selected=roundRobin(relevant,plan.categories,random,plan.questionCount);
-  if(selected.length<plan.questionCount){
-    const used=new Set(selected.map(q=>q.id));
-    const fallback=shuffle(questions.filter(q=>!done.has(q.id)&&!used.has(q.id)&&(q.tracks?.includes('concursos')||q.tracks?.includes('enem'))),random);
-    for(const q of fallback){selected.push(q);used.add(q.id);if(selected.length===plan.questionCount)break;}
-  }
+  const relevant=unseenStudyQuestions(p,studyQuestions.filter(q=>allowed.has(q.category)&&q.kind!=='discover'&&!q.id.startsWith('t-')));
+  const selected=roundRobin(distinctConcepts(relevant,random,relevant.length),plan.categories,random,plan.questionCount);
+  // Se não houver questões novas da matéria, mostramos menos que o total
+  // pedido. Nunca preenchemos vagas com perguntas fora do simulado.
   if(!selected.length)return null;
   return {
     id:`exam-${now.toString(36)}-${Math.floor(random()*0x100000000).toString(36)}`,
     mode:'exam',category:selected[0]!.category,topicIds:unique(selected.map(q=>q.category)),examTitle:plan.title,examQuery:plan.query,
-    items:selected.map(q=>({questionId:q.id,order:shuffle([0,1,2,3],random)})),index:0,selected:null,revealed:false,answers:[],startedAt:now,
+    items:selected.map(q=>({questionId:q.id,order:shuffle(q.choices.map((_,i)=>i),random)})),index:0,selected:null,revealed:false,answers:[],startedAt:now,
   };
 }
 
 export function availableExamQuestionCount(p:Progress,plan:ExamPlan):number{
-  const done=new Set(p.completedIds),allowed=new Set(plan.categories);
-  return questions.filter(q=>allowed.has(q.category)&&!done.has(q.id)).length;
+  const allowed=new Set(plan.categories);
+  return new Set(unseenStudyQuestions(p,studyQuestions.filter(q=>allowed.has(q.category)&&q.kind!=='discover'&&!q.id.startsWith('t-'))).map(conceptKey)).size;
 }

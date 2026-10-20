@@ -1,6 +1,11 @@
 import type {Question} from './types';
+import {scenarioQuestions} from './scenarioQuestions';
 import {expandedQuestions} from './expandedQuestions';
+import {authoredQuestions} from './authoredQuestions';
+import {lessonQuestions} from './lessonQuestions';
 import {buildMassiveQuestions} from './massiveQuestions';
+import {sourcedCuriosityQuestions} from './externalQuestions';
+import {importedQuestions} from './importedQuestions';
 
 // IDs are permanent: saved progress and sessions reference them.
 const baseQuestions: Question[] = [
@@ -4995,7 +5000,7 @@ const baseQuestions: Question[] = [
       "2002"
     ],
     "answer": 1,
-    "fact": "A Constituição Federal vigente foi promulgada em 5 de outubro de 1988.",
+    "fact": "A promulgação ocorreu no contexto da redemocratização e da ampliação de direitos e garantias fundamentais.",
     "brazil": true,
     "tracks": [
       "concursos",
@@ -6648,4 +6653,4 @@ const baseQuestions: Question[] = [
 
 const legacyQuestions: Question[] = [...baseQuestions,...expandedQuestions];
 export const generatedQuestions: Question[] = buildMassiveQuestions(legacyQuestions);
-export const questions: Question[] = [...legacyQuestions,...generatedQuestions];
+export const questions: Question[] = [...legacyQuestions,...authoredQuestions,...scenarioQuestions,...lessonQuestions,...sourcedCuriosityQuestions,...importedQuestions.filter(q=>q.kind!=='discover'),...generatedQuestions];

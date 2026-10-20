@@ -8,10 +8,11 @@ import {SafeAreaProvider,SafeAreaView,initialWindowMetrics,useSafeAreaInsets} fr
 import Svg,{Circle,Path} from 'react-native-svg';
 import type {CategoryId,GameMode,CompanionId,MicroLesson,TrackId} from './src/types';
 import {useProgress} from './src/hooks/useProgress';
-import {createSession,createMicroSession,chooseAnswer,revealAnswer,nextQuestion,finishSession,dueReviewIds} from './src/game';
+import {createSession,createMicroSession,createCuriosityCardSession,chooseAnswer,revealAnswer,nextQuestion,finishSession,dueReviewIds} from './src/game';
 import {createExamSession} from './src/exams';
 import type {ExamPlan} from './src/exams';
-import {buyStreakFreeze,completeLesson,openLesson,toggleSavedLesson} from './src/learning';
+import {buyStreakFreeze,completeLesson,openLesson,toggleSavedLesson,lessonMap} from './src/learning';
+import {hydrateCachedContent,syncPreferredContent,syncCategoryContent} from './src/services/contentSync';
 import {Icon} from './src/components/Icon';
 import type {IconName} from './src/components/Icon';
 import {Txt,Button,IconButton} from './src/components/UI';
@@ -46,13 +47,17 @@ function Shell(){
   const [pending,setPending]=useState<{category:CategoryId;mode:GameMode;topics?:CategoryId[]}>({category:'brasil',mode:'category'});
   const [result,setResult]=useState<RoundResult|null>(null),[activeLesson,setActiveLesson]=useState<MicroLesson|null>(null);
   const [now,setNow]=useState(new Date()),[resetting,setResetting]=useState(false);
+  const [contentReady,setContentReady]=useState(false),[contentEpoch,setContentEpoch]=useState(0),[contentUpdating,setContentUpdating]=useState(false),[syncPing,setSyncPing]=useState(0);
+  const contentUpdated=()=>setContentEpoch(n=>n+1);
   const hydrated=useRef(false),background=screen==='onboarding'?C.lemon:C.cream;
   const immersiveHome=screen==='tabs'&&tab==='home';
   const statusStyle=immersiveHome?'light':'dark';
 
-  useEffect(()=>{if(!loading&&!loadError&&!hydrated.current){hydrated.current=true;setScreen(p.onboardingCompleted?'tabs':'onboarding');}},[loading,loadError,p.onboardingCompleted]);
+  useEffect(()=>{if(!loading&&!loadError&&contentReady&&!hydrated.current){hydrated.current=true;setScreen(p.onboardingCompleted?'tabs':'onboarding');}},[loading,loadError,contentReady,p.onboardingCompleted]);
+  useEffect(()=>{if(loading||loadError)return;let live=true;void hydrateCachedContent().then(()=>{if(live){setContentReady(true);contentUpdated();}}).catch(()=>{if(live)setContentReady(true);});return()=>{live=false;};},[loading,loadError]);
+  useEffect(()=>{if(!contentReady||!p.onboardingCompleted||p.activeSession)return;void syncPreferredContent(p.preferredTracks,contentUpdated,syncPing>0,()=>!current.current.activeSession);},[contentReady,p.onboardingCompleted,p.preferredTracks,p.activeSession,syncPing]);
   useEffect(()=>{if(Platform.OS!=='web')void SystemUI.setBackgroundColorAsync(background).catch(()=>{});},[background]);
-  useEffect(()=>{const listener=AppState.addEventListener('change',state=>{if(state==='active')setNow(new Date());});const timer=setInterval(()=>{if(AppState.currentState==='active')setNow(new Date());},60_000);return()=>{listener.remove();clearInterval(timer);};},[]);
+  useEffect(()=>{const listener=AppState.addEventListener('change',state=>{if(state==='active'){setNow(new Date());setSyncPing(x=>x+1);}});const timer=setInterval(()=>{if(AppState.currentState==='active')setNow(new Date());},60_000);return()=>{listener.remove();clearInterval(timer);};},[]);
   useEffect(()=>{if(screen!=='tabs')return;const index=tabs.findIndex(t=>t.id===tab);const timer=setTimeout(()=>pager.current?.scrollTo({x:index*pageWidth,animated:false}),0);return()=>clearTimeout(timer);},[screen,pageWidth]);
 
   function tap(kind:'select'|'success'|'error'='select'){if(!current.current.sound||Platform.OS==='web')return;const action=kind==='select'?Haptics.selectionAsync():Haptics.notificationAsync(kind==='success'?Haptics.NotificationFeedbackType.Success:Haptics.NotificationFeedbackType.Error);void action.catch(()=>{});}
@@ -67,24 +72,36 @@ function Shell(){
     if(mode==='review'&&!dueReviewIds(current.current).length){Alert.alert('Revisão em dia','Ainda não há itens vencidos. Continue aprendendo e o ZUP traz cada tema de volta na hora certa.');return;}
     if(current.current.activeSession){Alert.alert('Você tem um quiz em andamento','Pode retomá-lo ou começar outro.',[{text:'Cancelar',style:'cancel'},{text:'Retomar',onPress:()=>setScreen('quiz')},{text:'Novo quiz',onPress:open}]);}else open();
   }
-  function begin(){const s=createSession(current.current,pending.category,pending.mode,Math.random,Date.now(),pending.topics??[],true);if(!s){Alert.alert('Tudo revisado','Explore outro tema para descobrir mais.');setScreen('tabs');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();}
-  function microQuiz(questionId:string){
-    const open=()=>{const s=createMicroSession(current.current,questionId,Math.random,Date.now());if(!s){Alert.alert('Tema concluído','Você já respondeu as perguntas disponíveis deste tema. Ele continua na sua Biblioteca e pode voltar no modo Revisão.');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();};
+  async function begin(){setContentUpdating(true);try{await syncCategoryContent(pending.category,contentUpdated,()=>!current.current.activeSession);}finally{setContentUpdating(false);}const s=createSession(current.current,pending.category,pending.mode,Math.random,Date.now(),pending.topics??[],true);if(!s){Alert.alert('Sem questões novas','Ainda não há exercícios inéditos deste assunto. O ZUP! não repete definições nem questões já respondidas.');setScreen('tabs');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();}
+  function microQuiz(questionId:string,skipIntro=true){
+    const open=()=>{const s=createMicroSession(current.current,questionId,Math.random,Date.now(),skipIntro);if(!s){Alert.alert('Tema concluído','Você já respondeu as perguntas disponíveis deste tema. Se você salvou a aula, ela permanece na Biblioteca; não repetiremos as mesmas perguntas.');return;}update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();};
     if(current.current.activeSession){Alert.alert('Quiz em andamento','Retome o quiz atual ou troque por esta pergunta rápida.',[{text:'Cancelar',style:'cancel'},{text:'Retomar',onPress:()=>setScreen('quiz')},{text:'Trocar',onPress:open}]);}else open();
   }
+
+  function curiosityQuiz(questionId:string){
+    const open=()=>{const s=createCuriosityCardSession(current.current,questionId,Math.random,Date.now());
+      if(!s){Alert.alert('Curiosidade concluída','Você já respondeu esta pergunta. Veja outros temas no Pra você.');return;}
+      update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();};
+    if(current.current.activeSession){Alert.alert('Quiz em andamento','Retome a rodada atual ou abra esta curiosidade.',[
+      {text:'Cancelar',style:'cancel'},{text:'Retomar',onPress:()=>setScreen('quiz')},{text:'Trocar',onPress:open}]);}
+    else open();
+  }
+
   function select(choice:number){update(prev=>{if(!prev.activeSession)return prev;const s=chooseAnswer(prev.activeSession,choice);return s===prev.activeSession?prev:{...prev,activeSession:s};});tap();}
   function submit(){const before=current.current,s=before.activeSession;if(!s||s.selected===null)return;if(!s.revealed){const next=revealAnswer(s);if(next===s)return;update(prev=>prev.activeSession?.id===s.id?{...prev,activeSession:next}:prev);tap(next.answers[next.index]?.correct?'success':'error');return;}if(s.index<s.items.length-1){update(prev=>prev.activeSession?.id===s.id?{...prev,activeSession:nextQuestion(prev.activeSession)}:prev);return;}const after=update(prev=>finishSession(prev,s));if(after===before)return;setResult({session:s,beforeXP:before.xp,afterXP:after.xp});setScreen('result');setNow(new Date());tap('success');}
-  function startSmartExam(plan:ExamPlan){
+  async function startSmartExam(plan:ExamPlan){
+    setContentUpdating(true);try{for(const category of plan.categories.slice(0,2))await syncCategoryContent(category,contentUpdated,()=>!current.current.activeSession);}finally{setContentUpdating(false);}
     const s=createExamSession(current.current,plan,Math.random,Date.now());
-    if(!s){Alert.alert('Sem questões novas suficientes','Você já respondeu tudo que encontramos para esse plano. Use Revisão ou tente outras matérias.');return;}
+    if(!s){Alert.alert('Sem questões novas suficientes','Você já respondeu tudo que encontramos para esse plano. Experimente outra matéria; não reciclamos perguntas respondidas.');return;}
     update(prev=>({...prev,activeSession:s}));setScreen('quiz');tap();
   }
   function choosePet(id:CompanionId){update(prev=>({...prev,companionId:id}));setScreen('tabs');setTab('profile');tap('success');}
   function finishOnboarding(settings:{nickname:string;tracks:TrackId[];companionId:CompanionId;dailyGoal:number}){update(prev=>({...prev,nickname:settings.nickname,preferredTracks:settings.tracks,companionId:settings.companionId,dailyGoal:settings.dailyGoal,onboardingCompleted:true}));setScreen('tabs');setTab('home');tap('success');}
-  function readLesson(lesson:MicroLesson){setActiveLesson(lesson);update(prev=>openLesson(prev,lesson.id));setScreen('lesson');tap();}
+  function readLesson(lesson:MicroLesson){setActiveLesson(lessonMap.get(lesson.id)??lesson);update(prev=>openLesson(prev,lesson.id));setScreen('lesson');tap();
+    if(!current.current.activeSession)void syncCategoryContent(lesson.category,contentUpdated,()=>!current.current.activeSession);}
   function confirmReset(){Alert.alert('Apagar seus dados locais?','Isso remove apelido, XP, estrelas, biblioteca, evoluções, respostas e a cópia local de recuperação. Não é possível desfazer.',[{text:'Cancelar',style:'cancel'},{text:'Apagar',style:'destructive',onPress:()=>{setResetting(true);void reset().then(()=>{setResult(null);setActiveLesson(null);setScreen('onboarding');setTab('home');}).catch(()=>Alert.alert('Não foi possível apagar','Seus dados não foram redefinidos. Tente novamente.')).finally(()=>setResetting(false));}}]);}
 
-  if(loading)return <View style={[styles.center,{backgroundColor:C.lemon}]}><CreatureArt id="oniri" size={130}/><ActivityIndicator color={C.ink}/><Txt bold>Preparando seu feed...</Txt></View>;
+  if(loading||(!contentReady&&!loadError))return <View style={[styles.center,{backgroundColor:C.lemon}]}><CreatureArt id="oniri" size={130}/><ActivityIndicator color={C.ink}/><Txt bold>Preparando seu feed...</Txt></View>;
   if(loadError)return <SafeAreaView style={styles.center}><Icon name="shield" size={46}/><Txt size={25} bold>Vamos proteger seu progresso</Txt><Txt color={C.muted} style={{textAlign:'center'}}>Não foi possível ler os dados locais. Tente novamente antes de reiniciar sua jornada.</Txt><Button title="Tentar novamente" disabled={resetting} onPress={()=>void reload()}/><Button title={resetting?'Apagando dados...':'Apagar dados e recomeçar'} disabled={resetting} variant="outline" icon="trash" onPress={confirmReset}/></SafeAreaView>;
 
   const secondary=screen==='companions'||screen==='intro'||screen==='about'||screen==='lesson'||screen==='awards'||screen==='examBuilder';
@@ -100,9 +117,9 @@ function Shell(){
         {screen==='onboarding'&&<OnboardingScreen p={p} finish={finishOnboarding}/>}        
         {screen==='tabs'&&<View style={styles.root}>
           <ScrollView ref={pager} horizontal pagingEnabled bounces={false} directionalLockEnabled nestedScrollEnabled showsHorizontalScrollIndicator={false} onMomentumScrollEnd={onPagerEnd} scrollEventThrottle={16} style={styles.root} contentContainerStyle={{flexGrow:1}}>
-            <View style={{width:pageWidth,flex:1}}><HomeScreen p={p} now={now} topInset={insets.top} bottomInset={insets.bottom+58} start={requestStart} resume={()=>setScreen('quiz')} profile={()=>goTab('profile')} companions={()=>setScreen('companions')} explore={()=>goTab('quizhub')} read={readLesson} save={id=>update(prev=>toggleSavedLesson(prev,id))} open={id=>update(prev=>openLesson(prev,id))} microQuiz={microQuiz}/></View>
+            <View style={{width:pageWidth,flex:1}}><HomeScreen p={p} now={now} contentEpoch={contentEpoch} topInset={insets.top} bottomInset={insets.bottom+58} start={requestStart} resume={()=>setScreen('quiz')} profile={()=>goTab('profile')} companions={()=>setScreen('companions')} explore={()=>goTab('quizhub')} read={readLesson} save={id=>update(prev=>toggleSavedLesson(prev,id))} open={id=>update(prev=>openLesson(prev,id))} microQuiz={microQuiz} curiosityQuiz={curiosityQuiz}/></View>
             <View style={{width:pageWidth,flex:1}}><ExploreScreen p={p} start={requestStart} smartExam={()=>setScreen('examBuilder')}/></View>
-            <View style={{width:pageWidth,flex:1}}><LibraryScreen p={p} read={readLesson}/></View>
+            <View style={{width:pageWidth,flex:1}}><LibraryScreen p={p} read={readLesson} contentEpoch={contentEpoch}/></View>
             <View style={{width:pageWidth,flex:1}}><ProfileScreen p={p} now={now} update={update} companions={()=>setScreen('companions')} awards={()=>setScreen('awards')} about={()=>setScreen('about')} reset={confirmReset} buyFreeze={()=>update(prev=>buyStreakFreeze(prev))}/></View>
           </ScrollView>
           <View style={[immersiveHome?styles.tabbarHome:styles.tabbar,{paddingBottom:Math.max(8,insets.bottom),bottom:0}]}>{tabs.map((t,index)=>{const active=tab===t.id;const fg=immersiveHome?(active?C.yellow:C.white):(active?C.ink:C.muted);return <Pressable key={t.id} onPress={()=>goTab(t.id)} accessibilityRole="tab" accessibilityLabel={t.label} accessibilityState={{selected:active}} style={styles.tab}><View style={[styles.tabIcon,{backgroundColor:immersiveHome?'transparent':active?C.yellow:'transparent'}]}><Icon name={t.icon} size={22} color={fg} filled={active&&index===0}/></View><Txt size={10} bold={active} color={fg} style={{textAlign:'center'}}>{t.label}</Txt></Pressable>;})}</View>
@@ -119,13 +136,14 @@ function Shell(){
               {screen==='intro'&&<IntroScreen category={pending.category} mode={pending.mode} count={pending.mode==='review'?Math.min(5,dueReviewIds(p,now).length):pending.mode==='marathon'?10:5} start={begin}/>}
               {screen==='about'&&<AboutScreen/>}
               {screen==='examBuilder'&&<ExamBuilderScreen p={p} start={startSmartExam}/>}
-              {screen==='lesson'&&activeLesson&&<LessonScreen lesson={activeLesson} p={p} save={()=>update(prev=>toggleSavedLesson(prev,activeLesson.id))} complete={()=>{const before=current.current.learnedLessonIds.length;const after=update(prev=>completeLesson(prev,activeLesson.id,new Date()));if(after.learnedLessonIds.length>before)tap('success');}} quiz={()=>microQuiz(activeLesson.quizQuestionId)}/>}
+              {screen==='lesson'&&activeLesson&&<LessonScreen lesson={lessonMap.get(activeLesson.id)??activeLesson} p={p} save={()=>update(prev=>toggleSavedLesson(prev,activeLesson.id))} complete={()=>{const before=current.current.learnedLessonIds.length;const after=update(prev=>completeLesson(prev,activeLesson.id,new Date()));if(after.learnedLessonIds.length>before)tap('success');}} quiz={()=>microQuiz(activeLesson.quizQuestionId,true)}/>}
               {screen==='awards'&&<AwardsScreen p={p} now={now}/>}
             </SafeAreaView>
           </>
         )}
         {screen==='quiz'&&session&&<QuizScreen session={session} bottom={insets.bottom} select={select} submit={submit} pause={pause}/>}        
         {screen==='result'&&result&&<ResultScreen p={p} result={result} bottom={insets.bottom} home={()=>{setScreen('tabs');setTab('home');}} again={()=>result.session.mode==='micro'?microQuiz(result.session.sourceQuestionId??result.session.items[0]!.questionId):result.session.mode==='exam'?startSmartExam({title:result.session.examTitle??'Simulado inteligente',query:result.session.examQuery??'simulado geral',categories:result.session.topicIds??[result.session.category],questionCount:result.session.items.length,note:'Novo simulado com questões ainda não respondidas.'}):requestStart(result.session.category,result.session.mode,result.session.topicIds)} review={()=>requestStart('brasil','review')}/>}        
+        {contentUpdating&&<View accessibilityViewIsModal style={[StyleSheet.absoluteFill,styles.resetOverlay]}><ActivityIndicator size="large" color={C.ink}/><Txt bold>Atualizando os conteudos publicados...</Txt></View>}
         {resetting&&<View accessibilityViewIsModal style={[StyleSheet.absoluteFill,styles.resetOverlay]}><ActivityIndicator size="large" color={C.ink}/><Txt bold>Apagando dados locais...</Txt></View>}
       </KeyboardAvoidingView>
     </SafeAreaView>

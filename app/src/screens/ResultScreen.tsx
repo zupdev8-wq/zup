@@ -33,11 +33,11 @@ export function ResultScreen({p,result,bottom,home,again,review}:{p:Progress;res
     </View>
     <Pressable onPress={()=>setExpanded(v=>!v)} accessibilityRole="button" accessibilityState={{expanded}}
       style={{alignSelf:'stretch',minHeight:50,flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
-      <Txt bold>Rever minhas descobertas</Txt><Icon name={expanded?'close':'book'} size={20}/>
+      <Txt bold>Conferir meu desempenho</Txt><Icon name={expanded?'close':'book'} size={20}/>
     </Pressable>
     {expanded&&s.answers.map(a=>{const q=questionMap.get(a.questionId);if(!q)return null;return <Card key={a.questionId} style={{alignSelf:'stretch'}}>
       <View style={{flexDirection:'row',gap:8}}><Icon name={a.correct?'check':'book'} color={a.correct?C.success:C.muted} size={20}/><Txt bold size={15} style={{flex:1}}>{q.question}</Txt></View>
-      <Txt bold size={14}>{q.choices[q.answer]}</Txt><Txt size={14} color={C.muted}>{q.fact}</Txt>
+      <Txt size={14} color={C.muted}>{a.correct?'Resolvida corretamente.':'Resposta adequada:'}</Txt>{!a.correct&&<Txt bold size={14}>{q.choices[q.answer]}</Txt>}
     </Card>;})}
   </Page>;
 }

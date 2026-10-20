@@ -11,7 +11,8 @@ export type CategoryId =
 export type TrackId =
   | 'geral' | 'brasil' | 'brasil-vivido' | 'geopolitica' | 'enem' | 'concursos'
   | 'faculdade' | 'humanas' | 'exatas' | 'biologicas' | 'entretenimento'
-  | 'cinema' | 'series' | 'livros' | 'religioes' | 'pensamento' | 'historia' | 'ciencia' | 'artes' | 'tecnologia' | 'revalida';
+  | 'cinema' | 'series' | 'livros' | 'religioes' | 'pensamento' | 'historia' | 'ciencia' | 'artes' | 'tecnologia' | 'revalida'
+  | 'games' | 'esportes' | 'musica' | 'animais';
 
 export type CompanionId = 'capilu' | 'oniri' | 'arumi' | 'guarim';
 export type Difficulty = 'facil' | 'medio' | 'dificil';
@@ -23,7 +24,7 @@ export type Question = {
   topic?: string;
   concept?: string;
   question: string;
-  choices: [string, string, string, string];
+  choices: [string, string, string, string] | [string, string, string, string, string];
   answer: number;
   fact: string;
   brazil?: boolean;
@@ -33,6 +34,28 @@ export type Question = {
   imageUrl?: string;
   imageAlt?: string;
   imageSource?: SourceRef;
+  /** Additional library metadata supplied by a licensed, human-reviewed question bank. */
+  universe?: string;
+  workTitle?: string;
+  sourceLabel?: string;
+  sourceLicense?: string;
+  sourceYear?: string;
+  sourceItemId?: string;
+  attribution?: string;
+  licenseUrl?: string;
+  rightsStatus?: string;
+  rightsBasis?: string;
+  kind?: 'discover' | 'study';
+};
+
+export type SupplementalReading = {
+  kind: 'book' | 'paper' | 'primary';
+  title: string;
+  creators: string;
+  /** Um objetivo de leitura escrito para o assunto especifico. */
+  focus: string;
+  url?: string;
+  language?: 'pt' | 'en';
 };
 
 export type MicroLesson = {
@@ -44,6 +67,17 @@ export type MicroLesson = {
   summary: string;
   body: string[];
   takeaway: string;
+  /** Leitura opcional com informação nova, nunca cópia do resumo. */
+  readMore?: {heading:string;sections:{title:string;text:string}[]};
+  /** Bibliografia orientada, sem preencher com links/obras inventados. */
+  recommendedReadings?: SupplementalReading[];
+  /** Pergunta aplicada, com guia de raciocinio revelado voluntariamente. */
+  selfCheck?: {question:string;hint:string};
+  /** Exemplo editorial opcional: nunca preenchido por templates genéricos. */
+  example?: string;
+  comparison?: string;
+  bodyLabel?: string;
+  takeawayLabel?: string;
   quizQuestionId: string;
   minutes: 1 | 2 | 3 | 5;
   updatedAt: string;
@@ -51,7 +85,7 @@ export type MicroLesson = {
   sources: SourceRef[];
 };
 
-export type GameMode = 'category' | 'daily' | 'review' | 'mixed' | 'micro' | 'marathon' | 'exam';
+export type GameMode = 'category' | 'daily' | 'review' | 'mixed' | 'micro' | 'marathon' | 'exam' | 'discover';
 export type SessionItem = { questionId: string; order: number[] };
 export type SessionAnswer = { questionId: string; choice: number; correct: boolean };
 export type Session = {

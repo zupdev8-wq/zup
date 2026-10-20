@@ -1,7 +1,12 @@
 import type {CategoryId,MicroLesson,Progress,Question,SourceRef,TrackId} from './types';
 import {questions} from './questions';
+import {sourcedCuriosityQuestions} from './externalQuestions';
 import {getCategory} from './catalog';
-import {localDate} from './game';
+import {localDate,questionMap} from './game';
+import {publishedBundles} from './liveContent';
+import {editorialByConcept,editorialByQuestionId} from './editorialLessons';
+import {deepDivesByConcept} from './deepDives';
+import {readingsForLesson,selfChecksByQuizId} from './readingLibrary';
 
 const source = (title:string,url:string):SourceRef => ({title,url});
 const CF=source('Planalto · Constituição Federal','https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm');
@@ -16,11 +21,11 @@ const CAMARA=source('Câmara dos Deputados · Entenda o processo legislativo','h
 export function questionTracks(q:Question):TrackId[] {
   if(q.tracks?.length)return q.tracks;
   const map:Partial<Record<CategoryId,TrackId[]>>={
-    brasil:['brasil','enem','concursos'], historia:['historia','enem','concursos','humanas'], natureza:['ciencia','enem','biologicas'], espaco:['ciencia','geral'],
-    ciencia:['ciencia','enem'], cultura:['geral','enem','humanas'], geografia:['enem','geopolitica','humanas'], esportes:['entretenimento','geral'], tecnologia:['ciencia','exatas','geral'],
+    brasil:['brasil','enem','concursos'], historia:['historia','enem','concursos','humanas'], natureza:['ciencia','animais','enem','biologicas'], espaco:['ciencia','geral'],
+    ciencia:['ciencia','enem'], cultura:['geral','enem','humanas'], geografia:['enem','geopolitica','humanas'], esportes:['esportes','entretenimento','geral'], tecnologia:['ciencia','exatas','geral'],
     gastronomia:['brasil','entretenimento'], artes:['historia','enem','humanas'], mundo:['geopolitica','geral'], geopolitica:['geopolitica','enem','concursos','humanas'],
     constituicao:['brasil','concursos','humanas'], portugues:['enem','concursos','humanas'], economia:['brasil','enem','concursos','humanas'], raciocinio:['enem','concursos','exatas'],
-    cinema:['entretenimento','cinema','humanas'], series:['entretenimento','series'], musica:['entretenimento','humanas'], games:['entretenimento','tecnologia'],
+    cinema:['entretenimento','cinema','humanas'], series:['entretenimento','series'], musica:['musica','entretenimento','humanas'], games:['games','entretenimento','tecnologia'],
     literatura:['livros','humanas','enem'], filosofia:['pensamento','humanas','enem'], sociologia:['humanas','enem','faculdade'], psicologia:['faculdade','humanas','biologicas'],
     religioes:['religioes','humanas','pensamento'], teologia:['religioes','faculdade','humanas'], midia:['pensamento','humanas','enem','concursos'], cidadania:['brasil-vivido','brasil','humanas'],
     matematica:['exatas','enem','concursos','faculdade'], fisica:['exatas','enem','faculdade','ciencia'], quimica:['exatas','enem','faculdade','ciencia'], biologia:['biologicas','enem','faculdade','ciencia'],
@@ -60,115 +65,206 @@ const rich:Record<string,Override>={
   'portugues-05':{title:'Os quatro “porquês” ficam fáceis quando você olha a função',hook:'Separado costuma aparecer em perguntas; junto costuma introduzir explicação.',summary:'“Por que”, “porque”, “por quê” e “porquê” têm funções diferentes.',body:['“Por que” aparece em perguntas diretas ou indiretas. “Porque” pode introduzir causa ou explicação. “Por quê” aparece no fim de uma pergunta.','“Porquê” é substantivo e normalmente vem acompanhado de determinante: “o porquê”, “um porquê”.'],takeaway:'Em vez de decorar posição, identifique se a expressão pergunta, explica ou funciona como substantivo.',minutes:2,tracks:['enem','concursos']},
   'portugues-20':{title:'A tese é o coração de um texto argumentativo',hook:'Se você não sabe o que o autor está defendendo, os argumentos parecem informações soltas.',summary:'A tese é a ideia central que um texto argumentativo procura sustentar.',body:['Argumentos podem usar dados, exemplos, comparações, causas, consequências e referências para fortalecer a tese.','No ENEM, reconhecer a tese melhora a leitura de artigos, charges e textos de opinião — e também ajuda a organizar a própria redação.'],takeaway:'Pergunte sempre: “qual posição este texto quer que eu aceite ou considere?”',minutes:2,sources:[INEP],tracks:['enem','concursos']},
   'raciocinio-05':{title:'Subir 10% e cair 10% não leva ao mesmo lugar',hook:'Percentuais iguais podem produzir efeitos diferentes quando a base muda.',summary:'Se 100 aumenta 10%, vira 110. Uma queda de 10% sobre 110 leva a 99.',body:['O erro comum é somar +10% e −10% como se fossem mudanças sobre a mesma base.','Esse tipo de raciocínio aparece em descontos sucessivos, inflação, rendimentos, estatística e questões de concurso.'],takeaway:'Antes de calcular porcentagem, identifique qual é a base de cada mudança.',minutes:1,tracks:['enem','concursos']},
-  'raciocinio-08':{title:'Negar “todos” não significa dizer “nenhum”',hook:'Em lógica, basta um contraexemplo para derrubar uma afirmação universal.',summary:'A negação de “todos os candidatos chegaram cedo” é “pelo menos um candidato não chegou cedo”.',body:['A afirmação original exige que cada integrante do grupo satisfaça a propriedade. Para torná-la falsa, basta que exista uma exceção.','Essa relação entre quantificadores aparece com frequência em raciocínio lógico de concursos.'],takeaway:'Negação de “todo” → “existe pelo menos um que não”.',minutes:1,tracks:['concursos']},
+  'raciocinio-08':{title:'Negar “todos” não significa dizer “nenhum”',hook:'Em lógica, basta um contraexemplo para derrubar uma afirmação universal.',summary:'A negação de “todos os candidatos chegaram cedo” é “pelo menos um candidato não chegou cedo”.',body:['A afirmação original exige que cada integrante do grupo satisfaça a propriedade. Para torná-la falsa, basta que exista uma exceção.','Essa relação entre quantificadores aparece com frequência em raciocínio lógico de concursos.'],takeaway:'Em provas, suspeite da troca automática de “todos” por “nenhum”: ela exagera o que seria necessário demonstrar.',minutes:1,tracks:['concursos']},
   'ciencia-03':{title:'Fotossíntese é uma conversão de energia',hook:'Plantas não “comem luz”: elas usam energia luminosa para produzir moléculas orgânicas.',summary:'Na fotossíntese, organismos usam luz para sustentar reações que transformam água e dióxido de carbono em compostos energéticos.',body:['O processo libera oxigênio como consequência de etapas que envolvem água e transferência de elétrons.','Em ecologia, a fotossíntese ajuda a explicar a entrada de energia nos ecossistemas e o papel dos produtores nas cadeias alimentares.'],takeaway:'Energia entra; matéria é reorganizada. Esses dois fluxos não são a mesma coisa.',minutes:2,tracks:['ciencia','enem']},
 };
 
-const fallbackBody:Partial<Record<CategoryId,string>>={
-  brasil:'Conecte esse fato ao território, às instituições e às diferentes experiências de quem vive no Brasil. Evite tratar um país continental como se tivesse uma única realidade.',
-  historia:'Localize o fato no tempo e procure o que mudou antes e depois dele. História é processo, disputa e consequência — não apenas coleção de datas.',
-  natureza:'Pense nas relações entre organismos, ambiente, água, clima e uso do solo. Ecossistemas funcionam por conexões.',
-  espaco:'Compare escalas: planeta, estrela, sistema e galáxia. Astronomia exige distinguir tamanho, distância e movimento.',
-  ciencia:'Transforme a curiosidade em mecanismo: o que causa o fenômeno e quais evidências sustentam a explicação?',
-  cultura:'Observe como símbolos, práticas e obras expressam valores, identidades e disputas de uma sociedade.',
-  geografia:'Pergunte onde ocorre, por que ocorre ali e como fluxos de pessoas, mercadorias e poder organizam o espaço.',
-  esportes:'Regras e contexto histórico ajudam a entender por que modalidades mudam ao longo do tempo.',
-  tecnologia:'Tecnologia combina conhecimento, infraestrutura e escolhas sociais; não é apenas um aparelho novo.',
-  gastronomia:'Comida também registra migrações, território, trabalho e trocas culturais.',
-  artes:'Uma obra pode ser lida pela técnica, pelo contexto, pelas referências e pelo efeito que busca produzir.',
-  mundo:'Compare regiões sem tratar países como blocos homogêneos; história e instituições importam.',
-  geopolitica:'Observe interesses, capacidades, instituições, território e dependências. Geopolítica raramente tem uma causa única.',
-  constituicao:'Em provas e na vida pública, diferencie regra, exceção, competência e aplicação prática.',
-  portugues:'Identifique a função da palavra ou estrutura dentro da frase. A regra fica mais estável quando você entende o uso.',
-  economia:'Separe variável nominal, variável real, incentivos e efeitos de curto e longo prazo antes de concluir.',
-  raciocinio:'Defina a base do cálculo, escreva as relações e só depois faça as contas. Isso reduz erros por impulso.',
-  cidadania:'Experiências urbanas e territoriais variam muito. Entender infraestrutura, mobilidade e desigualdade ajuda a enxergar pessoas além dos estereótipos.',
-  religioes:'Religiões possuem diversidade interna. Aprender termos e práticas ajuda a trocar caricaturas por contexto e respeito.',
-  teologia:'Diferencie descrição histórica, interpretação teológica e crença pessoal. O objetivo aqui é compreender ideias, não dizer ao usuário em que acreditar.',
-  literatura:'Livros ampliam repertório quando conectamos linguagem, contexto, personagem e problema humano.',
-  filosofia:'Pergunte quais razões sustentam uma ideia, quais pressupostos ela usa e que objeções podem ser feitas.',
-  midia:'Antes de compartilhar, verifique fonte, data, evidência, contexto e o que ficou de fora da narrativa.',
-  sociologia:'Ligue experiências individuais a instituições, grupos, desigualdades e transformações sociais.',
-  psicologia:'Diferencie intuição sobre comportamento de resultados obtidos com métodos e evidências.',
-  cinema:'Observe enquadramento, montagem, som, atuação e contexto: forma também produz significado.',
-  series:'Narrativas seriadas constroem expectativa ao distribuir conflitos, informações e mudanças ao longo do tempo.',
-  musica:'Música carrega técnica, memória, identidade e história social.',
-  games:'Jogos ensinam por regras, feedback, repetição e escolhas — o sistema também comunica ideias.',
-  matematica:'Traduza a situação em relações matemáticas antes de operar símbolos.',
-  fisica:'Identifique grandezas, unidades e relações causais antes de escolher uma fórmula.',
-  quimica:'Observe partículas, proporções, energia e condições da transformação.',
-  biologia:'Conecte estrutura, função, evolução e ambiente para evitar decorar nomes isolados.',
-  direito:'Leia a regra junto de seus limites e da competência de cada instituição.',
-  administracao:'Objetivos, pessoas, processos e indicadores precisam estar conectados para a gestão fazer sentido.',
-  contabilidade:'Pense em eventos econômicos e em como eles alteram recursos, obrigações e resultado.',
-  informatica:'Entenda o princípio por trás da ferramenta; provas mudam interfaces, mas conceitos permanecem.',
-  medicina:'Conteúdo educacional não substitui formação clínica. Foque anatomia, fisiologia, mecanismos, evidência e raciocínio clínico básico.',
-  revalida:'Use os casos como treino educacional: reconheça padrões, priorize segurança, SUS e raciocínio clínico. O conteúdo não substitui orientação profissional nem protocolos oficiais atualizados.',
-  enfermagem:'Segurança, processo de cuidado e comunicação são tão importantes quanto memorizar procedimentos.',
-  farmacia:'Relacione forma farmacêutica, farmacocinética, efeito e segurança.',
-  biomedicina:'Laboratório exige método, controle de qualidade e interpretação cuidadosa de resultados.',
-  engenharia:'Transforme requisitos em modelos, verifique limites e deixe margens para incerteza.',
-  computacao:'Quebre problemas em dados, regras, abstrações e testes verificáveis.',
-};
-const genericFallback='Aprender fica mais forte quando você conecta o conceito a um exemplo, compara alternativas e explica a ideia com suas próprias palavras.';
-
+/**
+ * O catálogo contém variantes de quiz do mesmo conceito, não aulas redigidas.
+ * Nunca reutilize o fact nas seções de corpo/lembrança: aqui escolhemos
+ * informações DISTINTAS para contextualizar os cards sem inventar exemplos.
+ * Conceitos curados têm explicação, situação prática e contraponto próprios.
+ */
+const normalizeText=(value:string)=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const textWords=(value:string)=>new Set(normalizeText(value).split(' ').filter(word=>word.length>4));
+const questionTerm=(q:Question)=>q.concept??q.choices[q.answer]??q.question;
+// Antigos textos produzidos por templates nunca entram na interface de aulas.
+// O aplicativo não precisa montar milhares de parágrafos semelhantes na inicialização.
 function titleFrom(q:Question):string {
   const clean=q.question.replace(/[?!.]+$/,'').trim();
   return clean.length<=64?clean:`${clean.slice(0,61).trimEnd()}…`;
 }
 function defaultLesson(q:Question):MicroLesson {
-  const t=questionTracks(q), title=q.concept??titleFrom(q);
-  const summary=q.fact.length>28?q.fact:`${q.fact} Veja como essa ideia aparece em situações reais, estudos e provas.`;
   return {
-    id:`lesson-${q.id}`,category:q.category,tracks:t,title,hook:q.concept?`Entenda ${q.concept} sem enrolação e teste se você realmente pegou a ideia.`:q.question,summary,
-    body:[q.fact,fallbackBody[q.category]??genericFallback],takeaway:q.fact,quizQuestionId:q.id,minutes:q.concept?2:1,updatedAt:'2026-10-16',evergreen:true,
+    id:`lesson-${q.id}`,category:q.category,tracks:questionTracks(q),
+    title:q.concept??titleFrom(q),hook:'',summary:q.fact,
+    body:[],bodyLabel:'CONEXÕES DO ASSUNTO',takeaway:'',takeawayLabel:'',
+    quizQuestionId:q.id,minutes:2,updatedAt:'2026-10-17',evergreen:true,
     sources:q.source?[q.source]:[],
   };
 }
 
 function mergeLesson(q:Question):MicroLesson {
-  const base=defaultLesson(q),o=rich[q.id];
-  return o?{...base,...o,id:base.id,category:q.category,quizQuestionId:q.id}:base;
+  const base=defaultLesson(q);
+  const editorial=editorialByConcept[`${q.category}|${q.concept??''}`]??editorialByQuestionId[q.id];
+  const special=rich[q.id];
+  const readMore=deepDivesByConcept[`${q.category}|${q.concept??''}`];
+  const recommendedReadings=readingsForLesson(q.id);
+  const selfCheck=selfChecksByQuizId[q.id];
+  return {...base,...editorial,...special,...(readMore?{readMore}:{}),recommendedReadings,...(selfCheck?{selfCheck}:{}),id:base.id,category:q.category,quizQuestionId:q.id,
+    bodyLabel:editorial||special?'ENTENDA MELHOR':base.bodyLabel,
+    takeawayLabel:editorial||special?'IDEIA QUE VALE GUARDAR':base.takeawayLabel};
 }
 
-const lessonKey=(q:Question)=>q.concept?`${q.category}:${q.topic??''}:${q.concept}`:q.id;
-const lessonQuestions=new Map<string,Question>();
-for(const q of questions){const key=lessonKey(q);if(!lessonQuestions.has(key))lessonQuestions.set(key,q);}
-export const microLessons:MicroLesson[]=[...lessonQuestions.values()].map(mergeLesson);
+// Uma identidade por conceito e disciplina, ainda que várias fichas do acervo usem tópicos diferentes.
+const lessonKey=(q:Question)=>q.concept?`${q.category}:${normalizeText(q.concept)}`:q.id;
+const publishedQuestions=new Map<string,Question>();
+for(const q of questions){
+  const concept=`${q.category}|${q.concept??''}`;
+  if(!(editorialByConcept[concept]||editorialByQuestionId[q.id]||rich[q.id]))continue;
+  const key=lessonKey(q);
+  if(!publishedQuestions.has(key))publishedQuestions.set(key,q);
+}
+const curatedDrafts=[...publishedQuestions.values()].map(mergeLesson);
+const publishedSummaries=new Set<string>();
+const publishedConcepts=new Set<string>();
+// Aulas com títulos diferentes podem ensinar a MESMA definição. Agrupamos
+// manualmente os casos editoriais identificados para publicar apenas uma delas.
+const equivalentLessons:Record<string,string>={
+  'raciocinio-12':'rapidez-media',
+  'g-04014':'rapidez-media', // mesmo cálculo de 180 km / 3 h
+  'economia-08':'custo-oportunidade',
+  'h-0052':'custo-oportunidade', // mesmo conceito, título diferente
+};
+export const microLessons:MicroLesson[]=curatedDrafts.filter(l=>{
+  if(l.body.length===0)return false;
+  const definition=normalizeText(l.summary);
+  const key=`${l.category}:${equivalentLessons[l.quizQuestionId]??normalizeText(l.title)}`;
+  if(publishedSummaries.has(definition)||publishedConcepts.has(key))return false;
+  publishedSummaries.add(definition);publishedConcepts.add(key);return true;
+});
 export const lessonMap=new Map(microLessons.map(l=>[l.id,l]));
-const lessonByKey=new Map(microLessons.map(l=>{const q=questions.find(x=>x.id===l.quizQuestionId)!;return [lessonKey(q),l] as const;}));
+const lessonByKey=new Map(microLessons.map(l=>{
+  const q=publishedQuestions.get(lessonKey(questions.find(x=>x.id===l.quizQuestionId)!))!;
+  return [lessonKey(q),l] as const;
+}));
+/** Somente perguntas ligadas a aulas editoriais completas retornam conteúdo.
+ * Não expor definições do acervo gerado como se fossem aulas publicadas. */
 export const lessonByQuestion=new Map<string,MicroLesson>();
-for(const q of questions){const lesson=lessonByKey.get(lessonKey(q));if(lesson)lessonByQuestion.set(q.id,lesson);}
+for(const q of questions){const l=lessonByKey.get(lessonKey(q));if(l)lessonByQuestion.set(q.id,l);}
+const bundledLessons=[...microLessons];
+const bundledQuestionLessonIds=new Map([...lessonByQuestion].map(([id,l])=>[id,l.id]));
+export function refreshLessonCatalog():void {
+  const overrides=new Map<string,MicroLesson>();
+  const removed=new Set<string>();
+  const owners=new Map(bundledLessons.map(l=>[l.id,l.category]));
+  for(const bundle of publishedBundles.values()){
+    for(const id of bundle.retiredLessonIds)if(!owners.has(id)||owners.get(id)===bundle.category)removed.add(id);
+    for(const lesson of bundle.lessons){
+      if(owners.has(lesson.id)&&owners.get(lesson.id)!==bundle.category)continue;
+      owners.set(lesson.id,bundle.category);overrides.set(lesson.id,lesson);
+    }
+  }
+  const result=new Map<string,MicroLesson>();
+  for(const lesson of bundledLessons)if(!removed.has(lesson.id))result.set(lesson.id,overrides.get(lesson.id)??lesson);
+  for(const lesson of overrides.values())if(!removed.has(lesson.id)&&questionMap.has(lesson.quizQuestionId))result.set(lesson.id,lesson);
+  microLessons.splice(0,microLessons.length,...result.values());
+  lessonMap.clear();lessonByQuestion.clear();
+  for(const lesson of microLessons)lessonMap.set(lesson.id,lesson);
+  for(const [qId,lId] of bundledQuestionLessonIds){const l=lessonMap.get(lId);if(l&&questionMap.has(qId))lessonByQuestion.set(qId,l);}
+  for(const lesson of microLessons)if(questionMap.has(lesson.quizQuestionId))lessonByQuestion.set(lesson.quizQuestionId,lesson);
+}
+
 
 const stableHash=(value:string)=>{let h=2166136261;for(let i=0;i<value.length;i++){h^=value.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0;};
+/**
+ * For You: four interest-driven lessons and one discovery in each five-slot
+ * window when inventory permits it. Explicit tabs stay strictly on topic.
+ * The order is stable during a day and opened/learned lessons never reappear.
+ */
 export function buildFeed(p:Progress,track:TrackId='geral',today=new Date()):MicroLesson[] {
-  const learned=new Set(p.learnedLessonIds),preferred=new Set(p.preferredTracks);
-  const key=localDate(today);
-  const unseen=microLessons.filter(l=>!learned.has(l.id));
-  const source=unseen.length?unseen:microLessons;
-  const score=(l:MicroLesson)=>{
-    let s=0;
-    if(track==='geral')s+=25; else if(l.tracks.includes(track))s+=220; else s-=350;
-    if(l.tracks.some(t=>preferred.has(t)))s+=26;
-    if(l.tracks.includes('brasil')||l.tracks.includes('brasil-vivido'))s+=12;
-    if(rich[l.quizQuestionId])s+=16;
-    return s+(stableHash(`${key}:${l.id}`)%1000)/1000;
-  };
-  const sorted=[...source].sort((a,b)=>score(b)-score(a));
-  const diversified:MicroLesson[]=[];
-  const pending=[...sorted];
+  const seen=new Set([...p.learnedLessonIds,...p.openedLessonIds]);
+  const date=localDate(today);
+  const source=microLessons.filter(l=>!seen.has(l.id)&&(track==='geral'||l.tracks.includes(track)));
+  const sortPool=(items:MicroLesson[])=>[...items].sort((a,b)=>
+    stableHash(`${date}:${a.id}`)-stableHash(`${date}:${b.id}`));
+  const result:MicroLesson[]=[];
   let lastCategory:CategoryId|undefined;
-  while(pending.length&&diversified.length<240){
-    let idx=pending.findIndex((l,i)=>i<12&&l.category!==lastCategory);
-    if(idx<0)idx=0;
-    const [picked]=pending.splice(idx,1);if(!picked)break;
-    diversified.push(picked);lastCategory=picked.category;
+  const take=(items:MicroLesson[],wanted?:TrackId)=>{
+    if(!items.length)return false;
+    let index=items.findIndex(l=>l.category!==lastCategory&&(!wanted||l.tracks.includes(wanted)));
+    if(index<0&&wanted)index=items.findIndex(l=>l.tracks.includes(wanted));
+    if(index<0)index=items.findIndex(l=>l.category!==lastCategory);
+    if(index<0)index=0;
+    const [lesson]=items.splice(index,1);
+    if(!lesson)return false;
+    result.push(lesson);lastCategory=lesson.category;return true;
+  };
+  if(track!=='geral'){
+    const items=sortPool(source);
+    while(items.length&&result.length<240)take(items);
+    return result;
   }
-  return diversified;
+  const selections=[...new Set(p.preferredTracks.filter(t=>t!=='geral'))];
+  const liked=new Set<TrackId>(selections);
+  const priorities=sortPool(source.filter(l=>l.tracks.some(t=>liked.has(t))));
+  const discoveries=sortPool(source.filter(l=>!l.tracks.some(t=>liked.has(t))));
+  let preferredIndex=stableHash(date)%(selections.length||1);
+  while((priorities.length||discoveries.length)&&result.length<240){
+    // The fifth card invites discovery. When a bucket runs out, use the other.
+    const discoverySlot=result.length%5===4;
+    if(!discoverySlot&&priorities.length){
+      const wanted=selections[preferredIndex%selections.length];
+      take(priorities,wanted);
+      preferredIndex++;
+    }else if(discoveries.length)take(discoveries);
+    else if(priorities.length)take(priorities);
+    else take(discoveries);
+  }
+  return result;
 }
 
-export function lessonOfDay(p:Progress,now=new Date()):MicroLesson {
-  const feed=buildFeed(p,'geral',now);return feed[stableHash(localDate(now))%Math.max(1,Math.min(feed.length,25))]??microLessons[0]!;
+
+/** A full-screen For You feed can show verified trivia when a selected interest
+ * has no written lesson yet. This avoids filling a Games/Sports feed with
+ * unrelated school lessons merely because the editorial collection is small. */
+export type ForYouUnit = {kind:'lesson';lesson:MicroLesson}|{kind:'curiosity';question:Question};
+export function buildForYouFeed(p:Progress,track:TrackId='geral',today=new Date()):ForYouUnit[]{
+  const opened=new Set([...p.openedLessonIds,...p.learnedLessonIds]);
+  const done=new Set(p.completedIds);
+  const lessons:ForYouUnit[]=microLessons.filter(l=>!opened.has(l.id)&&(track==='geral'||l.tracks.includes(track)))
+    .map(lesson=>({kind:'lesson',lesson}));
+  const curiosities:ForYouUnit[]=sourcedCuriosityQuestions.filter(q=>!done.has(q.id)&&(track==='geral'||(q.tracks??questionTracks(q)).includes(track)))
+    .map(question=>({kind:'curiosity',question}));
+  const category=(x:ForYouUnit)=>x.kind==='lesson'?x.lesson.category:x.question.category;
+  const id=(x:ForYouUnit)=>x.kind==='lesson'?x.lesson.id:x.question.id;
+  const tags=(x:ForYouUnit)=>x.kind==='lesson'?x.lesson.tracks:(x.question.tracks??questionTracks(x.question));
+  const date=localDate(today);
+  const arranged=(xs:ForYouUnit[])=>[...xs].sort((a,b)=>stableHash(`${date}:${id(a)}`)-stableHash(`${date}:${id(b)}`));
+  const result:ForYouUnit[]=[];let previous:CategoryId|undefined;
+  const take=(xs:ForYouUnit[],wanted?:TrackId)=>{
+    if(!xs.length)return false;
+    let index=xs.findIndex(x=>category(x)!==previous&&(!wanted||tags(x).includes(wanted)));
+    if(index<0&&wanted)index=xs.findIndex(x=>tags(x).includes(wanted));
+    if(index<0)index=xs.findIndex(x=>category(x)!==previous);
+    if(index<0)index=0;
+    const [item]=xs.splice(index,1);
+    if(!item)return false;
+    result.push(item);previous=category(item);return true;
+  };
+  if(track!=='geral'){
+    const all=arranged([...lessons,...curiosities]);
+    while(all.length&&result.length<250)take(all);
+    return result;
+  }
+  const selected=[...new Set(p.preferredTracks.filter(t=>t!=='geral'))];
+  const liked=new Set<TrackId>(selected);
+  const items=[...lessons,...curiosities];
+  const priority=arranged(items.filter(x=>tags(x).some(t=>liked.has(t))));
+  const discovery=arranged(items.filter(x=>!tags(x).some(t=>liked.has(t))));
+  let choice=stableHash(date)%(selected.length||1);
+  while((priority.length||discovery.length)&&result.length<250){
+    if(result.length%5!==4&&priority.length){take(priority,selected[choice%selected.length]);choice++;}
+    else if(discovery.length)take(discovery);
+    else if(priority.length)take(priority);
+  }
+  return result;
+}
+
+export function lessonOfDay(p:Progress,now=new Date()):MicroLesson|null {
+  const feed=buildFeed(p,'geral',now);
+  if(!feed.length)return null;
+  return feed[stableHash(localDate(now))%Math.min(feed.length,25)]??null;
 }
 
 const unique=(xs:string[])=>[...new Set(xs)];

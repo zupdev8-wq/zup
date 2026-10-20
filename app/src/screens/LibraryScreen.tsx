@@ -9,13 +9,13 @@ import {Txt,Page,Card,Chip} from '../components/UI';
 import {C} from '../theme';
 
 type Shelf='learned'|'saved'|'ongoing';
-export function LibraryScreen({p,read}:{p:Progress;read:(lesson:MicroLesson)=>void}){
+export function LibraryScreen({p,read,contentEpoch=0}:{p:Progress;read:(lesson:MicroLesson)=>void;contentEpoch?:number}){
   const [search,setSearch]=useState(''),[shelf,setShelf]=useState<Shelf>('learned');
   const norm=(v:string)=>v.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const list=useMemo(()=>{
     const ids=shelf==='learned'?p.learnedLessonIds:shelf==='saved'?p.savedLessonIds:p.openedLessonIds.filter(id=>!p.learnedLessonIds.includes(id));
     return [...ids].reverse().map(id=>lessonMap.get(id)).filter((x):x is MicroLesson=>Boolean(x));
-  },[shelf,p.learnedLessonIds,p.savedLessonIds,p.openedLessonIds]);
+  },[shelf,p.learnedLessonIds,p.savedLessonIds,p.openedLessonIds,contentEpoch]);
   const shown=list.filter(l=>norm(`${l.title} ${l.summary} ${getCategory(l.category).label}`).includes(norm(search)));
   return <Page contentContainerStyle={{paddingBottom:42,gap:15}}>
     <View><Txt size={28} bold accessibilityRole="header">Biblioteca</Txt><Txt size={13} color={C.muted}>O conhecimento que você encontrou não precisa desaparecer no feed.</Txt></View>
