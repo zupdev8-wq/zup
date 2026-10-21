@@ -8,7 +8,7 @@ export const PREMIUM_MARATHON_SIZE = 10;
 export const questionMap = new Map(questions.map(q=>[q.id,q]));
 export const localDate = (d = new Date()) =>
   `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-export const available = (cat:CategoryId) => studyQuestions.filter(q=>q.category===cat&&q.kind!=='discover');
+export const available = (cat:CategoryId) => studyQuestions.filter(q=>q.category===cat);
 export const level = (xp:number) => 1+Math.floor(Math.max(0,xp)/200);
 export const levelXP = (xp:number) => Math.max(0,xp)%200;
 
@@ -114,7 +114,7 @@ export function distinctConcepts(pool:Question[],random:()=>number,size:number,i
 
 /** Only approved, unseen concepts appear in everyday study; deliberate revision is separate. */
 export function lesson(cat:CategoryId,p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
-  return distinctConcepts(newQuestions(p,studyQuestions.filter(q=>q.category===cat&&q.kind!=='discover')),random,size);
+  return distinctConcepts(newQuestions(p,available(cat)),random,size);
 }
 export function dailyQuestions(p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
   const unseen=newQuestions(p,studyQuestions);
@@ -143,7 +143,7 @@ export function curiosityLesson(p:Progress,random=Math.random,size=LESSON_SIZE):
 
 export function mixedLesson(topicIds:readonly CategoryId[],p:Progress,random=Math.random,size=LESSON_SIZE):Question[] {
   const allowed=new Set(topicIds.length?topicIds:['brasil']);
-  return distinctConcepts(newQuestions(p,studyQuestions.filter(q=>allowed.has(q.category)&&q.kind!=='discover')),random,size);
+  return distinctConcepts(newQuestions(p,studyQuestions.filter(q=>allowed.has(q.category))),random,size);
 }
 
 function sessionFrom(list:Question[],p:Progress,cat:CategoryId,mode:GameMode,random:()=>number,now:number,topics?:CategoryId[],sourceQuestionId?:string):Session|null {
