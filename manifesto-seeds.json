@@ -1,0 +1,116 @@
+{
+  "status": "PREPARADO_NAO_PUBLICADO",
+  "date": "2026-10-20",
+  "questionCount": 362,
+  "bundleCount": 18,
+  "categoryManifests": [
+    {
+      "category": "artes",
+      "questions": 14,
+      "sha256": "7ffba4a95974a252298ff68c8012ec79ddc71a86a2024830d3d4986840d99392",
+      "file": "seeds-revisados/artes.json"
+    },
+    {
+      "category": "biologia",
+      "questions": 2,
+      "sha256": "93a9b8858e54dd9d3903799cb215f3509db2f5be51c8ab50724d5ff77fa31680",
+      "file": "seeds-revisados/biologia.json"
+    },
+    {
+      "category": "brasil",
+      "questions": 5,
+      "sha256": "1bee5cc944639e5d2227c471851a128bf16a910a874ba7f64829f3f14cfcd9f6",
+      "file": "seeds-revisados/brasil.json"
+    },
+    {
+      "category": "cinema",
+      "questions": 55,
+      "sha256": "fd5b17bcd305ff9835b36d18c42064937955808062039c70c238389d9b2450df",
+      "file": "seeds-revisados/cinema.json"
+    },
+    {
+      "category": "computacao",
+      "questions": 15,
+      "sha256": "0f7487640b1c5b765f563b23ea2090534a8e2aa1a802b082a03c9d8e7abd8609",
+      "file": "seeds-revisados/computacao.json"
+    },
+    {
+      "category": "espaco",
+      "questions": 18,
+      "sha256": "e4514028642afdf3f539cadd3fee2eb849cf22ed3b95c599928b98da4eeae3a5",
+      "file": "seeds-revisados/espaco.json"
+    },
+    {
+      "category": "esportes",
+      "questions": 12,
+      "sha256": "e87d37baf33dd3d6e53beed31fc94540e7a8eee4aec50d838e5dc3f85b182c43",
+      "file": "seeds-revisados/esportes.json"
+    },
+    {
+      "category": "games",
+      "questions": 24,
+      "sha256": "81d755333a71f482fd0b7fa86fe099a2b7e6b36c29c6e2dc775940a765675a89",
+      "file": "seeds-revisados/games.json"
+    },
+    {
+      "category": "gastronomia",
+      "questions": 29,
+      "sha256": "86412a4f3ec7cf6d37d14fbc89eae3888cf030e0bea91b0f614f743c1bb49a6b",
+      "file": "seeds-revisados/gastronomia.json"
+    },
+    {
+      "category": "geografia",
+      "questions": 12,
+      "sha256": "ed09bfee1fc35f755bc541992b4cca9db95e5955f390ab6a77e502ea2247bdc7",
+      "file": "seeds-revisados/geografia.json"
+    },
+    {
+      "category": "informatica",
+      "questions": 13,
+      "sha256": "d5affc4f67704f02ab227df832ceae578ee6fe8e0bef0bf5138b9b8d26cd7e20",
+      "file": "seeds-revisados/informatica.json"
+    },
+    {
+      "category": "literatura",
+      "questions": 82,
+      "sha256": "ca7ea9f93bc1c098bc3a293db7177ef4191b8ebb9162465e932b0b6a18eaf37d",
+      "file": "seeds-revisados/literatura.json"
+    },
+    {
+      "category": "musica",
+      "questions": 25,
+      "sha256": "526e8848fa093afaad92c46a33c8ec5d36a1b14192b8fc78e15515c1dd0739cb",
+      "file": "seeds-revisados/musica.json"
+    },
+    {
+      "category": "natureza",
+      "questions": 16,
+      "sha256": "d839bba7d8d1dcf7f1cbdbe202a3065e6864393da38c7bf23395379ddf9b46f1",
+      "file": "seeds-revisados/natureza.json"
+    },
+    {
+      "category": "quimica",
+      "questions": 4,
+      "sha256": "5f50e26bbc54676433f367717e3bd1625dadccb6e3e003db3bfb309458e2a66b",
+      "file": "seeds-revisados/quimica.json"
+    },
+    {
+      "category": "religioes",
+      "questions": 16,
+      "sha256": "72879e8ed89ca7876d9323f5242c8d335402069a6751e6bf88ca509faa6f17c1",
+      "file": "seeds-revisados/religioes.json"
+    },
+    {
+      "category": "series",
+      "questions": 14,
+      "sha256": "9fd529eeb130d0deea513294b25f5af2df8bf0f85fe614cbae42616ffbf8f73a",
+      "file": "seeds-revisados/series.json"
+    },
+    {
+      "category": "tecnologia",
+      "questions": 6,
+      "sha256": "8b9ea4411037d2c67a58d38bed293b18c8fb510317fbd7a0fd1bd0f8accea1dc",
+      "file": "seeds-revisados/tecnologia.json"
+    }
+  ]
+}

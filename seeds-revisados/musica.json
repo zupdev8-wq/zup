@@ -1,0 +1,831 @@
+{
+  "schemaVersion": 1,
+  "category": "musica",
+  "questions": [
+    {
+      "id": "u-3270ff36b41c",
+      "category": "musica",
+      "question": "Qual fórmula de compasso é conhecida como ‘cut time’?",
+      "choices": [
+        "6/8",
+        "4/4",
+        "2/2",
+        "3/4"
+      ],
+      "answer": 2,
+      "fact": "O compasso 2/2 tem dois tempos de mínima e também é chamado de alla breve.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-91b8994fcfc115ddae8a | opentdb-91b8994fcfc115ddae8a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3270ff36b41c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-2236b1612147",
+      "category": "musica",
+      "question": "Qual era o verdadeiro sobrenome de David Bowie?",
+      "choices": [
+        "Edwards",
+        "Johnson",
+        "Carter",
+        "Jones"
+      ],
+      "answer": 3,
+      "fact": "David Bowie nasceu David Robert Jones; Bowie é seu nome artístico.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f68f247208f80a1a6ea0 | opentdb-f68f247208f80a1a6ea0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2236b1612147",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artistas-e-biografias",
+      "universe": "David Bowie"
+    },
+    {
+      "id": "u-238c669aa597",
+      "category": "musica",
+      "question": "Qual artista canadense escreveu a canção Hallelujah?",
+      "choices": [
+        "Ryan Letourneau",
+        "Justin Bieber",
+        "Leonard Cohen",
+        "Kory Lefkowits"
+      ],
+      "answer": 2,
+      "fact": "Hallelujah foi escrita por Leonard Cohen, embora tenha ganhado muitas regravações.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1675c5b745004d6dbd5f | opentdb-1675c5b745004d6dbd5f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-238c669aa597",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "compositores",
+      "universe": "Leonard Cohen",
+      "workTitle": "Hallelujah"
+    },
+    {
+      "id": "u-1572294e812b",
+      "category": "musica",
+      "question": "Qual álbum os The Lumineers lançaram em 2016?",
+      "choices": [
+        "Cleopatra",
+        "The Lumineers",
+        "Winter",
+        "Tracks From The Attic"
+      ],
+      "answer": 0,
+      "fact": "Cleopatra é o álbum lançado pelos The Lumineers em 2016.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2f89b7381473cb0addcd | opentdb-2f89b7381473cb0addcd (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1572294e812b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "folk-e-indie",
+      "universe": "The Lumineers",
+      "workTitle": "Cleopatra"
+    },
+    {
+      "id": "u-198be93c6daa",
+      "category": "musica",
+      "question": "De qual banda são os álbuns Back in Black e Ballbreaker?",
+      "choices": [
+        "Metallica",
+        "Iron Maiden",
+        "Black Sabbath",
+        "AC/DC"
+      ],
+      "answer": 3,
+      "fact": "Os dois álbuns pertencem à discografia do AC/DC.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8110d57e25a4d6b29927 | opentdb-8110d57e25a4d6b29927 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-198be93c6daa",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hard-rock",
+      "universe": "AC/DC",
+      "workTitle": "Back in Black; Ballbreaker"
+    },
+    {
+      "id": "u-21d82c8c085d",
+      "category": "musica",
+      "question": "Qual ator vencedor do Oscar participou da canção Gold Digger, de Kanye West?",
+      "choices": [
+        "Jamie Foxx",
+        "Alec Baldwin",
+        "Bruce Willis",
+        "Dwayne Johnson"
+      ],
+      "answer": 0,
+      "fact": "Jamie Foxx participa da gravação de Gold Digger.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-066eb2760cad280dafcd | opentdb-066eb2760cad280dafcd (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-21d82c8c085d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hip-hop-e-pop",
+      "universe": "Kanye West; Jamie Foxx",
+      "workTitle": "Gold Digger"
+    },
+    {
+      "id": "u-1f7a1de5d5bc",
+      "category": "musica",
+      "question": "Quando morreu o rapper Eazy-E?",
+      "choices": [
+        "26 de março de 1995",
+        "21 de outubro de 1994",
+        "11 de julho de 1992",
+        "14 de fevereiro de 1993"
+      ],
+      "answer": 0,
+      "fact": "O gabarito registra 26 de março de 1995 como a data da morte de Eazy-E.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ae9e3c762b1c35f3c073 | opentdb-ae9e3c762b1c35f3c073 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1f7a1de5d5bc",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-do-hip-hop",
+      "universe": "Eazy-E"
+    },
+    {
+      "id": "u-05028846581b",
+      "category": "musica",
+      "question": "Qual banda lançou músicas como Electric Feel, Kids e Time to Pretend?",
+      "choices": [
+        "Phoenix",
+        "Franz Ferdinand",
+        "Passion Pit",
+        "MGMT"
+      ],
+      "answer": 3,
+      "fact": "As três faixas integram o repertório do MGMT no álbum Oracular Spectacular.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f24b203c60a4ff9e2ddb | opentdb-f24b203c60a4ff9e2ddb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-05028846581b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "indie-e-alternativo",
+      "universe": "MGMT",
+      "workTitle": "Oracular Spectacular"
+    },
+    {
+      "id": "u-09531cc6fcbe",
+      "category": "musica",
+      "question": "Normalmente, quantas teclas tem um piano?",
+      "choices": [
+        "96",
+        "12",
+        "88",
+        "24"
+      ],
+      "answer": 2,
+      "fact": "O piano moderno padrão tem 88 teclas: 52 brancas e 36 pretas. Há instrumentos com outras extensões.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-559564065cd8cd2a835c | opentdb-559564065cd8cd2a835c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-09531cc6fcbe",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "instrumentos-musicais",
+      "universe": "Piano"
+    },
+    {
+      "id": "u-0dd0a964f6b0",
+      "category": "musica",
+      "question": "Qual publicação musical costuma ser identificada pela sigla NME?",
+      "choices": [
+        "North Manchester Express",
+        "Next Musical Enterprise",
+        "New Musical Express",
+        "New Metro Entertainment"
+      ],
+      "answer": 2,
+      "fact": "NME é a sigla de New Musical Express. Os nomes de publicações nas alternativas foram mantidos em inglês.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-da5639df6dc5fd08a93d | opentdb-da5639df6dc5fd08a93d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0dd0a964f6b0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "jornalismo-musical",
+      "universe": "NME"
+    },
+    {
+      "id": "u-13b2db4bfdfe",
+      "category": "musica",
+      "question": "Qual grupo de música eletrônica Liam Howlett fundou em 1990?",
+      "choices": [
+        "The Crystal Method",
+        "Infected Mushroom",
+        "The Prodigy",
+        "The Chemical Brothers"
+      ],
+      "answer": 2,
+      "fact": "Liam Howlett é o fundador associado ao The Prodigy no gabarito.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1f80ba89716f0cbeb832 | opentdb-1f80ba89716f0cbeb832 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-13b2db4bfdfe",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "musica-eletronica",
+      "universe": "The Prodigy"
+    },
+    {
+      "id": "u-24c6caa817e2",
+      "category": "musica",
+      "question": "Qual ex-integrante de uma boy band lançou o sucesso solo Angels em 1997?",
+      "choices": [
+        "Justin Timberlake",
+        "Gary Barlow",
+        "Robbie Williams",
+        "Harry Styles"
+      ],
+      "answer": 2,
+      "fact": "Robbie Williams, que foi integrante do Take That, lançou Angels em sua carreira solo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-055811b3fa5dd4c7be3d | opentdb-055811b3fa5dd4c7be3d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-24c6caa817e2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pop-britanico",
+      "universe": "Robbie Williams",
+      "workTitle": "Angels"
+    },
+    {
+      "id": "u-09f7c8d2d91d",
+      "category": "musica",
+      "question": "A canção Starboy, lançada em 2016 pelo cantor canadense The Weeknd, tem a participação de qual nome da música eletrônica?",
+      "choices": [
+        "DJ Shadow",
+        "deadmau5",
+        "Disclosure",
+        "Daft Punk"
+      ],
+      "answer": 3,
+      "fact": "Daft Punk participa de Starboy. O título da canção foi preservado, sem reproduzir sua letra.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c1322c0645071b36d1e0 | opentdb-c1322c0645071b36d1e0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-09f7c8d2d91d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pop-e-musica-eletronica",
+      "universe": "The Weeknd; Daft Punk",
+      "workTitle": "Starboy"
+    },
+    {
+      "id": "u-1c9bda39dab8",
+      "category": "musica",
+      "question": "Qual das canções a seguir não foi originalmente lançada por Elton John?",
+      "choices": [
+        "You'll Be In My Heart",
+        "Crocodile Rock",
+        "I Don't Wanna Go On With You Like That",
+        "Candle in the Wind"
+      ],
+      "answer": 0,
+      "fact": "You'll Be in My Heart é associada a Phil Collins e à trilha de Tarzan, e não a Elton John.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3330602035c743b5adfc | opentdb-3330602035c743b5adfc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1c9bda39dab8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pop-e-trilhas-sonoras",
+      "universe": "Elton John; Phil Collins",
+      "workTitle": "You'll Be in My Heart"
+    },
+    {
+      "id": "u-0954ec0aa251",
+      "category": "musica",
+      "question": "Qual dos álbuns a seguir é da banda de punk rock Anti-Flag?",
+      "choices": [
+        "21st Century Breakdown",
+        "Infinity On High",
+        "No Pads, No Helmets...Just Balls",
+        "For Blood And Empire"
+      ],
+      "answer": 3,
+      "fact": "For Blood And Empire é o álbum do Anti-Flag entre as alternativas.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-05ff7ded8ef80d8611f5 | opentdb-05ff7ded8ef80d8611f5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0954ec0aa251",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "punk-rock",
+      "universe": "Anti-Flag",
+      "workTitle": "For Blood And Empire"
+    },
+    {
+      "id": "u-063c17cd872f",
+      "category": "musica",
+      "question": "Qual músico canadense de reggae fez sucesso em 1993 com a canção Informer?",
+      "choices": [
+        "Rain",
+        "Sleet",
+        "Hail",
+        "Snow"
+      ],
+      "answer": 3,
+      "fact": "Snow é o nome artístico do intérprete de Informer. Os nomes das alternativas foram mantidos como nomes artísticos.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-93df6089c94c69fdde8d | opentdb-93df6089c94c69fdde8d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-063c17cd872f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "reggae",
+      "universe": "Snow",
+      "workTitle": "Informer"
+    },
+    {
+      "id": "u-12e917b2bf6f",
+      "category": "musica",
+      "question": "Qual canção anteriormente gravada por Elvis Presley ganhou uma versão em ritmo de reggae do UB40?",
+      "choices": [
+        "In the Ghetto",
+        "Jailhouse Rock",
+        "Can't Help Falling in Love",
+        "Wooden Heart"
+      ],
+      "answer": 2,
+      "fact": "UB40 regravou Can't Help Falling in Love. A pergunta distingue a gravação anterior da versão do grupo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6e4839cbd37a88504bac | opentdb-6e4839cbd37a88504bac (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-12e917b2bf6f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "reggae-e-regravacoes",
+      "universe": "UB40; Elvis Presley",
+      "workTitle": "Can't Help Falling in Love"
+    },
+    {
+      "id": "u-254af3b6fd9c",
+      "category": "musica",
+      "question": "Qual banda de rock alternativo lançou o aclamado álbum OK Computer?",
+      "choices": [
+        "R.E.M.",
+        "Nirvana",
+        "Radiohead",
+        "Coldplay"
+      ],
+      "answer": 2,
+      "fact": "OK Computer é um álbum do Radiohead.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-70d6d4c661a92c76d8a9 | opentdb-70d6d4c661a92c76d8a9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-254af3b6fd9c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-alternativo",
+      "universe": "Radiohead",
+      "workTitle": "OK Computer"
+    },
+    {
+      "id": "u-1fc5696a83a9",
+      "category": "musica",
+      "question": "Qual destas canções NÃO é do Men at Work?",
+      "choices": [
+        "Basket Case",
+        "Be Good Johnny",
+        "Who Can It Be Now?",
+        "Dr. Heckyll and Mr. Jive"
+      ],
+      "answer": 0,
+      "fact": "Basket Case é do Green Day; as demais alternativas são canções do Men at Work.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a7d8e22b8e618cdc5e2a | opentdb-a7d8e22b8e618cdc5e2a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1fc5696a83a9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-dos-anos-1980",
+      "universe": "Men at Work; Green Day",
+      "workTitle": "Basket Case"
+    },
+    {
+      "id": "u-15c2a1feafdd",
+      "category": "musica",
+      "question": "Qual integrante do Foo Fighters foi anteriormente baterista do Nirvana?",
+      "choices": [
+        "Dave Grohl",
+        "Nate Mendel",
+        "Chris Shiflett",
+        "Taylor Hawkins"
+      ],
+      "answer": 0,
+      "fact": "Dave Grohl tocou bateria no Nirvana antes de formar o Foo Fighters.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c60ae9c871f71154227b | opentdb-c60ae9c871f71154227b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-15c2a1feafdd",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-e-grunge",
+      "universe": "Foo Fighters; Nirvana"
+    },
+    {
+      "id": "u-11faef586a5b",
+      "category": "musica",
+      "question": "Qual era o título do primeiro álbum do The Velvet Underground?",
+      "choices": [
+        "The Velvet Underground",
+        "The Velvet Underground & Nico",
+        "White Light / White Heat",
+        "Loaded"
+      ],
+      "answer": 1,
+      "fact": "O álbum de estreia é The Velvet Underground & Nico. The Velvet Underground, sem Nico no título, é outro álbum da banda.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7363cbdb285e9d18c1e0 | opentdb-7363cbdb285e9d18c1e0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-11faef586a5b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-experimental",
+      "universe": "The Velvet Underground",
+      "workTitle": "The Velvet Underground & Nico"
+    },
+    {
+      "id": "u-2319a0c4ae16",
+      "category": "musica",
+      "question": "Quem é o fundador e líder da banda de rock industrial Nine Inch Nails?",
+      "choices": [
+        "Trent Reznor",
+        "Marilyn Manson",
+        "Robin Finck",
+        "Josh Homme"
+      ],
+      "answer": 0,
+      "fact": "Trent Reznor fundou o Nine Inch Nails e é o nome indicado pelo gabarito.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8a1430507fffb3cbe77a | opentdb-8a1430507fffb3cbe77a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2319a0c4ae16",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-industrial",
+      "universe": "Nine Inch Nails"
+    },
+    {
+      "id": "u-21d06d7e621a",
+      "category": "musica",
+      "question": "Em que ano o Tame Impala lançou seu segundo álbum?",
+      "choices": [
+        "1967",
+        "2015",
+        "2010",
+        "2012"
+      ],
+      "answer": 3,
+      "fact": "O segundo álbum é Lonerism, lançado em 2012.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-394054a155ff1f0a43ef | opentdb-394054a155ff1f0a43ef (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-21d06d7e621a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rock-psicodelico",
+      "universe": "Tame Impala",
+      "workTitle": "Lonerism"
+    },
+    {
+      "id": "u-16fc90dec5a1",
+      "category": "musica",
+      "question": "Qual capital europeia dá nome a uma canção de 1981 do Ultravox?",
+      "choices": [
+        "Bruxelas",
+        "Paris",
+        "Viena",
+        "Berlim"
+      ],
+      "answer": 2,
+      "fact": "Vienna é o nome de Viena em inglês e o título da canção do Ultravox.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c15e5e0a09bdaf6c3d4a | opentdb-c15e5e0a09bdaf6c3d4a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-16fc90dec5a1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "synthpop",
+      "universe": "Ultravox",
+      "workTitle": "Vienna"
+    },
+    {
+      "id": "u-154d64decb2c",
+      "category": "musica",
+      "question": "Qual personagem da Disney canta A Dream Is a Wish Your Heart Makes?",
+      "choices": [
+        "Bela",
+        "Pocahontas",
+        "Cinderela",
+        "Branca de Neve"
+      ],
+      "answer": 2,
+      "fact": "A canção é cantada por Cinderela. O título original foi mantido para evitar confusão entre versões da dublagem.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d09ffd224a6630e396be | opentdb-d09ffd224a6630e396be (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-154d64decb2c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "trilhas-sonoras",
+      "universe": "Disney",
+      "workTitle": "Cinderela"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

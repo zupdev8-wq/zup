@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "category": "geografia",
+  "questions": [
+    {
+      "id": "u-00efce654802",
+      "category": "geografia",
+      "question": "Qual país não fez parte da União Soviética?",
+      "choices": [
+        "Belarus",
+        "Turcomenistão",
+        "Tajiquistão",
+        "Romênia"
+      ],
+      "answer": 3,
+      "fact": "A Romênia foi um país do bloco socialista, mas não uma república integrante da União Soviética.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-00de2bd6628db88ebb6e | opentdb-00de2bd6628db88ebb6e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-00efce654802",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-00d34c69c4ed",
+      "category": "geografia",
+      "question": "Que pequeno principado fica entre a Espanha e a França?",
+      "choices": [
+        "Liechtenstein",
+        "Andorra",
+        "Mônaco",
+        "San Marino"
+      ],
+      "answer": 1,
+      "fact": "Andorra está nos Pireneus, entre a Espanha e a França.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0aaf65153a9a669d7244 | opentdb-0aaf65153a9a669d7244 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-00d34c69c4ed",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-0cb6dfa8bcff",
+      "category": "geografia",
+      "question": "Qual é a capital de Seychelles?",
+      "choices": [
+        "N’Djamena",
+        "Luanda",
+        "Trípoli",
+        "Victoria"
+      ],
+      "answer": 3,
+      "fact": "Victoria é a capital de Seychelles. As outras alternativas são capitais de países africanos diferentes.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0e92fabd763efc1a617e | opentdb-0e92fabd763efc1a617e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0cb6dfa8bcff",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-0d3421395657",
+      "category": "geografia",
+      "question": "Qual é o nome do hino nacional do Canadá?",
+      "choices": [
+        "O Canada",
+        "Leaf-Spangled Banner",
+        "O Red Maple",
+        "March of the Puck Drop"
+      ],
+      "answer": 0,
+      "fact": "O Canada é o título do hino canadense; os títulos das alternativas foram preservados como nomes próprios.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2eb6b089b458cf822377 | opentdb-2eb6b089b458cf822377 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0d3421395657",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-078a852e3686",
+      "category": "geografia",
+      "question": "Por qual apelido o distrito japonês de Akihabara também é conhecido?",
+      "choices": [
+        "Otaku Central",
+        "Big Eyes",
+        "Moon Walk River",
+        "Electric Town"
+      ],
+      "answer": 3,
+      "fact": "Electric Town remete à associação de Akihabara com o comércio de eletrônicos.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34c67af927348c163863 | opentdb-34c67af927348c163863 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-078a852e3686",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-0ea5628e182a",
+      "category": "geografia",
+      "question": "Qual destes países africanos tem o espanhol como língua oficial?",
+      "choices": [
+        "Guiné",
+        "Camarões",
+        "Guiné Equatorial",
+        "Angola"
+      ],
+      "answer": 2,
+      "fact": "O espanhol é uma das línguas oficiais da Guiné Equatorial, distinguindo o país das outras opções.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3a55e834584c7bd9628d | opentdb-3a55e834584c7bd9628d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0ea5628e182a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-03efa75863e2",
+      "category": "geografia",
+      "question": "Onde fica o Deserto de Sonora?",
+      "choices": [
+        "América do Norte",
+        "Ásia",
+        "África",
+        "América do Sul"
+      ],
+      "answer": 0,
+      "fact": "O Deserto de Sonora fica na América do Norte, abrangendo áreas do México e dos Estados Unidos.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-51cf4d5279034413a78f | opentdb-51cf4d5279034413a78f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-03efa75863e2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-182640a403a5",
+      "category": "geografia",
+      "question": "Kuala Lumpur é a capital de qual país?",
+      "choices": [
+        "Singapura",
+        "Indonésia",
+        "Tailândia",
+        "Malásia"
+      ],
+      "answer": 3,
+      "fact": "Kuala Lumpur é a capital da Malásia, país do Sudeste Asiático.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-711b7419c909ac9e9fa0 | opentdb-711b7419c909ac9e9fa0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-182640a403a5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-0b151d8e4805",
+      "category": "geografia",
+      "question": "Broome fica em qual estado da Austrália?",
+      "choices": [
+        "Austrália Meridional",
+        "Tasmânia",
+        "Austrália Ocidental",
+        "Território do Norte"
+      ],
+      "answer": 2,
+      "fact": "Broome fica na Austrália Ocidental. O Território do Norte é um território, embora apareça entre os distratores.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-758036e641ba960ed56f | opentdb-758036e641ba960ed56f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0b151d8e4805",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-073e2a93c4e7",
+      "category": "geografia",
+      "question": "O corpo da Esfinge egípcia foi baseado em qual animal?",
+      "choices": [
+        "Cavalo",
+        "Cachorro",
+        "Touro",
+        "Leão"
+      ],
+      "answer": 3,
+      "fact": "A conhecida Esfinge de Gizé combina um corpo de leão com uma cabeça humana.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-84df09a8d53db5b7343d | opentdb-84df09a8d53db5b7343d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-073e2a93c4e7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-0b754e5b54d2",
+      "category": "geografia",
+      "question": "Qual cidade alemã fica às margens do rio Isar?",
+      "choices": [
+        "Hamburgo",
+        "Berlim",
+        "Dortmund",
+        "Munique"
+      ],
+      "answer": 3,
+      "fact": "O rio Isar atravessa Munique, na região alemã da Baviera.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b1fa8a94c2a0d7df3f1b | opentdb-b1fa8a94c2a0d7df3f1b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0b754e5b54d2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    },
+    {
+      "id": "u-12ba9546aad4",
+      "category": "geografia",
+      "question": "Qual destes antigos estados iugoslavos não tem litoral?",
+      "choices": [
+        "Bósnia e Herzegovina",
+        "Montenegro",
+        "Croácia",
+        "Sérvia"
+      ],
+      "answer": 3,
+      "fact": "A Sérvia não possui litoral. A Bósnia e Herzegovina tem uma pequena faixa costeira no mar Adriático.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f0e0c8bf87ccbac68e7c | opentdb-f0e0c8bf87ccbac68e7c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-12ba9546aad4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-e-culturas"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

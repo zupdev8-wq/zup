@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "category": "religioes",
+  "questions": [
+    {
+      "id": "u-4739d8493dc0",
+      "category": "religioes",
+      "question": "O nome de qual deusa grega foi escolhido para o planeta anão ligado à discórdia sobre a classificação de Plutão?",
+      "choices": [
+        "Caronte",
+        "Disnomia",
+        "Éris",
+        "Ceres"
+      ],
+      "answer": 2,
+      "fact": "Éris é associada à discórdia na mitologia grega, o que motivou a escolha do nome do planeta anão.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-02fdc2aeb60b92342c46 | opentdb-02fdc2aeb60b92342c46 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4739d8493dc0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-0659f411af03",
+      "category": "religioes",
+      "question": "Que criaturas mitológicas têm rosto de mulher e corpo de abutre?",
+      "choices": [
+        "Sereias",
+        "Ninfa",
+        "Harpias",
+        "Lilith"
+      ],
+      "answer": 2,
+      "fact": "As harpias são seres da tradição grega representados com traços de mulher e ave.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-184d74305144cbf46ba6 | opentdb-184d74305144cbf46ba6 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0659f411af03",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-5c152f629b12",
+      "category": "religioes",
+      "question": "O minotauro é metade humano e metade o quê?",
+      "choices": [
+        "Águia",
+        "Vaca",
+        "Cavalo",
+        "Touro"
+      ],
+      "answer": 3,
+      "fact": "O minotauro combina traços humanos e de touro na mitologia grega.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1b4dbce37c9896074573 | opentdb-1b4dbce37c9896074573 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5c152f629b12",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-545fa49e7eb3",
+      "category": "religioes",
+      "question": "Como se chama o deus grego das mortes tranquilas?",
+      "choices": [
+        "Tártaro",
+        "Moros",
+        "Hades",
+        "Tânatos"
+      ],
+      "answer": 3,
+      "fact": "Tânatos personifica a morte na tradição grega. Hades é associado ao governo do mundo dos mortos.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-41d1a416fae3aa085545 | opentdb-41d1a416fae3aa085545 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-545fa49e7eb3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-1b943d8b01da",
+      "category": "religioes",
+      "question": "Qual destas figuras da mitologia grega é a divindade da estratégia de batalha, entre outras atribuições?",
+      "choices": [
+        "Ártemis",
+        "Ares",
+        "Apolo",
+        "Atena"
+      ],
+      "answer": 3,
+      "fact": "Atena é associada à sabedoria e à estratégia. Ares também se relaciona com a guerra, mas com outro perfil mítico.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-42d2b18e4289438f5249 | opentdb-42d2b18e4289438f5249 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1b943d8b01da",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-624a1daf499f",
+      "category": "religioes",
+      "question": "Segundo o mito egípcio de Osíris, quem matou Osíris?",
+      "choices": [
+        "Anúris",
+        "Set",
+        "Rá",
+        "Hórus"
+      ],
+      "answer": 1,
+      "fact": "Set é o antagonista ligado à morte de Osíris no conhecido ciclo mítico egípcio.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-44c2f2739b568423ba85 | opentdb-44c2f2739b568423ba85 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-624a1daf499f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-18d50708dfdf",
+      "category": "religioes",
+      "question": "Na mitologia nórdica, que imensa estrutura é chamada de Yggdrasil?",
+      "choices": [
+        "Montanha",
+        "Templo",
+        "Castelo",
+        "Árvore"
+      ],
+      "answer": 3,
+      "fact": "Yggdrasil é a árvore cósmica que relaciona diferentes mundos na tradição nórdica.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-56606a4ac15ab35dd028 | opentdb-56606a4ac15ab35dd028 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-18d50708dfdf",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-220e05b85dd3",
+      "category": "religioes",
+      "question": "Quem era o rei dos deuses na mitologia grega antiga?",
+      "choices": [
+        "Zeus",
+        "Hermes",
+        "Apolo",
+        "Poseidon"
+      ],
+      "answer": 0,
+      "fact": "Zeus ocupa a posição de soberano entre os deuses olímpicos na tradição grega.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6a25fc757b2ff57ce015 | opentdb-6a25fc757b2ff57ce015 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-220e05b85dd3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-436bce6e73e4",
+      "category": "religioes",
+      "question": "Quem era o deus romano do fogo?",
+      "choices": [
+        "Mercúrio",
+        "Vulcano",
+        "Júpiter",
+        "Apolo"
+      ],
+      "answer": 1,
+      "fact": "Vulcano é a divindade romana associada ao fogo e ao trabalho das forjas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-733563c489cf64225e7d | opentdb-733563c489cf64225e7d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-436bce6e73e4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-6079c53f03fe",
+      "category": "religioes",
+      "question": "Na mitologia nórdica, qual é o nome da serpente que rói as raízes da árvore Yggdrasil?",
+      "choices": [
+        "Odin",
+        "Nidhogg",
+        "Bragi",
+        "Ymir"
+      ],
+      "answer": 1,
+      "fact": "Nidhogg é associado às raízes de Yggdrasil nas narrativas nórdicas.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7481828cec5a03004e8f | opentdb-7481828cec5a03004e8f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-6079c53f03fe",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-54f3c8b4da52",
+      "category": "religioes",
+      "question": "Qual divindade menor protege atividades como a produção de queijo e a criação de abelhas?",
+      "choices": [
+        "Carme",
+        "Autônoe",
+        "Aristeu",
+        "Cefiso"
+      ],
+      "answer": 2,
+      "fact": "Aristeu é associado a atividades rurais e a técnicas como a apicultura em narrativas gregas.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-762c123f1523ac1301b8 | opentdb-762c123f1523ac1301b8 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-54f3c8b4da52",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-1aaa8308216a",
+      "category": "religioes",
+      "question": "Na mitologia grega, Poseidon era o deus de quê?",
+      "choices": [
+        "Do mar",
+        "Do fogo",
+        "Da guerra",
+        "Do Sol"
+      ],
+      "answer": 0,
+      "fact": "Poseidon é associado ao mar. Os deuses gregos podem ter diversas atribuições além da mais conhecida.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-76cb22281ebc172b43f3 | opentdb-76cb22281ebc172b43f3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1aaa8308216a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-22143f346253",
+      "category": "religioes",
+      "question": "Talos, o mítico gigante de bronze, protegia qual ilha?",
+      "choices": [
+        "Chipre",
+        "Sardenha",
+        "Creta",
+        "Sicília"
+      ],
+      "answer": 2,
+      "fact": "Talos é associado à proteção de Creta nas narrativas da mitologia grega.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a2a43d6bacdf911f2f4a | opentdb-a2a43d6bacdf911f2f4a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-22143f346253",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-0eb3a94633c8",
+      "category": "religioes",
+      "question": "Qual foi o castigo de Sísifo por sua astúcia?",
+      "choices": [
+        "Rolar uma pedra até o alto de uma montanha por toda a eternidade.",
+        "Permanecer em um lago cheio de água que não podia beber.",
+        "Ficar preso a uma pedra para sempre, sendo bicado por aves.",
+        "Derrubar uma árvore que se regenerava após cada golpe de machado."
+      ],
+      "answer": 0,
+      "fact": "No mito, a pedra de Sísifo volta a cair, obrigando-o a recomeçar continuamente o mesmo esforço.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-efef2b35ab65767fda40 | opentdb-efef2b35ab65767fda40 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0eb3a94633c8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-128d8b3f1362",
+      "category": "religioes",
+      "question": "Qual destes não é uma divindade da mitologia nórdica?",
+      "choices": [
+        "Snotra",
+        "Tyr",
+        "Jens",
+        "Loki"
+      ],
+      "answer": 2,
+      "fact": "Loki, Tyr e Snotra são nomes presentes na tradição nórdica; Jens é a alternativa que não corresponde a uma dessas divindades.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f7a60c68aa29bf10640c | opentdb-f7a60c68aa29bf10640c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-128d8b3f1362",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "mitologia"
+    },
+    {
+      "id": "u-393589232afc",
+      "category": "religioes",
+      "question": "Qual é o quarto livro do Antigo Testamento?",
+      "choices": [
+        "Números",
+        "Levítico",
+        "Êxodo",
+        "Gênesis"
+      ],
+      "answer": 0,
+      "fact": "Números ocupa a quarta posição na sequência apresentada: Gênesis, Êxodo, Levítico e Números.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1e33a641150ae29b4503 | opentdb-1e33a641150ae29b4503 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-393589232afc",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "textos-religiosos",
+      "universe": "Bíblia",
+      "workTitle": "Números"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

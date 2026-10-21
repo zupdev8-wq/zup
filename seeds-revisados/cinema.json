@@ -1,0 +1,1819 @@
+{
+  "schemaVersion": 1,
+  "category": "cinema",
+  "questions": [
+    {
+      "id": "u-bcaa8efa3155",
+      "category": "cinema",
+      "question": "Em Velocidade Máxima, de 1994, qual é a velocidade mínima que o ônibus deve manter para impedir a explosão da bomba?",
+      "choices": [
+        "60 milhas por hora",
+        "50 milhas por hora",
+        "70 milhas por hora",
+        "40 milhas por hora"
+      ],
+      "answer": 1,
+      "fact": "O limite mencionado no filme é de 50 milhas por hora. A unidade foi preservada em todas as alternativas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cc6717596a05d1dc1b5f | opentdb-cc6717596a05d1dc1b5f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bcaa8efa3155",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "acao",
+      "universe": "Velocidade Máxima",
+      "workTitle": "Velocidade Máxima"
+    },
+    {
+      "id": "u-d64281e14586",
+      "category": "cinema",
+      "question": "Qual personagem dos filmes do Ursinho Pooh foi acrescentado pela Disney e não aparece nos livros originais?",
+      "choices": [
+        "Heffalumps",
+        "Rabbit",
+        "Tigger",
+        "Gopher"
+      ],
+      "answer": 3,
+      "fact": "Gopher é o personagem indicado como acréscimo das adaptações da Disney.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34300f7e6bc7a8751134 | opentdb-34300f7e6bc7a8751134 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-d64281e14586",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "adaptacoes",
+      "universe": "Ursinho Pooh",
+      "workTitle": "Ursinho Pooh"
+    },
+    {
+      "id": "u-9470348a6251",
+      "category": "cinema",
+      "question": "Qual filme de Stanley Kubrick adapta um romance de Stephen King?",
+      "choices": [
+        "O Iluminado",
+        "2001: Uma Odisseia no Espaço",
+        "De Olhos Bem Fechados",
+        "Dr. Fantástico"
+      ],
+      "answer": 0,
+      "fact": "O Iluminado é a adaptação do romance de Stephen King.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-fe91b43e0d2bacbb831b | opentdb-fe91b43e0d2bacbb831b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9470348a6251",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "adaptacoes",
+      "universe": "O Iluminado",
+      "workTitle": "O Iluminado"
+    },
+    {
+      "id": "u-2812f2e0b62f",
+      "category": "cinema",
+      "question": "O filme de animação Moana, lançado pela Disney em 2016, foi inspirado em qual cultura?",
+      "choices": [
+        "Polinésia",
+        "Indígena norte-americana",
+        "Japonesa",
+        "Nórdica"
+      ],
+      "answer": 0,
+      "fact": "Moana reúne inspirações de povos e tradições da Polinésia; a região não possui uma única cultura uniforme.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-38d62f0f54904cde35fc | opentdb-38d62f0f54904cde35fc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2812f2e0b62f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "animacao",
+      "universe": "Disney",
+      "workTitle": "Moana"
+    },
+    {
+      "id": "u-b0fdc2e3ac92",
+      "category": "cinema",
+      "question": "Qual filme apresenta um espírito gigante parecido com um coelho, com poderes mágicos que incluem fazer árvores crescerem?",
+      "choices": [
+        "Alice no País das Maravilhas",
+        "A Origem dos Guardiões",
+        "Hop",
+        "Meu Amigo Totoro"
+      ],
+      "answer": 3,
+      "fact": "A descrição aponta para Meu Amigo Totoro.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8e06fc56b037cb271f48 | opentdb-8e06fc56b037cb271f48 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b0fdc2e3ac92",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "animacao",
+      "universe": "Meu Amigo Totoro",
+      "workTitle": "Meu Amigo Totoro"
+    },
+    {
+      "id": "u-757750c4f838",
+      "category": "cinema",
+      "question": "Quem protagoniza Operação Dragão, filme de 1973?",
+      "choices": [
+        "Yun-Fat Chow",
+        "Jackie Chan",
+        "Bruce Lee",
+        "Jet Li"
+      ],
+      "answer": 2,
+      "fact": "Bruce Lee protagoniza Operação Dragão.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d0f922f6cdd246171388 | opentdb-d0f922f6cdd246171388 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-757750c4f838",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-marciais",
+      "universe": "Operação Dragão",
+      "workTitle": "Operação Dragão"
+    },
+    {
+      "id": "u-7005fd66a3b6",
+      "category": "cinema",
+      "question": "Em qual filme Johnny Depp estreou como ator no cinema?",
+      "choices": [
+        "Halloween",
+        "A Hora do Pesadelo",
+        "Sexta-Feira 13",
+        "Dia dos Namorados Macabro"
+      ],
+      "answer": 1,
+      "fact": "A estreia citada pela fonte é A Hora do Pesadelo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d38a7802d76c8ee301ef | opentdb-d38a7802d76c8ee301ef (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7005fd66a3b6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "carreiras",
+      "universe": "A Hora do Pesadelo",
+      "workTitle": "A Hora do Pesadelo"
+    },
+    {
+      "id": "u-88c36c700374",
+      "category": "cinema",
+      "question": "Em qual filme de 1922 o ator alemão de cinema mudo Max Schreck interpreta um monstro famoso?",
+      "choices": [
+        "Häxan",
+        "Frankenstein",
+        "O Cavaleiro sem Cabeça",
+        "Nosferatu"
+      ],
+      "answer": 3,
+      "fact": "Nosferatu é o filme citado. A data ajuda a distinguir essa produção de versões posteriores.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-efa67f0e36cbd4552840 | opentdb-efa67f0e36cbd4552840 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-88c36c700374",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cinema-mudo",
+      "universe": "Nosferatu",
+      "workTitle": "Nosferatu"
+    },
+    {
+      "id": "u-0facaa010a9b",
+      "category": "cinema",
+      "question": "Qual é a forma correta da expressão latina Romanes Eunt Domus em A Vida de Brian, do Monty Python?",
+      "choices": [
+        "Romani Ite Domum",
+        "Roxani Ite Domum",
+        "Romanos, vão para casa",
+        "Tomate Ite Domum"
+      ],
+      "answer": 0,
+      "fact": "A cena transforma uma mensagem política em uma lição de latim. A forma corrigida no filme é Romani Ite Domum.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-16b0c3a3f859624809a7 | opentdb-16b0c3a3f859624809a7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0facaa010a9b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "comedia",
+      "universe": "Monty Python",
+      "workTitle": "A Vida de Brian"
+    },
+    {
+      "id": "u-ac6a13f18629",
+      "category": "cinema",
+      "question": "Em que ponto da cronologia de Star Wars se passa Rogue One: Uma História Star Wars?",
+      "choices": [
+        "Entre os Episódios IV e V",
+        "Entre os Episódios III e IV",
+        "Antes do Episódio I",
+        "Depois do Episódio VI"
+      ],
+      "answer": 1,
+      "fact": "Rogue One se passa entre os Episódios III e IV. Ordem cronológica é diferente de ordem de lançamento.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-49651ec49b9ab0893a82 | opentdb-49651ec49b9ab0893a82 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ac6a13f18629",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cronologia",
+      "universe": "Star Wars",
+      "workTitle": "Star Wars"
+    },
+    {
+      "id": "u-19ad8faaf1ac",
+      "category": "cinema",
+      "question": "Qual destes filmes NÃO foi lançado em 1996?",
+      "choices": [
+        "Gladiador",
+        "A Rocha",
+        "Independence Day",
+        "Missão: Impossível"
+      ],
+      "answer": 0,
+      "fact": "Gladiador é de 2000; os outros três filmes tiveram seu lançamento original em 1996.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a60118b4eb10b1d48639 | opentdb-a60118b4eb10b1d48639 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-19ad8faaf1ac",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "datas-de-lancamento"
+    },
+    {
+      "id": "u-e990ff819822",
+      "category": "cinema",
+      "question": "Quem dirigiu Alien?",
+      "choices": [
+        "Christopher Nolan",
+        "Michael Bay",
+        "Ridley Scott",
+        "James Cameron"
+      ],
+      "answer": 2,
+      "fact": "Ridley Scott dirigiu o primeiro Alien.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7aee1b1160d834638d35 | opentdb-7aee1b1160d834638d35 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e990ff819822",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "Alien",
+      "workTitle": "Alien"
+    },
+    {
+      "id": "u-5aef53fd00d2",
+      "category": "cinema",
+      "question": "Quem dirigiu E.T.: O Extraterrestre, de 1982?",
+      "choices": [
+        "Steven Spielberg",
+        "Stanley Kubrick",
+        "Tim Burton",
+        "James Cameron"
+      ],
+      "answer": 0,
+      "fact": "Steven Spielberg é o diretor do filme.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b6f966472924514d5163 | opentdb-b6f966472924514d5163 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5aef53fd00d2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "E.T.: O Extraterrestre",
+      "workTitle": "E.T.: O Extraterrestre"
+    },
+    {
+      "id": "u-b0dfc66b78ec",
+      "category": "cinema",
+      "question": "Quem dirigiu O Regresso, filme de 2015?",
+      "choices": [
+        "David Fincher",
+        "Wes Anderson",
+        "Alejandro G. Iñárritu",
+        "Christopher Nolan"
+      ],
+      "answer": 2,
+      "fact": "Alejandro G. Iñárritu dirigiu O Regresso.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bbead1e30680bffff4b1 | opentdb-bbead1e30680bffff4b1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b0dfc66b78ec",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "O Regresso",
+      "workTitle": "O Regresso"
+    },
+    {
+      "id": "u-bf247aba1853",
+      "category": "cinema",
+      "question": "Quem dirigiu os filmes Kill Bill?",
+      "choices": [
+        "Stanley Kubrick",
+        "Quentin Tarantino",
+        "Arnold Schwarzenegger",
+        "David Lean"
+      ],
+      "answer": 1,
+      "fact": "Quentin Tarantino é o diretor de Kill Bill.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bbf0f7314d0d340231be | opentdb-bbf0f7314d0d340231be (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bf247aba1853",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "Kill Bill",
+      "workTitle": "Kill Bill"
+    },
+    {
+      "id": "u-f18374ddc40e",
+      "category": "cinema",
+      "question": "Quem dirigiu Scott Pilgrim contra o Mundo, de 2010?",
+      "choices": [
+        "Seth Rogan",
+        "Phil Lord",
+        "Chris Miller",
+        "Edgar Wright"
+      ],
+      "answer": 3,
+      "fact": "Edgar Wright é o diretor do filme.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c7e884ac2b4dc703b099 | opentdb-c7e884ac2b4dc703b099 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-f18374ddc40e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "Scott Pilgrim contra o Mundo",
+      "workTitle": "Scott Pilgrim contra o Mundo"
+    },
+    {
+      "id": "u-80920067acd6",
+      "category": "cinema",
+      "question": "Quem dirigiu O Silêncio dos Inocentes, de 1991?",
+      "choices": [
+        "Frank Darabont",
+        "Michael Bay",
+        "Stanley Kubrick",
+        "Jonathan Demme"
+      ],
+      "answer": 3,
+      "fact": "Jonathan Demme dirigiu essa adaptação cinematográfica.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d02a41d727a72e99db6b | opentdb-d02a41d727a72e99db6b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-80920067acd6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "O Silêncio dos Inocentes",
+      "workTitle": "O Silêncio dos Inocentes"
+    },
+    {
+      "id": "u-9b082e05d680",
+      "category": "cinema",
+      "question": "Quem dirigiu A Forma da Água, de 2017?",
+      "choices": [
+        "Steven Spielberg",
+        "James Cameron",
+        "Martin Scorsese",
+        "Guillermo del Toro"
+      ],
+      "answer": 3,
+      "fact": "Guillermo del Toro é o diretor de A Forma da Água.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e049031a08442bdcec34 | opentdb-e049031a08442bdcec34 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9b082e05d680",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao",
+      "universe": "A Forma da Água",
+      "workTitle": "A Forma da Água"
+    },
+    {
+      "id": "u-a1d8b334823d",
+      "category": "cinema",
+      "question": "Qual ator norte-americano dirigiu e atuou ao lado de Emily Blunt no terror Um Lugar Silencioso, de 2018?",
+      "choices": [
+        "Josh Brolin",
+        "Willem Dafoe",
+        "John Krasinski",
+        "Keanu Reeves"
+      ],
+      "answer": 2,
+      "fact": "John Krasinski atuou no filme e também o dirigiu.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-40c7a7da4438a7182e42 | opentdb-40c7a7da4438a7182e42 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a1d8b334823d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "direcao-e-atuacao",
+      "universe": "Um Lugar Silencioso",
+      "workTitle": "Um Lugar Silencioso"
+    },
+    {
+      "id": "u-261467cbe66d",
+      "category": "cinema",
+      "question": "Qual destes filmes NÃO foi dirigido por Quentin Tarantino?",
+      "choices": [
+        "Jackie Brown",
+        "Um Drink no Inferno",
+        "Pulp Fiction",
+        "Cães de Aluguel"
+      ],
+      "answer": 1,
+      "fact": "Um Drink no Inferno foi dirigido por Robert Rodriguez. Tarantino participou do filme como roteirista e ator.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9c219ceccfa043e970b9 | opentdb-9c219ceccfa043e970b9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-261467cbe66d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "diretores",
+      "workTitle": "Um Drink no Inferno"
+    },
+    {
+      "id": "u-7f7b60a70323",
+      "category": "cinema",
+      "question": "Quem dá voz ao protagonista Blu na versão original da animação Rio, de 2011?",
+      "choices": [
+        "Zach Galifianakis",
+        "Jonah Hill",
+        "Michael Cera",
+        "Jesse Eisenberg"
+      ],
+      "answer": 3,
+      "fact": "Jesse Eisenberg dá voz a Blu na versão original em inglês.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-373149921c2607998ff5 | opentdb-373149921c2607998ff5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7f7b60a70323",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "dublagem-original",
+      "universe": "Rio",
+      "workTitle": "Rio"
+    },
+    {
+      "id": "u-a32ae0f576e5",
+      "category": "cinema",
+      "question": "Quem dá voz a Toad na versão original de Super Mario Bros.: O Filme, de 2023?",
+      "choices": [
+        "Keegan-Michael Key",
+        "Seth Rogan",
+        "Jack Black",
+        "Charlie Day"
+      ],
+      "answer": 0,
+      "fact": "Keegan-Michael Key dá voz a Toad na versão original em inglês.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b4712cf1a0114a8793ac | opentdb-b4712cf1a0114a8793ac (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a32ae0f576e5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "dublagem-original",
+      "universe": "Super Mario Bros.: O Filme",
+      "workTitle": "Super Mario Bros.: O Filme"
+    },
+    {
+      "id": "u-a626433c5157",
+      "category": "cinema",
+      "question": "O que Alfred Hitchcock usou para representar sangue em Psicose?",
+      "choices": [
+        "Corante alimentício vermelho",
+        "Xarope de bordo",
+        "Calda de chocolate",
+        "Ketchup"
+      ],
+      "answer": 2,
+      "fact": "O gabarito aponta calda de chocolate como o material usado.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b37f087778cb75a74ab0 | opentdb-b37f087778cb75a74ab0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a626433c5157",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "efeitos-especiais",
+      "universe": "Psicose",
+      "workTitle": "Psicose"
+    },
+    {
+      "id": "u-96d2e117f290",
+      "category": "cinema",
+      "question": "Qual ator interpretou o protagonista de Edward Mãos de Tesoura, de 1990?",
+      "choices": [
+        "Ben Stiller",
+        "Clint Eastwood",
+        "Johnny Depp",
+        "Leonardo DiCaprio"
+      ],
+      "answer": 2,
+      "fact": "Johnny Depp interpreta Edward no filme.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-05aa5e955bb8a93cce00 | opentdb-05aa5e955bb8a93cce00 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-96d2e117f290",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Edward Mãos de Tesoura",
+      "workTitle": "Edward Mãos de Tesoura"
+    },
+    {
+      "id": "u-d0401ff5c265",
+      "category": "cinema",
+      "question": "Quem interpretou Batman em Batman & Robin, de 1997?",
+      "choices": [
+        "George Clooney",
+        "Val Kilmer",
+        "Christian Bale",
+        "Michael Keaton"
+      ],
+      "answer": 0,
+      "fact": "George Clooney interpreta Batman nessa produção. O ano diferencia o filme de outras versões do personagem.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1220eb711bee755938f3 | opentdb-1220eb711bee755938f3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-d0401ff5c265",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Batman & Robin",
+      "workTitle": "Batman & Robin"
+    },
+    {
+      "id": "u-eac36c7b700d",
+      "category": "cinema",
+      "question": "Quem interpreta Willy Wonka em A Fantástica Fábrica de Chocolate, de 1971?",
+      "choices": [
+        "Gene Wilder",
+        "Peter Ostrum",
+        "Johnny Depp",
+        "Shia LeBouf"
+      ],
+      "answer": 0,
+      "fact": "Gene Wilder interpreta Willy Wonka na versão de 1971. O ano diferencia o filme de outras adaptações.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-259b325df52ea1be5f7b | opentdb-259b325df52ea1be5f7b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-eac36c7b700d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "A Fantástica Fábrica de Chocolate",
+      "workTitle": "A Fantástica Fábrica de Chocolate"
+    },
+    {
+      "id": "u-bd68b69482a1",
+      "category": "cinema",
+      "question": "Qual atriz interpreta a Dra. Grace Augustine em Avatar, de James Cameron?",
+      "choices": [
+        "Sigourney Weaver",
+        "Alyssa Monroe",
+        "Melissa Beckett",
+        "Jessica Chastain"
+      ],
+      "answer": 0,
+      "fact": "Sigourney Weaver interpreta a Dra. Grace Augustine.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-74f6434ca9cf5647fc06 | opentdb-74f6434ca9cf5647fc06 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bd68b69482a1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Avatar",
+      "workTitle": "Avatar"
+    },
+    {
+      "id": "u-3542ecf00137",
+      "category": "cinema",
+      "question": "Quem interpreta Ethan Hunt, protagonista da franquia de filmes Missão: Impossível?",
+      "choices": [
+        "Tom Cruise",
+        "Johnny Depp",
+        "Pierce Brosnan",
+        "Sean Connery"
+      ],
+      "answer": 0,
+      "fact": "Tom Cruise interpreta Ethan Hunt nos filmes da franquia Missão: Impossível.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-961a97a823d64a12e2bc | opentdb-961a97a823d64a12e2bc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3542ecf00137",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Missão: Impossível"
+    },
+    {
+      "id": "u-4a2359d9b69f",
+      "category": "cinema",
+      "question": "Quais atores formam o trio de Três Homens em Conflito?",
+      "choices": [
+        "Sergio Leone, Ennio Morricone e Tonino Delli Colli",
+        "Clint Eastwood, Eli Wallach e Lee Van Cleef",
+        "Aldo Giuffrè, Mario Brega e Luigi Pistilli",
+        "Yul Brynner, Steve McQueen e Charles Bronson"
+      ],
+      "answer": 1,
+      "fact": "Clint Eastwood, Eli Wallach e Lee Van Cleef compõem o trio central.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-985b5e2f39371905b551 | opentdb-985b5e2f39371905b551 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4a2359d9b69f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Três Homens em Conflito",
+      "workTitle": "Três Homens em Conflito"
+    },
+    {
+      "id": "u-02e9d6b23cba",
+      "category": "cinema",
+      "question": "Qual ator interpreta Obi-Wan Kenobi nos episódios I a III de Star Wars?",
+      "choices": [
+        "Alec Guinness",
+        "Liam Neeson",
+        "Hayden Christensen",
+        "Ewan McGregor"
+      ],
+      "answer": 3,
+      "fact": "Ewan McGregor interpreta a versão mais jovem de Obi-Wan nessa trilogia. Alec Guinness interpreta o personagem na trilogia original.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b278efb0788b93dd8ac1 | opentdb-b278efb0788b93dd8ac1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-02e9d6b23cba",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Star Wars",
+      "workTitle": "Star Wars: Episódios I–III"
+    },
+    {
+      "id": "u-10e7ae71a1e7",
+      "category": "cinema",
+      "question": "Quem interpretou Bruce Wayne e Batman no filme Batman, dirigido por Tim Burton em 1989?",
+      "choices": [
+        "Adam West",
+        "George Clooney",
+        "Michael Keaton",
+        "Val Kilmer"
+      ],
+      "answer": 2,
+      "fact": "Michael Keaton assume as duas identidades do personagem nessa versão de Batman.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e963cef0aad003a1c7e3 | opentdb-e963cef0aad003a1c7e3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-10e7ae71a1e7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Batman",
+      "workTitle": "Batman (1989)"
+    },
+    {
+      "id": "u-f301d66a7f52",
+      "category": "cinema",
+      "question": "Quem interpretou a protagonista feminina de King Kong, de 1933?",
+      "choices": [
+        "Mae West",
+        "Fay Wray",
+        "Vivien Leigh",
+        "Jean Harlow"
+      ],
+      "answer": 1,
+      "fact": "Fay Wray interpreta a protagonista feminina nessa versão de King Kong.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f21f0560404b1fa6e66c | opentdb-f21f0560404b1fa6e66c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-f301d66a7f52",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "King Kong",
+      "workTitle": "King Kong"
+    },
+    {
+      "id": "u-9b0896092d02",
+      "category": "cinema",
+      "question": "Em qual filme de 1973 Yul Brynner interpreta um caubói robótico que apresenta um defeito e passa a matar pessoas?",
+      "choices": [
+        "The Terminators",
+        "Runaway",
+        "Android",
+        "Westworld"
+      ],
+      "answer": 3,
+      "fact": "O filme é Westworld. A pergunta se refere à produção de 1973, e não à série de televisão posterior.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-85663b1d5bb266df76a2 | opentdb-85663b1d5bb266df76a2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9b0896092d02",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-cientifica",
+      "universe": "Westworld",
+      "workTitle": "Westworld"
+    },
+    {
+      "id": "u-1012e33d7d98",
+      "category": "cinema",
+      "question": "Em qual cidade dos Estados Unidos a nave alienígena pousa no filme O Dia em que a Terra Parou, de 1951?",
+      "choices": [
+        "Filadélfia",
+        "Washington, D.C.",
+        "Los Angeles",
+        "Nova York"
+      ],
+      "answer": 1,
+      "fact": "A chegada da nave ocorre em Washington, D.C., situando o encontro com os alienígenas na capital dos Estados Unidos.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e3cd12452f9f53dbab04 | opentdb-e3cd12452f9f53dbab04 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1012e33d7d98",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-cientifica",
+      "workTitle": "O Dia em que a Terra Parou"
+    },
+    {
+      "id": "u-3ebc833cdec6",
+      "category": "cinema",
+      "question": "Em qual país africano se passa a maior parte de Diamante de Sangue, de 2006?",
+      "choices": [
+        "Libéria",
+        "República Centro-Africana",
+        "Serra Leoa",
+        "Burkina Faso"
+      ],
+      "answer": 2,
+      "fact": "A história se passa principalmente em Serra Leoa. Local da narrativa não equivale necessariamente a local de filmagem.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-26e19bebf008c2a0c1c2 | opentdb-26e19bebf008c2a0c1c2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3ebc833cdec6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "geografia-no-cinema",
+      "universe": "Diamante de Sangue",
+      "workTitle": "Diamante de Sangue"
+    },
+    {
+      "id": "u-198b33055575",
+      "category": "cinema",
+      "question": "Qual foi o primeiro longa-metragem de animação feito por computador?",
+      "choices": [
+        "Toy Story",
+        "Tron",
+        "101 Dálmatas",
+        "O Rei Leão"
+      ],
+      "answer": 0,
+      "fact": "Toy Story foi realizado inteiramente com animação por computador. Tron combina imagens de computador com cenas de atores.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a9346cc6ab1689a5ba44 | opentdb-a9346cc6ab1689a5ba44 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-198b33055575",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-animacao",
+      "universe": "Pixar",
+      "workTitle": "Toy Story"
+    },
+    {
+      "id": "u-b4bbf1d531b2",
+      "category": "cinema",
+      "question": "Qual destes clássicos da Disney foi lançado em 1970?",
+      "choices": [
+        "A Pequena Sereia",
+        "O Cão e a Raposa",
+        "101 Dálmatas",
+        "Aristogatas"
+      ],
+      "answer": 3,
+      "fact": "Aristogatas é a animação associada ao ano de 1970.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cde6f15324a8f5f597d9 | opentdb-cde6f15324a8f5f597d9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b4bbf1d531b2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-animacao",
+      "universe": "Aristogatas",
+      "workTitle": "Aristogatas"
+    },
+    {
+      "id": "u-74ecc50ef6e7",
+      "category": "cinema",
+      "question": "Qual foi o primeiro filme de Alfred Hitchcock rodado em cores?",
+      "choices": [
+        "Um Corpo que Cai",
+        "Festim Diabólico",
+        "Rebecca",
+        "Psicose"
+      ],
+      "answer": 1,
+      "fact": "A fonte identifica Festim Diabólico, cujo título original é Rope.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d046c9ff78458cc39ecd | opentdb-d046c9ff78458cc39ecd (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-74ecc50ef6e7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-do-cinema",
+      "universe": "Festim Diabólico",
+      "workTitle": "Festim Diabólico"
+    },
+    {
+      "id": "u-421ba69fd887",
+      "category": "cinema",
+      "question": "Qual é o título do primeiro filme de James Bond, lançado em 1962?",
+      "choices": [
+        "007 contra a Chantagem Atômica",
+        "007 contra o Satânico Dr. No",
+        "007 contra Goldfinger",
+        "Moscou contra 007"
+      ],
+      "answer": 1,
+      "fact": "O primeiro longa da série cinematográfica é Dr. No.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-db8ad71f5e0e2f769cf4 | opentdb-db8ad71f5e0e2f769cf4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-421ba69fd887",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-do-cinema",
+      "universe": "James Bond",
+      "workTitle": "James Bond"
+    },
+    {
+      "id": "u-bdb66e599bbf",
+      "category": "cinema",
+      "question": "Qual destes filmes foi rodado inteiramente em uma única tomada?",
+      "choices": [
+        "Birdman",
+        "Arca Russa",
+        "Gênio Indomável",
+        "A Lista de Schindler"
+      ],
+      "answer": 1,
+      "fact": "A fonte aponta Arca Russa. Uma tomada contínua real não é a mesma coisa que uma montagem que apenas parece contínua.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2edede441b735cc932fc | opentdb-2edede441b735cc932fc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bdb66e599bbf",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "linguagem-cinematografica",
+      "universe": "Arca Russa",
+      "workTitle": "Arca Russa"
+    },
+    {
+      "id": "u-24f6dae2ae16",
+      "category": "cinema",
+      "question": "Em O Senhor dos Anéis: A Sociedade do Anel, qual destes personagens do livro ficou de fora do filme?",
+      "choices": [
+        "Tom Bombadil",
+        "Celeborn",
+        "Barliman Butterbur",
+        "Passolargo"
+      ],
+      "answer": 0,
+      "fact": "Tom Bombadil aparece no livro, mas seu encontro com os hobbits não foi incluído na adaptação cinematográfica.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b5f3629815b708bd9758 | opentdb-b5f3629815b708bd9758 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-24f6dae2ae16",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "livros-e-adaptacoes",
+      "universe": "O Senhor dos Anéis",
+      "workTitle": "O Senhor dos Anéis: A Sociedade do Anel"
+    },
+    {
+      "id": "u-80c33848cd11",
+      "category": "cinema",
+      "question": "Em qual país foi inteiramente filmada a trilogia O Senhor dos Anéis, de Peter Jackson?",
+      "choices": [
+        "Escócia",
+        "Canadá",
+        "Islândia",
+        "Nova Zelândia"
+      ],
+      "answer": 3,
+      "fact": "A trilogia foi filmada na Nova Zelândia. Cenário narrativo e local de filmagem são informações diferentes.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c6d362ed2642487127aa | opentdb-c6d362ed2642487127aa (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-80c33848cd11",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "locacoes",
+      "universe": "O Senhor dos Anéis",
+      "workTitle": "O Senhor dos Anéis"
+    },
+    {
+      "id": "u-39378e111d1c",
+      "category": "cinema",
+      "question": "O filme Extermínio, de 2002, se passa principalmente em qual país europeu?",
+      "choices": [
+        "França",
+        "Alemanha",
+        "Itália",
+        "Reino Unido"
+      ],
+      "answer": 3,
+      "fact": "A história de Extermínio acompanha a epidemia no Reino Unido, incluindo a passagem pela cidade de Londres.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8a6a9ea13fbe847cf7c3 | opentdb-8a6a9ea13fbe847cf7c3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-39378e111d1c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "locacoes-e-ambientacao",
+      "universe": "Extermínio",
+      "workTitle": "Extermínio (2002)"
+    },
+    {
+      "id": "u-25190e0bd0bb",
+      "category": "cinema",
+      "question": "O filme Fargo, de 1996, se passa principalmente em qual estado dos Estados Unidos?",
+      "choices": [
+        "Minnesota",
+        "Dakota do Sul",
+        "Wisconsin",
+        "Dakota do Norte"
+      ],
+      "answer": 0,
+      "fact": "Apesar de Fargo ser uma cidade da Dakota do Norte, a maior parte da história do filme se passa em Minnesota.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-de1416e922b9c818368c | opentdb-de1416e922b9c818368c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-25190e0bd0bb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "locacoes-e-ambientacao",
+      "workTitle": "Fargo (1996)"
+    },
+    {
+      "id": "u-0347b78578cf",
+      "category": "cinema",
+      "question": "Velma Kelly e Roxie Hart são as protagonistas de qual filme vencedor do Oscar?",
+      "choices": [
+        "Dreamgirls",
+        "All That Jazz",
+        "Chicago",
+        "Cabaret"
+      ],
+      "answer": 2,
+      "fact": "Chicago acompanha as duas personagens e transforma sua disputa por fama em números musicais.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-82ee3e2d0940d1c4e702 | opentdb-82ee3e2d0940d1c4e702 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0347b78578cf",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "musicais",
+      "workTitle": "Chicago"
+    },
+    {
+      "id": "u-73965d35df5a",
+      "category": "cinema",
+      "question": "Qual artista musical tem um papel de destaque em Kingsman: O Círculo Dourado, de 2017?",
+      "choices": [
+        "Elton John",
+        "Justin Bieber",
+        "Lady Gaga",
+        "Rihanna"
+      ],
+      "answer": 0,
+      "fact": "Elton John participa do filme.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c4ee62b54d8fa3ceca8e | opentdb-c4ee62b54d8fa3ceca8e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-73965d35df5a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "participacoes-especiais",
+      "universe": "Kingsman: O Círculo Dourado",
+      "workTitle": "Kingsman: O Círculo Dourado"
+    },
+    {
+      "id": "u-121d9e61be55",
+      "category": "cinema",
+      "question": "Qual era o primeiro nome da personagem de Marilyn Monroe no filme Quanto Mais Quente Melhor?",
+      "choices": [
+        "Honey",
+        "Sugar",
+        "Candy",
+        "Caramel"
+      ],
+      "answer": 1,
+      "fact": "A personagem de Marilyn Monroe se chama Sugar. Os nomes das alternativas permanecem em inglês por serem nomes próprios no quiz.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-40cfa3f4af380f521817 | opentdb-40cfa3f4af380f521817 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-121d9e61be55",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "workTitle": "Quanto Mais Quente Melhor"
+    },
+    {
+      "id": "u-1bd8982ea4d3",
+      "category": "cinema",
+      "question": "Na franquia Sexta-Feira 13, qual é o primeiro nome da mãe de Jason?",
+      "choices": [
+        "Pamela",
+        "Christine",
+        "Angeline",
+        "Mary"
+      ],
+      "answer": 0,
+      "fact": "A mãe de Jason se chama Pamela Voorhees.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4912ceb080ea1f2665e1 | opentdb-4912ceb080ea1f2665e1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1bd8982ea4d3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Sexta-Feira 13"
+    },
+    {
+      "id": "u-19f3eceb5973",
+      "category": "cinema",
+      "question": "Que nome Tom Hanks deu à bola de vôlei que lhe faz companhia no filme Náufrago?",
+      "choices": [
+        "Billy",
+        "Jones",
+        "Sexta-Feira",
+        "Wilson"
+      ],
+      "answer": 3,
+      "fact": "Wilson se torna o companheiro imaginário do personagem durante o isolamento na ilha.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-94f396d68223134c6050 | opentdb-94f396d68223134c6050 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-19f3eceb5973",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "workTitle": "Náufrago"
+    },
+    {
+      "id": "u-69864ff53438",
+      "category": "cinema",
+      "question": "Por qual filme Leonardo DiCaprio ganhou seu primeiro Oscar de melhor ator?",
+      "choices": [
+        "O Lobo de Wall Street",
+        "O Regresso",
+        "A Origem",
+        "Ilha do Medo"
+      ],
+      "answer": 1,
+      "fact": "O prêmio foi por O Regresso. A palavra primeiro faz a pergunta tratar de um marco histórico.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-40da33fff62c7b2d52ee | opentdb-40da33fff62c7b2d52ee (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-69864ff53438",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "premios",
+      "universe": "O Regresso",
+      "workTitle": "O Regresso"
+    },
+    {
+      "id": "u-906f94e54c3e",
+      "category": "cinema",
+      "question": "Em Gremlins, depois de qual horário não se deve alimentar um Mogwai?",
+      "choices": [
+        "Meia-noite",
+        "Tarde",
+        "Manhã",
+        "Anoitecer"
+      ],
+      "answer": 0,
+      "fact": "A regra é não alimentá-lo depois da meia-noite. A pergunta trata da regra ficcional do filme.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-14214c3dc90e1659fd99 | opentdb-14214c3dc90e1659fd99 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-906f94e54c3e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "regras-de-universos",
+      "universe": "Gremlins",
+      "workTitle": "Gremlins"
+    },
+    {
+      "id": "u-6241d96d1b32",
+      "category": "cinema",
+      "question": "Quem escreveu e dirigiu Platoon, de 1986?",
+      "choices": [
+        "Oliver Stone",
+        "Michael Cimino",
+        "Stanley Kubrick",
+        "Francis Ford Coppola"
+      ],
+      "answer": 0,
+      "fact": "Oliver Stone escreveu o roteiro e dirigiu o filme.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-924b3af6f9ea787ba7f8 | opentdb-924b3af6f9ea787ba7f8 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-6241d96d1b32",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "roteiro-e-direcao",
+      "universe": "Platoon",
+      "workTitle": "Platoon"
+    },
+    {
+      "id": "u-2df66c5c70c6",
+      "category": "cinema",
+      "question": "O que significa TIE no nome do caça TIE Fighter, de Star Wars?",
+      "choices": [
+        "Twin Intercepter Engine",
+        "Twin Iron Engine",
+        "Twin Ion Engine",
+        "Twin Inception Engine"
+      ],
+      "answer": 2,
+      "fact": "TIE abrevia Twin Ion Engine, referência aos dois motores de íons da nave.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-36e5e84c3416c7d9d90c | opentdb-36e5e84c3416c7d9d90c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2df66c5c70c6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "tecnologia-ficticia",
+      "universe": "Star Wars"
+    },
+    {
+      "id": "u-da9a19d78fc9",
+      "category": "cinema",
+      "question": "Quem compôs a trilha sonora do Blade Runner original?",
+      "choices": [
+        "Yanni",
+        "Vangelis",
+        "Kitaro",
+        "Enya"
+      ],
+      "answer": 1,
+      "fact": "Vangelis compôs a trilha do filme original.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4497195ce1bc26933756 | opentdb-4497195ce1bc26933756 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-da9a19d78fc9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "trilhas-sonoras",
+      "universe": "Blade Runner",
+      "workTitle": "Blade Runner"
+    },
+    {
+      "id": "u-2d6b6325b5e4",
+      "category": "cinema",
+      "question": "Em De Volta para o Futuro II, para qual data do futuro Marty e o Dr. Emmett Brown viajam?",
+      "choices": [
+        "20 de julho de 2015",
+        "28 de agosto de 2015",
+        "21 de outubro de 2015",
+        "25 de janeiro de 2015"
+      ],
+      "answer": 2,
+      "fact": "A data exibida nos circuitos do tempo para a viagem ao futuro é 21 de outubro de 2015.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8f846e99dbdb089cc716 | opentdb-8f846e99dbdb089cc716 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2d6b6325b5e4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "viagem-no-tempo",
+      "universe": "De Volta para o Futuro",
+      "workTitle": "De Volta para o Futuro II"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

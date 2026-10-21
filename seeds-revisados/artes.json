@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "category": "artes",
+  "questions": [
+    {
+      "id": "u-784b7429fdbd",
+      "category": "artes",
+      "question": "Quem pintou o célebre mural Guernica?",
+      "choices": [
+        "Francisco Goya",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Henri Matisse"
+      ],
+      "answer": 2,
+      "fact": "Guernica é uma obra de Picasso associada à violência da Guerra Civil Espanhola.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1d9bc24d9c7cdb8555e7 | opentdb-1d9bc24d9c7cdb8555e7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-784b7429fdbd",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-1afaa7d878ac",
+      "category": "artes",
+      "question": "Em que ano Albrecht Dürer criou a pintura ‘A Lebre Jovem’?",
+      "choices": [
+        "1502",
+        "1602",
+        "1402",
+        "1702"
+      ],
+      "answer": 0,
+      "fact": "A obra conservada no Albertina é datada de 1502 e mostra o cuidado de Dürer com a observação dos animais.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-710a8464822322306b36 | opentdb-710a8464822322306b36 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1afaa7d878ac",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-93a4a29d00d3",
+      "category": "artes",
+      "question": "Qual era a nacionalidade do pintor surrealista Salvador Dalí?",
+      "choices": [
+        "Portuguesa",
+        "Italiana",
+        "Espanhola",
+        "Francesa"
+      ],
+      "answer": 2,
+      "fact": "Dalí era espanhol. Sua produção tornou-se uma das mais conhecidas do surrealismo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-729d843ae7b8a03ade97 | opentdb-729d843ae7b8a03ade97 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-93a4a29d00d3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-837d880e17b3",
+      "category": "artes",
+      "question": "Albrecht Dürer nasceu e morreu em qual cidade?",
+      "choices": [
+        "Augsburg",
+        "Nuremberg",
+        "Bamberg",
+        "Berlim"
+      ],
+      "answer": 1,
+      "fact": "Nuremberg foi a cidade natal de Dürer e também o local de sua morte.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8916a08944356f94a4a3 | opentdb-8916a08944356f94a4a3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-837d880e17b3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-8cb42d3cca49",
+      "category": "artes",
+      "question": "Como se chama a arte japonesa de dobrar papel em formas e figuras decorativas?",
+      "choices": [
+        "Sumi-e",
+        "Haicai",
+        "Ukiyo-e",
+        "Origami"
+      ],
+      "answer": 3,
+      "fact": "Origami cria figuras por meio de dobraduras. Sumi-e e ukiyo-e são outras tradições visuais, e o haicai é uma forma poética.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-99574b0e076d70b49c45 | opentdb-99574b0e076d70b49c45 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8cb42d3cca49",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-26c416e999e0",
+      "category": "artes",
+      "question": "Quem criou o logotipo da Chupa Chups?",
+      "choices": [
+        "Andy Warhol",
+        "Salvador Dalí",
+        "Vincent van Gogh",
+        "Pablo Picasso"
+      ],
+      "answer": 1,
+      "fact": "O logotipo da marca é um exemplo de trabalho de Dalí no design comercial, além de sua produção artística.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9acd914609b5a72c62c4 | opentdb-9acd914609b5a72c62c4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-26c416e999e0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-7ef9bfae2972",
+      "category": "artes",
+      "question": "O ateliê de qual artista era conhecido como ‘The Factory’?",
+      "choices": [
+        "David Hockney",
+        "Roy Lichtenstein",
+        "Peter Blake",
+        "Andy Warhol"
+      ],
+      "answer": 3,
+      "fact": "The Factory foi o nome dado ao ateliê de Andy Warhol, ligado à produção artística e à cultura pop.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a408a3c505b18ccabd79 | opentdb-a408a3c505b18ccabd79 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7ef9bfae2972",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-92a24a055e25",
+      "category": "artes",
+      "question": "Quem pintou a Mona Lisa?",
+      "choices": [
+        "Claude Monet",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Vincent van Gogh"
+      ],
+      "answer": 1,
+      "fact": "A Mona Lisa, também chamada de La Gioconda, é uma pintura de Leonardo da Vinci.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-adaab858966c5068652b | opentdb-adaab858966c5068652b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-92a24a055e25",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-803cbff35d51",
+      "category": "artes",
+      "question": "Qual escultor francês projetou a Estátua da Liberdade?",
+      "choices": [
+        "Henri Matisse",
+        "Jean-Léon Gérôme",
+        "Auguste Rodin",
+        "Frédéric Auguste Bartholdi"
+      ],
+      "answer": 3,
+      "fact": "Bartholdi criou a escultura. O projeto artístico da estátua é diferente do projeto de sua estrutura interna.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b1f63fe62f70f2e3c087 | opentdb-b1f63fe62f70f2e3c087 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-803cbff35d51",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-826edb623d02",
+      "category": "artes",
+      "question": "Quem pintou ‘A Noite Estrelada’?",
+      "choices": [
+        "Vincent van Gogh",
+        "Claude Monet",
+        "Edvard Munch",
+        "Pablo Picasso"
+      ],
+      "answer": 0,
+      "fact": "A Noite Estrelada é uma pintura de Vincent van Gogh, marcada pelo movimento expressivo do céu.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b2c7705a7c8d40475e9d | opentdb-b2c7705a7c8d40475e9d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-826edb623d02",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-a5ed5d4d390e",
+      "category": "artes",
+      "question": "Qual pintura não foi feita por Vincent van Gogh?",
+      "choices": [
+        "A Nona Onda",
+        "Terraço do Café à Noite",
+        "Quarto em Arles",
+        "A Noite Estrelada"
+      ],
+      "answer": 0,
+      "fact": "A Nona Onda é de Ivan Aivazovsky. As outras alternativas nomeiam pinturas de Van Gogh.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c3f203f9dae34f3745b6 | opentdb-c3f203f9dae34f3745b6 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a5ed5d4d390e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-b7acfa3c75f0",
+      "category": "artes",
+      "question": "Qual destas pinturas não é de Caspar David Friedrich?",
+      "choices": [
+        "O Monge à Beira-Mar",
+        "O Mar Negro",
+        "Caminhante sobre o Mar de Névoa",
+        "O Mar de Gelo"
+      ],
+      "answer": 1,
+      "fact": "O Mar Negro é de Ivan Aivazovsky; as outras três obras são associadas a Caspar David Friedrich.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c4f3c7fc190ad6ca601e | opentdb-c4f3c7fc190ad6ca601e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b7acfa3c75f0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-0355411887fd",
+      "category": "artes",
+      "question": "Quem pintou ‘Cisnes Refletindo Elefantes’, ‘O Sono’ e ‘A Persistência da Memória’?",
+      "choices": [
+        "Vincent van Gogh",
+        "Jackson Pollock",
+        "Salvador Dalí",
+        "Edgar Degas"
+      ],
+      "answer": 2,
+      "fact": "As três obras são de Salvador Dalí, conhecido pelas imagens oníricas do surrealismo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ccb7154f718fd930b6ce | opentdb-ccb7154f718fd930b6ce (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0355411887fd",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    },
+    {
+      "id": "u-315bd5d7801f",
+      "category": "artes",
+      "question": "Quantas versões em pintura e pastel de ‘O Grito’ o pintor norueguês Edvard Munch produziu?",
+      "choices": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "answer": 1,
+      "fact": "São quatro versões em pintura e pastel. A contagem não inclui as impressões litográficas do mesmo motivo.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f0c548ba7818bede5683 | opentdb-f0c548ba7818bede5683 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-315bd5d7801f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "artes-visuais"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "category": "biologia",
+  "questions": [
+    {
+      "id": "u-176691165415",
+      "category": "biologia",
+      "question": "O que significa DNA?",
+      "choices": [
+        "Ácido desintoxicante",
+        "Ácido desoxirribogenético",
+        "Ácido desoxirribonucleico",
+        "Átomos desoxirribogenéticos"
+      ],
+      "answer": 2,
+      "fact": "DNA corresponde ao ácido desoxirribonucleico. A sigla veio do nome em inglês.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e728ef67e03b00d42210 | opentdb-e728ef67e03b00d42210 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-176691165415",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "genetica"
+    },
+    {
+      "id": "u-c0e2f898e420",
+      "category": "biologia",
+      "question": "Qual grande extinção foi associada à colisão de um asteroide e eliminou a maioria dos dinossauros não avianos?",
+      "choices": [
+        "Permiano–Triássico",
+        "Triássico–Jurássico",
+        "Cretáceo–Paleógeno",
+        "Ordoviciano–Siluriano"
+      ],
+      "answer": 2,
+      "fact": "O evento é a extinção do Cretáceo–Paleógeno. O termo não avianos distingue esses dinossauros das aves.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e7e782a56f6dc5a0f931 | opentdb-e7e782a56f6dc5a0f931 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-c0e2f898e420",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-vida"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

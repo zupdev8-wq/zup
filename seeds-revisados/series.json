@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "category": "series",
+  "questions": [
+    {
+      "id": "u-407fe7f30547",
+      "category": "series",
+      "question": "Qual destes atores interpretou o Nono Doutor na série britânica Doctor Who?",
+      "choices": [
+        "Matt Smith",
+        "Christopher Eccleston",
+        "Tom Baker",
+        "David Tennant"
+      ],
+      "answer": 1,
+      "fact": "Christopher Eccleston interpreta a encarnação conhecida como Nono Doutor.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f398efb14098e644c0af | opentdb-f398efb14098e644c0af (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-407fe7f30547",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Doctor Who",
+      "workTitle": "Doctor Who"
+    },
+    {
+      "id": "u-357099582753",
+      "category": "series",
+      "question": "Na série de ficção científica Doctor Who, quem interpreta o Décimo Doutor?",
+      "choices": [
+        "David Tennant",
+        "Peter Capaldi",
+        "William Hartnell",
+        "Peter Davison"
+      ],
+      "answer": 0,
+      "fact": "David Tennant interpreta a encarnação conhecida como Décimo Doutor.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-fa5a6903718689d80737 | opentdb-fa5a6903718689d80737 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-357099582753",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "elenco",
+      "universe": "Doctor Who",
+      "workTitle": "Doctor Who"
+    },
+    {
+      "id": "u-3bf13594aab3",
+      "category": "series",
+      "question": "No universo de Star Trek, de que cor é o sangue dos vulcanos?",
+      "choices": [
+        "Roxo",
+        "Verde",
+        "Azul",
+        "Vermelho"
+      ],
+      "answer": 1,
+      "fact": "O sangue verde é uma característica fictícia dos vulcanos em Star Trek.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f4b6d9b38f8c52d3d66d | opentdb-f4b6d9b38f8c52d3d66d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3bf13594aab3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "especies-ficticias",
+      "universe": "Star Trek"
+    },
+    {
+      "id": "u-0539c1e347d3",
+      "category": "series",
+      "question": "Em Star Trek, de que é feita a iguaria klingon chamada gagh?",
+      "choices": [
+        "Klingworms",
+        "Vermes semelhantes a serpentes",
+        "Minhocas",
+        "Macarrão espaguete"
+      ],
+      "answer": 1,
+      "fact": "Gagh é um alimento fictício klingon feito dos vermes chamados serpent worms no original.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bb48b3843ed8c3dc7d9a | opentdb-bb48b3843ed8c3dc7d9a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0539c1e347d3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "gastronomia-ficticia",
+      "universe": "Star Trek"
+    },
+    {
+      "id": "u-08d10310169e",
+      "category": "series",
+      "question": "Em que ano The Big Bang Theory estreou na CBS?",
+      "choices": [
+        "2007",
+        "2008",
+        "2006",
+        "2009"
+      ],
+      "answer": 0,
+      "fact": "A estreia na emissora norte-americana CBS ocorreu em 2007; o enunciado já define o mercado de lançamento.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7121585899f862227344 | opentdb-7121585899f862227344 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-08d10310169e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-televisao",
+      "universe": "The Big Bang Theory",
+      "workTitle": "The Big Bang Theory"
+    },
+    {
+      "id": "u-3a05dce99e22",
+      "category": "series",
+      "question": "Quantas temporadas teve a série de ficção científica Stargate Universe?",
+      "choices": [
+        "10",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": 1,
+      "fact": "Stargate Universe teve duas temporadas em sua exibição original.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a408b2c384ec238a8fbb | opentdb-a408b2c384ec238a8fbb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3a05dce99e22",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-das-series",
+      "universe": "Stargate",
+      "workTitle": "Stargate Universe"
+    },
+    {
+      "id": "u-453ca11253e2",
+      "category": "series",
+      "question": "Onde se passa a série Parks and Recreation?",
+      "choices": [
+        "Pasadena, Califórnia",
+        "Londres, Inglaterra",
+        "Eagleton, Indiana",
+        "Pawnee, Indiana"
+      ],
+      "answer": 3,
+      "fact": "A série se passa em Pawnee, uma cidade fictícia do estado norte-americano de Indiana.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ae0bec01fac0fb778c11 | opentdb-ae0bec01fac0fb778c11 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-453ca11253e2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "locacoes-e-ambientacao",
+      "universe": "Parks and Recreation",
+      "workTitle": "Parks and Recreation"
+    },
+    {
+      "id": "u-0184d01c8ff2",
+      "category": "series",
+      "question": "Qual programa é conhecido pelas músicas You Are a Pirate, Cooking by the Book e We Are Number One?",
+      "choices": [
+        "LazyTown",
+        "Tom e Jerry",
+        "DuckTales",
+        "Princesinha Sofia"
+      ],
+      "answer": 0,
+      "fact": "As três músicas citadas estão associadas a LazyTown; a questão identifica a produção por seu repertório musical.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6199579a2e9623d30d42 | opentdb-6199579a2e9623d30d42 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0184d01c8ff2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "musica-na-televisao",
+      "universe": "LazyTown",
+      "workTitle": "LazyTown"
+    },
+    {
+      "id": "u-28961f6acecc",
+      "category": "series",
+      "question": "Em Game of Thrones, qual é o nome da espada de Jon Snow?",
+      "choices": [
+        "Longclaw",
+        "Widow’s Wail",
+        "Oathkeeper",
+        "Needle"
+      ],
+      "answer": 0,
+      "fact": "A espada de Jon Snow é Longclaw, conhecida em português como Garralonga.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b10bfa57ce78a8c1ed03 | opentdb-b10bfa57ce78a8c1ed03 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-28961f6acecc",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "objetos-das-series",
+      "universe": "Game of Thrones",
+      "workTitle": "Game of Thrones"
+    },
+    {
+      "id": "u-4079bc3705eb",
+      "category": "series",
+      "question": "Na série original de Star Trek, qual era o nome do meio do capitão James T. Kirk?",
+      "choices": [
+        "Tiberius",
+        "Travis",
+        "Tyrone",
+        "Trevor"
+      ],
+      "answer": 0,
+      "fact": "O T. de James T. Kirk corresponde a Tiberius.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34b42125ffa3047cba4f | opentdb-34b42125ffa3047cba4f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4079bc3705eb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Star Trek",
+      "workTitle": "Star Trek: Série Original"
+    },
+    {
+      "id": "u-34ae4441ee84",
+      "category": "series",
+      "question": "Em Game of Thrones, qual é o verdadeiro nome de Mindinho?",
+      "choices": [
+        "Petyr Baelish",
+        "Torrhen Karstark",
+        "Lancel Lannister",
+        "Podrick Payne"
+      ],
+      "answer": 0,
+      "fact": "Mindinho é o apelido pelo qual Petyr Baelish é conhecido.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b83f4d92d582d5b6b3ce | opentdb-b83f4d92d582d5b6b3ce (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-34ae4441ee84",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Game of Thrones",
+      "workTitle": "Game of Thrones"
+    },
+    {
+      "id": "u-2f3bc829d69b",
+      "category": "series",
+      "question": "Qual é o nome do irmão de Chris em Todo Mundo Odeia o Chris?",
+      "choices": [
+        "Joe",
+        "Jerome",
+        "Greg",
+        "Drew"
+      ],
+      "answer": 3,
+      "fact": "Drew é o irmão de Chris. Greg, outra alternativa do quiz, é seu amigo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-febe88600e5c36d2bbde | opentdb-febe88600e5c36d2bbde (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2f3bc829d69b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Todo Mundo Odeia o Chris",
+      "workTitle": "Todo Mundo Odeia o Chris"
+    },
+    {
+      "id": "u-13dc6072d9b0",
+      "category": "series",
+      "question": "Quantas vitórias consecutivas Ken Jennings conquistou no Jeopardy!?",
+      "choices": [
+        "49",
+        "62",
+        "74",
+        "88"
+      ],
+      "answer": 2,
+      "fact": "A sequência de Ken Jennings no programa foi de 74 vitórias consecutivas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-59064157557c8bfa55dc | opentdb-59064157557c8bfa55dc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-13dc6072d9b0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "programas-de-perguntas",
+      "universe": "Jeopardy!",
+      "workTitle": "Jeopardy!"
+    },
+    {
+      "id": "u-0aac08054596",
+      "category": "series",
+      "question": "Quem compôs o tema da conhecida série de ficção científica Doctor Who?",
+      "choices": [
+        "Murray Gold",
+        "Delia Derbyshire",
+        "Ron Grainer",
+        "Peter Howell"
+      ],
+      "answer": 2,
+      "fact": "Ron Grainer compôs o tema. Delia Derbyshire realizou o arranjo eletrônico que marcou a gravação original, uma contribuição distinta e fundamental.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ce260395abf421833492 | opentdb-ce260395abf421833492 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0aac08054596",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "trilhas-sonoras",
+      "universe": "Doctor Who",
+      "workTitle": "Doctor Who"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

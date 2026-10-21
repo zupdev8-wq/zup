@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "category": "tecnologia",
+  "questions": [
+    {
+      "id": "u-cf7f3400b43d",
+      "category": "tecnologia",
+      "question": "No setor de hospedagem de servidores, o que significa IaaS?",
+      "choices": [
+        "Internet and a Server",
+        "Infrastructure as a Service",
+        "Internet as a Service",
+        "Infrastructure as a Server"
+      ],
+      "answer": 1,
+      "fact": "IaaS significa Infrastructure as a Service, ou infraestrutura como serviço.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-123e3c34e3c98da1f761 | opentdb-123e3c34e3c98da1f761 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-cf7f3400b43d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "computacao-em-nuvem"
+    },
+    {
+      "id": "u-3051d2e15fa0",
+      "category": "tecnologia",
+      "question": "Qual domínio de internet corresponde ao país Tuvalu?",
+      "choices": [
+        ".tu",
+        ".tt",
+        ".tv",
+        ".tl"
+      ],
+      "answer": 2,
+      "fact": "O domínio de país de Tuvalu é .tv. Sua aparência não significa que seja um domínio criado originalmente para televisão.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-30ac3e23f1973679a0bf | opentdb-30ac3e23f1973679a0bf (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3051d2e15fa0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "dominios-de-internet"
+    },
+    {
+      "id": "u-1d146caa15df",
+      "category": "tecnologia",
+      "question": "O que a letra S representa no nome do algoritmo de criptografia RSA?",
+      "choices": [
+        "Schottky",
+        "Stable",
+        "Shamir",
+        "Secure"
+      ],
+      "answer": 2,
+      "fact": "O S corresponde ao sobrenome Shamir. A sigla reúne sobrenomes dos autores do algoritmo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c630161304084ba7cbb6 | opentdb-c630161304084ba7cbb6 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1d146caa15df",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-criptografia"
+    },
+    {
+      "id": "u-2185d1ce86a8",
+      "category": "tecnologia",
+      "question": "Qual era o nome da falha encontrada em abril de 2014 na biblioteca de criptografia OpenSSL?",
+      "choices": [
+        "Shellshock",
+        "Shellscript",
+        "Corrupted Blood",
+        "Heartbleed"
+      ],
+      "answer": 3,
+      "fact": "Heartbleed é o nome dessa vulnerabilidade de OpenSSL.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-950d2e3c98d3c6d88e00 | opentdb-950d2e3c98d3c6d88e00 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2185d1ce86a8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-seguranca"
+    },
+    {
+      "id": "u-1e955c99d2ec",
+      "category": "tecnologia",
+      "question": "Qual era o nome da vulnerabilidade de segurança encontrada no Bash em 2014?",
+      "choices": [
+        "Stagefright",
+        "Heartbleed",
+        "Shellshock",
+        "Bashbug"
+      ],
+      "answer": 2,
+      "fact": "Shellshock é o nome associado às falhas do Bash divulgadas em 2014.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cd043ea3c1057b7a552b | opentdb-cd043ea3c1057b7a552b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1e955c99d2ec",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-seguranca"
+    },
+    {
+      "id": "u-6606257c0ad7",
+      "category": "tecnologia",
+      "question": "O que significa GPS?",
+      "choices": [
+        "Global Personal System",
+        "General Personal Satellite",
+        "General Positioning System",
+        "Global Positioning System"
+      ],
+      "answer": 3,
+      "fact": "GPS significa Global Positioning System, ou Sistema de Posicionamento Global.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-13df0a2d994c5a07a03e | opentdb-13df0a2d994c5a07a03e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-6606257c0ad7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "navegacao-e-satelites"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

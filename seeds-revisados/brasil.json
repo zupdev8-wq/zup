@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "category": "brasil",
+  "questions": [
+    {
+      "id": "u-d3a00f656255",
+      "category": "brasil",
+      "question": "O Brasil foi colônia de qual destes países?",
+      "choices": [
+        "Países Baixos",
+        "Espanha",
+        "França",
+        "Portugal"
+      ],
+      "answer": 3,
+      "fact": "Portugal foi a potência colonial que administrou o Brasil.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-93e105d6919d53a1ca04 | opentdb-93e105d6919d53a1ca04 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-d3a00f656255",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "brasil-colonial"
+    },
+    {
+      "id": "u-a99431cb5c43",
+      "category": "brasil",
+      "question": "Quais países participaram da Guerra da Lagosta?",
+      "choices": [
+        "Estados Unidos e Inglaterra",
+        "Austrália e Nova Zelândia",
+        "Canadá e Noruega",
+        "França e Brasil"
+      ],
+      "answer": 3,
+      "fact": "O episódio envolveu Brasil e França, em uma crise relacionada à pesca da lagosta no início da década de 1960.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3181448cd2dd47d94aa5 | opentdb-3181448cd2dd47d94aa5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a99431cb5c43",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-diplomatica"
+    },
+    {
+      "id": "u-e50cc18ba214",
+      "category": "brasil",
+      "question": "Fora do Japão, qual país tem o maior número de pessoas de ascendência japonesa?",
+      "choices": [
+        "Coreia do Sul",
+        "Estados Unidos",
+        "China",
+        "Brasil"
+      ],
+      "answer": 3,
+      "fact": "A fonte aponta o Brasil, que abriga uma grande comunidade de japoneses e descendentes.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a54d57b362cc1ab15c88 | opentdb-a54d57b362cc1ab15c88 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e50cc18ba214",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "imigracao"
+    },
+    {
+      "id": "u-980523df9ce0",
+      "category": "brasil",
+      "question": "Qual é a língua oficial do Brasil?",
+      "choices": [
+        "Inglês",
+        "Português",
+        "Brasileiro",
+        "Espanhol"
+      ],
+      "answer": 1,
+      "fact": "O português é a língua oficial do país. Brasileiro é uma nacionalidade, não o nome da língua oficial.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-23a08c03b2e2956657cf | opentdb-23a08c03b2e2956657cf (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-980523df9ce0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lingua-e-identidade"
+    },
+    {
+      "id": "u-dac63294d962",
+      "category": "brasil",
+      "question": "Qual é o quinto maior país do mundo em área?",
+      "choices": [
+        "Índia",
+        "Brasil",
+        "Estados Unidos",
+        "Austrália"
+      ],
+      "answer": 1,
+      "fact": "O Brasil ocupa a quinta posição em extensão territorial.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9ab63be363df63e1dba7 | opentdb-9ab63be363df63e1dba7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-dac63294d962",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "territorio"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

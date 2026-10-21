@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "category": "espaco",
+  "questions": [
+    {
+      "id": "u-b71905847eee",
+      "category": "espaco",
+      "question": "O que a letra S representa na sigla NASA?",
+      "choices": [
+        "Science",
+        "Space",
+        "Star",
+        "Society"
+      ],
+      "answer": 1,
+      "fact": "A letra S corresponde à palavra inglesa Space, que significa espaço.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b41888de1cb4cbb8947b | opentdb-b41888de1cb4cbb8947b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b71905847eee",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "agencias-espaciais"
+    },
+    {
+      "id": "u-b96b3553dd50",
+      "category": "espaco",
+      "question": "Como se chama o envoltório gasoso de um cometa, que dá origem à cauda?",
+      "choices": [
+        "Coma",
+        "Esteira",
+        "Ablativo",
+        "Refluxo"
+      ],
+      "answer": 0,
+      "fact": "O envoltório é chamado de coma. Ele deve ser distinguido do núcleo sólido do cometa.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-21eb4a62652cf06ef62c | opentdb-21eb4a62652cf06ef62c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b96b3553dd50",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cometas"
+    },
+    {
+      "id": "u-f8edc206c4d9",
+      "category": "espaco",
+      "question": "Qual é o elemento mais abundante no universo?",
+      "choices": [
+        "Hélio",
+        "Lítio",
+        "Hidrogênio",
+        "Oxigênio"
+      ],
+      "answer": 2,
+      "fact": "O hidrogênio é o elemento mais abundante no universo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0c5994eda39f868ab4b3 | opentdb-0c5994eda39f868ab4b3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-f8edc206c4d9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "composicao-do-universo"
+    },
+    {
+      "id": "u-ccf469a24aee",
+      "category": "espaco",
+      "question": "Qual é a idade do universo?",
+      "choices": [
+        "13,8 bilhões de anos",
+        "4,5 bilhões de anos",
+        "16,2 bilhões de anos",
+        "7,9 bilhões de anos"
+      ],
+      "answer": 0,
+      "fact": "A estimativa indicada é de aproximadamente 13,8 bilhões de anos. Trata-se de uma estimativa científica, não de uma idade conhecida com precisão absoluta.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-42cc064a7c242ac965c7 | opentdb-42cc064a7c242ac965c7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ccf469a24aee",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cosmologia"
+    },
+    {
+      "id": "u-fad683742499",
+      "category": "espaco",
+      "question": "De qual planeta a sonda Viking 1 enviou imagens da superfície a partir de 1976?",
+      "choices": [
+        "Marte",
+        "Vênus",
+        "Júpiter",
+        "Saturno"
+      ],
+      "answer": 0,
+      "fact": "Viking 1 enviou imagens da superfície de Marte.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2d110c9606becdd2c99f | opentdb-2d110c9606becdd2c99f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fad683742499",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "exploracao-espacial"
+    },
+    {
+      "id": "u-3cb7a68d39cb",
+      "category": "espaco",
+      "question": "Qual missão Apollo foi a primeira a pousar na Lua?",
+      "choices": [
+        "Apollo 9",
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 10"
+      ],
+      "answer": 2,
+      "fact": "Apollo 11 foi a primeira missão do programa a pousar na Lua.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8c98083b0dfc2c053b64 | opentdb-8c98083b0dfc2c053b64 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3cb7a68d39cb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "exploracao-espacial"
+    },
+    {
+      "id": "u-36e8705c3b6a",
+      "category": "espaco",
+      "question": "Em qual missão o ônibus espacial Columbia se desintegrou durante a reentrada?",
+      "choices": [
+        "STS-107",
+        "STS-109",
+        "STS-51-L",
+        "STS-61-C"
+      ],
+      "answer": 0,
+      "fact": "O acidente do Columbia ocorreu na missão STS-107.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ed01377fb627cc7246d5 | opentdb-ed01377fb627cc7246d5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-36e8705c3b6a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-exploracao"
+    },
+    {
+      "id": "u-5357508e8d49",
+      "category": "espaco",
+      "question": "Qual lua é o único satélite do Sistema Solar a possuir uma atmosfera densa?",
+      "choices": [
+        "Calisto",
+        "Europa",
+        "Miranda",
+        "Titã"
+      ],
+      "answer": 3,
+      "fact": "Titã é o satélite indicado. A palavra densa é essencial: outros satélites podem ter atmosferas extremamente tênues.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-82fb3bf1ffed31575cda | opentdb-82fb3bf1ffed31575cda (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5357508e8d49",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "luas"
+    },
+    {
+      "id": "u-275864c650e4",
+      "category": "espaco",
+      "question": "As luas Miranda, Ariel, Umbriel, Titânia e Oberon orbitam qual planeta?",
+      "choices": [
+        "Urano",
+        "Vênus",
+        "Júpiter",
+        "Netuno"
+      ],
+      "answer": 0,
+      "fact": "Essas cinco luas orbitam Urano.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-995cba98a7a94355cecb | opentdb-995cba98a7a94355cecb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-275864c650e4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "luas"
+    },
+    {
+      "id": "u-8b2f173ecb88",
+      "category": "espaco",
+      "question": "Arredondando para o minuto mais próximo, quanto tempo a luz leva para viajar do Sol à Terra?",
+      "choices": [
+        "12 minutos",
+        "2 minutos",
+        "6 minutos",
+        "8 minutos"
+      ],
+      "answer": 3,
+      "fact": "O valor arredondado é oito minutos. A distância entre a Terra e o Sol varia, por isso a pergunta pede uma aproximação.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a9b8856eddde221acd6f | opentdb-a9b8856eddde221acd6f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8b2f173ecb88",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "luz-e-distancia"
+    },
+    {
+      "id": "u-445b1492383c",
+      "category": "espaco",
+      "question": "Aproximadamente quanto dura um ano em Urano?",
+      "choices": [
+        "62 anos terrestres",
+        "84 anos terrestres",
+        "47 anos terrestres",
+        "109 anos terrestres"
+      ],
+      "answer": 1,
+      "fact": "Um ano em Urano dura aproximadamente 84 anos terrestres, pois corresponde à sua volta ao redor do Sol.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0155fa7bd5cc2ddc221e | opentdb-0155fa7bd5cc2ddc221e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-445b1492383c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "orbitas"
+    },
+    {
+      "id": "u-b2305fa87fd4",
+      "category": "espaco",
+      "question": "Qual é o planeta mais quente do Sistema Solar?",
+      "choices": [
+        "Mercúrio",
+        "Vênus",
+        "Marte",
+        "Júpiter"
+      ],
+      "answer": 1,
+      "fact": "Vênus é o planeta mais quente, embora Mercúrio esteja mais perto do Sol. A atmosfera espessa de Vênus retém muito calor.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d75b25e454a2766fc111 | opentdb-d75b25e454a2766fc111 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b2305fa87fd4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "planetas"
+    },
+    {
+      "id": "u-9ca4915b74f2",
+      "category": "espaco",
+      "question": "Quantos planetas compõem o Sistema Solar?",
+      "choices": [
+        "9",
+        "8",
+        "7",
+        "6"
+      ],
+      "answer": 1,
+      "fact": "O Sistema Solar tem oito planetas na classificação atual. Planetas anões formam outra categoria.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4ae33119e46b09c0d555 | opentdb-4ae33119e46b09c0d555 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9ca4915b74f2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "sistema-solar"
+    },
+    {
+      "id": "u-c11fdee4630a",
+      "category": "espaco",
+      "question": "Entre quais planetas fica o cinturão de asteroides?",
+      "choices": [
+        "Terra e Marte",
+        "Marte e Júpiter",
+        "Júpiter e Saturno",
+        "Mercúrio e Vênus"
+      ],
+      "answer": 1,
+      "fact": "O cinturão principal de asteroides fica entre Marte e Júpiter.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5408432b681e24a3fc8e | opentdb-5408432b681e24a3fc8e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-c11fdee4630a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "sistema-solar"
+    },
+    {
+      "id": "u-cc9e628aa25d",
+      "category": "espaco",
+      "question": "Quais dois elementos compõem a maior parte do Sol?",
+      "choices": [
+        "Carbono e nitrogênio",
+        "Hidrogênio e hélio",
+        "Carbono e hélio",
+        "Hidrogênio e nitrogênio"
+      ],
+      "answer": 1,
+      "fact": "O Sol é composto principalmente por hidrogênio e hélio.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-486d1d4f163c182d1c09 | opentdb-486d1d4f163c182d1c09 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-cc9e628aa25d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "sol"
+    },
+    {
+      "id": "u-e28892fc5152",
+      "category": "espaco",
+      "question": "Qual é a distância de um ano-luz?",
+      "choices": [
+        "501,2 milhões de milhas",
+        "105,40 anos terrestres",
+        "1 unidade astronômica",
+        "9,461 trilhões de quilômetros"
+      ],
+      "answer": 3,
+      "fact": "Um ano-luz corresponde a aproximadamente 9,461 trilhões de quilômetros. Ele mede distância, apesar de seu nome conter ano.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-16a627e7b53e842cbebb | opentdb-16a627e7b53e842cbebb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e28892fc5152",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "unidades-astronomicas"
+    },
+    {
+      "id": "u-4b4c630c0ab6",
+      "category": "espaco",
+      "question": "Em qual constelação se encontra a direção do centro da Via Láctea?",
+      "choices": [
+        "Sagitário",
+        "Ofiúco",
+        "Escorpião",
+        "Capricórnio"
+      ],
+      "answer": 0,
+      "fact": "Da Terra, observamos o centro galáctico na direção da constelação de Sagitário.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-38ce4220d1137f836131 | opentdb-38ce4220d1137f836131 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4b4c630c0ab6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "via-lactea"
+    },
+    {
+      "id": "u-491562527316",
+      "category": "espaco",
+      "question": "O que existe no centro da nossa galáxia?",
+      "choices": [
+        "Uma supernova",
+        "Um buraco de minhoca",
+        "Um quasar",
+        "Um buraco negro"
+      ],
+      "answer": 3,
+      "fact": "No centro da Via Láctea há um buraco negro supermassivo chamado Sagittarius A*.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-68075e6ec8d13d60462f | opentdb-68075e6ec8d13d60462f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-491562527316",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "via-lactea"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

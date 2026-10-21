@@ -1,25 +1,53 @@
-ZUP! 1.7.0
+ZUP! 2.1.0 — Neon Free + Render + perguntas e aulas por seed
+20/10/2026
 
-1) Abra a pasta do projeto no VS Code.
-2) Entre em app:
+1) Extraia este ZIP em uma pasta NOVA, abra zup-main no VS Code.
+2) Para iniciar o aplicativo no Expo Go:
+
    cd app
-3) Rode:
-   npm run setup
-4) Quando concluir, rode:
-   npm start
+   npm install
+   npx expo start --go -c
 
-PREMIUM:
-- R$ 9,99 libera 30 dias.
-- Sem cadastro/login no ZUP.
-- O backend identifica a instalação por playerId + token.
-- A compra abre o Mercado Pago para escolher Pix ou cartão.
-- Após ativação, o ZUP mostra um código de recuperação para copiar e guardar.
-- Em outro aparelho, use "Troquei de aparelho e já era Premium".
-- O backend decide se o Premium está ativo e bloqueia quando vencer.
+3) A infraestrutura de dados no Neon/Render NAO foi configurada remotamente.
+   Leia antes docs/NEON-RENDER-E-CURADORIA.md.
+   Para perguntas e explicacoes remotas funcionarem:
+   - Criar projeto Neon Free.
+   - Configurar DATABASE_URL pooled no ambiente do Render, sem expor segredos no app.
+   - Deploy da API atualizada.
+   - Publicar seeds APENAS apos curadoria.
 
-IMAGENS:
-- o feed usa fotos reais de um banco visual ampliado;
-- a seleção varia por card para reduzir repetição;
-- antes da publicação final, valide licenças/atribuição e disponibilidade das fontes remotas.
+4) ARQUIVOS RECEBIDOS:
+   20.622 candidatas (16.915 perguntas de 4 opcoes + 3.707 de 5),
+   mas todas estao como RASCUNHO e nenhuma foi publicada.
+   Esta versao aceita 5 alternativas, inclusive clicando E e retomando quizzes.
+   Scripts:
+   - scripts/export-curadoria-xlsx.py (XLSX para CSV, exige openpyxl)
+   - scripts/prepare-curadoria-seeds.cjs (aprovar -> seed por categoria)
+   - scripts/publish-content-seed.cjs (conferir, publicar, listar, rollback)
 
-Nunca coloque MERCADO_PAGO_ACCESS_TOKEN no app.
+5) SEEDS SAO DADOS, NAO CODIGO:
+   perguntas, gabaritos, justificativas, explicacoes, Ler mais e bibliografia
+   podem mudar sem nova build apos a primeira build que contem esta integracao.
+
+6) VALIDACOES LOCAIS:
+   118 testes do nucleo do aplicativo, 13 testes da API registrados na versao recebida.
+   Nao houve deploy Render, banco real Neon nem teste fisico iOS.
+   Instalacao da API pela internet expirou neste ambiente, logo antes de publicar
+   execute npm install no API e valide endpoints/migracoes reais.
+
+7) NENHUMA chave de banco, token administrativo ou dado de usuario esta neste ZIP.
+   Veja o relatorio separado ZUP-AUDITORIA-ACERVO-E-COBERTURA.xlsx.
+
+8) CORRECAO DE IMAGENS DO FEED (20/10):
+   - 3.156 imagens e 229 temas preservados do photos.ts recebido;
+   - relacao pelo TITULO da aula, sem escolher fotos aleatorias por categoria;
+   - cinco exemplos dos prints resolvidos: higienizacao das maos,
+     fronteira seca, ceu azul, argumento valido e perspectiva linear;
+   - 18 das 94 microaulas publicadas possuem foto/diagrama
+     editorialmente associado; as demais exibem arte neutra ate curadoria;
+   - imagem indisponivel nao interrompe o app.
+   Ver docs/CURADORIA-DE-IMAGENS-ZUP-2.1.0.md.
+   OBS: app/src/photos.ts E app/src/photoCatalog.data.json precisam
+   estar JUNTOS na pasta src. Nao copie somente o photos.ts.
+   Esta alteracao roda NO APP. Ela requer atualizar a build/distribuicao
+   iOS/Android, nao somente publicar a API no Render.

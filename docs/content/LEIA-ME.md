@@ -1,5 +1,14 @@
 # Catálogo editorial 1.7.0
 
+## Publicação no feed e nos quizzes (17/10/2026)
+
+O `catalog.json` contém **11.209 registros históricos**, mas **somente 640 questões passaram pelo filtro de elegibilidade** do motor atual. Não confundir volume de banco antigo com quantidade de questões liberadas ao usuário.
+
+Há **94 microaulas efetivamente publicadas** (44 categorias) e **62 questões de aplicação** vinculadas a aulas específicas nesta revisão. A definição aparece somente no resumo; as demais seções devem avançar para explicação causal, exemplo, comparação, limite ou exercício. Aulas e questões já vistas não retornam automaticamente; o usuário pode abrir voluntariamente itens salvos. Se houver menos de cinco boas questões relacionadas ao tema, o quiz exibe menos de cinco.
+
+As fichas automáticas de 10.000 itens permanecem apenas para compatibilidade/migração, não nas sessões normais nem no simulado. Os números originais abaixo são históricos.
+
+
 - **10.960 perguntas totais**.
 - **10.000 perguntas novas** nesta expansão, preservando os 960 IDs anteriores.
 - **44 categorias/matérias**.

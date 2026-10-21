@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "category": "informatica",
+  "questions": [
+    {
+      "id": "u-a7ccf2d348ed",
+      "category": "informatica",
+      "question": "O que significa a sigla RAID?",
+      "choices": [
+        "Range of Applications with Identical Designs",
+        "Redundant Array of Independent Disks",
+        "Randomized Abstract Identification Description",
+        "Rapid Access for Indexed Devices"
+      ],
+      "answer": 1,
+      "fact": "RAID é expandida como Redundant Array of Independent Disks.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-dd98e7249017dafd5d3c | opentdb-dd98e7249017dafd5d3c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a7ccf2d348ed",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "armazenamento"
+    },
+    {
+      "id": "u-2334f34e08fa",
+      "category": "informatica",
+      "question": "O que significa CPU?",
+      "choices": [
+        "Computer Personal Unit",
+        "Central Processing Unit",
+        "Central Process Unit",
+        "Central Processor Unit"
+      ],
+      "answer": 1,
+      "fact": "CPU significa Central Processing Unit, ou unidade central de processamento.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-298a29e98ae0bddd718a | opentdb-298a29e98ae0bddd718a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2334f34e08fa",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hardware"
+    },
+    {
+      "id": "u-015add24f4e9",
+      "category": "informatica",
+      "question": "O que significa GPU?",
+      "choices": [
+        "Graphics Processing Unit",
+        "Graphical Proprietary Unit",
+        "Gaming Processor Unit",
+        "Graphite Producing Unit"
+      ],
+      "answer": 0,
+      "fact": "GPU significa Graphics Processing Unit, ou unidade de processamento gráfico.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7c187e646533dab157ef | opentdb-7c187e646533dab157ef (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-015add24f4e9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hardware"
+    },
+    {
+      "id": "u-696a7bed5d7c",
+      "category": "informatica",
+      "question": "Em qual componente de hardware fica localizado o chip de BIOS?",
+      "choices": [
+        "Placa-mãe",
+        "Unidade central de processamento",
+        "Unidade de disco rígido",
+        "Unidade de processamento gráfico"
+      ],
+      "answer": 0,
+      "fact": "O chip de firmware fica na placa-mãe. A pergunta usa a nomenclatura BIOS da fonte.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-916a71c93eeba535bd9e | opentdb-916a71c93eeba535bd9e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-696a7bed5d7c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hardware"
+    },
+    {
+      "id": "u-81cae03209ea",
+      "category": "informatica",
+      "question": "Qual é o nome do tema padrão instalado com o Windows XP?",
+      "choices": [
+        "Neptune",
+        "Luna",
+        "Whistler",
+        "Bliss"
+      ],
+      "answer": 1,
+      "fact": "Luna é o nome do tema padrão indicado na fonte.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bc3d9dd8b06e413e00c0 | opentdb-bc3d9dd8b06e413e00c0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-81cae03209ea",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-dos-sistemas"
+    },
+    {
+      "id": "u-202170358a45",
+      "category": "informatica",
+      "question": "Todos os programas abaixo são classificados como editores de imagens raster, EXCETO:",
+      "choices": [
+        "Adobe Photoshop",
+        "Paint.NET",
+        "GIMP",
+        "Inkscape"
+      ],
+      "answer": 3,
+      "fact": "Inkscape é conhecido principalmente como editor de gráficos vetoriais.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d5d362eb8bde7cff2d6e | opentdb-d5d362eb8bde7cff2d6e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-202170358a45",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "imagens-digitais"
+    },
+    {
+      "id": "u-b164f18c3ce7",
+      "category": "informatica",
+      "question": "Na computação, o que a sigla CLI normalmente significa?",
+      "choices": [
+        "Common Language Input",
+        "Control Line Interface",
+        "Command Line Interface",
+        "Common Language Interface"
+      ],
+      "answer": 2,
+      "fact": "CLI significa Command Line Interface, ou interface de linha de comando.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d942b92439aa29d898e3 | opentdb-d942b92439aa29d898e3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b164f18c3ce7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "interfaces"
+    },
+    {
+      "id": "u-82882a53d8cb",
+      "category": "informatica",
+      "question": "Na computação, o que significa LAN?",
+      "choices": [
+        "Local Area Network",
+        "Land Address Navigation",
+        "Long Antenna Node",
+        "Light Access Node"
+      ],
+      "answer": 0,
+      "fact": "LAN significa Local Area Network, ou rede local.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a6282df54230b5b90874 | opentdb-a6282df54230b5b90874 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-82882a53d8cb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "redes"
+    },
+    {
+      "id": "u-b9b45b6987a0",
+      "category": "informatica",
+      "question": "No mercado de software, o que significa LTS?",
+      "choices": [
+        "Ludicrous Turbo Speed",
+        "Long Taco Service",
+        "Long Term Support",
+        "Ludicrous Transfer Speed"
+      ],
+      "answer": 2,
+      "fact": "LTS significa Long Term Support, ou suporte de longo prazo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-09f741ff0d6b861d1475 | opentdb-09f741ff0d6b861d1475 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b9b45b6987a0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "software"
+    },
+    {
+      "id": "u-451aeaa69e6b",
+      "category": "informatica",
+      "question": "Quantos bits normalmente equivalem a um byte?",
+      "choices": [
+        "64",
+        "8",
+        "2",
+        "1"
+      ],
+      "answer": 1,
+      "fact": "Normalmente, um byte corresponde a oito bits.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-28ee46263b98022ed96d | opentdb-28ee46263b98022ed96d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-451aeaa69e6b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "unidades-de-informacao"
+    },
+    {
+      "id": "u-4698c503f164",
+      "category": "informatica",
+      "question": "Quantos bytes existem em um kibibyte?",
+      "choices": [
+        "1000",
+        "2400",
+        "1240",
+        "1024"
+      ],
+      "answer": 3,
+      "fact": "Um kibibyte, ou KiB, corresponde a 1.024 bytes.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3c7d2f8a11754795dbd0 | opentdb-3c7d2f8a11754795dbd0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4698c503f164",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "unidades-de-informacao"
+    },
+    {
+      "id": "u-9e2b29dd984a",
+      "category": "informatica",
+      "question": "Quantos quilobytes há em um gigabyte, no sistema decimal?",
+      "choices": [
+        "1000000",
+        "1024",
+        "1048576",
+        "1000"
+      ],
+      "answer": 0,
+      "fact": "No sistema decimal, 1 GB corresponde a 1.000.000 kB. O enunciado define a base decimal.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cee316800eb50e8a1559 | opentdb-cee316800eb50e8a1559 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9e2b29dd984a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "unidades-de-informacao"
+    },
+    {
+      "id": "u-b2f0c15c6a0f",
+      "category": "informatica",
+      "question": "O que significa GHz?",
+      "choices": [
+        "Gigahetz",
+        "Gigahertz",
+        "Gigahotz",
+        "Gigahatz"
+      ],
+      "answer": 1,
+      "fact": "GHz é o símbolo usado para gigahertz, uma unidade de frequência.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-232b522380c965cd7c51 | opentdb-232b522380c965cd7c51 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b2f0c15c6a0f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "unidades-de-medida"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

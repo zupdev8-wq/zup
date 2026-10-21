@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "category": "brasil",
+  "questions": [],
+  "lessons": [
+    {
+      "id": "lesson-brasil-02",
+      "category": "brasil",
+      "tracks": [
+        "brasil",
+        "enem",
+        "geopolitica",
+        "ciencia"
+      ],
+      "title": "A Amazônia é muito maior do que uma floresta",
+      "hook": "Ela influencia água, clima, biodiversidade e a vida de milhões de pessoas.",
+      "summary": "A Amazônia é o maior bioma brasileiro em extensão e integra um sistema ambiental que conecta floresta, rios e atmosfera.",
+      "body": [
+        "A floresta amazônica recicla enorme quantidade de água por evapotranspiração. Parte desse vapor é transportada pelos ventos para outras regiões da América do Sul.",
+        "O bioma também abriga uma diversidade extraordinária de espécies e populações com diferentes modos de vida. Por isso, desmatamento, fogo e uso do solo têm efeitos que ultrapassam a área diretamente alterada."
+      ],
+      "bodyLabel": "ENTENDA MELHOR",
+      "takeaway": "A Amazônia não é um sistema isolado: ela participa do ciclo da água, do clima e da biodiversidade em escala continental.",
+      "takeawayLabel": "IDEIA QUE VALE GUARDAR",
+      "quizQuestionId": "brasil-02",
+      "minutes": 2,
+      "updatedAt": "2026-10-17",
+      "evergreen": true,
+      "sources": [
+        {
+          "title": "IBGE · Conheça o Brasil",
+          "url": "https://educa.ibge.gov.br/jovens/conheca-o-brasil.html"
+        }
+      ],
+      "recommendedReadings": [
+        {
+          "kind": "book",
+          "title": "Geografia do Brasil",
+          "creators": "Jurandyr L. S. Ross (org.)",
+          "focus": "Compare as várias paisagens da Amazônia e suas relações com ocupação humana e território.",
+          "language": "pt"
+        }
+      ],
+      "readMore": {
+        "heading": "Aprofundamento sobre o ciclo das aguas",
+        "sections": [
+          {
+            "title": "Transporte de umidade",
+            "text": "A influencia da vegetacao sobre a atmosfera envolve trocas de agua e energia, que podem modificar processos locais e regionais."
+          }
+        ]
+      }
+    }
+  ],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "PREENCHER_NOME_DO_REVISOR",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": false,
+    "rightsChecked": false
+  }
+}

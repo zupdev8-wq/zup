@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "category": "computacao",
+  "questions": [
+    {
+      "id": "u-5e924efb06a3",
+      "category": "computacao",
+      "question": "Qual cor é representada pelo código hexadecimal #00FF00?",
+      "choices": [
+        "Verde",
+        "Vermelho",
+        "Azul",
+        "Amarelo"
+      ],
+      "answer": 0,
+      "fact": "No formato RGB hexadecimal, #00FF00 representa verde com os canais vermelho e azul zerados.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4827a5c23120c108301c | opentdb-4827a5c23120c108301c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5e924efb06a3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cores-digitais"
+    },
+    {
+      "id": "u-957e1c59b066",
+      "category": "computacao",
+      "question": "Em CSS, qual destes valores NÃO pode ser usado na propriedade position?",
+      "choices": [
+        "absolute",
+        "static",
+        "relative",
+        "center"
+      ],
+      "answer": 3,
+      "fact": "center não é um valor de position. Os outros três aparecem como valores dessa propriedade.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f27e3500d51385b206ab | opentdb-f27e3500d51385b206ab (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-957e1c59b066",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "desenvolvimento-web"
+    },
+    {
+      "id": "u-0f427cf4bcca",
+      "category": "computacao",
+      "question": "A qual estrutura de dados se aplica a ordem FILO?",
+      "choices": [
+        "Árvore",
+        "Pilha",
+        "Heap",
+        "Fila"
+      ],
+      "answer": 1,
+      "fact": "FILO significa que o primeiro elemento a entrar é o último a sair, comportamento de uma pilha.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ca9d0bdb8fc13e19298f | opentdb-ca9d0bdb8fc13e19298f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0f427cf4bcca",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "estruturas-de-dados"
+    },
+    {
+      "id": "u-db595d911aca",
+      "category": "computacao",
+      "question": "Qual cientista da computação norte-americano criou a linguagem C?",
+      "choices": [
+        "Willis Ware",
+        "Dennis Ritchie",
+        "al-Khwārizmī",
+        "Tim Berners Lee"
+      ],
+      "answer": 1,
+      "fact": "Dennis Ritchie criou a linguagem C.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-28241ac3988753813b02 | opentdb-28241ac3988753813b02 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-db595d911aca",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-programacao"
+    },
+    {
+      "id": "u-f89dc3bf299c",
+      "category": "computacao",
+      "question": "Qual linguagem de programação foi desenvolvida pela Sun Microsystems em 1995?",
+      "choices": [
+        "C++",
+        "Solaris OS",
+        "Java",
+        "Python"
+      ],
+      "answer": 2,
+      "fact": "Java é a linguagem indicada pela fonte. O ano corresponde à apresentação pública da linguagem, cujo desenvolvimento começou antes.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5748f0f2efb8e44fbed4 | opentdb-5748f0f2efb8e44fbed4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-f89dc3bf299c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-programacao"
+    },
+    {
+      "id": "u-0a4d5adfc9a7",
+      "category": "computacao",
+      "question": "Quem inventou o Spanning Tree Protocol?",
+      "choices": [
+        "Vint Cerf",
+        "Radia Perlman",
+        "Michael Roberts",
+        "Paul Vixie"
+      ],
+      "answer": 1,
+      "fact": "Radia Perlman é a criadora do Spanning Tree Protocol.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-696d627bb7685aca0489 | opentdb-696d627bb7685aca0489 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0a4d5adfc9a7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-das-redes"
+    },
+    {
+      "id": "u-317d78bc7056",
+      "category": "computacao",
+      "question": "Qual destas linguagens de programação é de baixo nível?",
+      "choices": [
+        "Pascal",
+        "Python",
+        "C#",
+        "Assembly"
+      ],
+      "answer": 3,
+      "fact": "Assembly é a linguagem de baixo nível entre as alternativas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0639ce23eb85803adc54 | opentdb-0639ce23eb85803adc54 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-317d78bc7056",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "linguagens-de-programacao"
+    },
+    {
+      "id": "u-00f620c1a3e3",
+      "category": "computacao",
+      "question": "O que significa JVM na área de software?",
+      "choices": [
+        "Java Vendor Machine",
+        "Just Virtual Machine",
+        "Java Virtual Machine",
+        "Java Visual Machine"
+      ],
+      "answer": 2,
+      "fact": "JVM significa Java Virtual Machine, ou máquina virtual Java.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-acdaf399300e0673e1c3 | opentdb-acdaf399300e0673e1c3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-00f620c1a3e3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "linguagens-e-execucao"
+    },
+    {
+      "id": "u-fc8636363ea5",
+      "category": "computacao",
+      "question": "Em Python, qual destas instruções exibe corretamente a string Hello World?",
+      "choices": [
+        "printf(\"Hello World\")",
+        "console.log(\"Hello World\")",
+        "print(\"Hello World\")",
+        "echo \"Hello World\""
+      ],
+      "answer": 2,
+      "fact": "print(\"Hello World\") é a instrução indicada para exibir essa string em Python.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e4916210eca2ff5233ad | opentdb-e4916210eca2ff5233ad (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fc8636363ea5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "programacao-python"
+    },
+    {
+      "id": "u-fa88cef90fa1",
+      "category": "computacao",
+      "question": "Na computação, o que significa MIME?",
+      "choices": [
+        "Mail Interleave Method Exchange",
+        "Multipurpose Internet Mail Extensions",
+        "Mail Internet Mail Exchange",
+        "Multipurpose Interleave Mail Exchange"
+      ],
+      "answer": 1,
+      "fact": "MIME significa Multipurpose Internet Mail Extensions.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-941109c6efa6ad1484aa | opentdb-941109c6efa6ad1484aa (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fa88cef90fa1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "protocolos-e-formatos"
+    },
+    {
+      "id": "u-6ef072b4f293",
+      "category": "computacao",
+      "question": "Qual é o comprimento de um endereço IPv6?",
+      "choices": [
+        "64 bits",
+        "128 bytes",
+        "128 bits",
+        "32 bits"
+      ],
+      "answer": 2,
+      "fact": "Um endereço IPv6 tem 128 bits. Bits e bytes não são a mesma unidade.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3eec86db176cc17ca2e5 | opentdb-3eec86db176cc17ca2e5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-6ef072b4f293",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "redes"
+    },
+    {
+      "id": "u-7e4bac37382d",
+      "category": "computacao",
+      "question": "Qual é o nome da camada 4 do modelo de Interconexão de Sistemas Abertos?",
+      "choices": [
+        "Sessão",
+        "Rede",
+        "Transporte",
+        "Enlace de dados"
+      ],
+      "answer": 2,
+      "fact": "A quarta camada do modelo OSI é a de transporte.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4d61f6826ddf9544ec96 | opentdb-4d61f6826ddf9544ec96 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7e4bac37382d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "redes"
+    },
+    {
+      "id": "u-5cfb1fa85aba",
+      "category": "computacao",
+      "question": "Qual destas NÃO é uma camada do modelo OSI de comunicação de dados?",
+      "choices": [
+        "Camada de aplicação",
+        "Camada física",
+        "Camada de transporte",
+        "Camada de conexão"
+      ],
+      "answer": 3,
+      "fact": "Camada de conexão não é um dos nomes das sete camadas do modelo OSI.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9f3e68901daff1d03018 | opentdb-9f3e68901daff1d03018 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5cfb1fa85aba",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "redes"
+    },
+    {
+      "id": "u-e598b7a47753",
+      "category": "computacao",
+      "question": "Qual destas expressões corresponde à sigla RIP?",
+      "choices": [
+        "Routing Information Protocol",
+        "Runtime Instance Processes",
+        "Routine Inspection Protocol",
+        "Regular Interval Processes"
+      ],
+      "answer": 0,
+      "fact": "Na área de redes, RIP significa Routing Information Protocol.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ea299a7d40f612ee8254 | opentdb-ea299a7d40f612ee8254 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e598b7a47753",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "redes"
+    },
+    {
+      "id": "u-0e4a468f0edf",
+      "category": "computacao",
+      "question": "Quantos valores diferentes um único byte pode representar?",
+      "choices": [
+        "8",
+        "1024",
+        "1",
+        "256"
+      ],
+      "answer": 3,
+      "fact": "Um byte de oito bits representa 2^8, isto é, 256 combinações possíveis.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5b3041f81ad0012d5fd7 | opentdb-5b3041f81ad0012d5fd7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0e4a468f0edf",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "representacao-de-dados"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

@@ -1,4 +1,6 @@
-# Expansão de conteúdo — ZUP! 1.7.0
+# Expansão histórica de conteúdo — ZUP! 1.7.0
+
+**Atualização em 17/10/2026:** o banco de 10 mil perguntas criadas por templates e suas variantes foi RETIRADO das rodadas. O catálogo completo continua armazenado para compatibilidade de IDs. O feed e os quizzes atuais usam apenas conteúdo curado, conforme `CURADORIA-SEM-REPETICAO.md`. Os números abaixo documentam o acervo bruto de 1.7.0, não a quantidade de questões jogáveis.
 
 A versão 1.7.0 acrescenta 10.000 perguntas sem remover os 960 IDs publicados anteriormente.
 
@@ -21,7 +23,7 @@ Destaques:
 
 ## Diversidade de rodada
 
-O motor de quiz tenta selecionar conceitos diferentes antes de usar outra variação do mesmo conceito. Isso é especialmente importante no banco grande, que possui variações de revisão para reforçar a mesma ideia sem repetir exatamente a mesma pergunta.
+Na versão revisada, o motor não utiliza versões parafraseadas de definições. Questões já respondidas não voltam nem em revisão. O reforço só acontece com uma aplicação autoral inédita e pertinente ao assunto; na ausência dela, não há rodada de repetição.
 
 ## Medicina e Revalida
 

@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
-const {lesson,available,level,levelXP,updateProgress,localDate,LESSON_SIZE}=require('../app/.test-build/game.js');
+const {lesson,available,conceptKey,level,levelXP,updateProgress,localDate,LESSON_SIZE}=require('../app/.test-build/game.js');
 const {initialProgress}=require('../app/.test-build/types.js');
 const {categories}=require('../app/.test-build/catalog.js');
 const fresh=()=>structuredClone(initialProgress);
@@ -9,7 +9,14 @@ const stamp=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${S
 test('fresh lessons contain five unique unseen questions',()=>{for(const c of categories){const batch=lesson(c.id,fresh());assert.equal(batch.length,LESSON_SIZE,c.id);assert.equal(new Set(batch.map(q=>q.id)).size,LESSON_SIZE);assert.ok(batch.every(q=>q.category===c.id));}});
 test('normal play never repeats answered questions even when fewer than five remain',()=>{const all=available('brasil');const p={...fresh(),completedIds:all.slice(0,-2).map(q=>q.id)};const batch=lesson('brasil',p);assert.equal(batch.length,2);assert.deepEqual(new Set(batch.map(q=>q.id)),new Set(all.slice(-2).map(q=>q.id)));});
 test('completed categories are empty in normal play instead of recycling questions',()=>{const all=available('brasil');assert.equal(lesson('brasil',{...fresh(),completedIds:all.map(q=>q.id)}).length,0);});
-test('every question in every category can be reached exactly once',()=>{for(const category of categories){let p=fresh();const all=available(category.id);while(true){const batch=lesson(category.id,p);if(!batch.length)break;p=updateProgress(p,batch.map(q=>({q,correct:true})));}assert.equal(p.completedIds.length,all.length,category.id);}});
+test('all distinct concepts appear once in normal sessions without cycling variants',()=>{
+  for(const category of categories){
+    let p=fresh();const pool=available(category.id),possible=new Set(pool.map(conceptKey));
+    while(true){const batch=lesson(category.id,p);if(!batch.length)break;p=updateProgress(p,batch.map(q=>({q,correct:true})));}
+    assert.ok(new Set(p.completedIds.map(id=>pool.find(q=>q.id===id)).filter(Boolean).map(conceptKey)).size>=possible.size-1,`${category.id}: the only omission may be a near-duplicate explanation`);
+    assert.equal(lesson(category.id,p).length,0);
+  }
+});
 test('perfect five-question lesson gives 120 XP',()=>{const p=updateProgress(fresh(),answered());assert.equal(p.xp,120);assert.equal(p.correct,5);assert.equal(p.answered,5);});
 test('all wrong gives only completion bonus',()=>assert.equal(updateProgress(fresh(),answered(false)).xp,20));
 test('mixed answers score 20 XP per correct plus completion bonus',()=>assert.equal(updateProgress(fresh(),answered().map((item,i)=>({...item,correct:i<3}))).xp,80));

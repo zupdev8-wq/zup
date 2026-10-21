@@ -33,6 +33,7 @@ const cache=new Map();
 function load(filename){
   const file=path.resolve(filename);
   if(cache.has(file))return cache.get(file);
+  if(path.extname(file)==='.json'){const data=JSON.parse(fs.readFileSync(file,'utf8'));cache.set(file,data);return data;}
   const module={exports:{}};cache.set(file,module.exports);
   const source=ts.transpileModule(fs.readFileSync(file,'utf8'),{
     fileName:file,compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}
@@ -45,13 +46,13 @@ function load(filename){
     if(id==='expo-secure-store')return {getItemAsync:async()=>null,setItemAsync:async()=>{},deleteItemAsync:async()=>{}};
     if(id.startsWith('.')){
       const base=path.resolve(path.dirname(file),id);
-      const actual=['.ts','.tsx','.js',''].map(ext=>base+ext).find(f=>fs.existsSync(f)&&fs.statSync(f).isFile());
+      const actual=['.ts','.tsx','.js','.json',''].map(ext=>base+ext).find(f=>fs.existsSync(f)&&fs.statSync(f).isFile());
       if(!actual)throw new Error(`Missing ${id} from ${file}`);return load(actual);
     }
     throw new Error('Unexpected external module in structural render: '+id);
   }
   vm.runInNewContext(source,{require:localRequire,module,exports:module.exports,process:{env:{}},console,URL,setTimeout,clearTimeout},
-    {filename:file,timeout:12000});
+    {filename:file,timeout:45000});
   cache.set(file,module.exports);return module.exports;
 }
 function expand(node){

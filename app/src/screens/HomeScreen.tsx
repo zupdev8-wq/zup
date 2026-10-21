@@ -1,4 +1,4 @@
-import React,{useMemo,useRef,useState} from 'react';
+import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {FlatList,ImageBackground,Pressable,ScrollView,View} from 'react-native';
 import Svg,{Defs,LinearGradient,Rect,Stop} from 'react-native-svg';
 import type {ViewToken} from 'react-native';
@@ -8,7 +8,9 @@ import {buildForYouFeed} from '../learning';
 import type {ForYouUnit} from '../learning';
 import {tracks,getCategory,getTrack} from '../catalog';
 import {companionById} from '../companions';
-import {lessonPhoto,questionPhoto} from '../photos';
+import {lessonPhotoAsset,questionPhoto,questionPhotoAsset,feedFallbackPhotoAsset} from '../photos';
+import type {PhotoAsset} from '../photos';
+import {PhotoCredit} from '../components/PhotoCredit';
 import {CategoryArt} from '../components/CategoryArt';
 import {Txt,Chip} from '../components/UI';
 import {Icon} from '../components/Icon';
@@ -27,30 +29,38 @@ function TinyStat({icon,value,label}:{icon:'flame'|'star'|'bolt';value:string;la
   </View>;
 }
 
-function FeedCard({lesson,photoUrl,p,height,topInset,bottomInset,onRead,onSave,onQuiz,now,index}:{lesson:MicroLesson;photoUrl:string;p:Progress;height:number;topInset:number;bottomInset:number;onRead:()=>void;onSave:()=>void;onQuiz:()=>void;now:Date;index:number}){
+function FeedCard({lesson,photoUrl,photoAsset,p,height,topInset,bottomInset,onRead,onSave,onQuiz,now,index}:{lesson:MicroLesson;photoUrl:string;photoAsset?:PhotoAsset;p:Progress;height:number;topInset:number;bottomInset:number;onRead:()=>void;onSave:()=>void;onQuiz:()=>void;now:Date;index:number}){
   const c=getCategory(lesson.category),saved=p.savedLessonIds.includes(lesson.id),track=getTrack(lesson.tracks[0]??'geral'),q=questionMap.get(lesson.quizQuestionId);
   const questionCard=Boolean(q)&&studyQuestions.includes(q!)&&index%5===2&&!p.completedIds.includes(lesson.quizQuestionId);
   const headline=questionCard?q!.question:lesson.title;
   const summary=questionCard?'Resolva um desafio prático: uma pergunta inédita, sem repetir a explicação da aula.':lesson.summary;
   const titleSize=headline.length>95?23:headline.length>80?25:headline.length>62?27:headline.length>42?30:34;
   const shadeId=`feedShade-${index}`;
+  const [imageError,setImageError]=useState(false);
+  useEffect(()=>setImageError(false),[photoUrl]);
   return <View style={{height,backgroundColor:C.ink,overflow:'hidden'}}>
 
-    <ImageBackground source={{uri:photoUrl}} resizeMode="cover" style={{position:'absolute',left:0,right:0,top:0,bottom:0}}>
-      <Svg width="100%" height="100%" style={{position:'absolute',left:0,right:0,top:0,bottom:0}} pointerEvents="none">
-        <Defs>
-          <LinearGradient id={shadeId} x1="0" y1="0" x2="0" y2="1">
-            <Stop offset="0" stopColor="#000000" stopOpacity={0.38}/>
-            <Stop offset="0.25" stopColor="#000000" stopOpacity={0.16}/>
-            <Stop offset="0.46" stopColor="#000000" stopOpacity={0.18}/>
-            <Stop offset="0.62" stopColor="#000000" stopOpacity={0.48}/>
-            <Stop offset="0.79" stopColor="#000000" stopOpacity={0.72}/>
-            <Stop offset="1" stopColor="#000000" stopOpacity={0.90}/>
-          </LinearGradient>
-        </Defs>
-        <Rect x="0" y="0" width="100%" height="100%" fill={`url(#${shadeId})`}/>
-      </Svg>
-    </ImageBackground>
+    <View style={{position:'absolute',top:0,bottom:0,left:0,right:0,backgroundColor:c.color,alignItems:'center',justifyContent:'center'}}>
+      <CategoryArt id={lesson.category} size={235}/>
+    </View>
+    {!!photoUrl&&!imageError&&<ImageBackground source={{uri:photoUrl}} onError={()=>setImageError(true)} resizeMode={photoAsset?.kind==='artwork'?'contain':'cover'}
+      style={{position:'absolute',left:0,right:0,top:0,bottom:0}}/>}
+    <Svg width="100%" height="100%" style={{position:'absolute',left:0,right:0,top:0,bottom:0}} pointerEvents="none">
+      <Defs>
+        <LinearGradient id={shadeId} x1="0" y1="0" x2="0" y2="1">
+          <Stop offset="0" stopColor="#000000" stopOpacity={0.38}/>
+          <Stop offset="0.25" stopColor="#000000" stopOpacity={0.16}/>
+          <Stop offset="0.46" stopColor="#000000" stopOpacity={0.18}/>
+          <Stop offset="0.62" stopColor="#000000" stopOpacity={0.48}/>
+          <Stop offset="0.79" stopColor="#000000" stopOpacity={0.72}/>
+          <Stop offset="1" stopColor="#000000" stopOpacity={0.90}/>
+        </LinearGradient>
+      </Defs>
+      <Rect x="0" y="0" width="100%" height="100%" fill={`url(#${shadeId})`}/>
+    </Svg>
+    {!!photoUrl&&!imageError&&!!photoAsset&&<View style={{position:'absolute',left:16,right:16,top:topInset+91}}>
+      <PhotoCredit asset={photoAsset}/>
+    </View>}
 
     <View style={{flex:1,paddingHorizontal:18,paddingTop:topInset+118,paddingBottom:bottomInset+12,justifyContent:'flex-end'}}>
       <View style={{alignSelf:'flex-start',marginBottom:10}}><Chip color="#08090BB8"><Txt size={11} bold color={C.white}>ZUP! • {track.shortLabel.toUpperCase()}</Txt></Chip></View>
@@ -79,23 +89,28 @@ function FeedCard({lesson,photoUrl,p,height,topInset,bottomInset,onRead,onSave,o
 }
 
 
-function CuriosityFeedCard({q,photoUrl,height,topInset,bottomInset,onQuiz,index}:{q:Question;photoUrl:string;height:number;topInset:number;bottomInset:number;onQuiz:()=>void;index:number}){
+function CuriosityFeedCard({q,photoUrl,photoAsset,height,topInset,bottomInset,onQuiz,index}:{q:Question;photoUrl:string;photoAsset?:PhotoAsset;height:number;topInset:number;bottomInset:number;onQuiz:()=>void;index:number}){
   const c=getCategory(q.category);
   const titleSize=q.question.length>95?25:q.question.length>70?29:34;
   const shadeId=`triviaShade-${index}`;
+  const [imageError,setImageError]=useState(false);
+  useEffect(()=>setImageError(false),[photoUrl]);
   return <View style={{height,backgroundColor:C.ink,overflow:'hidden'}}>
     <View style={{position:'absolute',top:0,bottom:0,left:0,right:0,backgroundColor:c.color,alignItems:'center',justifyContent:'center'}}><CategoryArt id={q.category} size={220}/></View>
-    <ImageBackground source={{uri:photoUrl}} resizeMode="cover" style={{position:'absolute',top:0,bottom:0,left:0,right:0}}>
-      <Svg width="100%" height="100%" pointerEvents="none">
-        <Defs><LinearGradient id={shadeId} x1="0" y1="0" x2="0" y2="1">
-          <Stop offset="0" stopColor="#000000" stopOpacity={0.40}/>
-          <Stop offset="0.35" stopColor="#000000" stopOpacity={0.20}/>
-          <Stop offset="0.68" stopColor="#000000" stopOpacity={0.67}/>
-          <Stop offset="1" stopColor="#000000" stopOpacity={0.92}/>
-        </LinearGradient></Defs>
-        <Rect x="0" y="0" width="100%" height="100%" fill={`url(#${shadeId})`}/>
-      </Svg>
-    </ImageBackground>
+    {!!photoUrl&&!imageError&&<ImageBackground source={{uri:photoUrl}} onError={()=>setImageError(true)} resizeMode={photoAsset?.kind==='artwork'?'contain':'cover'}
+      style={{position:'absolute',top:0,bottom:0,left:0,right:0}}/>}
+    <Svg width="100%" height="100%" style={{position:'absolute',top:0,bottom:0,left:0,right:0}} pointerEvents="none">
+      <Defs><LinearGradient id={shadeId} x1="0" y1="0" x2="0" y2="1">
+        <Stop offset="0" stopColor="#000000" stopOpacity={0.40}/>
+        <Stop offset="0.35" stopColor="#000000" stopOpacity={0.20}/>
+        <Stop offset="0.68" stopColor="#000000" stopOpacity={0.67}/>
+        <Stop offset="1" stopColor="#000000" stopOpacity={0.92}/>
+      </LinearGradient></Defs>
+      <Rect x="0" y="0" width="100%" height="100%" fill={`url(#${shadeId})`}/>
+    </Svg>
+    {!!photoUrl&&!imageError&&!!photoAsset&&<View style={{position:'absolute',left:16,right:16,top:topInset+91}}>
+      <PhotoCredit asset={photoAsset}/>
+    </View>}
     <View style={{flex:1,justifyContent:'flex-end',paddingHorizontal:18,paddingTop:topInset+118,paddingBottom:bottomInset+12}}>
       <View style={{flexDirection:'row',gap:8,flexWrap:'wrap',marginBottom:14}}>
         <Chip color="#FFFFFFE8"><Txt size={11} bold>{c.label.toUpperCase()}</Txt></Chip>
@@ -118,15 +133,36 @@ export function HomeScreen({p,now,topInset,bottomInset,contentEpoch=0,profile,re
   const [track,setTrack]=useState<TrackId>('geral'),[height,setHeight]=useState(620);
   const feed=useMemo(()=>buildForYouFeed(p,track,now),[p.learnedLessonIds,p.preferredTracks,p.completedIds,track,now.toDateString(),contentEpoch]);
   const visualFeed=useMemo(()=>{
-    const recent:string[]=[];
+    const recentPhotoIds:string[]=[];
     return feed.map((item,index)=>{
-      let photoUrl=item.kind==='lesson'?lessonPhoto(item.lesson,index):questionPhoto(item.question);
-      if(item.kind==='lesson')for(let offset=1;offset<=8&&recent.includes(photoUrl);offset++)photoUrl=lessonPhoto(item.lesson,index+offset);
-      recent.push(photoUrl);if(recent.length>3)recent.shift();
-      return {item,photoUrl};
+      let photoAsset:PhotoAsset|undefined;
+      let photoUrl='';
+      if(item.kind==='lesson'){
+        const q=questionMap.get(item.lesson.quizQuestionId);
+        const isQuestionCard=!!q&&studyQuestions.includes(q)&&index%5===2&&!p.completedIds.includes(item.lesson.quizQuestionId);
+        // O texto do card pode mudar para uma PERGUNTA. Não reutilize a foto da aula
+        // neste caso: ela pode ser incompatível ou até revelar o gabarito.
+        if(isQuestionCard&&q){
+          photoAsset=questionPhotoAsset(q,{recentPhotoIds,repeatWindow:24});
+          photoUrl=photoAsset?.url??questionPhoto(q);
+        }else{
+          photoAsset=lessonPhotoAsset(item.lesson,{variant:index,recentPhotoIds,repeatWindow:24})
+            ??feedFallbackPhotoAsset(item.lesson.category,item.lesson.id);
+          photoUrl=photoAsset?.url??'';
+        }
+      }else{
+        photoAsset=questionPhotoAsset(item.question,{recentPhotoIds,repeatWindow:24})
+          ??feedFallbackPhotoAsset(item.question.category,item.question.id);
+        photoUrl=photoAsset?.url??questionPhoto(item.question);
+      }
+      if(photoAsset){
+        recentPhotoIds.push(photoAsset.id);
+        if(recentPhotoIds.length>24)recentPhotoIds.shift();
+      }
+      return {item,photoUrl,photoAsset};
     });
-  },[feed]);
-  const visible=useRef(({viewableItems}:{viewableItems:ViewToken<{item:ForYouUnit;photoUrl:string}>[]})=>{const visible=viewableItems.find(v=>v.isViewable)?.item.item;if(visible?.kind==='lesson')open(visible.lesson.id);}).current;
+  },[feed,p.completedIds]);
+  const visible=useRef(({viewableItems}:{viewableItems:ViewToken<{item:ForYouUnit;photoUrl:string;photoAsset?:PhotoAsset}>[]})=>{const visible=viewableItems.find(v=>v.isViewable)?.item.item;if(visible?.kind==='lesson')open(visible.lesson.id);}).current;
   const viewability=useRef({itemVisiblePercentThreshold:72,minimumViewTime:300}).current;
   return <View style={{flex:1,backgroundColor:C.ink}} onLayout={e=>{const h=Math.round(e.nativeEvent.layout.height);if(h>300&&Math.abs(h-height)>2)setHeight(h);}}>
     <View style={{position:'absolute',left:0,right:0,top:0,zIndex:5,paddingTop:topInset+8}} pointerEvents="box-none">
@@ -142,10 +178,10 @@ export function HomeScreen({p,now,topInset,bottomInset,contentEpoch=0,profile,re
       renderItem={({item,index})=>{
         if(item.item.kind==='lesson'){
           const lesson=item.item.lesson;
-          return <FeedCard lesson={lesson} photoUrl={item.photoUrl} p={p} height={height} topInset={topInset} bottomInset={bottomInset} now={now} index={index} onRead={()=>read(lesson)} onSave={()=>save(lesson.id)} onQuiz={()=>microQuiz(lesson.quizQuestionId)}/>;
+          return <FeedCard lesson={lesson} photoUrl={item.photoUrl} photoAsset={item.photoAsset} p={p} height={height} topInset={topInset} bottomInset={bottomInset} now={now} index={index} onRead={()=>read(lesson)} onSave={()=>save(lesson.id)} onQuiz={()=>microQuiz(lesson.quizQuestionId)}/>;
         }
         const question=item.item.question;
-        return <CuriosityFeedCard q={question} photoUrl={item.photoUrl} height={height} topInset={topInset} bottomInset={bottomInset} index={index} onQuiz={()=>curiosityQuiz(question.id)}/>;
+        return <CuriosityFeedCard q={question} photoUrl={item.photoUrl} photoAsset={item.photoAsset} height={height} topInset={topInset} bottomInset={bottomInset} index={index} onQuiz={()=>curiosityQuiz(question.id)}/>;
       }}/>
   </View>;
 }

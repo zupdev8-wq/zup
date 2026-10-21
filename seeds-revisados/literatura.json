@@ -1,0 +1,2739 @@
+{
+  "schemaVersion": 1,
+  "category": "literatura",
+  "questions": [
+    {
+      "id": "u-bf6e34c7c5f0",
+      "category": "literatura",
+      "question": "Qual clássico começa com a frase Chamem-me Ismael?",
+      "choices": [
+        "Um Conto de Duas Cidades",
+        "Raptado",
+        "Moby Dick",
+        "O Morro dos Ventos Uivantes"
+      ],
+      "answer": 2,
+      "fact": "A frase abre Moby-Dick, de Herman Melville. A tradução da abertura varia entre edições.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-af255a23a29df1aeefff | opentdb-af255a23a29df1aeefff (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bf6e34c7c5f0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "aberturas-de-romances",
+      "workTitle": "Moby-Dick"
+    },
+    {
+      "id": "u-23754cf25fb4",
+      "category": "literatura",
+      "question": "Qual dos seguintes autores NÃO nasceu na Inglaterra?",
+      "choices": [
+        "Graham Greene",
+        "H G Wells",
+        "Arthur C Clarke",
+        "Arthur Conan Doyle"
+      ],
+      "answer": 3,
+      "fact": "Arthur Conan Doyle nasceu na Escócia. A questão distingue a Inglaterra do conjunto do Reino Unido.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1e63d05a2003ef0cfc92 | opentdb-1e63d05a2003ef0cfc92 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-23754cf25fb4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "autores-e-biografias"
+    },
+    {
+      "id": "u-e97f95e04dd0",
+      "category": "literatura",
+      "question": "Qual era o pseudônimo da romancista Mary Ann Evans?",
+      "choices": [
+        "George Saunders",
+        "George Orwell",
+        "George Bernard Shaw",
+        "George Eliot"
+      ],
+      "answer": 3,
+      "fact": "Mary Ann Evans publicou suas obras sob o nome George Eliot. Pseudônimo é o nome adotado para assinar uma obra.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-19bec460f60eaf6aefc5 | opentdb-19bec460f60eaf6aefc5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e97f95e04dd0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "autores-e-pseudonimos"
+    },
+    {
+      "id": "u-af9577a3190e",
+      "category": "literatura",
+      "question": "Sob qual pseudônimo Stephen King publicou cinco romances entre 1977 e 1984?",
+      "choices": [
+        "Richard Bachman",
+        "Mark Twain",
+        "J. D. Robb",
+        "Lewis Carroll"
+      ],
+      "answer": 0,
+      "fact": "Richard Bachman é o pseudônimo usado por Stephen King nessas publicações.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-53279653513630f63a47 | opentdb-53279653513630f63a47 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-af9577a3190e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "autores-e-pseudonimos"
+    },
+    {
+      "id": "u-e190afb43117",
+      "category": "literatura",
+      "question": "Por qual nome o autor Eric Blair ficou mais conhecido?",
+      "choices": [
+        "Ray Bradbury",
+        "Ernest Hemingway",
+        "George Orwell",
+        "Aldous Huxley"
+      ],
+      "answer": 2,
+      "fact": "Eric Blair é o nome de nascimento do escritor que adotou o pseudônimo George Orwell.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ec45eb7f2c51627f67ec | opentdb-ec45eb7f2c51627f67ec (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e190afb43117",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "autores-e-pseudonimos"
+    },
+    {
+      "id": "u-4ee8bd94ae63",
+      "category": "literatura",
+      "question": "Quem escreveu Harry Potter?",
+      "choices": [
+        "Terry Pratchett",
+        "J.R.R. Tolkien",
+        "Daniel Radcliffe",
+        "J.K. Rowling"
+      ],
+      "answer": 3,
+      "fact": "J. K. Rowling é a autora da série literária Harry Potter.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e7eb6f774e53208fe85e | opentdb-e7eb6f774e53208fe85e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4ee8bd94ae63",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "autoria",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-e7a1528fffca",
+      "category": "literatura",
+      "question": "Qual era o nome da ilha no romance A Ilha Misteriosa, de Júlio Verne?",
+      "choices": [
+        "Ilha Netuno",
+        "Ilha Prometeu",
+        "Ilha Vulcania",
+        "Ilha Lincoln"
+      ],
+      "answer": 3,
+      "fact": "A ilha é chamada de Ilha Lincoln no romance.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34457c23fdc39dbf4f3d | opentdb-34457c23fdc39dbf4f3d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e7a1528fffca",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "aventura-classica",
+      "workTitle": "A Ilha Misteriosa"
+    },
+    {
+      "id": "u-841eb2cbc0f0",
+      "category": "literatura",
+      "question": "Em qual hotel de Edimburgo, na Escócia, J. K. Rowling concluiu Harry Potter e as Relíquias da Morte?",
+      "choices": [
+        "The Dunstane Hotel",
+        "Sheraton Grand Hotel & Spa",
+        "The Balmoral",
+        "Hotel Novotel"
+      ],
+      "answer": 2,
+      "fact": "O gabarito indica o hotel The Balmoral, em Edimburgo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e00919ac81adff936e6e | opentdb-e00919ac81adff936e6e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-841eb2cbc0f0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "bastidores-da-escrita",
+      "universe": "Harry Potter",
+      "workTitle": "Harry Potter e as Relíquias da Morte"
+    },
+    {
+      "id": "u-9e7f05dbf5a6",
+      "category": "literatura",
+      "question": "Qual romance de John Grisham foi concebido durante uma viagem de carro à Flórida, enquanto ele conversava com a esposa sobre livros roubados?",
+      "choices": [
+        "Rogue Lawyer",
+        "The Litigators",
+        "Gray Mountain",
+        "Camino Island"
+      ],
+      "answer": 3,
+      "fact": "O gabarito indica Camino Island. A pergunta aborda a origem da ideia do autor, e não um acontecimento do enredo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e657b3072a7ac62e92ab | opentdb-e657b3072a7ac62e92ab (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9e7f05dbf5a6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "bastidores-da-escrita",
+      "workTitle": "Camino Island"
+    },
+    {
+      "id": "u-e1fa0df59f5d",
+      "category": "literatura",
+      "question": "Em Romance dos Três Reinos, quem NÃO participou do Juramento do Jardim dos Pêssegos?",
+      "choices": [
+        "Zhang Fei",
+        "Liu Bei",
+        "Guan Yu",
+        "Zhao Yun"
+      ],
+      "answer": 3,
+      "fact": "Zhao Yun é a alternativa que não integra o juramento. Os nomes associados ao pacto são Liu Bei, Guan Yu e Zhang Fei.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c13cbdf7671d0b227786 | opentdb-c13cbdf7671d0b227786 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e1fa0df59f5d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-asiaticos",
+      "universe": "Romance dos Três Reinos",
+      "workTitle": "Romance dos Três Reinos"
+    },
+    {
+      "id": "u-cb08922a7822",
+      "category": "literatura",
+      "question": "Quem escreveu o romance O Senhor das Moscas, publicado em 1954?",
+      "choices": [
+        "F. Scott Fitzgerald",
+        "William Golding",
+        "Stephen King",
+        "Hunter Fox"
+      ],
+      "answer": 1,
+      "fact": "William Golding é o autor de O Senhor das Moscas. A data no enunciado pertence à publicação da obra.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1e8fbf2adaf3b230e03e | opentdb-1e8fbf2adaf3b230e03e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-cb08922a7822",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "O Senhor das Moscas"
+    },
+    {
+      "id": "u-c8a26f89746f",
+      "category": "literatura",
+      "question": "Em qual romance clássico de Mark Twain um menino pobre e o príncipe de Gales trocam de roupa e descobrem desigualdades entre classes sociais?",
+      "choices": [
+        "Uma História Moderna de Twain",
+        "O Príncipe e o Mendigo",
+        "Hamlet",
+        "O Menino Rico e o Idiota"
+      ],
+      "answer": 1,
+      "fact": "O Príncipe e o Mendigo explora essa troca de posições sociais.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1ea40ce7b675d2ca85ce | opentdb-1ea40ce7b675d2ca85ce (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-c8a26f89746f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "O Príncipe e o Mendigo"
+    },
+    {
+      "id": "u-951d665c9d4b",
+      "category": "literatura",
+      "question": "Quem escreveu o romance Jane Eyre?",
+      "choices": [
+        "Jane Austen",
+        "Louisa May Alcott",
+        "Emily Brontë",
+        "Charlotte Brontë"
+      ],
+      "answer": 3,
+      "fact": "Charlotte Brontë é a autora de Jane Eyre. Não deve ser confundida com sua irmã Emily Brontë.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-33f5e11947e7d3462785 | opentdb-33f5e11947e7d3462785 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-951d665c9d4b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "Jane Eyre"
+    },
+    {
+      "id": "u-ba462cf793ff",
+      "category": "literatura",
+      "question": "Quem escreveu Moby-Dick?",
+      "choices": [
+        "Herman Melville",
+        "J. R. R. Tolkien",
+        "William Golding",
+        "William Shakespeare"
+      ],
+      "answer": 0,
+      "fact": "Herman Melville é o autor de Moby-Dick.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-68c3dc1cb4a8012242e9 | opentdb-68c3dc1cb4a8012242e9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ba462cf793ff",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "Moby-Dick"
+    },
+    {
+      "id": "u-78a00253f047",
+      "category": "literatura",
+      "question": "Quem escreveu A Letra Escarlate, publicada em 1850?",
+      "choices": [
+        "Washington Irving",
+        "Nathaniel Hawthorne",
+        "Catherine Maria Sedgwick",
+        "James Fenimore Cooper"
+      ],
+      "answer": 1,
+      "fact": "Nathaniel Hawthorne é o autor de A Letra Escarlate.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8a7a9ea51913585a0a51 | opentdb-8a7a9ea51913585a0a51 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-78a00253f047",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "A Letra Escarlate"
+    },
+    {
+      "id": "u-e7d7b8488251",
+      "category": "literatura",
+      "question": "Quem escreveu Um Conto de Duas Cidades?",
+      "choices": [
+        "Mark Twain",
+        "Charles Dickens",
+        "Roald Dahl",
+        "Charles Darwin"
+      ],
+      "answer": 1,
+      "fact": "Charles Dickens é o autor de Um Conto de Duas Cidades.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8be233e3b7b83cbd12df | opentdb-8be233e3b7b83cbd12df (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e7d7b8488251",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-mundiais",
+      "workTitle": "Um Conto de Duas Cidades"
+    },
+    {
+      "id": "u-74aa874952d0",
+      "category": "literatura",
+      "question": "Qual autor russo escreveu o romance épico Guerra e Paz?",
+      "choices": [
+        "Liev Tolstói",
+        "Aleksandr Púchkin",
+        "Vladimir Nabokov",
+        "Fiódor Dostoiévski"
+      ],
+      "answer": 0,
+      "fact": "Liev Tolstói é o autor de Guerra e Paz. Os nomes podem aparecer com transliterações diferentes em português.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-43fda469e056af9bc3da | opentdb-43fda469e056af9bc3da (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-74aa874952d0",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-russos",
+      "workTitle": "Guerra e Paz"
+    },
+    {
+      "id": "u-db28bbce631a",
+      "category": "literatura",
+      "question": "Qual das obras a seguir NÃO foi escrita por Fiódor Dostoiévski?",
+      "choices": [
+        "Anna Kariênina",
+        "Memórias do Subsolo",
+        "Os Irmãos Karamázov",
+        "Crime e Castigo"
+      ],
+      "answer": 0,
+      "fact": "Anna Kariênina é de Liev Tolstói. As outras três alternativas são obras de Dostoiévski.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c96f5b550477181da720 | opentdb-c96f5b550477181da720 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-db28bbce631a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "classicos-russos"
+    },
+    {
+      "id": "u-dfd3fde39822",
+      "category": "literatura",
+      "question": "Quem escreveu o conto infantil A Pequena Vendedora de Fósforos?",
+      "choices": [
+        "Hans Christian Andersen",
+        "Charles Dickens",
+        "Lewis Carroll",
+        "Oscar Wilde"
+      ],
+      "answer": 0,
+      "fact": "Hans Christian Andersen é o autor do conto.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7af471dfdd2346b068b7 | opentdb-7af471dfdd2346b068b7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-dfd3fde39822",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "contos-classicos",
+      "workTitle": "A Pequena Vendedora de Fósforos"
+    },
+    {
+      "id": "u-b48500e84708",
+      "category": "literatura",
+      "question": "Qual é o nome do cão de três cabeças em Harry Potter e a Pedra Filosofal?",
+      "choices": [
+        "Fofo (Fluffy)",
+        "Poofy",
+        "Spike",
+        "Spot"
+      ],
+      "answer": 0,
+      "fact": "Fluffy é conhecido como Fofo na tradução brasileira. É o cão de três cabeças da história.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b75366722468bfce972b | opentdb-b75366722468bfce972b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b48500e84708",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "criaturas-fantasticas",
+      "universe": "Harry Potter",
+      "workTitle": "Harry Potter e a Pedra Filosofal"
+    },
+    {
+      "id": "u-fd085f3413d5",
+      "category": "literatura",
+      "question": "O romance A Revolução dos Bichos, de George Orwell, foi inspirado em qual acontecimento histórico?",
+      "choices": [
+        "O New Deal de Franklin D. Roosevelt e seus efeitos sobre a Grande Depressão.",
+        "A ascensão do fascismo e a influência de Hitler.",
+        "A ascensão do comunismo e as políticas de Stálin.",
+        "A ascensão do Japão Imperial e seu controle do Pacífico."
+      ],
+      "answer": 2,
+      "fact": "A alternativa indicada relaciona a obra à ascensão do comunismo e às políticas de Stálin. A narrativa usa animais e uma fazenda para construir uma alegoria política.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-90a1d77a3c7522019653 | opentdb-90a1d77a3c7522019653 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fd085f3413d5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "distopias",
+      "workTitle": "A Revolução dos Bichos"
+    },
+    {
+      "id": "u-d5b0246e33ba",
+      "category": "literatura",
+      "question": "No romance 1984, de George Orwell, qual é o nome do regime totalitário que controla a Oceânia?",
+      "choices": [
+        "Aliança da Terra",
+        "INGSOC",
+        "Neobolchevismo",
+        "Obliteração do Eu"
+      ],
+      "answer": 1,
+      "fact": "A fonte aponta INGSOC. Na obra, a designação está associada ao socialismo inglês e à ideologia do Partido.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a34b5234cbb14202de4c | opentdb-a34b5234cbb14202de4c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-d5b0246e33ba",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "distopias",
+      "workTitle": "1984"
+    },
+    {
+      "id": "u-a939dd3ca0a8",
+      "category": "literatura",
+      "question": "Em O Conto da Aia, de Margaret Atwood, qual é o nome verdadeiro sugerido para Offred?",
+      "choices": [
+        "June",
+        "April",
+        "May",
+        "August"
+      ],
+      "answer": 0,
+      "fact": "June é o nome sugerido pela leitura indicada no gabarito. O romance não o apresenta da mesma forma explícita que a adaptação televisiva.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-dc8ae4d8b64f5e762d95 | opentdb-dc8ae4d8b64f5e762d95 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a939dd3ca0a8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "distopias",
+      "universe": "O Conto da Aia",
+      "workTitle": "O Conto da Aia"
+    },
+    {
+      "id": "u-fb732e9049f6",
+      "category": "literatura",
+      "question": "Quem escreveu Fahrenheit 451?",
+      "choices": [
+        "Stephen King",
+        "R. L. Stine",
+        "Ray Bradbury",
+        "Wolfgang Amadeus Mozart"
+      ],
+      "answer": 2,
+      "fact": "Ray Bradbury é o autor de Fahrenheit 451.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f46c87067bc4fd74e905 | opentdb-f46c87067bc4fd74e905 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fb732e9049f6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "distopias",
+      "workTitle": "Fahrenheit 451"
+    },
+    {
+      "id": "u-cbcb2d38965b",
+      "category": "literatura",
+      "question": "Qual destes livros de George Orwell é frequentemente interpretado como uma reflexão sobre a vigilância governamental?",
+      "choices": [
+        "1984",
+        "O Velho e o Mar",
+        "O Sol é para Todos",
+        "O Apanhador no Campo de Centeio"
+      ],
+      "answer": 0,
+      "fact": "1984 apresenta uma sociedade submetida ao controle e à vigilância de um poder totalitário.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-fbc4a2756f3959d49a28 | opentdb-fbc4a2756f3959d49a28 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-cbcb2d38965b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "distopias",
+      "workTitle": "1984"
+    },
+    {
+      "id": "u-79d8f7172288",
+      "category": "literatura",
+      "question": "Qual das seguintes obras NÃO é de Shakespeare?",
+      "choices": [
+        "Cimbelino",
+        "Trial of Temperance",
+        "Tito Andrônico",
+        "Medida por Medida"
+      ],
+      "answer": 1,
+      "fact": "Trial of Temperance é a alternativa que não corresponde a uma obra de Shakespeare.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e5d759798c21e3883811 | opentdb-e5d759798c21e3883811 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-79d8f7172288",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "drama",
+      "universe": "Shakespeare"
+    },
+    {
+      "id": "u-4900f6bfd1c7",
+      "category": "literatura",
+      "question": "Em qual posição Harry Potter joga quadribol?",
+      "choices": [
+        "Batedor",
+        "Artilheiro",
+        "Goleiro",
+        "Apanhador"
+      ],
+      "answer": 3,
+      "fact": "Harry joga como apanhador. Essa é a posição encarregada de procurar e capturar o pomo de ouro.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a88e1fbbd9d27a48ea91 | opentdb-a88e1fbbd9d27a48ea91 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4900f6bfd1c7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "esportes-ficcionais",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-0adbc0213721",
+      "category": "literatura",
+      "question": "Em As Mentiras de Locke Lamora, por qual título Locke é conhecido no mundo do crime?",
+      "choices": [
+        "A Rosa dos Marrows",
+        "O Espinho de Camorr",
+        "O Espinho dos Marrows",
+        "O Espinho de Emberlain"
+      ],
+      "answer": 1,
+      "fact": "A fonte aponta o título O Espinho de Camorr.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-48d67b62b4c26e353587 | opentdb-48d67b62b4c26e353587 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0adbc0213721",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia",
+      "universe": "Cavalheiros Bastardos",
+      "workTitle": "As Mentiras de Locke Lamora"
+    },
+    {
+      "id": "u-1e9728a52128",
+      "category": "literatura",
+      "question": "Em As Mentiras de Locke Lamora, o que Lamora significa em Throne Therin?",
+      "choices": [
+        "Roubo",
+        "Sombra",
+        "Justiça",
+        "Caos"
+      ],
+      "answer": 1,
+      "fact": "O gabarito associa Lamora ao significado sombra no idioma ficcional mencionado.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-eb0f73915c81adcaafbf | opentdb-eb0f73915c81adcaafbf (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1e9728a52128",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia",
+      "universe": "Cavalheiros Bastardos",
+      "workTitle": "As Mentiras de Locke Lamora"
+    },
+    {
+      "id": "u-7b9c69f8e2ad",
+      "category": "literatura",
+      "question": "Quem é o autor da série de livros As Crônicas de Gelo e Fogo, que começa com A Guerra dos Tronos?",
+      "choices": [
+        "Steven Erikson",
+        "George R. R. Martin",
+        "Brandon Sanderson",
+        "J. R. R. Tolkien"
+      ],
+      "answer": 1,
+      "fact": "George R. R. Martin é o autor da série literária. A Guerra dos Tronos é o primeiro volume.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0bf1445e36a5ebdb76a7 | opentdb-0bf1445e36a5ebdb76a7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7b9c69f8e2ad",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-epica",
+      "universe": "As Crônicas de Gelo e Fogo",
+      "workTitle": "A Guerra dos Tronos"
+    },
+    {
+      "id": "u-c70a53a502f2",
+      "category": "literatura",
+      "question": "Quem é o autor da série Malazan Book of the Fallen?",
+      "choices": [
+        "Steven Erikson",
+        "Ian Cameron Esslemont",
+        "George R. R. Martin",
+        "J. R. R. Tolkien"
+      ],
+      "answer": 0,
+      "fact": "Steven Erikson é o autor da série Malazan Book of the Fallen. Não se deve confundir essa série específica com todas as obras ambientadas no universo Malazan.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3415cec5e6b8df4858fd | opentdb-3415cec5e6b8df4858fd (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-c70a53a502f2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-epica",
+      "universe": "Malazan",
+      "workTitle": "Malazan Book of the Fallen"
+    },
+    {
+      "id": "u-5b18be2f5618",
+      "category": "literatura",
+      "question": "Qual é o segundo livro da série As Crônicas de Gelo e Fogo, de George R. R. Martin?",
+      "choices": [
+        "A Dança dos Dragões",
+        "O Festim dos Corvos",
+        "A Tormenta de Espadas",
+        "A Fúria dos Reis"
+      ],
+      "answer": 3,
+      "fact": "A Fúria dos Reis é o segundo volume da série.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c9e1ff34882586f3512e | opentdb-c9e1ff34882586f3512e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5b18be2f5618",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-epica",
+      "universe": "As Crônicas de Gelo e Fogo",
+      "workTitle": "A Fúria dos Reis"
+    },
+    {
+      "id": "u-8ce9c4d4af6c",
+      "category": "literatura",
+      "question": "Qual é o nome do dragão de Eragon no livro Eragon?",
+      "choices": [
+        "Arya",
+        "Thorn",
+        "Glaedr",
+        "Saphira"
+      ],
+      "answer": 3,
+      "fact": "O nome é Saphira. A personagem faz parte do universo literário do Ciclo da Herança.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f9925891d3d934c4b931 | opentdb-f9925891d3d934c4b931 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8ce9c4d4af6c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-epica",
+      "universe": "Ciclo da Herança",
+      "workTitle": "Eragon"
+    },
+    {
+      "id": "u-fab25151bda2",
+      "category": "literatura",
+      "question": "Em Wyrd Sisters, romance de Discworld escrito por Terry Pratchett, qual destas NÃO é uma das três bruxas principais?",
+      "choices": [
+        "Magrat Garlick",
+        "Winny Hathersham",
+        "Granny Weatherwax",
+        "Nanny Ogg"
+      ],
+      "answer": 1,
+      "fact": "Winny Hathersham é o nome que não integra o trio indicado. As outras alternativas correspondem às três bruxas da obra.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2886d6303dacb624a8cb | opentdb-2886d6303dacb624a8cb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fab25151bda2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-humoristica",
+      "universe": "Discworld",
+      "workTitle": "Wyrd Sisters"
+    },
+    {
+      "id": "u-68cea7e6a5ae",
+      "category": "literatura",
+      "question": "Quantos livros compõem a série As Crônicas de Nárnia?",
+      "choices": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "answer": 3,
+      "fact": "A série As Crônicas de Nárnia é formada por sete livros.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-35c9f9c4d9421b40af84 | opentdb-35c9f9c4d9421b40af84 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-68cea7e6a5ae",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-infantil",
+      "universe": "As Crônicas de Nárnia"
+    },
+    {
+      "id": "u-155b1fab0e7e",
+      "category": "literatura",
+      "question": "Qual é o título do quarto livro da série A Torre Negra, de Stephen King?",
+      "choices": [
+        "Corações na Atlântida",
+        "A Metade Sombria",
+        "Lobos de Calla",
+        "Mago e Vidro"
+      ],
+      "answer": 3,
+      "fact": "Mago e Vidro é o quarto volume da sequência principal de A Torre Negra.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0b58ad2fe9f02babdfab | opentdb-0b58ad2fe9f02babdfab (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-155b1fab0e7e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-sombria",
+      "universe": "A Torre Negra",
+      "workTitle": "Mago e Vidro"
+    },
+    {
+      "id": "u-46faa8954aa1",
+      "category": "literatura",
+      "question": "Qual série de livros de Jim Butcher acompanha um mago na Chicago contemporânea?",
+      "choices": [
+        "A Hat in Time",
+        "The Dresden Files",
+        "The Cinder Spires",
+        "My Life as a Teenage Wizard"
+      ],
+      "answer": 1,
+      "fact": "The Dresden Files é a série de Jim Butcher que acompanha um mago em Chicago.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ca60537ca359f17e2ca3 | opentdb-ca60537ca359f17e2ca3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-46faa8954aa1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fantasia-urbana",
+      "universe": "The Dresden Files"
+    },
+    {
+      "id": "u-31b929efc115",
+      "category": "literatura",
+      "question": "Qual era o nome do submarino do capitão Nemo em Vinte Mil Léguas Submarinas?",
+      "choices": [
+        "Atlantis",
+        "Poseidon",
+        "Neptune",
+        "Nautilus"
+      ],
+      "answer": 3,
+      "fact": "O submarino do capitão Nemo chama-se Nautilus.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1ee6bc21de5765da5a20 | opentdb-1ee6bc21de5765da5a20 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-31b929efc115",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-cientifica",
+      "universe": "Júlio Verne",
+      "workTitle": "Vinte Mil Léguas Submarinas"
+    },
+    {
+      "id": "u-585cb55c2f06",
+      "category": "literatura",
+      "question": "Qual destes livros NÃO foi escrito pelo autor tcheco Karel Čapek?",
+      "choices": [
+        "R.U.R. (Robôs Universais de Rossum)",
+        "Dášenka, ou a vida de um cachorrinho",
+        "Viagem ao Centro da Terra",
+        "A Guerra das Salamandras"
+      ],
+      "answer": 2,
+      "fact": "Viagem ao Centro da Terra é uma obra de Júlio Verne. As demais alternativas são associadas a Karel Čapek.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ddb4032a04c7a9e9eebb | opentdb-ddb4032a04c7a9e9eebb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-585cb55c2f06",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-cientifica"
+    },
+    {
+      "id": "u-1229700b1a9f",
+      "category": "literatura",
+      "question": "Qual é a marca e o modelo dos veículos de passeio em Jurassic Park (1990)?",
+      "choices": [
+        "Mercedes Classe M",
+        "Toyota Land Cruiser 1989",
+        "Jeep Wrangler YJ Sahar 1989",
+        "Ford Explorer XLT 1989"
+      ],
+      "answer": 1,
+      "fact": "A fonte aponta o Toyota Land Cruiser para o romance. O veículo não deve ser confundido com os usados na adaptação cinematográfica.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e8707679909a5bee4db3 | opentdb-e8707679909a5bee4db3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1229700b1a9f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-cientifica",
+      "universe": "Jurassic Park",
+      "workTitle": "Jurassic Park"
+    },
+    {
+      "id": "u-ee41e04bc716",
+      "category": "literatura",
+      "question": "Qual foi o primeiro verbete escrito para o projeto de escrita colaborativa Fundação SCP?",
+      "choices": [
+        "SCP-001",
+        "SCP-173",
+        "SCP-1459",
+        "SCP-999"
+      ],
+      "answer": 1,
+      "fact": "SCP-173 é apontado pela fonte como o primeiro verbete do projeto. O número do verbete não segue necessariamente a ordem de criação.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34b81325760d7326597a | opentdb-34b81325760d7326597a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ee41e04bc716",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ficcao-colaborativa",
+      "universe": "Fundação SCP"
+    },
+    {
+      "id": "u-70875c38aa0a",
+      "category": "literatura",
+      "question": "Qual é a tradução para o inglês do título Mein Kampf, autobiografia de Adolf Hitler?",
+      "choices": [
+        "My Desire",
+        "My Sadness",
+        "My Struggle",
+        "My Hatred"
+      ],
+      "answer": 2,
+      "fact": "My Struggle é a tradução inglesa indicada. Em português, o título é conhecido como Minha Luta. A pergunta trata apenas do significado do título.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-43ace29a601594d81bc0 | opentdb-43ace29a601594d81bc0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-70875c38aa0a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-da-literatura",
+      "workTitle": "Mein Kampf"
+    },
+    {
+      "id": "u-9087c1edc307",
+      "category": "literatura",
+      "question": "Qual dos seguintes é o autor de Username Evie?",
+      "choices": [
+        "Zoe Sugg",
+        "Joe Weller",
+        "Joe Sugg",
+        "Alfie Deyes"
+      ],
+      "answer": 2,
+      "fact": "O gabarito atribui Username Evie a Joe Sugg.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b6d13f2bc3ce528aa5ae | opentdb-b6d13f2bc3ce528aa5ae (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9087c1edc307",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "hq-e-manga",
+      "workTitle": "Username Evie"
+    },
+    {
+      "id": "u-8b5855f915af",
+      "category": "literatura",
+      "question": "Qual destes livros Charlie NÃO lê em As Vantagens de Ser Invisível?",
+      "choices": [
+        "As Vinhas da Ira",
+        "O Grande Gatsby",
+        "Peter Pan",
+        "Hamlet"
+      ],
+      "answer": 0,
+      "fact": "O gabarito distingue As Vinhas da Ira das leituras atribuídas a Charlie. A pergunta se refere ao romance, não à adaptação para o cinema.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-14a273be6efc9a38b584 | opentdb-14a273be6efc9a38b584 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8b5855f915af",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "leituras-dos-personagens",
+      "universe": "As Vantagens de Ser Invisível",
+      "workTitle": "As Vantagens de Ser Invisível"
+    },
+    {
+      "id": "u-00e1f7f1cd55",
+      "category": "literatura",
+      "question": "Qual famoso autor de romances de espionagem escreveu a história infantil Chitty-Chitty-Bang-Bang?",
+      "choices": [
+        "Ian Fleming",
+        "Joseph Conrad",
+        "John Buchan",
+        "Graham Greene"
+      ],
+      "answer": 0,
+      "fact": "Ian Fleming é o autor de Chitty-Chitty-Bang-Bang.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2adc3dee7b46679079f8 | opentdb-2adc3dee7b46679079f8 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-00e1f7f1cd55",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "workTitle": "Chitty-Chitty-Bang-Bang"
+    },
+    {
+      "id": "u-0ebd0eb416e8",
+      "category": "literatura",
+      "question": "Quem é o autor de Green Eggs and Ham?",
+      "choices": [
+        "Roald Dahl",
+        "Dr. Seuss",
+        "A.A. Milne",
+        "Beatrix Potter"
+      ],
+      "answer": 1,
+      "fact": "Dr. Seuss é o autor do livro infantil Green Eggs and Ham.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-422b426c6fa77369a681 | opentdb-422b426c6fa77369a681 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0ebd0eb416e8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "workTitle": "Green Eggs and Ham"
+    },
+    {
+      "id": "u-112b83d6d6d3",
+      "category": "literatura",
+      "question": "Qual era o nome original de Sir Handel em The Railway Series e em sua adaptação animada Thomas e Seus Amigos?",
+      "choices": [
+        "Kyte",
+        "Eagle",
+        "Falcon",
+        "Swallow"
+      ],
+      "answer": 2,
+      "fact": "A fonte informa Falcon como o nome anterior de Sir Handel.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-61561dfe48470ae442e3 | opentdb-61561dfe48470ae442e3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-112b83d6d6d3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "universe": "The Railway Series"
+    },
+    {
+      "id": "u-02534388c045",
+      "category": "literatura",
+      "question": "O livro O Pequeno Príncipe foi escrito por quem?",
+      "choices": [
+        "Jane Austen",
+        "F. Scott Fitzgerald",
+        "Miguel de Cervantes Saavedra",
+        "Antoine de Saint-Exupéry"
+      ],
+      "answer": 3,
+      "fact": "Antoine de Saint-Exupéry é o autor de O Pequeno Príncipe.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6336de73b04847f13038 | opentdb-6336de73b04847f13038 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-02534388c045",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "workTitle": "O Pequeno Príncipe"
+    },
+    {
+      "id": "u-1c16afc0aa3a",
+      "category": "literatura",
+      "question": "Em Alice no País das Maravilhas, qual é o nome da gatinha de Alice?",
+      "choices": [
+        "Smokey",
+        "Dinah",
+        "Heath",
+        "Oscar"
+      ],
+      "answer": 1,
+      "fact": "A gata de Alice chama-se Dinah.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7e48d3bd56bfc53ac0f1 | opentdb-7e48d3bd56bfc53ac0f1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1c16afc0aa3a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "universe": "Alice",
+      "workTitle": "Alice no País das Maravilhas"
+    },
+    {
+      "id": "u-8c3a146265e7",
+      "category": "literatura",
+      "question": "Por qual livro infantil o ilustrador e escritor norte-americano Maurice Sendak é mais conhecido?",
+      "choices": [
+        "A História Sem Fim",
+        "O Gato de Chapéu",
+        "A Fantástica Fábrica de Chocolate",
+        "Onde Vivem os Monstros"
+      ],
+      "answer": 3,
+      "fact": "A fonte destaca Onde Vivem os Monstros, de Maurice Sendak.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-be6055f64f7b588c054d | opentdb-be6055f64f7b588c054d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8c3a146265e7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "workTitle": "Onde Vivem os Monstros"
+    },
+    {
+      "id": "u-31ce0215bae8",
+      "category": "literatura",
+      "question": "Na série de livros infantis, de onde o urso Paddington vem originalmente?",
+      "choices": [
+        "Canadá",
+        "Peru",
+        "Islândia",
+        "Índia"
+      ],
+      "answer": 1,
+      "fact": "Paddington vem do Peru. A pergunta é sobre a origem do personagem na série de livros.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c5757d78cdc058c69b04 | opentdb-c5757d78cdc058c69b04 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-31ce0215bae8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-infantil",
+      "universe": "Paddington"
+    },
+    {
+      "id": "u-2e85e33a28c8",
+      "category": "literatura",
+      "question": "Quem escreveu Ratos e Homens?",
+      "choices": [
+        "Mark Twain",
+        "Harper Lee",
+        "George Orwell",
+        "John Steinbeck"
+      ],
+      "answer": 3,
+      "fact": "John Steinbeck é o autor de Ratos e Homens.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-07fba1627c5ddddb3dec | opentdb-07fba1627c5ddddb3dec (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2e85e33a28c8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-norte-americana",
+      "workTitle": "Ratos e Homens"
+    },
+    {
+      "id": "u-635bb9f9d337",
+      "category": "literatura",
+      "question": "Quem escreveu Medo e Delírio em Las Vegas?",
+      "choices": [
+        "Hunter S. Thompson",
+        "Henry Miller",
+        "William S. Burroughs",
+        "F. Scott Fitzgerald"
+      ],
+      "answer": 0,
+      "fact": "Hunter S. Thompson é o autor de Medo e Delírio em Las Vegas.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-62b433d3f0f9a564aed1 | opentdb-62b433d3f0f9a564aed1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-635bb9f9d337",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "literatura-norte-americana",
+      "workTitle": "Medo e Delírio em Las Vegas"
+    },
+    {
+      "id": "u-230eb29729a5",
+      "category": "literatura",
+      "question": "Nos romances de Harry Potter, o que um estudante de Hogwarts precisa fazer para entrar na sala comunal da Corvinal?",
+      "choices": [
+        "Responder a um enigma",
+        "Dizer uma senha",
+        "Bater em uma sequência específica",
+        "Tocar ritmicamente em barris com uma varinha"
+      ],
+      "answer": 0,
+      "fact": "A entrada da Corvinal exige responder a um enigma, em vez de simplesmente repetir uma senha.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-06267fe9f2a60a11c722 | opentdb-06267fe9f2a60a11c722 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-230eb29729a5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "lugares-ficcionais",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-1304af00da37",
+      "category": "literatura",
+      "question": "Qual é o título do primeiro livro de Sherlock Holmes, de Arthur Conan Doyle?",
+      "choices": [
+        "O Signo dos Quatro",
+        "Um Estudo em Vermelho",
+        "Um Caso de Identidade",
+        "The Doings of Raffles Haw"
+      ],
+      "answer": 1,
+      "fact": "Um Estudo em Vermelho apresenta Sherlock Holmes em sua primeira narrativa publicada.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e2934a2a17fab258284f | opentdb-e2934a2a17fab258284f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1304af00da37",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "misterio-policial",
+      "universe": "Sherlock Holmes",
+      "workTitle": "Um Estudo em Vermelho"
+    },
+    {
+      "id": "u-6a31a5bcc649",
+      "category": "literatura",
+      "question": "Qual autor norte-americano também se aventurou na literatura de viagem e escreveu sobre suas jornadas com o cão Charley?",
+      "choices": [
+        "F. Scott Fitzgerald",
+        "John Steinbeck",
+        "William Faulkner",
+        "Ernest Hemingway"
+      ],
+      "answer": 1,
+      "fact": "John Steinbeck escreveu um relato de viagem acompanhado de seu cão Charley.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-34c2c7c7632013f11f04 | opentdb-34c2c7c7632013f11f04 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-6a31a5bcc649",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "nao-ficcao"
+    },
+    {
+      "id": "u-ef66823efcb6",
+      "category": "literatura",
+      "question": "Em O Senhor dos Anéis, quantos anéis de poder foram entregues aos homens?",
+      "choices": [
+        "5",
+        "9",
+        "11",
+        "13"
+      ],
+      "answer": 1,
+      "fact": "Nove anéis foram destinados aos homens no universo de O Senhor dos Anéis.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f10452b7c617939124e4 | opentdb-f10452b7c617939124e4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ef66823efcb6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "objetos-magicos",
+      "universe": "Terra-média",
+      "workTitle": "O Senhor dos Anéis"
+    },
+    {
+      "id": "u-2cd2507a59c1",
+      "category": "literatura",
+      "question": "Qual autor escreveu O Manifesto Comunista ao lado de Karl Marx?",
+      "choices": [
+        "Paul Lafargue",
+        "Friedrich Engels",
+        "Alexander Kerensky",
+        "Robert Owen"
+      ],
+      "answer": 1,
+      "fact": "Friedrich Engels foi coautor da obra com Karl Marx.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9930e7997022b742c60d | opentdb-9930e7997022b742c60d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2cd2507a59c1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pensamento-politico",
+      "workTitle": "O Manifesto Comunista"
+    },
+    {
+      "id": "u-d28d48dee980",
+      "category": "literatura",
+      "question": "Qual é o nome do meio de Hermione Granger?",
+      "choices": [
+        "Emma",
+        "Jo",
+        "Jean",
+        "Jane"
+      ],
+      "answer": 2,
+      "fact": "Jean é o nome do meio de Hermione.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0f019fce995abbb4d29b | opentdb-0f019fce995abbb4d29b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-d28d48dee980",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-cdcf74ac6803",
+      "category": "literatura",
+      "question": "Qual é o nome do protagonista do romance O Apanhador no Campo de Centeio, de J. D. Salinger?",
+      "choices": [
+        "Holden Caulfield",
+        "Jay Gatsby",
+        "Randall Flagg",
+        "Fletcher Christian"
+      ],
+      "answer": 0,
+      "fact": "Holden Caulfield é o protagonista do romance de Salinger. A pergunta pede o personagem, não o autor.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-14ef28f5347df095c65d | opentdb-14ef28f5347df095c65d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-cdcf74ac6803",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "O Apanhador no Campo de Centeio",
+      "workTitle": "O Apanhador no Campo de Centeio"
+    },
+    {
+      "id": "u-4dde736f3598",
+      "category": "literatura",
+      "question": "Qual é o nome do irmão de Sherlock Holmes?",
+      "choices": [
+        "Mycroft Holmes",
+        "Martin Holmes",
+        "Mederi Holmes",
+        "Herbie Hancock Holmes"
+      ],
+      "answer": 0,
+      "fact": "Mycroft Holmes é o irmão de Sherlock Holmes.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1513fcc1179075ce189a | opentdb-1513fcc1179075ce189a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4dde736f3598",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Sherlock Holmes"
+    },
+    {
+      "id": "u-b42e0d9eb637",
+      "category": "literatura",
+      "question": "Na série de livros Odd Thomas, qual doença genética Danny Jessup tem?",
+      "choices": [
+        "Osteogênese imperfeita",
+        "Fibrose cística",
+        "Ataxia espinocerebelar",
+        "Adrenoleucodistrofia"
+      ],
+      "answer": 0,
+      "fact": "A resposta literária indicada é osteogênese imperfeita.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-40e5bbf31ec55247b3c6 | opentdb-40e5bbf31ec55247b3c6 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b42e0d9eb637",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Odd Thomas"
+    },
+    {
+      "id": "u-543969448e07",
+      "category": "literatura",
+      "question": "No universo de Harry Potter, qual é o nome do meio de Cornélio Fudge?",
+      "choices": [
+        "Christopher",
+        "Harold",
+        "James",
+        "Oswald"
+      ],
+      "answer": 3,
+      "fact": "O gabarito da fonte informa Oswald como o nome do meio de Cornelius Fudge, conhecido em português como Cornélio Fudge.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-42e64a13b33f2e239610 | opentdb-42e64a13b33f2e239610 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-543969448e07",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-5d07069ff0e3",
+      "category": "literatura",
+      "question": "Na série Harry Potter, qual é o nome completo do diretor Dumbledore?",
+      "choices": [
+        "Albus Percival Wulfric Brian Dumbledore",
+        "Albus Valum Jetta Mobius Dumbledore",
+        "Albus Valencium Horatio Kul Dumbledore",
+        "Albus James Lunae Otto Dumbledore"
+      ],
+      "answer": 0,
+      "fact": "O nome completo apresentado pela fonte é Albus Percival Wulfric Brian Dumbledore.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a1577ba313ffbc5f3203 | opentdb-a1577ba313ffbc5f3203 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5d07069ff0e3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-4fd4c0fe17c2",
+      "category": "literatura",
+      "question": "Por qual apelido Jack Dawkins é conhecido no romance Oliver Twist, de Charles Dickens?",
+      "choices": [
+        "Bull’s-eye",
+        "Mr. Fang",
+        "The Artful Dodger",
+        "Fagin"
+      ],
+      "answer": 2,
+      "fact": "O apelido é The Artful Dodger. O nome pode receber traduções diferentes nas edições de Oliver Twist.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b33db4f235cc46539e6c | opentdb-b33db4f235cc46539e6c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4fd4c0fe17c2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Oliver Twist",
+      "workTitle": "Oliver Twist"
+    },
+    {
+      "id": "u-bdacea82ddf3",
+      "category": "literatura",
+      "question": "Qual é o nome do pai de Harry Potter?",
+      "choices": [
+        "Joey Potter",
+        "Tiago Potter (James Potter)",
+        "Frank Potter",
+        "Hairy Potter Sr."
+      ],
+      "answer": 1,
+      "fact": "James Potter é o pai de Harry; nas edições brasileiras, o personagem é conhecido como Tiago Potter.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bd6431131f0d41dd10bf | opentdb-bd6431131f0d41dd10bf (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bdacea82ddf3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-a90cdbdfb30c",
+      "category": "literatura",
+      "question": "Abel Magwitch é personagem de qual romance de Charles Dickens?",
+      "choices": [
+        "Nicholas Nickleby",
+        "Os Papéis Póstumos do Clube Pickwick",
+        "Grandes Esperanças",
+        "Oliver Twist"
+      ],
+      "answer": 2,
+      "fact": "Abel Magwitch é um personagem de Grandes Esperanças.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c4c678f42c2dc623dfbf | opentdb-c4c678f42c2dc623dfbf (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a90cdbdfb30c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Grandes Esperanças",
+      "workTitle": "Grandes Esperanças"
+    },
+    {
+      "id": "u-92a91eccde08",
+      "category": "literatura",
+      "question": "Em qual romance clássico existe um personagem chamado Homer Simpson?",
+      "choices": [
+        "A Separate Peace",
+        "Ardil-22",
+        "O Dia do Gafanhoto",
+        "Ratos e Homens"
+      ],
+      "answer": 2,
+      "fact": "O Dia do Gafanhoto contém um personagem chamado Homer Simpson. A coincidência de nome não o transforma no personagem de Os Simpsons.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e009cad95aa1650e3cb3 | opentdb-e009cad95aa1650e3cb3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-92a91eccde08",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "workTitle": "O Dia do Gafanhoto"
+    },
+    {
+      "id": "u-047f2b9cdd6b",
+      "category": "literatura",
+      "question": "Qual é o nome do meio de Rony Weasley?",
+      "choices": [
+        "Arthur",
+        "Dominic",
+        "John",
+        "Bilius"
+      ],
+      "answer": 3,
+      "fact": "Bilius é o nome do meio informado para Ron Weasley, conhecido como Rony nas edições brasileiras.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ff318e1c70ed9eb73c33 | opentdb-ff318e1c70ed9eb73c33 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-047f2b9cdd6b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-e84632fb7ec9",
+      "category": "literatura",
+      "question": "Qual autor e poeta escreveu a frase A fêmea da espécie é mais mortal que o macho?",
+      "choices": [
+        "Edgar Allan Poe",
+        "William Wordsworth",
+        "Rudyard Kipling",
+        "William Shakespeare"
+      ],
+      "answer": 2,
+      "fact": "A frase é atribuída a Rudyard Kipling na fonte.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6c5553a99bef8a8161e9 | opentdb-6c5553a99bef8a8161e9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e84632fb7ec9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "poesia"
+    },
+    {
+      "id": "u-35ff8338bc1c",
+      "category": "literatura",
+      "question": "Onde se passa It: A Coisa, de Stephen King?",
+      "choices": [
+        "Derry, Maine",
+        "Kingsland, Texas",
+        "Rockford, Illinois",
+        "Innsmouth, Massachusetts"
+      ],
+      "answer": 0,
+      "fact": "A narrativa se passa em Derry, no estado do Maine.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-86a013198270387b707e | opentdb-86a013198270387b707e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-35ff8338bc1c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror",
+      "universe": "Universo Stephen King",
+      "workTitle": "It: A Coisa"
+    },
+    {
+      "id": "u-b224a85b6b98",
+      "category": "literatura",
+      "question": "Quem escreveu o romance de terror O Bebê de Rosemary, publicado em 1967?",
+      "choices": [
+        "Robert Bloch",
+        "Stephen King",
+        "Mary Shelley",
+        "Ira Levin"
+      ],
+      "answer": 3,
+      "fact": "Ira Levin é o autor do romance O Bebê de Rosemary.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8f29031f90dd857d1654 | opentdb-8f29031f90dd857d1654 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b224a85b6b98",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror",
+      "workTitle": "O Bebê de Rosemary"
+    },
+    {
+      "id": "u-4291b979d28c",
+      "category": "literatura",
+      "question": "Entre os seguintes romances de Stephen King, qual foi publicado primeiro?",
+      "choices": [
+        "Cujo",
+        "It: A Coisa",
+        "Misery",
+        "Christine"
+      ],
+      "answer": 0,
+      "fact": "Cujo saiu em 1981, antes de Christine (1983), It (1986) e Misery (1987). O critério é a publicação original dos romances.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a129044061abe762a9b7 | opentdb-a129044061abe762a9b7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4291b979d28c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror"
+    },
+    {
+      "id": "u-65256652144f",
+      "category": "literatura",
+      "question": "Quem escreveu originalmente Frankenstein?",
+      "choices": [
+        "Bram Stoker",
+        "Edgar Allan Poe",
+        "H. P. Lovecraft",
+        "Mary Shelley"
+      ],
+      "answer": 3,
+      "fact": "Mary Shelley é a autora de Frankenstein. A pergunta é sobre a obra literária original.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-82bccdd109f353b1a633 | opentdb-82bccdd109f353b1a633 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-65256652144f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror-gotico",
+      "universe": "Frankenstein",
+      "workTitle": "Frankenstein"
+    },
+    {
+      "id": "u-18c9ac3cc998",
+      "category": "literatura",
+      "question": "Segundo o romance de Bram Stoker, em qual cidade costeira britânica Drácula desembarca?",
+      "choices": [
+        "Portsmouth",
+        "Whitby",
+        "Scarborough",
+        "Brighton"
+      ],
+      "answer": 1,
+      "fact": "O gabarito aponta Whitby. A pergunta se refere ao romance de Bram Stoker.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8dd519ec025b22d9ce3e | opentdb-8dd519ec025b22d9ce3e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-18c9ac3cc998",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror-gotico",
+      "universe": "Drácula",
+      "workTitle": "Drácula"
+    },
+    {
+      "id": "u-5f555e6a2cbe",
+      "category": "literatura",
+      "question": "Em 1818, a romancista Mary Shelley escreveu uma obra de ficção e criou qual destes personagens conhecidos?",
+      "choices": [
+        "A criatura de Frankenstein",
+        "O Homem Invisível",
+        "A Coisa",
+        "Drácula"
+      ],
+      "answer": 0,
+      "fact": "O gabarito aponta a criatura de Frankenstein. A obra foi publicada originalmente em 1818.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c46c0bdec4b4872bf896 | opentdb-c46c0bdec4b4872bf896 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-5f555e6a2cbe",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror-gotico",
+      "universe": "Frankenstein",
+      "workTitle": "Frankenstein"
+    },
+    {
+      "id": "u-8404e5c79377",
+      "category": "literatura",
+      "question": "Qual destes NÃO é um livro da série Harry Potter?",
+      "choices": [
+        "O Elfo Doméstico",
+        "As Relíquias da Morte",
+        "A Câmara Secreta",
+        "O Prisioneiro de Azkaban"
+      ],
+      "answer": 0,
+      "fact": "O Elfo Doméstico não é um título da série principal. As outras alternativas correspondem a volumes da série.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-09cf020a8f7e47d6f4f8 | opentdb-09cf020a8f7e47d6f4f8 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-8404e5c79377",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "titulos-de-livros",
+      "universe": "Harry Potter"
+    },
+    {
+      "id": "u-dcaf8a23244f",
+      "category": "literatura",
+      "question": "Qual livro famoso tem o subtítulo O Prometeu Moderno?",
+      "choices": [
+        "O Estranho Caso de Dr. Jekyll e Mr. Hyde",
+        "Frankenstein",
+        "Drácula",
+        "A Lenda do Cavaleiro sem Cabeça"
+      ],
+      "answer": 1,
+      "fact": "O subtítulo pertence a Frankenstein. Ele relaciona a criação de vida no romance à figura de Prometeu.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-62c1caae674d15a7ae08 | opentdb-62c1caae674d15a7ae08 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-dcaf8a23244f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "titulos-e-subtitulos",
+      "universe": "Frankenstein",
+      "workTitle": "Frankenstein"
+    },
+    {
+      "id": "u-b1e17f9fcf7a",
+      "category": "literatura",
+      "question": "Quem escreveu o romance juvenil A Culpa é das Estrelas?",
+      "choices": [
+        "Stephenie Meyer",
+        "Suzanne Collins",
+        "Stephen Chbosky",
+        "John Green"
+      ],
+      "answer": 3,
+      "fact": "John Green é o autor de A Culpa é das Estrelas.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0b90cb7025e872822044 | opentdb-0b90cb7025e872822044 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b1e17f9fcf7a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "young-adult",
+      "workTitle": "A Culpa é das Estrelas"
+    },
+    {
+      "id": "u-09280c87d2c4",
+      "category": "literatura",
+      "question": "Quem é o autor da série de livros Percy Jackson?",
+      "choices": [
+        "Roald Dahl",
+        "Rick Riordan",
+        "J.K. Rowling",
+        "Sandra Bullock"
+      ],
+      "answer": 1,
+      "fact": "Rick Riordan é o autor da série Percy Jackson.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-4442ac70abc1c8289b94 | opentdb-4442ac70abc1c8289b94 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-09280c87d2c4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "young-adult",
+      "universe": "Percy Jackson"
+    },
+    {
+      "id": "u-4900ff185360",
+      "category": "literatura",
+      "question": "Qual destas séries de livros é de James Patterson?",
+      "choices": [
+        "The Bartemaeus Trilogy",
+        "The Legend of Xanth",
+        "Maximum Ride",
+        "Harry Potter"
+      ],
+      "answer": 2,
+      "fact": "Maximum Ride é a série associada a James Patterson.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6d95b9ccde582f694147 | opentdb-6d95b9ccde582f694147 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4900ff185360",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "young-adult",
+      "universe": "Maximum Ride"
+    },
+    {
+      "id": "u-7001a2b4e84d",
+      "category": "literatura",
+      "question": "Qual é o nome do grupo do qual Ponyboy faz parte em The Outsiders?",
+      "choices": [
+        "The Socs",
+        "The Outsiders",
+        "The Greasers",
+        "The Mafia"
+      ],
+      "answer": 2,
+      "fact": "Ponyboy pertence aos Greasers. O nome do grupo é mantido no original para distinguir os grupos da narrativa.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "livros",
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-812e768385d84272db55 | opentdb-812e768385d84272db55 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-7001a2b4e84d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "young-adult",
+      "universe": "The Outsiders",
+      "workTitle": "The Outsiders"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs');
+const path=require('node:path');
+const {execFileSync}=require('node:child_process');
+const root=path.resolve(__dirname,'..');
+const tsc=path.join(root,'app/node_modules/typescript/bin/tsc');
+if(!fs.existsSync(tsc))throw new Error('Instale as dependencias com cd app && npm install antes de sincronizar o catalogo.');
+execFileSync(process.execPath,[tsc,'-p',path.join(root,'app/tsconfig.test.json')],{cwd:root,stdio:'inherit'});
+const modulePath=path.join(root,'app/.test-build/questions.js');
+delete require.cache[require.resolve(modulePath)];
+const questions=require(modulePath).questions;
+fs.writeFileSync(path.join(root,'docs/content/catalog.json'),`${JSON.stringify(questions,null,2)}\n`);
+console.log(`Catalogo sincronizado: ${questions.length} registros (inclui acervo legado apenas para preservar o progresso).`);

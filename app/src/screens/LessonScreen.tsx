@@ -1,8 +1,10 @@
-import React,{useState} from 'react';
+import React,{useEffect,useState} from 'react';
 import {ImageBackground,Pressable,View} from 'react-native';
 import type {MicroLesson,Progress} from '../types';
 import {getCategory,getTrack} from '../catalog';
-import {lessonPhoto} from '../photos';
+import {lessonPhotoAsset} from '../photos';
+import {CategoryArt} from '../components/CategoryArt';
+import {PhotoCredit} from '../components/PhotoCredit';
 import {Txt,Page,Card,Chip} from '../components/UI';
 import {Icon} from '../components/Icon';
 import {openHTTPS} from '../links';
@@ -14,18 +16,26 @@ import {RetrievalChallenge} from '../components/RetrievalChallenge';
 export function LessonScreen({lesson,p,complete,save,quiz}:{lesson:MicroLesson;p:Progress;complete:()=>void;save:()=>void;quiz:()=>void}){
   const c=getCategory(lesson.category),learned=p.learnedLessonIds.includes(lesson.id),saved=p.savedLessonIds.includes(lesson.id);
   const [expanded,setExpanded]=useState(false);
+  const [imageError,setImageError]=useState(false);
+  const photoAsset=lessonPhotoAsset(lesson);
+  const photoUrl=photoAsset?.url??'';
+  useEffect(()=>setImageError(false),[photoUrl]);
   const availableQuestions=microPracticeQuestions(p,lesson.quizQuestionId,()=>0.37).length;
   const extraParagraphs=lesson.body.slice(1);
   const hasReadMore=extraParagraphs.length>0||Boolean(lesson.example)||Boolean(lesson.comparison)||Boolean(lesson.readMore?.sections.length)||Boolean(lesson.recommendedReadings?.length)||Boolean(lesson.selfCheck);
   return <Page contentContainerStyle={{paddingBottom:46,gap:16}}>
     <View style={{height:230,borderRadius:28,overflow:'hidden',backgroundColor:c.light}}>
-      <ImageBackground source={{uri:lessonPhoto(lesson)}} resizeMode="cover" style={{flex:1,justifyContent:'flex-end'}}>
-        <View style={{position:'absolute',left:0,right:0,bottom:0,height:'68%',backgroundColor:'#0000008A'}}/>
+      <View style={{flex:1,justifyContent:'flex-end',backgroundColor:c.color}}>
+        <View style={{position:'absolute',top:12,left:0,right:0,alignItems:'center'}}><CategoryArt id={lesson.category} size={180}/></View>
+        {!!photoUrl&&!imageError&&<ImageBackground source={{uri:photoUrl}} onError={()=>setImageError(true)} resizeMode={photoAsset?.kind==='artwork'?'contain':'cover'}
+          style={{position:'absolute',left:0,right:0,top:0,bottom:0}}/>}
+        <View style={{position:'absolute',left:0,right:0,bottom:0,height:'78%',backgroundColor:'#00000098'}}/>
+        {!!photoUrl&&!imageError&&<View style={{position:'absolute',top:10,left:12,right:12}}><PhotoCredit asset={photoAsset}/></View>}
         <View style={{padding:17,gap:8}}>
           <View style={{flexDirection:'row',gap:7,flexWrap:'wrap'}}><Chip color="#FFFFFFE8">{c.label.toUpperCase()}</Chip>{lesson.tracks.slice(0,2).map(t=><Chip key={t} color="#FFFFFFE8">{getTrack(t).shortLabel.toUpperCase()}</Chip>)}</View>
           <Txt size={29} bold color={C.white} style={{lineHeight:34,textShadowColor:'#000',textShadowOffset:{width:0,height:1},textShadowRadius:7}}>{lesson.title}</Txt>
         </View>
-      </ImageBackground>
+      </View>
     </View>
 
     <Card color={C.white} outlined style={{gap:8}}>

@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "category": "esportes",
+  "questions": [
+    {
+      "id": "u-1e85bc19fd25",
+      "category": "esportes",
+      "question": "Quem venceu a Liga dos Campeões em 1999?",
+      "choices": [
+        "Manchester United",
+        "Liverpool",
+        "Bayern de Munique",
+        "Barcelona"
+      ],
+      "answer": 0,
+      "fact": "O Manchester United venceu a edição de 1999; o Bayern de Munique foi o adversário na final.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-041e9a981f85a9e163e2 | opentdb-041e9a981f85a9e163e2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1e85bc19fd25",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-26f668f175c5",
+      "category": "esportes",
+      "question": "Que ferramenta dá nome à vantagem de lançar a última pedra de um end no curling?",
+      "choices": [
+        "Martelo",
+        "Chave de boca",
+        "Chave de fenda",
+        "Furadeira"
+      ],
+      "answer": 0,
+      "fact": "Hammer, ‘martelo’ em inglês, é o termo do curling para a vantagem de lançar a última pedra de um end.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-082d6d97ccd62f677cd6 | opentdb-082d6d97ccd62f677cd6 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-26f668f175c5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-1f0f680340e7",
+      "category": "esportes",
+      "question": "Qual jogador ganhou o ouro no tênis de mesa individual masculino dos Jogos Olímpicos de 2016?",
+      "choices": [
+        "Ma Long (China)",
+        "Jun Mizutani (Japão)",
+        "Vladimir Samsonov (Belarus)",
+        "Zhang Jike (China)"
+      ],
+      "answer": 0,
+      "fact": "Ma Long conquistou o ouro individual masculino no Rio 2016, representando a China.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-36161a3e71a465ea4485 | opentdb-36161a3e71a465ea4485 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1f0f680340e7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-01ad16498e84",
+      "category": "esportes",
+      "question": "Qual comentarista esportivo canadense ficou conhecido por sua participação em ‘Hockey Night in Canada’?",
+      "choices": [
+        "Don Cherry",
+        "Don Taylor",
+        "Don McKellar",
+        "Donald Sutherland"
+      ],
+      "answer": 0,
+      "fact": "Don Cherry ficou associado aos comentários sobre hóquei no programa canadense.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-546cc969f4ea114b560a | opentdb-546cc969f4ea114b560a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-01ad16498e84",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-0ad653387cad",
+      "category": "esportes",
+      "question": "Qual país sediou os Jogos Olímpicos de Verão de 2020?",
+      "choices": [
+        "Alemanha",
+        "Austrália",
+        "Japão",
+        "China"
+      ],
+      "answer": 2,
+      "fact": "A edição de Tóquio 2020 foi sediada pelo Japão e realizada em 2021, após o adiamento.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-61036ec3990c520642ff | opentdb-61036ec3990c520642ff (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0ad653387cad",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-1ae7d0329368",
+      "category": "esportes",
+      "question": "Qual seleção a Inglaterra derrotou na final da Copa do Mundo de 1966?",
+      "choices": [
+        "União Soviética",
+        "Alemanha Ocidental",
+        "Portugal",
+        "Brasil"
+      ],
+      "answer": 1,
+      "fact": "A Inglaterra venceu a Alemanha Ocidental na final de 1966, disputada em Wembley.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6c478d5c67307f6b349d | opentdb-6c478d5c67307f6b349d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1ae7d0329368",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-09d4e5a4ebda",
+      "category": "esportes",
+      "question": "Quem venceu a Liga dos Campeões da UEFA em 2016?",
+      "choices": [
+        "Bayern de Munique",
+        "Manchester City",
+        "Real Madrid",
+        "Atlético de Madrid"
+      ],
+      "answer": 2,
+      "fact": "O Real Madrid venceu a edição de 2016. O Atlético de Madrid foi seu adversário na final.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-78582c3a83e837a353e3 | opentdb-78582c3a83e837a353e3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-09d4e5a4ebda",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-08302934d64c",
+      "category": "esportes",
+      "question": "Qual destas seleções se classificou para a Copa do Mundo de 2018, na Rússia?",
+      "choices": [
+        "Tunísia",
+        "Estados Unidos",
+        "Países Baixos",
+        "Itália"
+      ],
+      "answer": 0,
+      "fact": "A Tunísia disputou a Copa de 2018. Estados Unidos, Itália e Países Baixos ficaram fora daquela edição.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-86ece94a95414618b5c7 | opentdb-86ece94a95414618b5c7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-08302934d64c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-104fc702a888",
+      "category": "esportes",
+      "question": "Qual time de futebol inglês tem o apelido de ‘The Tigers’?",
+      "choices": [
+        "Cardiff City",
+        "Hull City",
+        "Bristol City",
+        "Manchester City"
+      ],
+      "answer": 1,
+      "fact": "The Tigers é o apelido do Hull City; o nome em inglês significa ‘os tigres’.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9ef7810ca82fcfd6cec9 | opentdb-9ef7810ca82fcfd6cec9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-104fc702a888",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-0fec0be92073",
+      "category": "esportes",
+      "question": "De qual ilha portuguesa é o jogador Cristiano Ronaldo?",
+      "choices": [
+        "Madeira",
+        "Terceira",
+        "Porto Santo",
+        "Santa Maria"
+      ],
+      "answer": 0,
+      "fact": "Cristiano Ronaldo nasceu na ilha da Madeira, em Portugal.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a6e3c7f22222f5491407 | opentdb-a6e3c7f22222f5491407 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0fec0be92073",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-014a82dd789d",
+      "category": "esportes",
+      "question": "Quantos pontos LeBron James marcou em seu primeiro jogo na NBA?",
+      "choices": [
+        "69",
+        "25",
+        "19",
+        "41"
+      ],
+      "answer": 1,
+      "fact": "LeBron marcou 25 pontos em sua estreia na NBA, conforme o gabarito da fonte.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b213ea23f99f208d6b7e | opentdb-b213ea23f99f208d6b7e (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-014a82dd789d",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    },
+    {
+      "id": "u-0b8cf2f12b96",
+      "category": "esportes",
+      "question": "No críquete, qual termo indica que um rebatedor foi eliminado sem marcar pontos?",
+      "choices": [
+        "Beamer",
+        "Bye",
+        "Carry",
+        "Duck"
+      ],
+      "answer": 3,
+      "fact": "Duck é o termo do críquete usado para uma eliminação com pontuação zero.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cb85570126c8bb5288f3 | opentdb-cb85570126c8bb5288f3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0b8cf2f12b96",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-e-regras-dos-esportes"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

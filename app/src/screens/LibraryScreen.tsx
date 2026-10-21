@@ -5,6 +5,7 @@ import {lessonMap} from '../learning';
 import {getCategory} from '../catalog';
 import {Icon} from '../components/Icon';
 import {lessonPhoto} from '../photos';
+import {CategoryArt} from '../components/CategoryArt';
 import {Txt,Page,Card,Chip} from '../components/UI';
 import {C} from '../theme';
 
@@ -31,8 +32,12 @@ export function LibraryScreen({p,read,contentEpoch=0}:{p:Progress;read:(lesson:M
       <Card style={{flex:1,alignItems:'center',padding:11}}><Txt size={22} bold>{p.weakIds.length}</Txt><Txt size={9} color={C.muted}>revisar</Txt></Card>
     </View>
     {!shown.length?<View style={{minHeight:420,alignItems:'center',justifyContent:'center',gap:14,paddingHorizontal:24}}><View style={{width:112,height:96,borderRadius:30,backgroundColor:C.lemon,borderWidth:1.5,borderColor:C.ink,alignItems:'center',justifyContent:'center'}}><Icon name={shelf==='saved'?'bookmark':'book'} size={47}/></View><Txt size={20} bold style={{textAlign:'center'}}>{search?'Nada encontrado':shelf==='learned'?'Seu primeiro aprendizado vai aparecer aqui':shelf==='saved'?'Salve cards do feed para ler depois':'Abra um conteúdo do feed e continue quando quiser'}</Txt><Txt size={13} color={C.muted} style={{textAlign:'center'}}>A biblioteca funciona no aparelho e acompanha seu progresso.</Txt></View>:
-      <View style={{gap:10}}>{shown.map(lesson=>{const c=getCategory(lesson.category);return <Pressable key={lesson.id} onPress={()=>read(lesson)} accessibilityRole="button"><Card outlined style={{flexDirection:'row',alignItems:'center',padding:12,gap:11}}>
-        <View style={{width:70,height:70,borderRadius:19,overflow:'hidden',backgroundColor:c.light}}><ImageBackground source={{uri:lessonPhoto(lesson)}} resizeMode="cover" style={{flex:1}}><View style={{flex:1,backgroundColor:'#00000018'}}/></ImageBackground></View>
+      <View style={{gap:10}}>{shown.map(lesson=>{const c=getCategory(lesson.category);const photoUrl=lessonPhoto(lesson);return <Pressable key={lesson.id} onPress={()=>read(lesson)} accessibilityRole="button"><Card outlined style={{flexDirection:'row',alignItems:'center',padding:12,gap:11}}>
+        <View style={{width:70,height:70,borderRadius:19,overflow:'hidden',backgroundColor:c.light}}><View style={{flex:1,alignItems:'center',justifyContent:'center',backgroundColor:c.light}}>
+            <CategoryArt id={lesson.category} size={52}/>
+            {!!photoUrl&&<ImageBackground source={{uri:photoUrl}} resizeMode="cover"
+              style={{position:'absolute',left:0,right:0,top:0,bottom:0}}/>}
+          </View></View>
         <View style={{flex:1,gap:3}}><View style={{flexDirection:'row',gap:5,alignItems:'center'}}><Txt size={9} bold color={C.muted}>{c.label.toUpperCase()}</Txt>{p.savedLessonIds.includes(lesson.id)&&<Icon name="bookmark" size={13} filled/>}</View><Txt size={15} bold numberOfLines={2}>{lesson.title}</Txt><Txt size={10} color={C.muted}>{lesson.minutes} min · {lesson.tracks.slice(0,2).join(' · ')}</Txt></View><Icon name="chevron" size={17}/>
       </Card></Pressable>})}</View>}
   </Page>;

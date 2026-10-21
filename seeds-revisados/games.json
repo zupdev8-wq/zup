@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "category": "games",
+  "questions": [
+    {
+      "id": "u-01cfee52b83c",
+      "category": "games",
+      "question": "Qual foi o primeiro videogame da série Batman: Arkham?",
+      "choices": [
+        "Arkham Origins",
+        "Arkham Knight",
+        "Arkham City",
+        "Arkham Asylum"
+      ],
+      "answer": 3,
+      "fact": "Arkham Asylum foi o primeiro lançamento da série; a cronologia da história não é a mesma coisa que a ordem de lançamento.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e3179660d628a9cef0f1 | opentdb-e3179660d628a9cef0f1 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-01cfee52b83c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "acao-e-aventura",
+      "universe": "Batman: Arkham",
+      "workTitle": "Batman: Arkham Asylum"
+    },
+    {
+      "id": "u-109db4391038",
+      "category": "games",
+      "question": "Em Need for Speed: Most Wanted, de 2005, qual é o nome do principal antagonista?",
+      "choices": [
+        "Toru \"Bull\" Sato",
+        "Clarence \"Razor\" Callahan",
+        "Hector \"Ming\" Domingo",
+        "Karl \"Baron\" Smit"
+      ],
+      "answer": 1,
+      "fact": "Clarence Razor Callahan é o antagonista associado ao jogo de 2005; a data evita confusão com o título de 2012.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-006e02ee67ee0f36e9e4 | opentdb-006e02ee67ee0f36e9e4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-109db4391038",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "corrida",
+      "universe": "Need for Speed",
+      "workTitle": "Need for Speed: Most Wanted (2005)"
+    },
+    {
+      "id": "u-04707590a862",
+      "category": "games",
+      "question": "Quem é o roteirista do jogo Half-Life?",
+      "choices": [
+        "Marc Laidlaw",
+        "Chet Faliszek",
+        "Gabe Newell",
+        "Robin Walker"
+      ],
+      "answer": 0,
+      "fact": "Marc Laidlaw é o roteirista associado ao Half-Life original no gabarito.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f8de4af26932bca6dc3c | opentdb-f8de4af26932bca6dc3c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-04707590a862",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "criadores-de-games",
+      "universe": "Half-Life",
+      "workTitle": "Half-Life"
+    },
+    {
+      "id": "u-087166a01b31",
+      "category": "games",
+      "question": "Qual foi o primeiro mapa de Call of Duty: Zombies a apresentar a Wunderwaffe DG-2?",
+      "choices": [
+        "Tranzit",
+        "Der Riese",
+        "Shi No Numa",
+        "Kino Der Toten"
+      ],
+      "answer": 2,
+      "fact": "A Wunderwaffe DG-2 é associada à estreia no mapa Shi No Numa pelo gabarito da fonte.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-190112ec4df634fa6159 | opentdb-190112ec4df634fa6159 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-087166a01b31",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "fps-e-mapas",
+      "universe": "Call of Duty: Zombies",
+      "workTitle": "Shi No Numa"
+    },
+    {
+      "id": "u-06950fff0f12",
+      "category": "games",
+      "question": "Qual é o nome da atualização de Team Fortress 2 na qual o jogo passou a ser gratuito?",
+      "choices": [
+        "Über Update",
+        "Mann-Conomy Update",
+        "Pyromania Update",
+        "Engineer Update"
+      ],
+      "answer": 0,
+      "fact": "A Über Update acompanhou a adoção do modelo gratuito em 23 de junho de 2011.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1b7635373e3ea2be9987 | opentdb-1b7635373e3ea2be9987 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-06950fff0f12",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-dos-games",
+      "universe": "Team Fortress",
+      "workTitle": "Team Fortress 2"
+    },
+    {
+      "id": "u-0486a9a221cd",
+      "category": "games",
+      "question": "Qual era o nome original de Minecraft?",
+      "choices": [
+        "Cave Game",
+        "Dig And Build",
+        "Minecraft: Order of the Stone",
+        "Infiniminer"
+      ],
+      "answer": 0,
+      "fact": "Cave Game era o nome usado no início do desenvolvimento, antes do título Minecraft.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-43d059f2f0a0fe40e2b8 | opentdb-43d059f2f0a0fe40e2b8 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0486a9a221cd",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-dos-games",
+      "universe": "Minecraft",
+      "workTitle": "Minecraft"
+    },
+    {
+      "id": "u-0ca936d78795",
+      "category": "games",
+      "question": "Qual foi o primeiro jogo da série Battlefield?",
+      "choices": [
+        "Battlefield 2",
+        "Battlefield 1942",
+        "Battlefield Vietnam",
+        "Battlefield 1"
+      ],
+      "answer": 1,
+      "fact": "Battlefield 1942 inaugura a série. O número do título se refere ao cenário histórico, não à ordem de lançamento.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-81fce588d81c19d6c8eb | opentdb-81fce588d81c19d6c8eb (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0ca936d78795",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-dos-games",
+      "universe": "Battlefield",
+      "workTitle": "Battlefield 1942"
+    },
+    {
+      "id": "u-0119989fdefb",
+      "category": "games",
+      "question": "Qual foi o primeiro jogo em 3D da série The Legend of Zelda?",
+      "choices": [
+        "Majora's Mask",
+        "The Wind Waker",
+        "Ocarina of Time",
+        "A Link to the Past"
+      ],
+      "answer": 2,
+      "fact": "Ocarina of Time levou a série a um ambiente tridimensional no Nintendo 64.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e63a183ed97ba430b292 | opentdb-e63a183ed97ba430b292 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0119989fdefb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-dos-games",
+      "universe": "The Legend of Zelda",
+      "workTitle": "The Legend of Zelda: Ocarina of Time"
+    },
+    {
+      "id": "u-0cd319d2d6cb",
+      "category": "games",
+      "question": "Quem é o principal vilão da série Crash Bandicoot?",
+      "choices": [
+        "Dr. Cortox",
+        "Dr. Evo-Cortex",
+        "Sir Cartex",
+        "Dr. Neo Cortex"
+      ],
+      "answer": 3,
+      "fact": "Dr. Neo Cortex é o antagonista principal recorrente indicado no gabarito.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-23420d60c1f1c4a2f393 | opentdb-23420d60c1f1c4a2f393 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0cd319d2d6cb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens-de-games",
+      "universe": "Crash Bandicoot"
+    },
+    {
+      "id": "u-079ba1652d6c",
+      "category": "games",
+      "question": "Qual é o nome do protagonista de Metal Gear Solid V: The Phantom Pain?",
+      "choices": [
+        "Ocelot",
+        "Solid Snake",
+        "Miller",
+        "Punished \"Venom\" Snake"
+      ],
+      "answer": 3,
+      "fact": "O personagem controlado é apresentado como Punished Venom Snake. Isso não o torna o mesmo personagem identificado como Solid Snake nas outras alternativas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a3eee45246d16e339e41 | opentdb-a3eee45246d16e339e41 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-079ba1652d6c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens-de-games",
+      "universe": "Metal Gear",
+      "workTitle": "Metal Gear Solid V: The Phantom Pain"
+    },
+    {
+      "id": "u-0bb6a5382f26",
+      "category": "games",
+      "question": "Na série PAYDAY, qual é o verdadeiro nome do personagem conhecido como Dallas?",
+      "choices": [
+        "Nolan Stuhlinger",
+        "Nathan Steele",
+        "Nick Stamos",
+        "Nate Siemens"
+      ],
+      "answer": 1,
+      "fact": "A fonte identifica Dallas como Nathan Steele.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f70317e29ed135d6082b | opentdb-f70317e29ed135d6082b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0bb6a5382f26",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens-de-games",
+      "universe": "PAYDAY"
+    },
+    {
+      "id": "u-0b38356ae109",
+      "category": "games",
+      "question": "Qual é o nome do protagonista principal da franquia The Legend of Zelda?",
+      "choices": [
+        "Link",
+        "Mario",
+        "Zelda",
+        "Pit"
+      ],
+      "answer": 0,
+      "fact": "Link é o herói central recorrente da franquia, apesar de Zelda dar nome à série.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-1a059d5bfa8b11d00d96 | opentdb-1a059d5bfa8b11d00d96 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0b38356ae109",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "personagens-nintendo",
+      "universe": "The Legend of Zelda"
+    },
+    {
+      "id": "u-03803bf640ff",
+      "category": "games",
+      "question": "Qual Pokémon inicial do tipo Água foi introduzido na quarta geração da série?",
+      "choices": [
+        "Totodile",
+        "Oshawott",
+        "Piplup",
+        "Mudkip"
+      ],
+      "answer": 2,
+      "fact": "Piplup é o inicial do tipo Água da geração de Sinnoh.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bdc70be34727f63a0ce9 | opentdb-bdc70be34727f63a0ce9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-03803bf640ff",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pokemon-geracoes",
+      "universe": "Pokémon",
+      "workTitle": "Pokémon Diamond; Pokémon Pearl"
+    },
+    {
+      "id": "u-0aa048718dec",
+      "category": "games",
+      "question": "Qual é o número de Pikachu na Pokédex Nacional?",
+      "choices": [
+        "#025",
+        "#109",
+        "#001",
+        "#031"
+      ],
+      "answer": 0,
+      "fact": "Pikachu ocupa o número 025 na Pokédex Nacional; a numeração regional pode ser diferente.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7aab8634a5dd72ff7257 | opentdb-7aab8634a5dd72ff7257 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0aa048718dec",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "pokemon-pokedex",
+      "universe": "Pokémon"
+    },
+    {
+      "id": "u-02400c69d785",
+      "category": "games",
+      "question": "Qual jogo venceu o prêmio Games for Impact no The Game Awards 2015?",
+      "choices": [
+        "Life is Strange",
+        "Metal Gear Solid V: The Phantom Pain",
+        "Rocket League",
+        "Ori and the Blind Forest"
+      ],
+      "answer": 0,
+      "fact": "Life Is Strange é o vencedor indicado para a categoria Games for Impact na edição de 2015.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e99467fc29286fe7f338 | opentdb-e99467fc29286fe7f338 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-02400c69d785",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "premios-de-games",
+      "universe": "The Game Awards",
+      "workTitle": "Life Is Strange"
+    },
+    {
+      "id": "u-0c4fc63285b4",
+      "category": "games",
+      "question": "Em Kingdom Hearts, qual é o nome do mundo de origem de Sora?",
+      "choices": [
+        "Agrabah",
+        "Land of Departure",
+        "Disney Town",
+        "Destiny Islands"
+      ],
+      "answer": 3,
+      "fact": "Sora vive nas Destiny Islands no início da história. Os nomes dos mundos foram mantidos como no jogo.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6a2d545e07ff1d558ced | opentdb-6a2d545e07ff1d558ced (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0c4fc63285b4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rpg-e-universos",
+      "universe": "Kingdom Hearts",
+      "workTitle": "Kingdom Hearts"
+    },
+    {
+      "id": "u-121f02129600",
+      "category": "games",
+      "question": "Em Xenoblade Chronicles 2, qual integrante do grupo não pode usar Blades normais?",
+      "choices": [
+        "Nia",
+        "Rex",
+        "Zeke",
+        "Tora"
+      ],
+      "answer": 3,
+      "fact": "Tora utiliza Blades artificiais; o contraste da pergunta é com os Blades normais.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c4405df97ac3761dc5d2 | opentdb-c4405df97ac3761dc5d2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-121f02129600",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rpg-japones",
+      "universe": "Xenoblade Chronicles",
+      "workTitle": "Xenoblade Chronicles 2"
+    },
+    {
+      "id": "u-0dee001226cc",
+      "category": "games",
+      "question": "Quantos companheiros permanentes existem na versão básica de Fallout: New Vegas?",
+      "choices": [
+        "9",
+        "7",
+        "8",
+        "6"
+      ],
+      "answer": 2,
+      "fact": "A contagem da fonte é de oito companheiros permanentes no jogo básico; personagens temporários e conteúdo adicional ficam fora do recorte.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-52dcd1daeca78a9fd585 | opentdb-52dcd1daeca78a9fd585 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0dee001226cc",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rpg-ocidental",
+      "universe": "Fallout",
+      "workTitle": "Fallout: New Vegas"
+    },
+    {
+      "id": "u-0fb6e4facb37",
+      "category": "games",
+      "question": "Qual é o nome completo da protagonista de Clock Tower, para SNES?",
+      "choices": [
+        "Jennifer Maxwell",
+        "Jennifer Barrows",
+        "Jennifer Simpson",
+        "Jennifer Cartwright"
+      ],
+      "answer": 2,
+      "fact": "A protagonista é Jennifer Simpson no título de SNES.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ad65e85bb850a5f671df | opentdb-ad65e85bb850a5f671df (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0fb6e4facb37",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "terror-nos-games",
+      "universe": "Clock Tower",
+      "workTitle": "Clock Tower"
+    },
+    {
+      "id": "u-e649c714b204",
+      "category": "games",
+      "question": "No universo de Magic: The Gathering, em qual continente se passa a expansão Fallen Empires?",
+      "choices": [
+        "Sarpadia",
+        "Shiv",
+        "Otaria",
+        "Terisiare"
+      ],
+      "answer": 0,
+      "fact": "A fonte situa Fallen Empires em Sarpadia.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-093cfc4afa37a346416b | opentdb-093cfc4afa37a346416b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e649c714b204",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "universos-de-games",
+      "universe": "Magic: The Gathering"
+    },
+    {
+      "id": "u-094c45270ce4",
+      "category": "games",
+      "question": "No universo de Magic: The Gathering, em qual plano se passa a expansão Homelands?",
+      "choices": [
+        "Bant",
+        "Llanowar",
+        "Tazeem",
+        "Ulgrotha"
+      ],
+      "answer": 3,
+      "fact": "A fonte situa Homelands no plano de Ulgrotha.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-97c5a44130d8443c77a2 | opentdb-97c5a44130d8443c77a2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-094c45270ce4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "universos-de-games",
+      "universe": "Magic: The Gathering"
+    },
+    {
+      "id": "u-a8d4cd4cc7fd",
+      "category": "games",
+      "question": "No universo de Magic: The Gathering, em qual continente se passam as expansões Antiquities, Ice Age e Alliances?",
+      "choices": [
+        "Aerona",
+        "Shiv",
+        "Jamuraa",
+        "Terisiare"
+      ],
+      "answer": 3,
+      "fact": "A fonte situa as três expansões em Terisiare.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ea4809bdf3ab55c29e09 | opentdb-ea4809bdf3ab55c29e09 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a8d4cd4cc7fd",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "universos-de-games",
+      "universe": "Magic: The Gathering"
+    },
+    {
+      "id": "u-065b2af1edb7",
+      "category": "games",
+      "question": "Em Splatoon, a partir de que idade os inklings podem alternar livremente entre as formas de lula e humanoide?",
+      "choices": [
+        "10",
+        "16",
+        "13",
+        "14"
+      ],
+      "answer": 3,
+      "fact": "O gabarito situa essa capacidade aos 14 anos no universo de Splatoon.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-59907b0bf9d7e6f6fa83 | opentdb-59907b0bf9d7e6f6fa83 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-065b2af1edb7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "universos-nintendo",
+      "universe": "Splatoon",
+      "workTitle": "Splatoon"
+    },
+    {
+      "id": "u-0ce5959b6142",
+      "category": "games",
+      "question": "Qual jogo de Animal Crossing foi lançado para o Nintendo Wii?",
+      "choices": [
+        "Animal Crossing: City Folk",
+        "Animal Crossing: New Leaf",
+        "Animal Crossing: Population Growing!",
+        "Animal Crossing: Wild World"
+      ],
+      "answer": 0,
+      "fact": "City Folk é a edição para Wii; New Leaf e Wild World pertencem a outros consoles da Nintendo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bd71fd4d5845a86b3c5d | opentdb-bd71fd4d5845a86b3c5d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0ce5959b6142",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "universos-nintendo",
+      "universe": "Animal Crossing",
+      "workTitle": "Animal Crossing: City Folk"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

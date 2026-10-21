@@ -22,3 +22,5 @@ services:
         sync: false
       - key: MERCADO_PAGO_WEBHOOK_SECRET
         sync: false
+      - key: ZUP_CONTENT_ADMIN_TOKEN
+        sync: false

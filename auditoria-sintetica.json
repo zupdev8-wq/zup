@@ -1,0 +1,35 @@
+{
+  "total": 24122,
+  "ready": 362,
+  "pending": 23760,
+  "ready_by_category": {
+    "brasil": 5,
+    "quimica": 4,
+    "biologia": 2,
+    "natureza": 16,
+    "espaco": 18,
+    "geografia": 12,
+    "literatura": 82,
+    "religioes": 16,
+    "cinema": 55,
+    "series": 14,
+    "musica": 25,
+    "games": 24,
+    "artes": 14,
+    "esportes": 12,
+    "gastronomia": 29,
+    "tecnologia": 6,
+    "informatica": 13,
+    "computacao": 15
+  },
+  "sources": {
+    "Open Trivia Database": 2076,
+    "OpenTriviaQA — literatura": 476,
+    "OpenTriviaQA": 1337,
+    "OpenAI/MMMLU (PT-BR)": 12959,
+    "russ7/oab_exams_2011_2025_combined": 100,
+    "legal-nlp/oab-exams": 2210,
+    "HealthQA-BR": 4964
+  },
+  "limitation": "Nenhuma pergunta foi publicada em Neon/Render. As 23.759 pendentes foram preservadas para complementacao. A revisao do usuario foi declarada na conversa; não certificamos revisao tecnica individual."
+}

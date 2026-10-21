@@ -1,0 +1,914 @@
+{
+  "schemaVersion": 1,
+  "category": "gastronomia",
+  "questions": [
+    {
+      "id": "u-78c7a658ffc1",
+      "category": "gastronomia",
+      "question": "Qual bebida alcoólica é feita de melaço?",
+      "choices": [
+        "Gim",
+        "Vodca",
+        "Rum",
+        "Uísque"
+      ],
+      "answer": 2,
+      "fact": "O rum pode ser produzido a partir do melaço. Nem todo rum precisa usar exatamente a mesma matéria-prima.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-24dc057db9f7cfa9a702 | opentdb-24dc057db9f7cfa9a702 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-78c7a658ffc1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "bebidas-destiladas"
+    },
+    {
+      "id": "u-3b6a2a6607ed",
+      "category": "gastronomia",
+      "question": "Qual é a bebida alcoólica feita de batatas ou grãos e associada à origem na Polônia e na Rússia?",
+      "choices": [
+        "Saquê",
+        "Absinto",
+        "Rum",
+        "Vodca"
+      ],
+      "answer": 3,
+      "fact": "A fonte identifica a vodca. A formulação admite diferentes matérias-primas usadas na produção.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-38e931a12abddc99ad09 | opentdb-38e931a12abddc99ad09 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3b6a2a6607ed",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "bebidas-destiladas"
+    },
+    {
+      "id": "u-83f09d310cef",
+      "category": "gastronomia",
+      "question": "Do ponto de vista botânico, qual destes frutos NÃO é uma baga?",
+      "choices": [
+        "Uva Concord",
+        "Mirtilo",
+        "Morango",
+        "Banana"
+      ],
+      "answer": 2,
+      "fact": "O morango não é classificado botanicamente como uma baga. Os usos culinários de nomes de frutas podem ser diferentes da classificação botânica.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5b23b41655a0be714924 | opentdb-5b23b41655a0be714924 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-83f09d310cef",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "botanica-dos-alimentos"
+    },
+    {
+      "id": "u-74e9d6984140",
+      "category": "gastronomia",
+      "question": "Qual estilo de cerveja costuma ter uma quantidade de lúpulo acima da média?",
+      "choices": [
+        "India Pale Ale",
+        "Extra Special Bitter",
+        "Scotch Ale",
+        "Stout"
+      ],
+      "answer": 0,
+      "fact": "India pale ale, ou IPA, é o estilo indicado. A palavra costuma admite variações entre receitas e produtores.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-2a21e16bb0666ad7b82a | opentdb-2a21e16bb0666ad7b82a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-74e9d6984140",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cervejas"
+    },
+    {
+      "id": "u-bd5a39f43462",
+      "category": "gastronomia",
+      "question": "A cerveja mexicana Corona pertence a qual tipo de cerveja?",
+      "choices": [
+        "Baltic porter",
+        "India pale ale",
+        "Pilfsner",
+        "Pale lager"
+      ],
+      "answer": 3,
+      "fact": "O gabarito classifica Corona como pale lager.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3ac50d90c811d441793c | opentdb-3ac50d90c811d441793c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bd5a39f43462",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "cervejas"
+    },
+    {
+      "id": "u-e97b847207d4",
+      "category": "gastronomia",
+      "question": "O chá Earl Grey é um chá preto aromatizado com o quê?",
+      "choices": [
+        "Baunilha",
+        "Lavanda",
+        "Mel",
+        "Óleo de bergamota"
+      ],
+      "answer": 3,
+      "fact": "A bergamota fornece o aroma característico do Earl Grey.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5f46340c04367f2cadca | opentdb-5f46340c04367f2cadca (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e97b847207d4",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "chas"
+    },
+    {
+      "id": "u-fd3e7d45412f",
+      "category": "gastronomia",
+      "question": "Qual é o termo científico para o paladar?",
+      "choices": [
+        "Olfação",
+        "Percepção gustativa",
+        "Percepção auditiva",
+        "Somatossensação"
+      ],
+      "answer": 1,
+      "fact": "O paladar corresponde à percepção gustativa. Olfação se refere ao olfato.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-457f83640fd1b93fab25 | opentdb-457f83640fd1b93fab25 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-fd3e7d45412f",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ciencia-dos-alimentos"
+    },
+    {
+      "id": "u-a92e554cbcbe",
+      "category": "gastronomia",
+      "question": "Qual oleaginosa é usada na produção de marzipã?",
+      "choices": [
+        "Pistaches",
+        "Amendoins",
+        "Amêndoas",
+        "Nozes"
+      ],
+      "answer": 2,
+      "fact": "Amêndoas são a base tradicional do marzipã.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-482dbf28bf181d203c94 | opentdb-482dbf28bf181d203c94 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a92e554cbcbe",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "confeitaria"
+    },
+    {
+      "id": "u-a895604cc42b",
+      "category": "gastronomia",
+      "question": "Qual fruta é um ingrediente tradicional do bolo Floresta Negra?",
+      "choices": [
+        "Uvas-passas",
+        "Damascos",
+        "Maçãs",
+        "Cerejas"
+      ],
+      "answer": 3,
+      "fact": "Cerejas são um ingrediente tradicional desse bolo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a682fab679fe5a538706 | opentdb-a682fab679fe5a538706 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a895604cc42b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "confeitaria"
+    },
+    {
+      "id": "u-ef9af8269fe1",
+      "category": "gastronomia",
+      "question": "Uísque escocês e Drambuie compõem qual coquetel?",
+      "choices": [
+        "Sex on the Beach",
+        "Rusty Nail",
+        "Manhattan",
+        "Screwdriver"
+      ],
+      "answer": 1,
+      "fact": "Rusty Nail é o coquetel associado a essa combinação.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a2554a59646e893f04fc | opentdb-a2554a59646e893f04fc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ef9af8269fe1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "coqueteis"
+    },
+    {
+      "id": "u-e9bddfaecedf",
+      "category": "gastronomia",
+      "question": "De quais partes do carneiro é feito o haggis tradicional?",
+      "choices": [
+        "O carneiro inteiro",
+        "Coração, rins e pulmões",
+        "Coração, fígado e pulmões",
+        "Fígado, rins e olhos"
+      ],
+      "answer": 2,
+      "fact": "O conjunto indicado é coração, fígado e pulmões. A questão identifica partes usadas no prato e não apresenta a receita completa.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-3e172e212db8adeeebd4 | opentdb-3e172e212db8adeeebd4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e9bddfaecedf",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "culinaria-escocesa"
+    },
+    {
+      "id": "u-aa48b848b4c1",
+      "category": "gastronomia",
+      "question": "O foie gras é uma iguaria francesa feita normalmente de qual parte do pato ou do ganso?",
+      "choices": [
+        "Fígado",
+        "Estômago",
+        "Intestinos",
+        "Coração"
+      ],
+      "answer": 0,
+      "fact": "Foie gras é preparado com fígado de pato ou de ganso.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-bbc33e50d4c193597ef4 | opentdb-bbc33e50d4c193597ef4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-aa48b848b4c1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "culinaria-francesa"
+    },
+    {
+      "id": "u-76494f150d06",
+      "category": "gastronomia",
+      "question": "De qual país vêm o sushi e o karaokê?",
+      "choices": [
+        "Coreia do Sul",
+        "Vietnã",
+        "Japão",
+        "China"
+      ],
+      "answer": 2,
+      "fact": "O gabarito aponta o Japão para essas duas referências culturais.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d467e0d81497324c7552 | opentdb-d467e0d81497324c7552 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-76494f150d06",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "culinaria-japonesa"
+    },
+    {
+      "id": "u-a80aa7491a7e",
+      "category": "gastronomia",
+      "question": "Qual condimento também é conhecido como raiz-forte japonesa?",
+      "choices": [
+        "Ponzu",
+        "Wasabi",
+        "Mentsuyu",
+        "Karashi"
+      ],
+      "answer": 1,
+      "fact": "Wasabi é o nome associado à expressão raiz-forte japonesa.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-d57427c9d3883a18d19a | opentdb-d57427c9d3883a18d19a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-a80aa7491a7e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "culinaria-japonesa"
+    },
+    {
+      "id": "u-4128b9ceb8d2",
+      "category": "gastronomia",
+      "question": "Qual é a especiaria mais cara do mundo quando comparada por peso?",
+      "choices": [
+        "Canela",
+        "Cardamomo",
+        "Baunilha",
+        "Açafrão verdadeiro"
+      ],
+      "answer": 3,
+      "fact": "A fonte aponta o açafrão verdadeiro. Ele deve ser distinguido da cúrcuma, chamada de açafrão-da-terra no Brasil.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ba6f940da03092eab047 | opentdb-ba6f940da03092eab047 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4128b9ceb8d2",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "especiarias"
+    },
+    {
+      "id": "u-e514ca713bfb",
+      "category": "gastronomia",
+      "question": "Qual é o número máximo de estrelas Michelin que um restaurante pode receber?",
+      "choices": [
+        "Cinco",
+        "Quatro",
+        "Seis",
+        "Três"
+      ],
+      "answer": 3,
+      "fact": "Três estrelas é a distinção máxima por restaurante. As estrelas são atribuídas ao estabelecimento.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-742d4d497a8635ae9828 | opentdb-742d4d497a8635ae9828 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e514ca713bfb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "guias-gastronomicos"
+    },
+    {
+      "id": "u-06bbb488ac1c",
+      "category": "gastronomia",
+      "question": "Qual destes refrigerantes gaseificados foi lançado primeiro?",
+      "choices": [
+        "Dr. Pepper",
+        "Coca-Cola",
+        "Sprite",
+        "Mountain Dew"
+      ],
+      "answer": 0,
+      "fact": "A fonte aponta Dr. Pepper como o mais antigo entre as quatro alternativas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-6b49025e8555bc1b0db2 | opentdb-6b49025e8555bc1b0db2 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-06bbb488ac1c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-de-bebidas"
+    },
+    {
+      "id": "u-763e31a8a821",
+      "category": "gastronomia",
+      "question": "Com qual nome o refrigerante Pepsi foi lançado originalmente?",
+      "choices": [
+        "Carolina Cola",
+        "Pepsin Pop",
+        "Brad's Drink",
+        "Pepsin Syrup"
+      ],
+      "answer": 2,
+      "fact": "O nome inicial apresentado na fonte é Brad’s Drink.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ead1839caf19226f3c90 | opentdb-ead1839caf19226f3c90 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-763e31a8a821",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "historia-de-bebidas"
+    },
+    {
+      "id": "u-3a940ad8b32c",
+      "category": "gastronomia",
+      "question": "A goma-arábica é uma goma natural formada pela seiva endurecida de qual árvore?",
+      "choices": [
+        "Eucalipto",
+        "Palmeira",
+        "Fícus",
+        "Acácia"
+      ],
+      "answer": 3,
+      "fact": "A fonte associa a goma-arábica às acácias.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-8bac7da9283cca4da761 | opentdb-8bac7da9283cca4da761 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3a940ad8b32c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "ingredientes"
+    },
+    {
+      "id": "u-2765c10933b9",
+      "category": "gastronomia",
+      "question": "O que significam as letras do nome da rede de alimentação KFC?",
+      "choices": [
+        "Kentucky Fresh Cheese",
+        "Kibbled Freaky Cow",
+        "Kiwi Food Cut",
+        "Kentucky Fried Chicken"
+      ],
+      "answer": 3,
+      "fact": "KFC corresponde a Kentucky Fried Chicken. O nome em inglês faz referência a frango frito.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9433214405b5c99d367b | opentdb-9433214405b5c99d367b (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2765c10933b9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "marcas-e-cultura-alimentar"
+    },
+    {
+      "id": "u-afaca2a5d5a3",
+      "category": "gastronomia",
+      "question": "Por qual produto alimentício a empresa norte-americana Campbell’s é mais conhecida?",
+      "choices": [
+        "Sopas enlatadas",
+        "Chocolate",
+        "Salsichas",
+        "Refrigerantes"
+      ],
+      "answer": 0,
+      "fact": "A fonte destaca as sopas enlatadas da marca.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9961723d98471e82ce50 | opentdb-9961723d98471e82ce50 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-afaca2a5d5a3",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "marcas-e-cultura-alimentar"
+    },
+    {
+      "id": "u-4574982d076b",
+      "category": "gastronomia",
+      "question": "De onde se originou o abacaxizeiro?",
+      "choices": [
+        "América do Sul",
+        "Europa",
+        "Havaí",
+        "Ásia"
+      ],
+      "answer": 0,
+      "fact": "O abacaxizeiro tem origem sul-americana. O cultivo posterior em outras regiões não altera sua origem.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-e31b60cb54c01b10d420 | opentdb-e31b60cb54c01b10d420 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4574982d076b",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "origens-de-alimentos"
+    },
+    {
+      "id": "u-e9a816bed7c7",
+      "category": "gastronomia",
+      "question": "De qual país europeu se originou o coleslaw?",
+      "choices": [
+        "Reino Unido",
+        "Dinamarca",
+        "Países Baixos",
+        "Alemanha"
+      ],
+      "answer": 2,
+      "fact": "O gabarito associa a salada coleslaw aos Países Baixos.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a652847d2f8af1e87482 | opentdb-a652847d2f8af1e87482 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e9a816bed7c7",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "origens-de-pratos"
+    },
+    {
+      "id": "u-e5ea4b2bb1e9",
+      "category": "gastronomia",
+      "question": "De qual país europeu vem o queijo gouda?",
+      "choices": [
+        "Países Baixos",
+        "Bélgica",
+        "Alemanha",
+        "França"
+      ],
+      "answer": 0,
+      "fact": "O gouda tem origem nos Países Baixos.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b066f933064cff167f90 | opentdb-b066f933064cff167f90 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-e5ea4b2bb1e9",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "queijos"
+    },
+    {
+      "id": "u-57864a3d1bb1",
+      "category": "gastronomia",
+      "question": "Qual é a fórmula molecular da capsaicina, componente ativo das pimentas?",
+      "choices": [
+        "C21H23NO3",
+        "C13H25NO4",
+        "C6H4Cl2",
+        "C18H27NO3"
+      ],
+      "answer": 3,
+      "fact": "A fórmula indicada para a capsaicina é C18H27NO3.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-81f401f8abcab47b86e5 | opentdb-81f401f8abcab47b86e5 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-57864a3d1bb1",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "quimica-dos-alimentos"
+    },
+    {
+      "id": "u-2fa7e1311fa6",
+      "category": "gastronomia",
+      "question": "Que nome se dá à comida indiana preparada sobre carvão em um forno de barro?",
+      "choices": [
+        "Tiki masala",
+        "Tandoori",
+        "Pani puri",
+        "Biryani"
+      ],
+      "answer": 1,
+      "fact": "Tandoori é o termo associado ao preparo em um forno tandoor.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-31f78904244348fb56c3 | opentdb-31f78904244348fb56c3 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-2fa7e1311fa6",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "tecnicas-culinarias"
+    },
+    {
+      "id": "u-9b079b0b7752",
+      "category": "gastronomia",
+      "question": "Qual é a palavra francesa para peixe?",
+      "choices": [
+        "poisson",
+        "mer",
+        "fiche",
+        "escargot"
+      ],
+      "answer": 0,
+      "fact": "Poisson é a palavra francesa para peixe.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-0f5dcd78c8197472a4fc | opentdb-0f5dcd78c8197472a4fc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9b079b0b7752",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "vocabulario-culinario"
+    },
+    {
+      "id": "u-78412841265c",
+      "category": "gastronomia",
+      "question": "Qual é a palavra italiana para tomate?",
+      "choices": [
+        "Pomodoro",
+        "Cipolla",
+        "Aglio",
+        "Peperoncino"
+      ],
+      "answer": 0,
+      "fact": "Pomodoro significa tomate em italiano. Os demais termos remetem a outros ingredientes.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a85175862e1543f6b076 | opentdb-a85175862e1543f6b076 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-78412841265c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "vocabulario-culinario"
+    },
+    {
+      "id": "u-afed5209f511",
+      "category": "gastronomia",
+      "question": "Qual destes termos NÃO é outro nome para berinjela?",
+      "choices": [
+        "Melongene",
+        "Guinea Squash",
+        "Brinjal",
+        "Potimarron"
+      ],
+      "answer": 3,
+      "fact": "Potimarron é o termo que não nomeia a berinjela; os demais são nomes usados para ela em diferentes variedades linguísticas.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ff98777e6e29a99eed5f | opentdb-ff98777e6e29a99eed5f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-afed5209f511",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "vocabulario-culinario"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

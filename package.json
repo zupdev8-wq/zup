@@ -1,6 +1,6 @@
 {
   "name": "zup-project",
-  "version": "1.7.1",
+  "version": "2.1.0",
   "private": true,
   "description": "ZUP! - app de curiosidades e quizzes Expo SDK 57",
   "engines": {

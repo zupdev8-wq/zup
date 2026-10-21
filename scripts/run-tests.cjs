@@ -6,6 +6,6 @@ const testsDir = path.resolve(__dirname, '../tests');
 const tests = fs.readdirSync(testsDir).filter(name => name.endsWith('.test.cjs'))
   .sort().map(name => path.join(testsDir, name));
 if (!tests.length) throw new Error('No test files found');
-const result = spawnSync(process.execPath, ['--test', ...tests], {stdio:'inherit'});
+const result = spawnSync(process.execPath, ['--test', '--test-concurrency=1', ...tests], {stdio:'inherit'});
 if (result.error) { console.error(result.error); process.exit(1); }
 process.exit(result.status ?? 1);

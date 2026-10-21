@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "category": "natureza",
+  "questions": [
+    {
+      "id": "u-9be85d363519",
+      "category": "natureza",
+      "question": "Qual gás representa cerca de 78% da atmosfera terrestre?",
+      "choices": [
+        "Oxigênio",
+        "Argônio",
+        "Nitrogênio",
+        "Dióxido de carbono"
+      ],
+      "answer": 2,
+      "fact": "O nitrogênio é o principal gás da atmosfera terrestre, com cerca de 78% do ar seco.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-64405ee71b0bf6f6f466 | opentdb-64405ee71b0bf6f6f466 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-9be85d363519",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "atmosfera"
+    },
+    {
+      "id": "u-ba670ee66201",
+      "category": "natureza",
+      "question": "Qual mineral tem o menor número na escala de Mohs?",
+      "choices": [
+        "Diamante",
+        "Gipsita",
+        "Quartzo",
+        "Talco"
+      ],
+      "answer": 3,
+      "fact": "O talco ocupa a posição 1 na escala de Mohs, usada para comparar dureza de minerais.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-9b4010d925c32f0d59f9 | opentdb-9b4010d925c32f0d59f9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-ba670ee66201",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "minerais"
+    },
+    {
+      "id": "u-f97a2e6ab745",
+      "category": "natureza",
+      "question": "Que tipo de rocha se forma pela ação de calor E pressão intensos?",
+      "choices": [
+        "Ígnea",
+        "Metamórfica",
+        "Diamante",
+        "Sedimentar"
+      ],
+      "answer": 1,
+      "fact": "Rochas metamórficas resultam da transformação de rochas preexistentes por calor e pressão, sem fusão completa.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-c752e1c03bbf5c9740d4 | opentdb-c752e1c03bbf5c9740d4 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-f97a2e6ab745",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "rochas"
+    },
+    {
+      "id": "u-0e94003a5ec8",
+      "category": "natureza",
+      "question": "O kakapo é um papagaio grande, noturno e incapaz de voar, nativo de qual país?",
+      "choices": [
+        "África do Sul",
+        "Austrália",
+        "Madagascar",
+        "Nova Zelândia"
+      ],
+      "answer": 3,
+      "fact": "O kakapo é nativo da Nova Zelândia e combina hábitos noturnos com a ausência de voo.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-092233454b6f5c4b538f | opentdb-092233454b6f5c4b538f (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0e94003a5ec8",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-3795c881ba42",
+      "category": "natureza",
+      "question": "Qual é o nome científico do guepardo?",
+      "choices": [
+        "Panthera onca",
+        "Felis catus",
+        "Lynx rufus",
+        "Acinonyx jubatus"
+      ],
+      "answer": 3,
+      "fact": "Acinonyx jubatus identifica o guepardo. Panthera onca é a onça-pintada e Felis catus é o gato doméstico.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-46737c6c764b7a4a6858 | opentdb-46737c6c764b7a4a6858 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3795c881ba42",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-14a7cdd075ed",
+      "category": "natureza",
+      "question": "Que tipo de animal é o ‘natterjack’?",
+      "choices": [
+        "Peixe",
+        "Ave",
+        "Sapo",
+        "Inseto"
+      ],
+      "answer": 2,
+      "fact": "Natterjack é o nome em inglês de um tipo de sapo, um anfíbio.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-52eda5c685ee8378e7b9 | opentdb-52eda5c685ee8378e7b9 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-14a7cdd075ed",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-418592bc8a57",
+      "category": "natureza",
+      "question": "Qual é a família à qual pertence o gato doméstico?",
+      "choices": [
+        "Gato",
+        "Felis",
+        "Felidae",
+        "Felinae"
+      ],
+      "answer": 2,
+      "fact": "Felidae é a família dos felinos. Felinae é uma subfamília e Felis é um gênero.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-622762e6d229e3805fe0 | opentdb-622762e6d229e3805fe0 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-418592bc8a57",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-4234c49ca7ac",
+      "category": "natureza",
+      "question": "Hippocampus é o nome latino de qual criatura marinha?",
+      "choices": [
+        "Baleia",
+        "Polvo",
+        "Cavalo-marinho",
+        "Golfinho"
+      ],
+      "answer": 2,
+      "fact": "Hippocampus é o gênero dos cavalos-marinhos, que são peixes.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-724a16979e8531ac8f9a | opentdb-724a16979e8531ac8f9a (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-4234c49ca7ac",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-12e04561b8ae",
+      "category": "natureza",
+      "question": "A família Hyaenidae pertence a qual subordem científica?",
+      "choices": [
+        "Feliformia",
+        "Ciconiiformes",
+        "Haplorhini",
+        "Caniformia"
+      ],
+      "answer": 0,
+      "fact": "As hienas pertencem aos feliformes. A semelhança externa com cães não determina sua posição na classificação biológica.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-7284c1db4c4468aed941 | opentdb-7284c1db4c4468aed941 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-12e04561b8ae",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-0b5a4af6674c",
+      "category": "natureza",
+      "question": "A caxemira é uma fibra obtida de qual tipo de animal?",
+      "choices": [
+        "Lhama",
+        "Camelo",
+        "Ovelha",
+        "Cabra"
+      ],
+      "answer": 3,
+      "fact": "A caxemira vem da camada fina de pelos de determinadas cabras, e não da lã de ovelha.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-85f21aa03814593a8561 | opentdb-85f21aa03814593a8561 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-0b5a4af6674c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-3dc9c6b83190",
+      "category": "natureza",
+      "question": "De que são feitos os chifres dos rinocerontes?",
+      "choices": [
+        "Pele",
+        "Queratina",
+        "Osso",
+        "Marfim"
+      ],
+      "answer": 1,
+      "fact": "Os chifres dos rinocerontes são formados principalmente por queratina, proteína também encontrada em pelos e unhas.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ad0c3fe1e1543ed19974 | opentdb-ad0c3fe1e1543ed19974 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3dc9c6b83190",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-49aacc7c4b38",
+      "category": "natureza",
+      "question": "Qual é o nome popular da encefalopatia espongiforme bovina?",
+      "choices": [
+        "Febre aftosa",
+        "Febre do leite",
+        "Doença da vaca louca",
+        "Doença de Weil"
+      ],
+      "answer": 2,
+      "fact": "A encefalopatia espongiforme bovina é conhecida como doença da vaca louca. Ela é diferente da febre aftosa.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b2e507fb37e23f461f85 | opentdb-b2e507fb37e23f461f85 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-49aacc7c4b38",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-1614300f6f2e",
+      "category": "natureza",
+      "question": "Qual destes animais é uma colônia de pólipos, e não uma água-viva?",
+      "choices": [
+        "Urtiga-do-mar",
+        "Caravela-portuguesa",
+        "Irukandji",
+        "Vespa-do-mar"
+      ],
+      "answer": 1,
+      "fact": "A caravela-portuguesa é formada por indivíduos especializados que vivem integrados em uma colônia.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-cacdcd7869b9e920e14c | opentdb-cacdcd7869b9e920e14c (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-1614300f6f2e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-079588dff304",
+      "category": "natureza",
+      "question": "Qual é o animal terrestre mais rápido?",
+      "choices": [
+        "Antílope-americano",
+        "Leão",
+        "Gazela-de-Thomson",
+        "Guepardo"
+      ],
+      "answer": 3,
+      "fact": "O guepardo é conhecido pela velocidade de corrida em distâncias curtas, uma adaptação importante durante a caça.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-ee041cdf9b19fd006580 | opentdb-ee041cdf9b19fd006580 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-079588dff304",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-3cc26e0de3bb",
+      "category": "natureza",
+      "question": "Qual é o nome científico do chimpanzé-comum?",
+      "choices": [
+        "Panthera leo",
+        "Gorilla gorilla",
+        "Pan troglodytes",
+        "Pan paniscus"
+      ],
+      "answer": 2,
+      "fact": "Pan troglodytes é o chimpanzé-comum. Pan paniscus identifica o bonobo, uma espécie diferente do mesmo gênero.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-f722f7cb45ba24b0fbfc | opentdb-f722f7cb45ba24b0fbfc (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-3cc26e0de3bb",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    },
+    {
+      "id": "u-06f6093ff03e",
+      "category": "natureza",
+      "question": "Que animal participou de um experimento russo de domesticação iniciado em 1959?",
+      "choices": [
+        "Raposas",
+        "Ursos",
+        "Jacarés",
+        "Pombos"
+      ],
+      "answer": 0,
+      "fact": "O experimento selecionou raposas pelo comportamento em relação a humanos, permitindo estudar mudanças associadas à domesticação.",
+      "kind": "discover",
+      "difficulty": "medio",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-fd8375cd2568756b0055 | opentdb-fd8375cd2568756b0055 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-06f6093ff03e",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "zoologia"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

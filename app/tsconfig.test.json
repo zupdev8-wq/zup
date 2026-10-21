@@ -26,6 +26,7 @@
     "src/companions.ts",
     "src/storage.ts",
     "src/learning.ts",
+    "src/photos.ts",
     "src/exams.ts"
   ]
 }

@@ -1,4 +1,45 @@
+## 2.0.0 - 20/10/2026 - Seeds de perguntas e explicacoes, sem build por publicacao
+
+- Backend com versoes de conteudo por categoria no PostgreSQL, manifest publico e endpoints de pacotes HTTPS.
+- Publicacao autenticada de perguntas e aulas completas por linha de comando, com validacao editorial, mesclagem por ID, historico e rollback.
+- App sincroniza perguntas, respostas explicadas, aulas e Ler mais, priorizando interesses, consulta temas sob demanda e mantem cache local com fallback offline.
+- A sessao ativa nao e alterada no meio do quiz; progresso, XP e IDs permanecem intactos.
+- Primeira build com este codigo e deploy de backend necessarios uma vez; futuros seeds nao requerem build nova.
+- Nota: nenhuma nova pergunta comercial/prova externa foi inventada ou importada nesta etapa; direitos autorais e revisao humana seguem indispensaveis.
+- Instrucoes: docs/ATUALIZAR-CONTEUDO-SEM-BUILD.md.
+
+## 1.8.0 — 20/10/2026 — Curiosidades de acervo existente, fontes e zero templates em jogo
+
+- Novo modo “Curiosidades divertidas” com 24 questões pt-BR adaptadas da Open Trivia Database (CC BY-SA 4.0), mais 2 curiosidades sustentadas por WWF e Guinness.
+- Informações de origem e link no feedback; atribuição clara da licença e separação entre trivia e simulados acadêmicos.
+- Links para provas e gabaritos oficiais do Inep sem republicar enunciados de concursos, livros ou plataformas comerciais sem autorização.
+- Abertura de sessões antigas `g-*`/`x-*` bloqueada, preservando XP, IDs e históricos antigos.
+- Imagens das perguntas mostram ilustração de categoria durante o carregamento e no erro, evitando cartões vazios.
+- 96 testes mobile + 5 API passaram; testes de compilação estrita da UI e revisão editorial humana ainda necessários para lançamento.
+
 # Changelog
+
+## 17/10/2026  -  Leituras complementares e estudo ativo (base 1.7.1)
+
+- integra em **Ler mais** uma bibliografia orientada por assunto em todas as 94 aulas;
+- registra 109 indicações: livros, artigos científicos com DOI e documentos oficiais com links seguros;
+- acrescenta 15 desafios de autoexplicação com pista voluntária;
+- ajusta a linguagem do feedback e valida renderização de novas interfaces;
+- publica um plano pedagógico de revisão humana, trilhas, feedback e aprendizagem mensurável;
+- não altera APIs, IDs, contas, configurações EAS, monetização nem progresso persistido.
+
+## 17/10/2026 — Pacote editorial sem repetição (mantém base 1.7.1)
+
+- publica somente aulas editoriais completas, cobrindo 44 categorias, com seção opcional "Ler mais";
+- retira do feed fichas com texto genérico ou definições reapresentadas;
+- retira 10 mil variações automáticas e duplas de definições das partidas (IDs ainda preservados no histórico);
+- acrescenta 79 questões autorais com situações práticas, cálculo e interpretação;
+- evita repetir definição no resumo, no desenvolvimento, na conclusão e na explicação do quiz;
+- não recicla perguntas já respondidas nem no modo Revisão; usa outro exercício relacionado se houver;
+- expõe no feed apenas conteúdos ainda não vistos/aprendidos, mantendo a Biblioteca;
+- atualiza textos informativos e cria testes automáticos de duplicidade de conteúdo;
+- preserva versões, bundle IDs, perfis EAS, API, recursos gratuitos e navegação.
+
 
 ## 1.7.1 — primeira release gratuita para lojas
 

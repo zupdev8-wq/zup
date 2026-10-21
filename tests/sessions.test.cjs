@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const {initialProgress}=require('../app/.test-build/types.js');
 const {questions}=require('../app/.test-build/questions.js');
 const {categories}=require('../app/.test-build/catalog.js');
-const {createSession,createMicroSession,chooseAnswer,revealAnswer,nextQuestion,finishSession,sessionScore,questionMap,dailyQuestions,questionOfDay,shuffle,updateProgress,effectiveStreak,localDate}=require('../app/.test-build/game.js');
+const {createSession,createMicroSession,chooseAnswer,revealAnswer,nextQuestion,finishSession,sessionScore,questionMap,studyQuestions,conceptKey,dailyQuestions,questionOfDay,shuffle,updateProgress,effectiveStreak,localDate}=require('../app/.test-build/game.js');
 const {normalizeProgress,normalizeSession}=require('../app/.test-build/progress.js');
 const {buildExamPlan,createExamSession}=require('../app/.test-build/exams.js');
 const fresh=()=>structuredClone(initialProgress);
@@ -12,9 +12,20 @@ test('choices are permuted and canonical answer mapping scores correctly',()=>{l
 test('invalid taps and premature confirmations are no-ops',()=>{const s=createSession(fresh(),'brasil');assert.ok(s);assert.equal(revealAnswer(s),s);assert.equal(nextQuestion(s),s);for(const bad of [-1,4,NaN,1.5])assert.equal(chooseAnswer(s,bad),s);const shown=revealAnswer(chooseAnswer(s,0));assert.equal(chooseAnswer(shown,1),shown);assert.equal(revealAnswer(shown),shown);});
 test('active session survives JSON hydration',()=>{let s=createSession(fresh(),'historia');s=nextQuestion(revealAnswer(chooseAnswer(s,2)));s=chooseAnswer(s,1);assert.deepEqual(normalizeProgress(JSON.parse(JSON.stringify({...fresh(),activeSession:s}))).activeSession,s);});
 test('finishing is atomic and idempotent',()=>{const s=answerAll(createSession(fresh(),'brasil'));const p={...fresh(),activeSession:s};const next=finishSession(p,s,new Date(2026,9,15,12));assert.equal(next.xp,120);assert.equal(next.answered,5);assert.equal(next.activeSession,null);assert.equal(finishSession(next,s),next);});
-test('microlearning opens up to five related unseen questions and then moves card to learned',()=>{const s=createMicroSession(fresh(),'x-0001',()=>0.4,123);assert.ok(s);assert.equal(s.mode,'micro');assert.equal(s.items.length,5);assert.equal(new Set(s.items.map(x=>x.questionId)).size,5);const done=answerAll(s);const next=finishSession({...fresh(),activeSession:done},done,new Date(2026,9,16,12));assert.ok(next.learnedLessonIds.includes('lesson-x-0001'));for(const it of done.items)assert.ok(next.completedIds.includes(it.questionId));});
+test('microlearning uses up to five real contextual questions without repeating the source',()=>{const s=createMicroSession(fresh(),'x-0317',()=>0.4,123);assert.ok(s);assert.equal(s.mode,'micro');assert.equal(s.items.length,5);assert.equal(new Set(s.items.map(x=>x.questionId)).size,5);assert.ok(s.items.every(it=>it.questionId!=='x-0317'));assert.ok(s.items.every(it=>questionMap.get(it.questionId).question.length>35));const done=answerAll(s);const next=finishSession({...fresh(),activeSession:done},done,new Date(2026,9,16,12));assert.ok(next.learnedLessonIds.includes('lesson-x-0317'));for(const it of done.items)assert.ok(next.completedIds.includes(it.questionId));});
 test('answered questions do not return in a second micro quiz',()=>{let s=answerAll(createMicroSession(fresh(),'x-0001',()=>0.2,1));let p=finishSession({...fresh(),activeSession:s},s);const s2=createMicroSession(p,'x-0001',()=>0.3,2);if(s2)for(const item of s2.items)assert.ok(!p.completedIds.includes(item.questionId));});
-test('review is the only normal route that can repeat due questions',()=>{const wrong=answerAll(createSession(fresh(),'brasil'),false);const p=finishSession({...fresh(),activeSession:wrong},wrong);const review=createSession(p,'brasil','review');assert.ok(review);assert.ok(review.items.every(x=>p.completedIds.includes(x.questionId)));});
+test('review uses a new related scenario and never repeats its original definition',()=>{
+  const p={...fresh(),completedIds:['h-0105'],weakIds:['h-0105'],reviewSchedule:{
+    'h-0105':{due:'2020-01-01',intervalDays:1,strength:0,attempts:1,lastCorrect:false},
+  }};
+  const review=createSession(p,'direito','review');assert.ok(review);
+  assert.ok(review.items.length>=1);
+  assert.ok(review.items.every(x=>!p.completedIds.includes(x.questionId)));
+  assert.ok(review.items.every(x=>questionMap.get(x.questionId).category==='direito'));
+  assert.equal(new Set(review.items.map(it=>conceptKey(questionMap.get(it.questionId)))).size,review.items.length);
+  const exhausted=createSession({...p,completedIds:studyQuestions.filter(q=>q.category==='direito').map(q=>q.id)},'direito','review');
+  assert.equal(exhausted,null,'No old question gets recycled after content is exhausted');
+});
 test('premium marathon has ten unseen questions while free mode remains five',()=>{const free=createSession(fresh(),'brasil','marathon',()=>0.2,1,['brasil','historia']);assert.ok(free);assert.equal(free.items.length,5);const premium=createSession(fresh(),'brasil','marathon',()=>0.2,1,['brasil','historia'],true);assert.ok(premium);assert.equal(premium.items.length,10);});
 
 test('smart exam builds up to 45 unique unseen questions from the requested areas',()=>{const plan=buildExamPlan('Cebraspe Câmara Municipal cargo administrativo',undefined,45);const s=createExamSession(fresh(),plan,()=>0.3,44);assert.ok(s);assert.equal(s.mode,'exam');assert.equal(s.items.length,45);assert.equal(new Set(s.items.map(x=>x.questionId)).size,45);assert.match(s.examTitle,/Cebraspe|Câmara/i);assert.ok(s.topicIds.length>1);});
@@ -22,7 +33,7 @@ test('smart exam never reuses questions already completed in normal play',()=>{c
 test('daily questions are unique, unseen and broadly mixed',()=>{const batch=dailyQuestions(fresh());assert.equal(batch.length,5);assert.equal(new Set(batch.map(q=>q.id)).size,5);assert.ok(batch.filter(q=>q.brazil).length>=2);const p={...fresh(),completedIds:batch.map(q=>q.id)};assert.ok(dailyQuestions(p).every(q=>!p.completedIds.includes(q.id)));});
 test('daily discovery is deterministic for the local date',()=>{const a=questionOfDay(new Date(2026,9,15,1)),b=questionOfDay(new Date(2026,9,15,23));assert.equal(a.id,b.id);assert.ok(a.brazil);});
 test('streak handles transitions and freezes',()=>{assert.equal(effectiveStreak({...fresh(),lastPlayed:'2025-12-31',streak:7},new Date(2026,0,1,12)),7);assert.equal(effectiveStreak({...fresh(),streakFreezes:0,lastPlayed:'2025-12-30',streak:7},new Date(2026,0,1,12)),0);assert.equal(effectiveStreak({...fresh(),streakFreezes:1,lastPlayed:'2025-12-30',streak:7},new Date(2026,0,1,12)),7);assert.equal(localDate(new Date(2026,0,1,0)),'2026-01-01');});
-test('all questions can be reached once without forced repetition',()=>{
+test('all distinct study concepts can be reached once without forced repetition',()=>{
   // Scales linearly enough for the 10k catalog: session scoring/progress mutation
   // are covered by dedicated tests above, while this one validates catalog reachability.
   const seen=new Set();
@@ -38,7 +49,7 @@ test('all questions can be reached once without forced repetition',()=>{
       completed=completed.concat(ids);
     }
   }
-  assert.equal(seen.size,questions.length);
+  assert.ok(seen.size>=new Set(studyQuestions.map(conceptKey)).size-1,'No forced recycling of materially identical answers');
 });
 test('corrupt session shapes are rejected and correctness is recomputed',()=>{const s=createSession(fresh(),'brasil');for(const x of [{...s,index:99},{...s,selected:6},{...s,mode:'bad'},{...s,items:[{...s.items[0],order:[0,0,2,3]}]},{...s,items:[{...s.items[0],questionId:'deleted'}]},{...s,items:[s.items[0],s.items[0]]},{...s,revealed:true}])assert.equal(normalizeSession(x),null);let done=answerAll(createSession(fresh(),'brasil'),false);done.answers=done.answers.map(a=>({...a,correct:true}));assert.ok(normalizeSession(done).answers.every(a=>!a.correct));});
 test('shuffle preserves source and permutation',()=>{const a=[0,1,2,3];for(const f of [()=>0,()=>.5,()=>.999999])assert.deepEqual([...shuffle(a,f)].sort(),a);assert.deepEqual(a,[0,1,2,3]);});

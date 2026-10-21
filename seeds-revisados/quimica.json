@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "category": "quimica",
+  "questions": [
+    {
+      "id": "u-b760be111494",
+      "category": "quimica",
+      "question": "Gelo seco é a forma sólida de qual substância?",
+      "choices": [
+        "Nitrogênio",
+        "Amônia",
+        "Oxigênio",
+        "Dióxido de carbono"
+      ],
+      "answer": 3,
+      "fact": "Gelo seco é dióxido de carbono sólido. Ele é diferente do gelo comum, formado por água.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-5936fa842a0f350d50e7 | opentdb-5936fa842a0f350d50e7 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-b760be111494",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "estados-da-materia"
+    },
+    {
+      "id": "u-bb4de2a63ae5",
+      "category": "quimica",
+      "question": "Quantos prótons há em um átomo de oxigênio?",
+      "choices": [
+        "Seis",
+        "Dois",
+        "Quatro",
+        "Oito"
+      ],
+      "answer": 3,
+      "fact": "O oxigênio tem número atômico oito, que corresponde a oito prótons no núcleo.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-b42eae62892367e6c4ff | opentdb-b42eae62892367e6c4ff (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-bb4de2a63ae5",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "estrutura-atomica"
+    },
+    {
+      "id": "u-dcf194f3547c",
+      "category": "quimica",
+      "question": "Qual elemento pode formar diamante quando submetido a calor e pressão extremos?",
+      "choices": [
+        "Carbono",
+        "Hidrogênio",
+        "Nitrogênio",
+        "Oxigênio"
+      ],
+      "answer": 0,
+      "fact": "Diamante é uma forma de carbono. As condições de formação influenciam a organização dos átomos.",
+      "kind": "discover",
+      "difficulty": "facil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-a8155dd5005b26cfa817 | opentdb-a8155dd5005b26cfa817 (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-dcf194f3547c",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "formas-do-carbono"
+    },
+    {
+      "id": "u-20202529a31a",
+      "category": "quimica",
+      "question": "Qual é a fórmula molecular do ozônio?",
+      "choices": [
+        "O3",
+        "SO4",
+        "C6H2O6",
+        "N2O"
+      ],
+      "answer": 0,
+      "fact": "Uma molécula de ozônio contém três átomos de oxigênio, por isso sua fórmula é O3.",
+      "kind": "discover",
+      "difficulty": "dificil",
+      "tracks": [
+        "entretenimento"
+      ],
+      "sourceLabel": "Open Trivia Database",
+      "sourceLicense": "CC BY-SA 4.0",
+      "rightsBasis": "A API declara todos os dados sob CC BY-SA 4.0. Preservar atribuição, licença e indicação de tradução. Revisar eventuais citações de terceiros. Fonte da licença: https://creativecommons.org/licenses/by-sa/4.0/",
+      "rightsStatus": "verificado",
+      "source": {
+        "title": "Open Trivia Database",
+        "url": "https://opentdb.com/"
+      },
+      "sourceItemId": "opentdb-22f826fae224428ba43d | opentdb-22f826fae224428ba43d (hash local do enunciado e categoria; a API não fornece ID nativo)",
+      "concept": "source:u-20202529a31a",
+      "attribution": "Open Trivia Database e seus colaboradores. Tradução e comentários editoriais desta edição sob CC BY-SA 4.0.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "topic": "formulas-quimicas"
+    }
+  ],
+  "lessons": [],
+  "retiredQuestionIds": [],
+  "retiredLessonIds": [],
+  "review": {
+    "reviewedBy": "Responsavel ZUP (revisao declarada)",
+    "reviewedAt": "2026-10-20",
+    "accuracyChecked": true,
+    "rightsChecked": true
+  }
+}

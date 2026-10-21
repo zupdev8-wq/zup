@@ -79,3 +79,35 @@ test('quiz feedback, resumed home and an evolved result produce valid trees',()=
   const Home=load(path.join(app,'src/screens/HomeScreen.tsx')).HomeScreen;
   verify(expand(Home({p:{...fresh(),activeSession:s,xp:800},now:new Date(),topInset:47,bottomInset:92,start:noop,resume:noop,profile:noop,companions:noop,explore:noop,read:noop,save:noop,open:noop,microQuiz:noop})));
 });
+
+test('complementary readings are rendered with real references and accessible links',()=>{
+  const {RecommendedReadings}=load(path.join(app,'src/components/RecommendedReadings.tsx'));
+  let linked=0,unlinked=0;
+  const visit=node=>{
+    if(node==null||typeof node==='string'||typeof node==='number')return;
+    if(Array.isArray(node)){node.forEach(visit);return;}
+    if(node.type==='Pressable'&&node.props.accessibilityRole==='link'){
+      assert.equal(typeof node.props.onPress,'function');linked++;
+    }
+    visit(node.props.children);
+  };
+  for(const lesson of microLessons){
+    const tree=expand(RecommendedReadings({readings:lesson.recommendedReadings??[]}));
+    verify(tree,null);visit(tree);
+    unlinked+=(lesson.recommendedReadings??[]).filter(item=>!item.url).length;
+  }
+  assert.ok(linked>=15);
+  assert.ok(unlinked>=60);
+});
+
+test('optional thinking prompts render without revealing the hint by default',()=>{
+  const {RetrievalChallenge}=load(path.join(app,'src/components/RetrievalChallenge.tsx'));
+  for(const lesson of microLessons.filter(l=>l.selfCheck)){
+    const tree=expand(RetrievalChallenge({check:lesson.selfCheck}));
+    verify(tree,null);
+    const text=JSON.stringify(tree);
+    assert.ok(text.includes(lesson.selfCheck.question));
+    assert.ok(!text.includes(lesson.selfCheck.hint));
+    assert.ok(text.includes('Ver caminho de racioc'));
+  }
+});
