@@ -2,10 +2,11 @@ import {initialProgress} from './types';
 import type {Progress,Session,SessionItem,SessionAnswer,TrackId,ReviewState} from './types';
 import {questionMap} from './game';
 import {companions} from './companions';
+import {isRetiredLocalQuestionId} from './retiredQuestions';
 
 const integer=(v:unknown,fallback=0):number=>typeof v==='number'&&Number.isSafeInteger(v)&&v>=0?v:fallback;
 const strings=(v:unknown):string[]=>Array.isArray(v)?[...new Set(v.filter((s):s is string=>typeof s==='string'&&s.length<180))]:[];
-const ids=(v:unknown)=>strings(v).filter(id=>questionMap.has(id));
+const ids=(v:unknown)=>strings(v).filter(id=>questionMap.has(id)||isRetiredLocalQuestionId(id));
 const lessonIds=(v:unknown)=>strings(v).filter(id=>id.startsWith('lesson-'));
 const record=(v:unknown):Record<string,unknown>=>v!==null&&typeof v==='object'&&!Array.isArray(v)?v as Record<string,unknown>:{ };
 const tracks:TrackId[]=['geral','brasil','brasil-vivido','geopolitica','enem','concursos','faculdade','humanas','exatas','biologicas','entretenimento','cinema','series','livros','religioes','pensamento','historia','ciencia','artes','tecnologia','games','esportes','musica','animais'];

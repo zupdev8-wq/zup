@@ -10,4 +10,4 @@ const modulePath=path.join(root,'app/.test-build/questions.js');
 delete require.cache[require.resolve(modulePath)];
 const questions=require(modulePath).questions;
 fs.writeFileSync(path.join(root,'docs/content/catalog.json'),`${JSON.stringify(questions,null,2)}\n`);
-console.log(`Catalogo sincronizado: ${questions.length} registros (inclui acervo legado apenas para preservar o progresso).`);
+console.log(`Catalogo sincronizado: ${questions.length} questoes locais auditadas; expansao futura somente por seed.`);

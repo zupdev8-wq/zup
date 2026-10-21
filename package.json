@@ -14,6 +14,7 @@
     "validate": "npm --prefix app run validate && npm --prefix api test",
     "doctor": "npm --prefix app run doctor",
     "export:check": "npm --prefix app run export:check",
-    "release:check": "node scripts/release-check.cjs"
+    "release:check": "node scripts/release-check.cjs",
+    "audit:questions": "node scripts/audit-local-questions.cjs"
   }
 }

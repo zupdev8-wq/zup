@@ -1,0 +1,25 @@
+{
+  "auditedAt": "2026-10-21",
+  "policy": "seed-first",
+  "localFallbackQuestionCount": 79,
+  "retainedBaseCount": 77,
+  "retainedVerifiedDiscoverCount": 2,
+  "removed": {
+    "baseQuestions": 323,
+    "expandedTemplateQuestions": 560,
+    "generatedQuestions": 10000,
+    "authoredWithoutPerItemSource": 108,
+    "scenarioWithoutPerItemSource": 79,
+    "lessonPracticeWithoutPerItemSource": 62,
+    "genericLocalOpenTrivia": 24
+  },
+  "rules": [
+    "source HTTPS rastreavel",
+    "explicacao >= 80 caracteres",
+    "alternativas distintas",
+    "gabarito valido",
+    "sem molde artificial",
+    "sem geracao massiva local"
+  ],
+  "futureContent": "Somente seeds remotos revisados e publicados pelo backend."
+}
