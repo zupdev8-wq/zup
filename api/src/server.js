@@ -3,9 +3,10 @@ import cors from 'cors';
 import helmet from 'helmet';
 import {rateLimit} from 'express-rate-limit';
 import crypto from 'node:crypto';
-import pg from 'pg';
+import {makePool} from './db.js';
 import {PREMIUM_PRICE,PREMIUM_DAYS,premiumPayload,parseExternal,verifyMercadoPagoSignature,generateRecoveryCode,normalizeRecoveryCode} from './premium.js';
 import {legalRouter} from './legal.js';
+import {contentRouter,migrateContent} from './contentService.js';
 
 const app=express();
 const port=Number(process.env.PORT||3000);
@@ -16,6 +17,8 @@ app.set('trust proxy',1);
 app.use(helmet({contentSecurityPolicy:false}));
 const origins=(process.env.CORS_ORIGINS||'').split(',').map(x=>x.trim()).filter(Boolean);
 app.use(cors({origin:(origin,cb)=>cb(null,!origin||origins.length===0||origins.includes(origin)),methods:['GET','POST','DELETE']}));
+// Large question banks are accepted ONLY on the token-protected content endpoint.
+app.use('/v1/content/admin',express.json({limit:'8mb'}));
 app.use(express.json({limit:'32kb'}));
 app.use(rateLimit({windowMs:60_000,limit:120,standardHeaders:'draft-7',legacyHeaders:false}));
 const paymentLimit=rateLimit({windowMs:10*60_000,limit:12,standardHeaders:'draft-7',legacyHeaders:false});
@@ -23,12 +26,13 @@ const recoveryLimit=rateLimit({windowMs:15*60_000,limit:8,standardHeaders:'draft
 
 app.use(legalRouter());
 
-const pool=process.env.DATABASE_URL?new pg.Pool({connectionString:process.env.DATABASE_URL,ssl:process.env.DATABASE_SSL==='true'?{rejectUnauthorized:true}:undefined,max:10,connectionTimeoutMillis:5000}):null;
+const pool=makePool();
 const hash=(v)=>crypto.createHash('sha256').update(v).digest('hex');
 const uid=()=>crypto.randomUUID();
 const newToken=()=>crypto.randomBytes(32).toString('base64url');
 const safeName=(v)=>typeof v==='string'&&v.length<=18&&/^[\p{L}\p{N} _-]+$/u.test(v)?v.trim():'Explorador';
 const publicApiUrl=()=>String(process.env.PUBLIC_API_URL||'').replace(/\/+$/,'');
+app.use('/v1/content',contentRouter({pool}));
 const paymentsReady=()=>Boolean(process.env.MERCADO_PAGO_ACCESS_TOKEN&&process.env.MERCADO_PAGO_WEBHOOK_SECRET&&/^https:\/\//.test(publicApiUrl()));
 
 async function migrate(){
@@ -81,6 +85,7 @@ async function migrate(){
     CREATE INDEX IF NOT EXISTS idx_premium_provider_payment ON premium_purchases(provider_payment_id);
     CREATE UNIQUE INDEX IF NOT EXISTS idx_premium_provider_payment_unique ON premium_purchases(provider_payment_id) WHERE provider_payment_id IS NOT NULL;
   `);
+  await migrateContent(pool);
 }
 function needDb(req,res,next){if(!pool)return res.status(503).json({error:'backend_not_configured'});next();}
 async function auth(req,res,next){
